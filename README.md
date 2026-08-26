@@ -6,6 +6,8 @@ Questo repository contiene il codice sorgente e i dati relativi all'edizione cri
 
 L'edizione è pubblicata tramite la piattaforma TEI Publisher. 
 
+Ultimo aggiornamento: 21 agosto 2026. 
+
 ## Contenuti del repository
 
 - File TEI XML delle canzoni editate

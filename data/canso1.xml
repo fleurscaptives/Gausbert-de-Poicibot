@@ -1,1 +1,1699 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="1">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="oc">
+                    Amors s'a vos plagues
+                </title>
+                <title xml:lang="it">
+                    Proposta di edizione critica digitale
+                </title>
+                <author>
+                    Gausbert de Poicibot
+                </author>
 
+                <editor role="editor">
+                    Rossella Lucisano
+                </editor>
+
+                <respStmt>
+                    <resp>Primo Relatore</resp>
+                    <name>Prof.ssa Speranza Cerullo</name>
+                    <resp>Secondo Relatore</resp>
+                    <name>Prof. Angelo Mario Del Grosso</name>
+                </respStmt>
+
+            </titleStmt>
+
+            <publicationStmt>
+
+                <publisher>
+                    Università di Pisa
+                </publisher>
+
+                <pubPlace>
+                    Pisa
+                </pubPlace>
+
+                <date when="2026">
+                    2026
+                </date>
+
+                <availability status="restricted"/>
+
+            </publicationStmt>
+
+            <sourceDesc>
+
+                <bibl type="tesi_di_laurea">
+
+                    <author>Rossella Lucisano</author>
+
+                    <title>
+                        Per un'edizione critica digitale delle canzoni del trovatore Gausbert de Poicibot.
+                    </title>
+
+                    <date when="2026">2026</date>
+
+                </bibl>
+                <listWit>
+                    <witness xml:id="A"/>
+                        <msDesc>
+                            <msIdentifier>
+                                <country>Italia</country>
+                                <repository>Roma, Biblioteca Apostolica Vaticana</repository>
+                                <idno>Lat. 5232</idno>
+                            </msIdentifier>
+                        </msDesc>
+                    <witness xml:id="C">
+                        <msDesc>
+                            <msIdentifier>
+                                <country>Francia</country>
+                                <repository>Parigi, Bibliothèque nationale de France</repository>
+                                <idno>fr. 856</idno>
+                            </msIdentifier>
+                        </msDesc>
+                    </witness>
+                    <witness xml:id="D"/>
+                        <msDesc>
+                            <msIdentifier>
+                                <country>Italia</country>
+                                <repository>Modena, Bilioteca Nazionale Estense</repository>
+                                <idno>alfa. R.4.4</idno>
+                            </msIdentifier>
+                        </msDesc>
+                    <witness xml:id="E">
+                        <msDesc>
+                            <msIdentifier>
+                                <country>Francia</country>
+                                <repository>Parigi, Bibliothèque nationale de France</repository>
+                                <idno>fr. 1749</idno>
+                            </msIdentifier>
+                        </msDesc>
+                    </witness>
+                    <witness xml:id="H"/>
+                        <msDesc>
+                            <msIdentifier>
+                                <country>Italia</country>
+                                <repository>Roma, Biblioteca Apostolica Vaticana</repository>
+                                <idno>Lat. 3207</idno>
+                            </msIdentifier>
+                        </msDesc>
+                    <witness xml:id="I">
+                        <msDesc>
+                            <msIdentifier>
+                                <country>Francia</country>
+                                <repository>Parigi, Bibliothèque nationale de France</repository>
+                                <idno>fr. 854</idno>
+                            </msIdentifier>
+                        </msDesc>
+                    </witness>
+                    <witness xml:id="K">
+                        <msDesc>
+                            <msIdentifier>
+                                <country>Francia</country>
+                                <repository>Parigi, Bibliothèque nationale de France</repository>
+                                <idno>fr. 12473</idno>
+                            </msIdentifier>
+                        </msDesc>
+                    </witness>
+                    <witness xml:id="N">
+                        <msDesc>
+                            <msIdentifier>
+                                <country>Stati Uniti</country>
+                                <repository>New York, Pierpont Morgan Library</repository>
+                                <idno>819</idno>
+                            </msIdentifier>
+                        </msDesc>
+                    </witness>
+                    <witness xml:id="P">
+                        <msDesc>
+                            <msIdentifier>
+                                <country>Italia</country>
+                                <repository>Firenze, Biblioteca Medicea Laurenziana</repository>
+                                <idno>Plut. 41.42</idno>
+                            </msIdentifier>
+                        </msDesc>
+                    </witness>
+                    <witness xml:id="T">
+                        <msDesc>
+                            <msIdentifier>
+                                <country>Francia</country>
+                                <repository>Parigi, Bibliothèque nationale de France</repository>
+                                <idno>fr. 15211</idno>
+                            </msIdentifier>
+                        </msDesc>
+                    </witness>
+                </listWit>
+
+            </sourceDesc>
+
+        </fileDesc>
+
+        <encodingDesc>
+
+            <metDecl>
+                <metSym xml:id="schema_metrico">
+                    La canzone di Gausbert è composta da cinque coblas composte da nove senari e si chiude con due tornadas di cinque versi di egual metro.
+                </metSym>
+            </metDecl>
+
+            <classDecl>
+                <taxonomy xml:id="var_types">
+                    <category xml:id="sos">
+                        <catDesc>Variante sostanziale</catDesc>
+                    </category>
+                    <category xml:id="form">
+                        <catDesc>Variante grafica</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+
+            <projectDesc>
+                <p>
+                    Proposta di edizione critica digitale realizzata come progetto di tesi per la Laurea Magistrale in
+                    Informatica Umanistica dell'Università di Pisa.
+                </p>
+            </projectDesc>
+
+            <schemaRef ident="gausbert.odd" type="ODD"/>
+
+        </encodingDesc>
+
+        <profileDesc>
+
+            <langUsage>
+
+                <language ident="oc">
+                    Antico provenzale
+                </language>
+
+                <language ident="it">
+                    Italiano
+                </language>
+
+            </langUsage>
+
+            <textClass>
+
+                <keywords scheme="genre">
+                    <term>lirica trobadorica</term>
+                    <term>poesia medievale</term>
+                    <term>Gausbert de Poicibot</term>
+                    <term>digital humanities</term>
+                    <term>filologia digitale</term>
+                </keywords>
+
+            </textClass>
+
+        </profileDesc>
+
+        <revisionDesc>
+
+            <change when="2026-07-19" who="#editor">
+                Creazione iniziale del file XML.
+            </change>
+
+        </revisionDesc>
+
+    </teiHeader>
+    <facsimile>
+      <surfaceGrp xml:id="A">
+        <surface n="1">
+            <graphic url="images/A1a.jpg"/>
+        </surface>
+        <surface n="2">
+            <graphic url="images/A1b.png"/>
+        </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="C">
+        <surface n="1">
+            <graphic url="images/C1a.jpg"/>
+        </surface>
+        <surface n="2">
+            <graphic url="images/C1b.png"/>
+        </surface>
+     </surfaceGrp>
+     <surfaceGrp xml:id="D">
+        <surface n="1">
+            <graphic url="images/D1a.png"/>
+        </surface>
+        <surface n="2">
+            <graphic url="images/D1b.png"/>
+        </surface>
+     </surfaceGrp>
+     <surfaceGrp xml:id="E">
+        <surface n="1">
+            <graphic url="images/E1a.png"/>
+        </surface>
+        <surface n="2">
+            <graphic url="images/E1b.png"/>
+        </surface>
+     </surfaceGrp>
+     <surfaceGrp xml:id="H">
+        <surface n="1">
+            <graphic url="images/H1a.png"/>
+        </surface>
+        <surface n="2">
+            <graphic url="images/H1b.png"/>
+        </surface>
+     </surfaceGrp>
+     <surfaceGrp xml:id="I">
+        <surface n="1">
+            <graphic url="images/I1a.png"/>
+        </surface>
+        <surface n="2">
+            <graphic url="images/I1b.png"/>
+        </surface>
+     </surfaceGrp>
+     <surfaceGrp xml:id="K">
+        <surface n="1">
+            <graphic url="images/K1a.png"/>
+        </surface>
+        <surface n="2">
+            <graphic url="images/K1b.png"/>
+        </surface>
+     </surfaceGrp>
+     <surfaceGrp xml:id="N">
+        <surface n="1">
+            <graphic url="images/N1a.png"/>
+        </surface>
+        <surface n="2">
+            <graphic url="images/N1b.png"/>
+        </surface>
+     </surfaceGrp>
+     <surfaceGrp xml:id="P">
+        <surface n="1">
+            <graphic url="images/P1a.png"/>
+        </surface>
+        <surface n="2">
+            <graphic url="images/P1b.png"/>
+        </surface>
+     </surfaceGrp>
+     <surfaceGrp xml:id="T">
+        <surface n="1">
+            <graphic url="images/T1a.jpeg"/>
+        </surface>
+        <surface n="2">
+            <graphic url="images/T1b.png"/>
+        </surface>
+     </surfaceGrp>
+    </facsimile>
+    
+    
+    <text>
+      <front>
+        <figure type="banner">
+            <graphic url="images/banner1.png"/>
+        </figure>
+      </front>
+
+    <div type="edition">
+    <body>
+        <front>
+            <div type="manoscritti">
+                <p>
+                    <list type="facsimile">
+                        <item>
+                            <witDetail>A</witDetail> 116v: <seg>Lo monges de Ponciboc</seg>;
+                        </item>
+                        <item>
+                            <witDetail>C</witDetail> 190r: <seg>Gausbert de Puegcibot</seg>; 
+                        </item>
+                        <item>
+                            <witDetail>D</witDetail> 47r: <seg>Lo mo(n)ge de Poicibot</seg>; 
+                        </item>
+                        <item>
+                            <witDetail>E</witDetail> 159: <seg>Monge de Pueisibot</seg>;  
+                        </item>
+                        <item>
+                            <witDetail>H</witDetail> 18r: <seg>Lo monges de Ponsibot</seg>;
+                        </item>
+                        <item>
+                            <witDetail>I</witDetail> 80v: (<seg>preceduta dalla vida</seg>); 
+                        </item>
+                        <item>
+                            <witDetail>K</witDetail> 64v: <seg>Lo monge Gaubertz de Pocibot</seg>;
+                        </item>
+                        <item>
+                            <witDetail>N</witDetail> 212v: <seg>Lo monge de Pueisibot</seg>;
+                        </item>
+                        <item>
+                            <witDetail>P</witDetail> 36v: <seg>Lanbert de Ponzibech</seg>; 
+                        </item>
+                        <item>
+                            <witDetail>T</witDetail> 112r: <seg>Gaubert de Porcibot</seg>.
+                        </item>
+                    </list>
+                </p>
+            </div>
+            <div type="scheda_metrica">
+
+                <head>Scheda metrica</head>
+                <p>[497 : 2]
+                    <lb/>Unicum
+                    <lb/>a ₆ b ₆ b ₆ a ₆ a ₆ c ₆ c ₆ a ₆ a ₆
+                    <lb/>a: <rhyme type="a">es</rhyme>, b: <rhyme type="b">os ~ en</rhyme>, c: <rhyme type="c">en ~ os</rhyme>
+                    <lb/>Stesso schema rimico di BdT 335.18.<note type="popup" xml:id="nota_metrica1">La canzone di Gausbert condivide con il sirventese <seg type="it">De sirventes soill servir</seg> di Peire Cardenal la sequenza rimica (<ref rend="exit" target="https://www.rialto.unina.it/trovatori/peire-cardenal/335-18vatteroni/">Rialto</ref>, Vatteroni 2013).</note>
+                </p>
+            </div>
+            <div type="testo">
+              <div type="txt_critico" xml:id="canso1">
+                <title>Testo critico</title>
+                <p>Ms. base A<lb/>Correzioni da <seg type="corr">H</seg>
+                                <lb/>
+                                <seg type="edit">Interventi editoriali</seg>
+                            </p>
+                <!-- Cobla I -->
+                    <label>I</label>
+                    <lg type="stanza" n="1" rhyme="abbaaccaa">
+                    <l n="1">Amors, s’a vos <rhyme label="a">plagues</rhyme>
+                                </l>
+                    <l n="2">
+                                    <seg xml:id="v2" type="diff">e non fos <rhyme label="b">desrazos</rhyme>
+                                    </seg>,</l>
+                    <l n="3">c’apres cen mals m’en <rhyme label="b">fos</rhyme>
+                                </l>
+                    <l n="4">escaritz uns sols <rhyme label="a">bes</rhyme>,</l>
+                    <l n="5">dreitz fora qu’eu <rhyme label="a">l’agues</rhyme>,</l>
+                    <l n="6">mas vos no·n platz <rhyme label="c">nien</rhyme>.</l>
+                    <l n="7">Pero, si·us fora <rhyme label="c">gen</rhyme>
+                                </l>
+                    <l n="8">c’alcus iois m’en <rhyme label="a">vengues</rhyme>,</l>
+                    <l n="9">don mos chans mais <rhyme label="a">valgues</rhyme>.</l>
+                </lg>
+                <lb/>
+                <!-- Cobla II -->
+                    <label>II</label>
+                    <lg type="stanza" n="2" rhyme="abbaaccaa">
+                    <l n="10">C’aissi, cum d’aut luoc <rhyme label="a">pres</rhyme>
+                                </l>
+                    <l n="11">mos chans <rhyme label="b">comensamen</rhyme>,</l>
+                    <l n="12">et en aut luoc 
+                                        <rhyme label="b">
+                                        <seg xml:id="v12" type="diff">
+                                            <seg type="corr">m’enten</seg>
+                                        </seg>
+                                    </rhyme>,</l>
+                    <l n="13">et autz luocs m’a <rhyme label="a">conques</rhyme>,</l>
+                    <l n="14">covengra qu’eu <rhyme label="a">fezes</rhyme>
+                                </l>
+                    <l n="15">de tan autas <rhyme label="c">razos</rhyme>
+                                </l>
+                    <l n="16">tant avinens <rhyme label="c">chansos</rhyme>,</l>
+                    <l n="17">
+                                    <seg xml:id="v17" type="diff">c’a mon chant</seg> <rhyme label="a">paregues</rhyme>
+                                </l>
+                    <l n="18">que <term type="glossario">de valen luoc <rhyme label="a">es</rhyme>
+                                        <note type="popup" xml:id="gloss-luoc">
+                            <label>≋ LIT</label>
+                            <term type="lit">(mos chans) de valen luoc es</term>
+                            <def>Gausbert segue, secondo una disposizione quasi chiastica, il suo canto dal luogo di origine sino al luogo che questo aspira a raggiungere, riferendosi al punto iniziale e finale del percorso effettuato dalla canzone.<lb/>
+                                La struttura della figura proposta dal trovatore ha generato la diffrazione <seg type="it">m'enten</seg>/<seg type="it">s'enten</seg> al v.12; il soggetto della prima variante sarebbe l'io lirico e non più il canto stesso del trovatore.<lb/>Per il testo critico, si mette a testo la lezione <seg type="it">m'enten</seg>, vista anche la vicinanza con <seg type="it">m'a conques</seg> al v. 13, da riferirsi sempre al vissuto interiore dell'io lirico.
+                                    <lb/>Ad ogni modo, la natura stessa della variante la rende suscettibile di innovazioni indipendenti.
+</def>
+                                        </note>
+                                    </term>.</l>
+                    </lg>
+                <!-- Cobla III -->
+                    <label>III</label>
+                    <lg type="stanza" n="3" rhyme="abbaaccaa">
+                    <l n="19">E <seg xml:id="v19" type="diff">non</seg> faillira <rhyme label="a">ges</rhyme>
+                                </l>
+                    <l n="20">en mi, s’ieu fos <rhyme label="b">ioios</rhyme>,</l>
+                    <l n="21">c’adreitz motz e gais <rhyme label="b">sos</rhyme>
+                                </l>
+                    <l n="22">ben faire non <rhyme label="a">saubes</rhyme>;</l>
+                    <l n="23">mas Amors, que <term type="glossario">
+                                        <rhyme label="a">m’apres</rhyme>
+                                        <note type="popup" xml:id="gloss-aprendre">
+                            <label>≋ LIT</label>
+                            <term type="lit">aprendre/desaprendre</term>
+                            <def>In questo luogo del testo, Gausbert inserisce un’antitesi tra i due verbi in opposizione <seg type="it">aprendre</seg> e <seg type="it">desaprendre</seg>; l’intento è biasimare Amore che, dopo aver ispirato
+                            i sentimenti oggetto del suo canto, ha posto il trovatore in una condizione sfavorevole.</def>
+                    </note>
+                                    </term>
+                                </l>
+                    <l n="24">chantar, mi <term type="glossario">
+                                        <rhyme label="c">desapren</rhyme>
+                                    </term>,</l>
+                    <l n="25">que m’a lo cor e·l <rhyme label="c">sen</rhyme>
+                                </l>
+                    <l n="26">per <seg xml:id="v26" type="diff">
+                                        <seg type="corr">fors’en</seg> tal luoc</seg> <rhyme label="a">mes</rhyme>,</l>
+                    <l n="27">don no·m par que·m <rhyme label="a">taisses</rhyme>.</l>
+                </lg>
+                <!-- Cobla IV -->
+                    <label>IV</label>
+                    <lg type="stanza" n="4" rhyme="abbaaccaa">
+                    <l n="28">E car anc <rhyme label="a">s’entremes</rhyme>
+                                </l>
+                    <l n="29">
+                                    <seg xml:id="v29" type="diff">de tant</seg> fol <rhyme label="b">ardimen</rhyme>
+                                </l>
+                    <l n="30">c’auses mon <rhyme label="b">pessamen</rhyme>
+                                </l>
+                    <l n="31">tant qu’en lieis lo <rhyme label="a">meses</rhyme>,</l>
+                    <l n="32">covengra qu’il <rhyme label="a">degues</rhyme>
+                                </l>
+                    <l n="33">lo sieu cor <rhyme label="c">orgoillos</rhyme>
+                                </l>
+                    <l n="34">tant <term type="glossario">aclinar en <rhyme label="c">ios</rhyme>
+                                        <note type="popup" xml:id="gloss-aclinar">
+                            <label>≋ LIT</label>
+                            <term type="lit">aclinar en ios</term>
+                            <def>L’attestazione in questa lirica sembra l’unica in cui <seg type="it">aclinar</seg> è seguito dalla preposizione <seg type="it">en</seg>.<lb/> Diverso è invece il caso del medesimo verbo seguito dalle preposizioni <seg type="it">vas/ves</seg> e <seg type="it">vers</seg>, per cui si registrano almeno quattro occorrenze, fra cui si ricordano una lirica di Beatriz de Dia (<seg type="it">vas vos non si aclina</seg>, BdT 46.2, v. 25), un <seg type="it">salutz</seg> anonimo copiato nel canzoniere N (<seg type="it">ves lei t’aclina</seg>, BdT 146.7, v. 106), e ancora una canzone di Guilhem de Cabestaing (<seg type="it">aclin vers autre seingnoratge</seg>, BdT 213.7, v. 28), in cui il verbo non ha valore riflessivo, come nella lirica qui analizzata.</def>
+                    </note>
+                                    </term>,</l>
+                    <l n="35">c’a orguoill <seg type="corr">no·s</seg> <rhyme label="a">tengues</rhyme>,</l>
+                    <l n="36">si vas mi <rhyme label="a">s’afraises</rhyme>.</l>
+                </lg>
+                <!-- Cobla V -->
+                    <label>V</label>
+                    <lg type="stanza" n="5" rhyme="abbaaccaa">
+                    <l n="37">Ai, dompna! No·m <rhyme label="a">nogues</rhyme>
+                                </l>
+                    <l n="38">pretz ni ricors ab <rhyme label="b">vos</rhyme>.</l>
+                    <l n="39">E, pois dreitz no m’es <rhyme label="b">bos</rhyme>,</l>
+                    <l n="40">sivals vailla·m <rhyme label="a">merces</rhyme>,</l>
+                    <l n="41">qu’estiers vos d’als non <rhyme label="a">pes</rhyme>.</l>
+                    <l n="42">Tant vos sai d’auta <rhyme label="c">gen</rhyme>,</l>
+                    <l n="43">que ioi tant <rhyme label="c">avinen</rhyme>
+                                </l>
+                    <l n="44">negus <seg type="corr">dreitz</seg> <rhyme label="a">m’aduisses</rhyme>,</l>
+                    <l n="45">ia tant servir <rhyme label="a">pogues</rhyme>.</l>
+                </lg>
+                <!-- Cobla VI -->
+                    <label>VI</label>
+                    <lg type="enovy" n="tornada1" rhyme="abbaa">
+                    <l n="46">
+                                    <seg xml:id="tornada46" type="diff">Lai on pretz s’es <rhyme label="a">empres</rhyme>.</seg>
+                                </l>
+                    <l n="47">
+                                    <seg xml:id="tornada47" type="diff">
+                                        e valors <rhyme label="b">essaimen</rhyme>,</seg>
+                                </l>
+                    <l n="48">
+                                    <seg xml:id="tornada48" type="diff">vai, chansos, per <rhyme label="b">presen</rhyme>,</seg>
+                                </l>
+                    <l n="49">
+                                    <seg xml:id="tornada49" type="diff">tot dreich en <rhyme label="a">
+                                            <seg type="corr">Creones</seg>
+                                        </rhyme>,</seg>
+                                </l>
+                    <l n="50">
+                                    <seg xml:id="tornada50" type="diff">al seignor del <rhyme label="a">paes</rhyme>.</seg>
+                                </l>
+                </lg>
+                <!-- Cobla VII -->
+                    <label>VII</label>
+                    <lg type="envoy" n="tornada2" rhyme="abbaa">
+                    <l n="51">Na Maria, tant <rhyme label="a">es</rhyme>
+                                </l>
+                    <l n="52">vostre pretz cars e <rhyme label="b">bos</rhyme>,</l>
+                    <l n="53">qu’en comtan ni ab <rhyme label="b">sos</rhyme>
+                                </l>
+                    <l n="54">non cre hom dir <rhyme label="a">pogues</rhyme>
+                                </l>
+                    <l n="55">las grans valors ni·ls <rhyme label="a">bes</rhyme>.</l>
+                </lg>
+                <lb/>
+            </div>
+            <!-- Apparato critico delle varianti sostanziali -->
+            <div type="app_crt_sos">
+              <listApp>
+              <app ana="sos">
+   <num>1</num>
+   <lem>Amors</lem>
+   <rdg>Amor
+      <witDetail wit="#T">T</witDetail>
+   </rdg>
+</app>
+
+<app ana="sos">
+   <num>2</num>
+   <lem>e non</lem>
+   <rdg>e nous
+      <witDetail wit="#H">H  </witDetail>
+   </rdg>
+ </app>
+<app ana="sos">
+   <lem>fos des razos</lem>
+   <rdg>fos de.
+      <witDetail wit="#D">D</witDetail>
+   </rdg>
+         <note type="popup_cont" xml:id="cont1">
+            <surface>
+        <graphic url="images/glossaH_1.jpg"/>
+      </surface>Il copista di H aggiunge nel margine sinistro la variante di costellazione che produce la configurazione del sottoramo β², <seg type="it">ben semblera</seg>.
+          <lb/>In Careri 1990 si ipotizza che la glossa al v. 2 deriverebbe da una fonte comune a IK, e che sarebbe stata copiata dal modello del codice Vaticano.<lb/>La lezione con il condizionale <seg type="it">semblera</seg> genera una sintassi meno lineare e, per facilitare la lettura, si è scelto di inserire un punto e virgola, come segno di demarcazione, in coda al v. 4 del testo di costellazione.
+      </note>
+</app>
+
+<app ana="sos">
+   <num>3</num>
+   <lem>cen</lem>
+   <rdg>centz
+      <witDetail wit="#H">H</witDetail>
+   </rdg>
+</app>
+
+<app ana="sos">
+   <num>4</num>
+   <lem>sols</lem>
+   <rdg>sol
+      <witDetail wit="#D">D</witDetail>
+   </rdg>
+</app>
+
+<app ana="sos">
+   <num>8</num>
+   <lem>c’alcus</lem>
+   <rdg>salcuns
+      <witDetail wit="#D #H">DH</witDetail>
+   </rdg>
+   <rdg>salcun
+      <witDetail wit="#T">T</witDetail>
+   </rdg>
+   <lem>jois</lem>
+   <rdg>joi
+      <witDetail wit="#T">T</witDetail>
+   </rdg>
+</app>
+
+<app ana="sos">
+   <num>9</num>
+   <lem>mos chans</lem>
+   <rdg>mon cant
+      <witDetail wit="#T">T</witDetail>
+   </rdg>
+</app>
+
+<app ana="sos">
+   <num>11</num>
+   <lem>mos chans</lem>
+   <rdg>mon cantç
+      <witDetail wit="#T">T</witDetail>
+   </rdg>
+</app>
+
+<app ana="sos">
+   <num>12</num>
+   <lem>m’enten</lem>
+   <rdg>senten
+      <witDetail wit="#A">A</witDetail>
+   </rdg>
+</app>
+
+<app ana="sos">
+   <num>13</num>
+   <lem>conques</lem>
+   <rdg>conqus
+      <witDetail wit="#T">T</witDetail>
+   </rdg>
+</app>
+
+<app ana="sos">
+   <num>15</num>
+   <lem>de tan</lem>
+   <rdg>ce tant
+      <witDetail wit="#T">T</witDetail>
+   </rdg>
+</app>
+
+<app ana="sos">
+   <num>16</num>
+   <lem>avinens</lem>
+   <rdg>avinent
+      <witDetail wit="#T">T</witDetail>
+   </rdg>
+</app>
+
+<app ana="sos">
+   <num>19</num>
+   <lem>e non</lem>
+   <rdg>e noi
+      <witDetail wit="#D">D</witDetail>
+   </rdg>
+   <lem>faillira</lem>
+   <rdg>falria
+      <witDetail wit="#T">T</witDetail>
+   </rdg>
+   <lem>ges</lem>
+   <rdg>res
+      <witDetail wit="#H">H</witDetail>
+   </rdg>
+</app>
+
+<app ana="sos">
+   <num>25</num>
+   <lem>m’a</lem>
+   <rdg>ma·l
+      <witDetail wit="#D">D</witDetail>
+   </rdg>
+</app>
+
+<app ana="sos">
+   <num>26</num>
+   <lem>fors’en tal luoc</lem>
+   <rdg>forsa en tal luoc
+      <witDetail wit="#A #D">AD</witDetail>
+   </rdg>
+   <rdg>forsa i tal lioc
+      <witDetail wit="#T">T</witDetail>
+   </rdg>
+</app>
+
+<app ana="sos">
+   <num>27</num>
+   <lem>don</lem>
+   <rdg>dom
+      <witDetail wit="#D #T">DT</witDetail>
+   </rdg>
+   <lem>no·m par</lem>
+   <rdg>no par
+      <witDetail wit="#D #H #T">DHT</witDetail>
+   </rdg>
+</app>
+
+<app ana="sos">
+   <num>28</num>
+   <lem>anc s’entremes</lem>
+   <rdg>sen entremes
+      <witDetail wit="#D #H">DH</witDetail>
+   </rdg>
+   <rdg>sentramis
+      <witDetail wit="#T">T</witDetail>
+   </rdg>
+</app>
+
+<app ana="sos">
+   <num>32</num>
+   <lem>degues</lem>
+   <rdg>tenges
+      <witDetail wit="#T">T</witDetail>
+   </rdg>
+</app>
+
+<app ana="sos">
+   <num>35</num>
+   <lem>c’a</lem>
+   <rdg>car
+      <witDetail wit="#T">T</witDetail>
+   </rdg>
+   <lem>no·s</lem>
+   <rdg>nois
+      <witDetail wit="#A">A</witDetail>
+   </rdg>
+   <rdg>nous
+      <witDetail wit="#T">T</witDetail>
+   </rdg>
+</app>
+
+<app ana="sos">
+   <num>36</num>
+   <lem>si vas</lem>
+   <rdg>sivals
+      <witDetail wit="#T">T</witDetail>
+   </rdg>
+</app>
+
+<app ana="sos">
+   <num>38</num>
+   <lem>ricors</lem>
+   <rdg>ricor
+      <witDetail wit="#T">T</witDetail>
+   </rdg>
+</app>
+
+<app ana="sos">
+   <num>39</num>
+   <lem>dretz</lem>
+   <rdg>drez drez
+      <witDetail wit="#D">D</witDetail>
+   </rdg>
+</app>
+
+<app ana="sos">
+   <num>40</num>
+   <lem>vailla·m</lem>
+   <rdg>vaitlam
+      <witDetail wit="#H">H</witDetail>
+   </rdg>
+   <rdg>vagla mi
+      <witDetail wit="#T">T</witDetail>
+   </rdg>
+</app>
+
+<app ana="sos">
+   <num>41</num>
+   <lem>d’als non</lem>
+   <rdg>d’als nom
+      <witDetail wit="#H">H</witDetail>
+   </rdg>
+   <rdg>d’al non
+      <witDetail wit="#T">T</witDetail>
+   </rdg>
+</app>
+
+<app ana="sos">
+   <num>42</num>
+   <lem>d’auta</lem>
+   <rdg>d’aut
+      <witDetail wit="#T">T</witDetail>
+   </rdg>
+</app>
+
+<app ana="sos">
+   <num>44</num>
+   <lem>dreitz</lem>
+   <rdg>iois
+      <witDetail wit="#A">A</witDetail>
+   </rdg>
+</app>
+
+<app ana="sos">
+   <num>47</num>
+    <note type="popup_cont" xml:id="cont2">
+            <surface>
+        <graphic url="images/glossaH_2.png"/>
+      </surface>All'inizio della prima <seg type="it">tornada</seg>, dedicata ad Amalric I, duca di Craon, si nota a margine l’aggiunta di una glossa, in Careri 1990 giudicata contemporanea alla trascrizione, che segnala invece una versione alternativa del verso: <seg type="it">~ alias. E·l beutatz ab ioven</seg>.<lb/>
+          H è l’unico testimone a trasmettere questa versione del verso, pienamente accettabile dal punto di vista metrico.
+          Non è chiaro se l’attestazione isolata possa essere considerata una spia che segnala la perdita di un’ulteriore tradizione del testo che non ha lasciato tracce nel resto 
+          dei testimoni; ciò appare probabile, visto l’utilizzo dell’<seg type="it">alias</seg> che introduce la glossa.<lb/>
+          La glossa richiama un’espressione similare presente in una canzone del trovatore Rigaut de Berbezilh, vissuto circa un secolo prima di Gausbert. In <seg type="it">Ben volria saber d’Amor</seg> (BdT 421.5, v. 35, <ref rend="exit" target="https://www.rialto.unina.it/trovatori/rigaut-de-berbezilh/421-5braccini/">Rialto</ref>), si legge infatti <seg type="it">e miels de beutat ab ioven</seg>; dal testo si evince che, in questo caso, la destinataria delle lodi del trovatore è la donna amata.
+          </note>
+</app>
+
+<app ana="sos">
+   <num>48</num>
+   <lem>chansos</lem>
+   <rdg>chanson
+      <witDetail wit="#D">D</witDetail>
+   </rdg>
+   <lem>Creones</lem>
+   <rdg>leones
+      <witDetail wit="#A">A</witDetail>
+   </rdg>
+</app>
+
+<app ana="sos">
+   <num>49</num>
+   <lem>al</lem>
+   <rdg>als
+      <witDetail wit="#T">T</witDetail>
+   </rdg>
+   <lem>paes</lem>
+   <rdg>pais
+      <witDetail wit="#T">T</witDetail>
+   </rdg>
+</app>
+
+<app ana="sos">
+   <num>53</num>
+   <lem>contan</lem>
+   <rdg>chantan
+      <witDetail wit="#D">D</witDetail>
+   </rdg>
+
+   <lem>ni ab sos</lem>
+   <rdg>ni an vos
+      <witDetail wit="#T">T</witDetail>
+   </rdg>
+</app>
+
+<app ana="sos">
+   <num>55</num>
+   <lem>nils</lem>
+   <rdg>nil
+      <witDetail wit="#T">T</witDetail>
+   </rdg>
+</app>
+              </listApp>
+            </div>
+            <div type="app_crt_form">
+              <listApp>
+                  <app ana="form">
+                      <num>2</num>
+                      <lem>razos</lem>
+                      <rdg>
+                        raisons<witDetail wit="#T"> T</witDetail>
+                      </rdg>
+                  </app>
+                  <app ana="form">
+                      <num>6</num>
+                      <lem>platz</lem>
+                      <rdg>
+                        plais<witDetail wit="#H"> H</witDetail>
+                      </rdg>
+                  </app>
+                  <app ana="form">
+                      <num>14</num>
+                      <lem>fezes</lem>
+                      <rdg>
+                        fesges<witDetail wit="#D"> D</witDetail>
+                      </rdg>
+                  </app>
+                  <app ana="form">
+                      <num>22</num>
+                      <lem>saubes</lem>
+                      <rdg>
+                        sabes<witDetail wit="#T"> T</witDetail>
+                      </rdg>
+                  </app>
+                  <app ana="form">
+                      <num>27</num>
+                      <lem>taisses</lem>
+                      <rdg>
+                        tainses<witDetail wit="#D #H #T"> DHT</witDetail>
+                      </rdg>
+                  </app>
+                  <app ana="form">
+                      <num>30</num>
+                        <note type="text">Commento del copista a margine dell'incipit della cobla </note>
+                        <witDetail wit="#H">H</witDetail>
+                        <note type="popup" xml:id="paleo7">
+                         <surface>
+                            <graphic url="images/glossaH.png"/>
+                         </surface>
+                         In H, un segno di rimando copiato nel testo sopra il verbo <seg type="it">q'ausses</seg> riporta a una glossa marginale dove si legge
+                         <seg type="it">id est en aut leues. quod est alsare</seg>. 
+                         <lb/>Il verbo <seg type="it">alsare</seg>, giudicato in Careri 1990 un derivato da una varietà volgare veneta, 
+                         sarebbe una traduzione del provenzale <seg type="it">ausar</seg>.
+                         <lb/>La glossa sarebbe da tradurre con <seg type="it">id est che egli levi in alto</seg> (prov.)<seg type="it">, quod est alzare</seg> 
+                         (volgare ven.).
+                         <lb/>Si tratterebbe, forse, del tentativo di un copista veneto di interpretare la forma verbale 
+                         nel verso prima attraverso una perifrasi in provenzale, poi con l’uso di un verbo in una varietà linguistica a lui più familiare. 
+
+                        </note>
+                  </app>
+                  <app ana="form">
+                      <num>36</num>
+                      <lem>s'afraises</lem>
+                      <rdg>
+                        safrainses<witDetail wit="#D #H"> DH</witDetail>
+                      </rdg>
+                      <rdg>
+                        safranques<witDetail wit="#T"> T</witDetail>
+                      </rdg>
+                  </app>
+                  <app ana="form">
+                      <num>44</num>
+                      <lem>aduisses</lem>
+                      <rdg>
+                        aduses<witDetail wit="#D #H #T"> DHT</witDetail>
+                      </rdg>
+                  </app>
+                  <app ana="form">
+                      <num>53</num>
+                      <lem>qu'en</lem>
+                      <rdg>
+                        quem<witDetail wit="#D"> D</witDetail>
+                      </rdg>
+                  </app>
+              </listApp>
+            </div>
+            <div type="txt_costellazione" xml:id="canso1.1">
+
+                <title>Testo di costellazione β</title>
+                <p>Ms. base C<lb/>Correzioni da <seg type="corr_c">E</seg>; <seg type="it">cobla</seg> VI da CE.
+                                <seg type="edit">Interventi editoriali</seg>
+                            </p>
+                <!-- Cobla I -->
+                    <lg type="stanza" n="1.1" rhyme="abbaaccaa">
+                    <l n="1">Amors, s’a vos <rhyme label="a">plagues</rhyme>
+                                </l>
+                    <l n="2">
+                                    <seg type="diff_c" corresp="#v2">
+                                        <seg type="edit">ben</seg> semblera <rhyme label="b">razos</rhyme>
+                                    </seg>,</l>
+                    <l n="3">qu’apres cent mals m’en <rhyme label="b">fos</rhyme>
+                                </l>
+                    <l n="4">escazuitz uns sols <rhyme label="a">bes</rhyme>
+                                    <seg type="edit"> ;</seg>
+                                </l>
+                    <l n="5">dregz fora qu'ieu <rhyme label="a">l’agues</rhyme>,</l>
+                    <l n="6">mas vos no·n platz <rhyme label="c">nien</rhyme>.</l>
+                    <l n="7">Pero, si·us fora <rhyme label="c">gen</rhyme>
+                                </l>
+                    <l n="8">qu’alqus ioys m’en <rhyme label="a">vengues</rhyme>,</l>
+                    <l n="9">don mos chans mais <rhyme label="a">valgues</rhyme>.</l>
+                            </lg> 
+                <!-- Cobla II -->
+                    <lg type="stanza" n="2.1" rhyme="abbaaccaa">
+                    <l n="10">Qu’aissi cum d’aut luec <rhyme label="a">pres</rhyme>
+                                </l>
+                    <l n="11">mos chans <rhyme label="b">comensamen</rhyme>,</l>
+                    <l n="12">et en aut luec <seg type="diff_c" corresp="#v12">
+                                        <rhyme label="b">s’enten</rhyme>
+                                    </seg>,</l>
+                    <l n="13">et autz luecs m’a <rhyme label="a">conques</rhyme>,</l>
+                    <l n="14">covengra qu’ieu <rhyme label="a">fezes</rhyme>
+                                </l>
+                    <l n="15">de tan autas <rhyme label="c">razos</rhyme>
+                                </l>
+                    <l n="16">tan avinens <rhyme label="c">chansos</rhyme>,</l>
+                    <l n="17">
+                                    <seg type="diff_c" corresp="#v17">qu’a·l chantar</seg> <rhyme label="a">paregues</rhyme>
+                                </l>
+                    <l n="18">que de valen luec <rhyme label="a">es</rhyme>.</l>
+                    </lg>
+                <!-- Cobla III -->
+                    <lg type="stanza" n="3.1" rhyme="abbaaccaa">
+                    <l n="19">E <seg type="diff_c" corresp="#v19">no·i</seg> falhira <rhyme label="a">res</rhyme>
+                                </l>
+                    <l n="20">en mi, s’ieu fos <rhyme label="b">ioyos</rhyme>,</l>
+                    <l n="21">qu’adreitz motz e gays <rhyme label="b">sos</rhyme>
+                                </l>
+                    <l n="22">ben faire no <rhyme label="a">saubes</rhyme>;</l>
+                    <l n="23">mas Amors, que <rhyme label="a">m’apres</rhyme>
+                                </l>
+                    <l n="24">chantar, me <rhyme label="c">dezapren</rhyme>,</l>
+                    <l n="25">que <seg type="corr_c">m’a</seg> lo cor e·l <rhyme label="c">sen</rhyme>
+                                </l>
+                    <l n="26">per <seg type="diff_c" corresp="#v26">forsa tan aut</seg> <rhyme label="a">mes</rhyme>
+                                </l>
+                    <l n="27">
+                                    <seg type="corr_c">don no·m</seg> par <seg type="corr_c">que·m</seg> <rhyme label="a">taiches</rhyme>.</l>
+                </lg>
+                <!-- Cobla IV -->
+                    <lg type="stanza" n="4.1" rhyme="abbaaccaa">
+                    <l n="28">E quar s’en <rhyme label="a">entremes</rhyme>
+                                </l>
+                    <l n="29">
+                                    <seg type="diff_c" corresp="#v29">d’aitan</seg> folh <rhyme label="b">ardimen</rhyme>
+                                </l>
+                    <l n="30">qu’auzes mon <rhyme label="b">pessamen</rhyme>,</l>
+                    <l n="31">tan qu’en lieys lo <rhyme label="a">mezes</rhyme>,</l>
+                    <l n="32">covengra qu’ilh <rhyme label="a">degues</rhyme>
+                                </l>
+                    <l n="33">lo sieu cor <rhyme label="c">orgulhos</rhyme>
+                                </l>
+                    <l n="34">tant <seg type="corr_c">aclinar</seg> en <rhyme label="c">jos</rhyme>,</l>
+                    <l n="35">qu’az orguelh <seg type="edit">no·s</seg> <rhyme label="a">tengues</rhyme>,</l>
+                    <l n="36">si vas me <rhyme label="a">s’afraysses</rhyme>.</l>
+                </lg>
+                <!-- Cobla V -->
+                    <lg type="stanza" n="5.1" rhyme="abbaaccaa">
+                    <l n="37">Ai, dona! No·m <rhyme label="a">nogues</rhyme>
+                                </l>
+                    <l n="38">pretz ni ricors ab <rhyme label="b">vos</rhyme>,</l>
+                    <l n="39">e, pus dreitz no m’es <rhyme label="b">bos</rhyme>,</l>
+                    <l n="40">si·us platz vala·m <rhyme label="a">merces</rhyme>,</l>
+                    <l n="41">qu’estiers vos d’als non <rhyme label="a">pes</rhyme>.</l>
+                    <l n="42">Tan vos sai d’auta <rhyme label="c">gen</rhyme>,</l>
+                    <l n="43">que ioy tan <rhyme label="c">avinen</rhyme>
+                                </l>
+                    <l n="44">neguns dreitz <rhyme label="a">m’aduyses</rhyme>,</l>
+                    <l n="45">ia tan servir <rhyme label="a">pogues</rhyme>.</l>
+                </lg>
+                <!-- Cobla VI -->
+                    <lg type="enovy" n="tornada1.1" rhyme="abbaa">
+                    <l n="46">
+                                    <seg type="diff_c" corresp="#tornada46">Dona, m’a bona <rhyme label="a">fes</rhyme>,</seg>
+                                </l>
+                    <l n="47">
+                                    <seg type="diff_c" corresp="#tornada47">e quar am <rhyme label="b">finamen</rhyme>
+                                    </seg>
+                                </l>
+                    <l n="48">
+                                    <seg type="diff_c" corresp="#tornada48">mi degra far <rhyme label="b">iauzen</rhyme>,</seg>
+                                </l>
+                    <l n="49">
+                                    <seg type="diff_c" corresp="#tornada49">que pus Dieus met en vos tans <rhyme label="a">bes</rhyme>,</seg>
+                                </l>
+                    <l n="50">
+                                    <seg type="diff_c" corresp="#tornada50">no cre que merce no y <rhyme label="a">mezes</rhyme>.</seg>
+                                </l>
+                </lg>
+                <!-- Cobla VII -->
+                    <lg type="envoy" n="tornada2.1" rhyme="abbaa">
+                    <l n="51">Na Maria, tant <rhyme label="a">es</rhyme>
+                                </l>
+                    <l n="52">vostre pretz cars e <rhyme label="b">bos</rhyme>,</l>
+                    <l n="53">qu’en comdan ni ab <rhyme label="b">sos</rhyme>
+                                </l>
+                    <l n="54">non cre hom dir <rhyme label="a">pogues</rhyme>
+                                </l>
+                    <l n="55">las grans valors ni·ls <rhyme label="a">bes</rhyme>.</l>
+                </lg>
+            </div>
+            <!-- Apparato critico delle varianti sostanziali del testo di costellazione -->
+            <div type="app_cos_sos">
+ <listApp>
+                                <app ana="sos">
+                        <num>1</num>
+                        <lem>Amors</lem>
+                        <rdg>amor
+                        <witDetail wit="#E"> E</witDetail>
+                        </rdg>
+   <lem>s’a vos</lem>
+   <rdg>sius
+      <witDetail wit="#P">P</witDetail>
+   </rdg>
+</app>
+
+<app ana="sos">
+   <num>3</num>
+   <lem>fos</lem>
+   <rdg>fes
+      <witDetail wit="#P">P</witDetail>
+   </rdg>
+</app>
+
+<app ana="sos">
+   <num>4</num>
+   <lem>uns sols</lem>
+   <rdg>uns sol
+      <witDetail wit="#I"> I</witDetail>
+   </rdg>
+   <note type="popup" xml:id="paleo2">Un simbolo che ricorda una <seg type="it">s</seg> sembra essere stato aggiunto nello spazio bianco che segue <seg type="it">sol</seg> in un momento successivo.</note>
+   <rdg>un sols
+      <witDetail wit="#K">K</witDetail>
+   </rdg>
+   <rdg>un sol
+      <witDetail wit="#N">N</witDetail>
+   </rdg>
+</app>
+
+<app ana="sos">
+   <num>6</num>
+   <lem>bens</lem>
+   <rdg>bels
+      <witDetail wit="#K">K</witDetail>
+   </rdg>
+</app>
+
+<app ana="sos">
+   <num>8</num>
+   <lem>qu’alcuc</lem>
+   <rdg>salcus
+      <witDetail wit="#E #I #K #P">EIKP</witDetail>
+   </rdg>
+   <rdg>cal
+      <witDetail wit="#N">N</witDetail>
+      <note type="popup" xml:id="paleo3">Il copista di N cancella il <seg type="it">tal</seg> dalla lezione originale <seg type="it">cal tal</seg>.</note>
+   </rdg>
+</app>
+
+<app ana="sos">
+   <lem>jois</lem>
+   <rdg>joi
+      <witDetail wit="#P">P</witDetail>
+   </rdg>
+</app>
+
+<app ana="sos" type="locus">
+   <lem>m’en vengues</lem>
+   <rdg>mavengues
+      <witDetail wit="#E #I #K #N">EIKN</witDetail>
+   </rdg>
+</app>
+
+<app ana="sos">
+   <num>10</num>
+   <lem>c’aissi</lem>
+   <rdg>aissi
+      <witDetail wit="#N #P">NP</witDetail>
+   </rdg>
+</app>
+
+<app ana="sos">
+   <num>11</num>
+   <lem>mos chans</lem>
+   <rdg>mon chant
+      <witDetail wit="#N">N</witDetail>
+   </rdg>
+</app>
+
+<app ana="sos">
+   <num>12</num>
+   <lem>s’enten</lem>
+   <rdg>menten
+      <witDetail wit="#P">P</witDetail>
+   </rdg>
+</app>
+
+<app ana="sos">
+   <num>13</num>
+   <lem>et autz luocs</lem>
+   <rdg>e daut loc
+      <witDetail wit="#N">N</witDetail>
+   </rdg>
+   <rdg>et aut loch
+      <witDetail wit="#P">P</witDetail>
+   </rdg>
+</app>
+
+<app ana="sos">
+   <num>14</num>
+   <lem>fezes</lem>
+   <rdg>degues
+      <witDetail wit="#N">N</witDetail>
+      <note type="popup" xml:id="paleo4">Nel testimone N si nota la correzione nel margine superiore con il verbo <seg type="it">fezes</seg>.</note>
+   </rdg>
+   <rdg>fages
+      <witDetail wit="#P">P</witDetail>
+   </rdg>
+</app>
+
+<app ana="sos">
+   <num>15</num>
+   <lem>autas razos</lem>
+   <rdg>auta razon
+      <witDetail wit="#N">N</witDetail>
+   </rdg>
+   <rdg>aut razos
+      <witDetail wit="#P">P</witDetail>
+   </rdg>
+</app>
+
+<app ana="sos">
+   <num>16</num>
+   <lem>avinens</lem>
+   <rdg>avinen
+      <witDetail wit="#N #P">NP</witDetail>
+   </rdg>
+</app>
+
+<app ana="sos">
+   <num>17</num>
+   <lem>paregues</lem>
+   <rdg>en pares
+      <witDetail wit="#P">P</witDetail>
+   </rdg>
+</app>
+
+<app ana="sos">
+   <num>18</num>
+   <lem>que</lem>
+   <rdg>qui
+      <witDetail wit="#I #K">IK</witDetail>
+   </rdg>
+   <rdg>or
+      <witDetail wit="#N">N</witDetail>
+   </rdg>
+   <lem>loc</lem>
+   <rdg>locs
+      <witDetail wit="#I #K">IK</witDetail>
+   </rdg>
+</app>
+<app ana="sos">
+   <num>19</num>
+   <lem>falhira</lem>
+   <rdg>failhra
+      <witDetail wit="#I">I</witDetail>
+   </rdg>
+   <rdg>faillirai
+      <witDetail wit="#N">N</witDetail>
+   </rdg>
+</app>
+
+<app ana="sos">
+   <num>20</num>
+   <lem>e</lem>
+   <rdg>de
+      <witDetail wit="#P">P</witDetail>
+   </rdg>
+   <rdg>sen
+      <witDetail wit="#I #K #N">IKN</witDetail>
+   </rdg>
+</app>
+
+<app ana="sos">
+   <num>21</num>
+   <lem>sos</lem>
+   <rdg>fos
+      <witDetail wit="#P">P</witDetail>
+   </rdg>
+</app>
+
+<app ana="sos">
+   <num>23</num>
+   <lem>que m’a pres</lem>
+   <rdg>quem ten p.
+      <witDetail wit="#N">N</witDetail>
+   </rdg>
+</app>
+
+<app ana="sos">
+   <num>25</num>
+   <lem>m’a</lem>
+   <note type="text">manca C</note>
+</app>
+
+<app ana="sos">
+   <num>27</num>
+   <lem>don no·m par</lem>
+   <rdg>on no par
+      <witDetail wit="#C">C</witDetail>
+   </rdg>
+   <lem>que·m</lem>
+   <rdg>quen
+      <witDetail wit="#C #I">CI</witDetail>
+   </rdg>
+   <rdg>qa
+      <witDetail wit="#P">P</witDetail>
+   </rdg>
+   <lem>taiches</lem>
+   <rdg>caisses
+      <witDetail wit="#N">N</witDetail>
+   </rdg>
+</app>
+
+<app ana="sos">
+   <num>28</num>
+   <lem>e car</lem>
+   <rdg>e pos
+      <witDetail wit="#P">P</witDetail>
+   </rdg>
+   <lem>s'en etremes</lem>
+   <rdg>sentremes
+      <witDetail wit="#I">I</witDetail>
+   </rdg>
+   <rdg>ien nen tremes
+      <witDetail wit="#N">N</witDetail>
+   </rdg>
+   <rdg>a mi trames
+      <witDetail wit="#P">P</witDetail>
+   </rdg>
+</app>
+
+<app ana="sos">
+   <num>29</num>
+   <lem>d’aitan</lem>
+   <rdg>aitant
+      <witDetail wit="#N #P">NP</witDetail>
+   </rdg>
+   <lem>fol ardimen</lem>
+   <rdg>fon lardimen
+      <witDetail wit="#N">N</witDetail>
+   </rdg>
+</app>
+
+<app ana="sos">
+   <num>31</num>
+   <lem>lieis lo meses</lem>
+   <rdg>liei lom meses
+      <witDetail wit="#P">P</witDetail>
+   </rdg>
+</app>
+
+<app ana="sos" type="locus">
+   <num>32</num>
+   <lem>covengra q.</lem>
+   <rdg>dreiz mi par qe il degues
+      <witDetail wit="#P">P</witDetail>
+   </rdg>
+</app>
+
+<app ana="sos">
+   <num>34</num>
+   <lem>aclinar</lem>
+   <rdg>aclinat
+      <witDetail wit="#C">C</witDetail>
+   </rdg>
+</app>
+
+<app ana="sos" type="locus">
+   <num>35</num>
+   <lem>no·s</lem>
+   <rdg>non
+      <witDetail wit="#C #E #I #K #N #P">CEIKNP</witDetail>
+   </rdg>
+   </app>
+   <app>
+   <lem>en jos</lem>
+   <rdg>ves vos
+      <witDetail wit="#P">P</witDetail>
+   </rdg>
+</app>
+
+<app ana="sos">
+   <num>36</num>
+   <lem>si vas m.</lem>
+   <rdg>qe ves m.
+      <witDetail wit="#P">P</witDetail>
+   </rdg>
+</app>
+
+<app ana="sos">
+   <num>37</num>
+   <lem>no·m</lem>
+   <rdg>non
+      <witDetail wit="#I">I</witDetail>
+   </rdg>
+   <rdg>no me
+      <witDetail wit="#P">P</witDetail>
+   </rdg>
+</app>
+
+<app ana="sos">
+   <num>38</num>
+   <lem>ni ricors</lem>
+   <rdg>ni ricor
+      <witDetail wit="#N">N</witDetail>
+   </rdg>
+   <rdg>e valors
+      <witDetail wit="#P">P</witDetail>
+   </rdg>
+</app>
+
+<app ana="sos">
+   <num>39</num>
+   <lem>dretz</lem>
+   <rdg>dret
+      <witDetail wit="#N">N</witDetail>
+   </rdg>
+   <rdg>pros
+      <witDetail wit="#P">P</witDetail>
+   </rdg>
+</app>
+
+<app ana="sos">
+   <num>41</num>
+   <lem>questiers v.</lem>
+   <rdg>qe ge esters nom pes
+      <witDetail wit="#P">P</witDetail>
+   </rdg>
+</app>
+
+<app ana="sos">
+   <num>43</num>
+   <lem>que joi tant avinen</lem>
+   <rdg>si jois tant avinen
+      <witDetail wit="#N">N</witDetail>
+      <note type="popup" xml:id="paleo5">La lezione <seg type="it">vinen</seg> è corretta in interlinea con l'aggiunta della <seg type="it">a</seg> da una seconda mano.</note>
+   </rdg>
+</app>
+
+<app ana="sos">
+   <num>44-45</num>
+      <note type="text">versi invertiti in N</note>
+</app>
+
+<app ana="sos">
+   <num>46</num>
+   <lem>dona</lem>
+   <rdg>bona dona
+      <witDetail wit="#E">E</witDetail>
+   </rdg>
+</app>
+
+<app ana="sos">
+   <num>47</num>
+   <lem>e quar am</lem>
+   <rdg>e quar vos am tan
+      <witDetail wit="#E">E</witDetail>
+   </rdg>
+</app>
+
+<app ana="sos">
+   <num>48</num>
+   <lem>far iauzen</lem>
+   <rdg>sius platz far i.
+      <witDetail wit="#E">E</witDetail>
+   </rdg>
+</app>
+
+<app ana="sos">
+   <num>53</num>
+   <lem>sos</lem>
+   <rdg>fos
+      <witDetail wit="#N">N</witDetail>
+   </rdg>
+   <lem>comdan</lem>
+   <rdg>chantan
+      <witDetail wit="#P">P</witDetail>
+   </rdg>
+</app>
+
+<app ana="sos">
+   <num>54</num>
+   <lem>non cre hom</lem>
+   <rdg>non sai com
+      <witDetail wit="#P">P</witDetail>
+   </rdg>
+</app>
+
+<app ana="sos" type="locus">
+   <num>55</num>
+   <lem>valors</lem>
+   <rdg>valor
+      <witDetail wit="#N">N</witDetail>
+   </rdg>
+   <rdg>tot lo ben qen vos es
+      <witDetail wit="#P">P</witDetail>
+   </rdg>
+</app>
+              </listApp>
+            </div>
+            <!-- Apparato critico delle varianti formali del testo di costellazione -->
+            </div>
+            <div type="app_cos_form">
+              <listApp>
+                <app ana="form">
+                    <num>2</num>
+                    <lem>ben</lem>
+                    <rdg>be
+                    <witDetail wit="#C"> C</witDetail>
+                    </rdg>
+                </app>
+                <app ana="form">
+                    <num>3</num>
+                            <lem>cen</lem>
+                            <rdg>.c.
+                            <witDetail wit="#E #I #K"> EIK</witDetail>
+                            </rdg>
+                </app>
+                <app ana="form">
+                    <num>4</num>
+                            <lem>escazuitz</lem>
+                            <rdg>ecsaritz
+                            <witDetail wit="#E"> E</witDetail>
+                            </rdg>
+                </app>
+                            <rdg>escharitz
+                            <witDetail wit="#I #K"> IK</witDetail>
+                            </rdg>
+                <app ana="form">
+                    <num>7</num>
+                            <lem>gen</lem>
+                            <rdg>ien
+                            <witDetail wit="#P"> P</witDetail>
+                            </rdg>
+                </app>
+                <app ana="form">
+                    <num>17</num>
+                            <lem>gen</lem>
+                            <rdg>ien
+                            <witDetail wit="#P"> P</witDetail>
+                            </rdg>
+                </app>
+                <app ana="form">
+                    <num>17</num>
+                            <lem>paregues</lem>
+                            <rdg>paragues
+                            <witDetail wit="#N"> N</witDetail>
+                            </rdg>
+                </app>
+                <app ana="form">
+                    <num>19</num>
+                            <lem>falhira</lem>
+                            <rdg>faillira
+                            <witDetail wit="#E #K"> EK</witDetail>
+                            </rdg>
+                            <lem>ges</lem>
+                            <rdg>ies
+                            <witDetail wit="#P"> P</witDetail>
+                            </rdg>
+                </app>
+                <app ana="form">
+                    <num>22</num>
+                            <lem>saubes</lem>
+                            <rdg>sabes
+                            <witDetail wit="#P"> P</witDetail>
+                            </rdg>
+                </app>
+                <app ana="form">
+                    <num>27</num>
+                            <lem>taiches</lem>
+                            <rdg>traises
+                            <witDetail wit="#E"> E</witDetail>
+                            </rdg>
+                            <rdg>taisses
+                            <witDetail wit="#I #K"> IK</witDetail>
+                            </rdg>
+                            <rdg>teinses
+                            <witDetail wit="#P"> P</witDetail>
+                            </rdg>
+                </app>
+                <app ana="form">
+                    <num>28</num>
+                            <lem>entremes</lem>
+                            <rdg>entrames
+                            <witDetail wit="#E"> E</witDetail>
+                            </rdg>
+                </app>
+                <app ana="form">
+                    <num>36</num>
+                            <lem>s'afraysses</lem>
+                            <rdg>safrainsses
+                            <witDetail wit="#P"> P</witDetail>
+                            </rdg>
+                </app>
+                <app ana="form">
+                    <num>40</num>
+                            <lem>vala·m</lem>
+                            <rdg>vaillam
+                            <witDetail wit="#E #I #K #N"> EIKN</witDetail>
+                            </rdg>
+                </app>
+                <app ana="form">
+                    <num>42</num>
+                            <lem>gen</lem>
+                            <rdg>ien
+                            <witDetail wit="#P"> P</witDetail>
+                            </rdg>
+                </app>
+                <app ana="form">
+                    <num>53</num>
+                            <lem>comdan</lem>
+                            <rdg>condan
+                            <witDetail wit="#I #K"> IK</witDetail>
+                            </rdg>
+                            <rdg>comdan
+                            <witDetail wit="#N"> N</witDetail>
+                            <note xml:id="paleo1" type="popup">Il copista di N ha aggiunto <seg type="it">tan</seg> in interlinea in un momento successivo.</note>
+                            </rdg>
+                            <lem>qu'en</lem>
+                            <rdg>quem
+                            <witDetail wit="#I #K"> IK</witDetail>
+                            </rdg>
+                </app>
+              </listApp>
+            </div>
+            <div type="trad_critico" xml:lang="it">
+                <p n="1">
+                            <label>I</label>
+                    Amore, se a voi piacesse, e non sembrasse irragionevole, che dopo cento mali un solo bene mi fosse accordato, sarebbe giusto che io lo avessi, ma a voi nulla piace. Però, se vi fosse gradito che ne tragga qualche gioia, allora il mio canto avrebbe maggiore valore. 
+                </p>
+                <lb/>
+                <p n="2">
+                            <lb/>
+                            <label>II</label>
+                    Poiché, come il mio canto ha avuto inizio da un luogo elevato, e a un luogo elevato tendo, e un luogo elevato mi ha conquistato, converrebbe che io componga, da un argomento tanto nobile, canzoni altrettanto armoniose, così che il mio canto dimostri di provenire da un luogo degno. 
+                </p>
+                <lb/>
+                <p n="3">
+                            <lb/>
+                            <label>III</label>
+                    E non verrà affatto meno in me, se fossi gioioso, il saper comporre parole cortesi e melodie allegre. Ma Amore, che mi insegnò a cantare, ora me lo fa dimenticare, poiché mi ha posto il cuore e il senno con la forza in un tale luogo che a me non pare adatto. 
+                </p>
+                <lb/>
+                <p n="4">
+                            <lb/>
+                            <label>IV</label>
+                    E poiché mai si spinse con così folle ardire da aumentare il mio interesse, tanto che in lei l’ho riposto, converrebbe che egli debba tanto sottomettere il suo cuore orgoglioso, così che lei non si trattenga nell’orgoglio, e si addolcisca nei miei confronti.
+                </p>
+                <lb/>
+                <p n="5">
+                            <lb/>
+                            <label>V</label>
+                    Ah, Donna! Che non mi nuoccia né il vostro merito né il rango. E, poiché il diritto non mi è favorevole, che mi dia aiuto almeno la pietà. Poiché non penso ad altro che a voi. Tanto vi so di nobile stirpe, che nessun diritto potrebbe concedermi una gioia così perfetta, per quanto possa servire.
+                </p>
+                <lb/>
+                <p n="6">
+                            <lb/>
+                            <label>VI</label>
+                    Là dove il pregio e il valore si sono stabiliti insieme, vai, canzone, in dono, diretta nel Craonnais, dal signore di quella regione.
+                </p>
+                <p n="7">
+                            <lb/>
+                            <label>VII</label>
+                    Maria, il vostro pregio è tanto di valore e grande, che non credo alcun uomo possa esprimere narrando o con canti le grandi doti e virtù in voi.
+                </p>
+            </div>
+            <!-- <div type="trad_costellazione" xml:lang="it">
+
+                <head>Traduzione del testo di costellazione</head>
+                <lg n="1">I
+                    <lb />
+                    Amore, se a voi piacesse, sembrerà ragionevole, che dopo cento mali un solo bene mi fosse accordato; sarebbe giusto che io lo avessi, ma a voi nulla piace. Però, se vi fosse gradito, che ne tragga qualche gioia, allora il mio canto avrebbe maggiore valore. 
+                    <lb />
+                </lg>
+                <lb />
+                <lg n="2">II
+                    <lb />
+                    Poiché, come il mio canto ha avuto inizio da un luogo elevato, e a un luogo elevato aspira, e un luogo elevato mi ha conquistato, converrebbe che io componga, da un argomento tanto nobile, canzoni tanto armoniose, che il cantare dimostri di provenire da un luogo degno.
+                    <lb />
+                </lg>
+                <lb />
+                <lg n="3">III
+                    <lb />
+                    E nulla vi mancherà in me, se io fossi gioioso, perché saprei comporre parole cortesi e melodie allegre. Ma Amore, che mi insegnò a cantare, ora me lo fa dimenticare, poiché mi ha posto il cuore e il senno con la forza tanto in alto che a me non pare adatto. 
+                    <lb />
+                </lg>
+                <lb />
+                <lg n="4">IV
+                    <lb />
+                    E poiché in ciò si è lasciato trascinare con così folle ardire da aumentare il mio interesse, tanto che in lei l’ho riposto, converrebbe che egli debba tanto sottomettere il suo cuore orgoglioso, così che lei non si trattenga nell’orgoglio, e si addolcisca nei miei confronti.
+                    <lb />
+                </lg>
+                <lb />
+                <lg n="5">V
+                    <lb />
+                    Ah, Donna! Che non mi nuoccia né il vostro merito né il rango. E, poiché il diritto non mi è favorevole, se a voi è gradito mi aiuti la pietà. Poiché non penso ad altro che a voi. Tanto vi so di nobile stirpe, che nessun diritto potrebbe concedermi una gioia così perfetta, per quanto possa servire.
+                    <lb />
+                </lg>
+                <lb />
+                <lg n="6">VI
+                    <lb />
+                    Donna, mi avete in buona fede e, poiché amo sinceramente, mi dovrebbe rendere felice perché, dopo che Dio ripone in voi tante doti, non credo non vi infonda la pietà.
+                    <lb />
+                </lg>
+                <lg n="7">VII
+                    <lb />
+                    Maria, il vostro pregio è tanto di valore e grande, che non credo alcun uomo possa raccontare narrando o con canti le grandi doti e virtù in voi.
+                    <lb />
+                </lg>
+            </div> -->
+        </front>
+    </body>
+    <back>
+        <div type="biblio">
+
+            <head>Edizioni e studi</head>
+            <div type="section">
+                <title>Edizioni</title>
+                    <p>Shepard 1924, <witDetail>A</witDetail>, pp. 1-3, 62-63
+                    <lb/>Gambini 2001, <witDetail>C</witDetail> (I-V, VII) e <witDetail>D</witDetail> (VI), pp. 48 e seguenti.
+                    </p>
+            </div>
+            <div type="section">
+                <title>Studi</title>
+                <p>Careri 1990, pp. 158, 274, 283;<lb/>Vatteroni 2013, p. 322.</p>
+            </div>
+            <div type="section">
+                <title>Edizioni CAO</title>
+            <p>
+                            <witDetail>A</witDetail>: <ref rend="exit" target="https://www.rialto.unina.it/cao/diplomatiche/a/">dipl</ref>
+                            <lb/>
+               <witDetail>C</witDetail>: <ref rend="exit" target="https://www.rialto.unina.it/cao/diplomatiche/c/">dipl</ref>
+                            <lb/>
+               <witDetail>D</witDetail>: <ref rend="exit" target="https://www.rialto.unina.it/cao/diplomatiche/d/">dipl</ref>
+                            <lb/>
+               <witDetail>E</witDetail>: <ref rend="exit" target="https://www.rialto.unina.it/cao/diplomatiche/e/">dipl</ref>, <ref rend="exit" target="https://www.rialto.unina.it/wp-content/uploads/2023/02/E.pdf">interp</ref>
+                            <lb/>
+               <witDetail>N</witDetail>: <ref rend="exit" target="https://www.rialto.unina.it/cao/diplomatiche/n/">dipl</ref>
+                            <lb/>
+               <witDetail>P</witDetail>: <ref rend="exit" target="https://www.rialto.unina.it/cao/diplomatiche/p/">dipl</ref>
+                            <lb/>
+               <witDetail>T</witDetail>: <ref rend="exit" target="https://www.rialto.unina.it/cao/diplomatiche/t1/">dipl</ref>
+            </p>
+          </div>
+        </div>
+      </back>
+     </div>
+    </text>
+</TEI>

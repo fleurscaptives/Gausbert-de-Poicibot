@@ -1,0 +1,1004 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="8">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="oc">
+                    Partit de joi e d'amor
+                </title>
+                <title xml:lang="it">
+                    Proposta di edizione critica digitale
+                </title>
+                <author>
+                    Gausbert de Poicibot
+                </author>
+
+                <editor role="editor">
+                    Rossella Lucisano
+                </editor>
+
+                <respStmt>
+                    <resp>Primo Relatore</resp>
+                    <name>Prof.ssa Speranza Cerullo</name>
+                    <resp>Secondo Relatore</resp>
+                    <name>Prof. Angelo Mario Del Grosso</name>
+                </respStmt>
+
+            </titleStmt>
+
+            <publicationStmt>
+
+                <publisher>
+                    Università di Pisa
+                </publisher>
+
+                <pubPlace>
+                    Pisa
+                </pubPlace>
+
+                <date when="2026">
+                    2026
+                </date>
+
+                <availability status="restricted"/>
+
+            </publicationStmt>
+
+            <sourceDesc>
+
+                <bibl type="tesi_di_laurea">
+
+                    <author>Rossella Lucisano</author>
+
+                    <title>
+                        Per un'edizione critica digitale delle canzoni del trovatore Gausbert de Poicibot
+                    </title>
+
+                    <date when="2026">2026</date>
+
+                </bibl>
+                <listWit>
+                    <witness xml:id="C">
+                        <msDesc>
+                            <msIdentifier>
+                                <country>Francia</country>
+                                <repository>Parigi, Bibliothèque nationale de France</repository>
+                                <idno>fr. 856</idno>
+                            </msIdentifier>
+                        </msDesc>
+                    </witness>
+                    <witness xml:id="E">
+                        <msDesc>
+                            <msIdentifier>
+                                <country>Francia</country>
+                                <repository>Parigi, Bibliothèque nationale de France</repository>
+                                <idno>fr. 1749</idno>
+                            </msIdentifier>
+                        </msDesc>
+                    </witness>
+                    <witness xml:id="H">
+                        <msDesc>
+                            <msIdentifier>
+                                <country>Italia</country>
+                                <repository>Roma, Biblioteca Apostolica Vaticana</repository>
+                                <idno>Lat. 3207</idno>
+                            </msIdentifier>
+                        </msDesc>
+                    </witness>
+                    <witness xml:id="V">
+                        <msDesc>
+                            <msIdentifier>
+                                <country>Italia</country>
+                                <repository>Venezia, Biblioteca Nazionale Marciana</repository>
+                                <idno>278 (fr. App. cod. XI)</idno>
+                            </msIdentifier>
+                        </msDesc>
+                    </witness>
+                </listWit>
+
+            </sourceDesc>
+
+        </fileDesc>
+
+        <encodingDesc>
+
+            <metDecl>
+                <metSym xml:id="schema_metrico">
+                    La canzone di Gausbert è composta da cinque coblas di dieci versi ciascuna e una tornada finale di
+                    quattro versi. I versi delle coblas cono perlopiù settenari, con l'eccezione di due quinari in
+                    corrispondenza di settimo e ottavo verso. La tornada è composta da due quinari seguiti da
+                    altrettanti settenari.
+                </metSym>
+
+            </metDecl>
+
+            <classDecl>
+                <taxonomy xml:id="var_types">
+                    <category xml:id="sost">
+                        <catDesc>Variante sostanziale</catDesc>
+                    </category>
+                    <category xml:id="form">
+                        <catDesc>Variante grafica</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+
+            <projectDesc>
+                <p>
+                    Proposta di edizione critica digitale realizzata come progetto di tesi per la Laurea Magistrale in
+                    Informatica Umanistica dell'Università di Pisa.
+                </p>
+            </projectDesc>
+            
+            <schemaRef ident="gausbert.odd" type="ODD"/>
+
+        </encodingDesc>
+
+        <profileDesc>
+
+            <langUsage>
+
+                <language ident="oc">
+                    Antico provenzale
+                </language>
+
+                <language ident="it">
+                    Italiano
+                </language>
+
+            </langUsage>
+
+            <textClass>
+
+                <keywords scheme="genre">
+                    <term>lirica trobadorica</term>
+                    <term>poesia medievale</term>
+                    <term>Gausbert de Poicibot</term>
+                    <term>digital humanities</term>
+                    <term>filologia digitale</term>
+                </keywords>
+
+            </textClass>
+
+        </profileDesc>
+
+        <revisionDesc>
+
+            <change when="2026-07-17" who="#editor">
+                Creazione iniziale del file XML.
+            </change>
+
+        </revisionDesc>
+
+    </teiHeader>
+    <facsimile>
+    <surfaceGrp xml:id="C">
+        <surface n="1">
+            <graphic url="images/C8a.png"/>
+        </surface>
+
+        <surface n="2">
+            <graphic url="images/C8b.jpg"/>
+        </surface>
+    </surfaceGrp>
+
+    <surfaceGrp xml:id="E">
+        <surface n="1">
+            <graphic url="images/E8a.jpg"/>
+        </surface>
+
+        <surface n="2">
+            <graphic url="images/E8b.png"/>
+        </surface>
+    </surfaceGrp>
+    
+    <surfaceGrp xml:id="H">
+        <surface n="1">
+            <graphic url="images/H8a.jpg"/>
+        </surface>
+
+        <surface n="2">
+            <graphic url="images/H8b.png"/>
+        </surface>
+    </surfaceGrp>
+    <surfaceGrp xml:id="V">
+        <surface n="1">
+            <graphic url="images/V8.jpg"/>
+        </surface>
+    </surfaceGrp>
+    </facsimile>
+
+    <text>
+      <div type="edition">
+
+        <body>
+
+
+                <div type="manoscritti">
+                    <p>
+                        <list type="facsimile">
+                            <item>
+                               <witDetail>C</witDetail> 192v: <seg>Gausbert de Puegsibot</seg> (nell’indice <seg>Aimeric de
+                                Pegulhan</seg>);
+                            </item>
+                            <item>
+                                <witDetail>E</witDetail> 161: <seg>Monge de Pueg</seg>;
+                            </item>
+                            <item>
+                                <witDetail>H</witDetail> 34bisr: <seg>Lo moges de Ponsibot</seg>;
+                            </item>
+                            <item>
+                                <witDetail>V</witDetail> 81r: <seg>Aizo comenzon las chanzos de Pugcibot</seg>.
+                            </item>
+                        </list>
+                    </p>
+                </div> 
+                <div type="scheda_metrica">
+
+                    <head>Scheda metrica</head>
+                    <p>[579 : 1]
+                        <lb/>Unicum
+                        <lb/>a ₇ b ₇ b ₇ a ₇ c ₇' c ₇' d ₅ d ₅ a ₇ a ₇
+                        <lb/>a: <rhyme type="a">or</rhyme> b: <rhyme type="b">ir</rhyme> c: <rhyme type="c">ida</rhyme> d: <rhyme type="d">an(s)</rhyme>
+                    </p>
+                </div>
+            <div type="testo">
+              <div type="txt_critico" xml:id="canso8">
+                <title>Testo critico</title>
+                <p>Ms. base C <lb/>Correzioni da <seg type="corr">EHV</seg>
+                </p>
+                <!-- Cobla I -->
+                <label>I</label>
+                        <lg type="stanza" n="1" rhyme="abbaccddaa">
+                    <l n="1">Partit de joi e d’<rhyme label="a">amor</rhyme>,</l>
+                    <l n="2">e liurat a mal <rhyme label="b">sufrir</rhyme>,</l>
+                    <l n="3">
+                        <seg xml:id="v3" type="diff">volgr’ieu</seg>, si pogues, <rhyme label="b">morir</rhyme>.</l>
+                    <l n="4">Mas, per creisser ma <rhyme label="a">dolor</rhyme>
+                    </l>
+                    <l n="5">e l’ira que no m’<rhyme label="c">oblida</rhyme>,</l>
+                    <l n="6">mi creis mal mon grat ma <rhyme label="c">vida</rhyme>;</l>
+                    <l n="7">que solatz e <rhyme label="d">
+                            <seg xml:id="v7" type="diff">chan</seg>
+                        </rhyme>
+                    </l>
+                    <l n="8">m’es dol et <rhyme label="d">
+                            <seg xml:id="v8" type="diff">afan</seg>
+                        </rhyme>
+                    </l>
+                    <l n="9">e nuls jois no m’a <rhyme label="a">sabor</rhyme>,</l>
+                    <l n="10">per qu’ieu que suelh chantar <rhyme label="a">plor</rhyme>.</l>
+                </lg>
+                <lb/>
+                <!-- Cobla II -->
+                <label>II</label>
+                        <lg type="stanza" n="2" rhyme="abbaccddaa">
+                    <l n="11">Sella que·m <term type="glossario">ten en <rhyme label="a">error<note type="popup" xml:id="gloss-error">
+                            <label>≡ LEX</label>
+                            <term type="lex">tener en error</term>
+                            <def>⤷ v. | tormentare</def>
+                            <ref rend="exit" target="https://archive.org/details/petitdictionnair00levyuoft/page/158/mode/2up">PD</ref>
+                    </note>
+                                    </rhyme>
+                        </term>
+                    </l>
+                    <l n="12">mi sap tant en grat <rhyme label="b">servir</rhyme>
+                    </l>
+                    <l n="13">
+                        <seg xml:id="v13" type="diff">que no vol mi sol</seg> <rhyme label="b">delir</rhyme>,</l>
+                    <l n="14">ans ponh’en sa <rhyme label="a">dezonor</rhyme>;</l>
+                    <l n="15">e plai li, tant <seg xml:id="v15" type="diff">es <rhyme label="c">chauzida</rhyme>
+                                </seg>!
+                            </l>
+                    <l n="16">Pus mi a mort, quil sia <rhyme label="c">aunida</rhyme>.</l>
+                    <l n="17">Qu’anta·l fora <seg xml:id="v17" type="diff">
+                            <rhyme label="d">gran</rhyme>
+                        </seg>
+                    </l>
+                    <l n="18">de mi sol l’<seg xml:id="v18" type="diff">
+                                    <rhyme label="d">enjan</rhyme>,</seg>
+                            </l>
+                    <l n="19">per que·s tol <seg xml:id="v19" type="diff">pros</seg> et <rhyme label="a">honor</rhyme>,</l>
+                    <l n="20">que blasme no·l fai <rhyme label="a">paor</rhyme>.</l>
+                </lg>
+                <lb/>
+                <!-- Cobla III -->
+                <label>III</label>
+                        <lg type="stanza" n="3" rhyme="abbaccddaa">
+                    <l n="21">Qu’ab bel semblant trichador</l>
+                    <l n="22">mi saup gent <rhyme label="b">enfoletir</rhyme>
+                    </l>
+                    <l n="23">e sa falsedat <rhyme label="b">cubrir</rhyme>
+                    </l>
+                    <l n="24">tro m’ac pres per <rhyme label="a">servidor</rhyme>;</l>
+                    <l n="25">pueis quan fo de mi <rhyme label="c">aizida</rhyme>,</l>
+                    <l n="26">no·m poc <seg xml:id="v26" type="diff">far mais</seg> de <rhyme label="c">guandida</rhyme>
+                    </l>
+                    <l n="27">son leugier <seg xml:id="v27" type="diff">
+                            <rhyme label="d">talan</rhyme>
+                        </seg>
+                    </l>
+                    <l n="28">quans que passes l’<seg xml:id="v28" type="diff">
+                                    <rhyme label="d">an</rhyme>,</seg>
+                            </l>
+                    <l n="29">
+                        <seg xml:id="v29" type="diff">
+                                    <term type="glossario">aizic<note xml:id="gloss-aizic" type="popup">
+                            <label>≡ LEX ≋ LIT</label>
+                            <term type="lex">aizir</term>
+                            <def>⤷ v. | mettere, accogliere, favorire</def>
+                            <ref rend="exit" target="https://dom-en-ligne.de/dom.php?lhid=7k163jfag9kynok7mxYjoH">DOM</ref>
+                                            <lb/>
+                            <def>Le due versioni del verso appaiono a prima vista equivalenti, poiché entrambe corrette dal punto di vista metrico e semantico, ma per l'edizione si condivide l’ipotesi di Gambini sulla qualità superiore di C data dalla presenza del poliptoto fra <seg type="it">aizic</seg> e il participio passato <seg type="it">aizida</seg>, in rima al v. 25, entrambe forme del verbo <seg type="it">aizir</seg>.
+                                <lb/>Notare l'assenza del verbo nella costellazione EHV, in cui si legge <seg type="it">sofri maint</seg>, struttura che indica la presenza di più amanti della donna amata.
+                            </def>
+                        </note>
+                                    </term> un fals</seg> <rhyme label="a">preiador</rhyme>
+                    </l>
+                    <l n="30">ab si <seg xml:id="v30" type="diff">ios</seg> son <rhyme label="a">cobertor</rhyme>.</l>
+                </lg>
+                <lb/>
+
+                <!-- Cobla IV -->
+                <label>IV</label>
+                        <lg type="stanza" n="4" rhyme="abbaccddaa">
+                    <l n="31">Aras <seg xml:id="v31" type="diff">conosc</seg> ma <rhyme label="a">folor</rhyme>,</l>
+                    <l n="32">que trop saubi mal <rhyme label="b">chauzir</rhyme>.</l>
+                    <l n="33">E s’anc Dieus per repentir</l>
+                    <l n="34">perdonet a <rhyme label="a">peccador</rhyme>,</l>
+                    <l n="35">
+                        <seg xml:id="v35" type="diff">que ja per esta <rhyme label="c">falida</rhyme>,</seg>
+                            </l>
+                    <l n="36">m’arma no <seg xml:id="v36" type="diff">sia</seg> <rhyme label="c">delida</rhyme>.
+                        </l>
+                    <l n="37">
+                                <seg xml:id="v37a" type="diff">Que</seg> mon cor <seg xml:id="v37b" type="diff">
+                            <rhyme label="d">pessan</rhyme>
+                        </seg>
+                    </l>
+                    <l n="38">
+                        <seg xml:id="v38" type="diff">es trop <rhyme label="d">malanan</rhyme>
+                        </seg>
+                    </l>
+                    <l n="39">
+                                <seg xml:id="v39" type="diff">e</seg> tem, si Dieus no·m <rhyme label="a">socor</rhyme>,</l>
+                    <l n="40">perdre mi e ma <rhyme label="a">valor</rhyme>.</l>
+                </lg>
+                <lb/>
+                <!-- Cobla V -->
+                <label>V</label>
+                        <lg type="stanza" n="5" rhyme="abbaccddaa">
+                    <l n="41">Qu’ieu non ai sen ni <rhyme label="a">viguor</rhyme>
+                    </l>
+                    <l n="42">que·m puesca de lieis <rhyme label="b">partir</rhyme>,</l>
+                    <l n="43">ni·l cor lunhar ni <rhyme label="b">frezir</rhyme>
+                    </l>
+                    <l n="44">
+                                <seg type="corr" xml:id="001">que</seg> ja non feira <rhyme label="a">clamor</rhyme>.</l>
+                    <l n="45">
+                                <seg xml:id="v45" type="diff">Que</seg> aitals es m’<rhyme label="c">escharida</rhyme>
+                                <label/>
+                    </l>
+                    <l n="46">qu’a tot aital <term type="glossario">
+                                    <rhyme label="c">deschauzida</rhyme>
+                                <note xml:id="gloss-deschauzida" type="popup">
+                                    <label>≡ LEX ≋ LIT</label>
+                                    <term type="lex">deschauzida</term>
+                                    <def>⤷ agg. f. | decaduta, disonorata <lb/>
+                                    Dal latino [ᴅᴇᴄᴀᴅᴇ̆ʀᴇ]</def>
+                                    <ref rend="exit" target="https://dom-en-ligne.de/dom.php?lhid=3B2DGpdRbggoz8tHPFVUne">DOM</ref>
+                                    <lb/>
+                                    <def>L’aggettivo, (qui con un esplicito riferimento a un decadimento morale) è parola-rima anche al v. 46.
+                                    <lb/>Nell’antologia a cura di Sanguineti-Scarpati, la lezione <seg type="it">chauzida</seg> ("virtuosa") in C è giudicata di qualità migliore, poché trasmette un significato ironico che gli altri manoscritti non coglierebbero.</def>
+                                </note>
+                                </term>
+                    </l>
+                    <l n="47">
+                        <seg xml:id="v47" type="diff">suy <rhyme label="d">humilian</rhyme>.
+                        </seg>
+                            </l>
+                    <l n="48">Per que tot <rhyme label="d">
+                            <seg xml:id="v48" type="diff">claman</seg>
+                        </rhyme>
+                    </l>
+                    <l n="49">volgra <term type="glossario">termenes<note xml:id="gloss-termenar" type="popup">
+                            <label>≡ LEX</label>
+                            <term type="lex">termenar</term>
+                            <def>⤷ v. | porre dei limiti, concludere<lb/>
+                            Dal latino [ᴛᴇʀᴍɪɴᴀʀᴇ]
+                            </def>
+                            <ref rend="exit" target="https://dom-en-ligne.de/dom.php?lhid=3kq9B9O8sW8ntGO6hNQuRu">DOM</ref>
+                            <lb/>
+                            <def>Il verbo <seg type="it">termenar</seg> è tradotto da Levy come “poser des bornes, delimiter” e associato al sostantivo <seg type="it">terme</seg>, che si rifa appunto al concetto di “limite, confine”. In più, nella FEW si ritrovano i significati di “concludere, porre fine”, ma anche “perire, uccidere”, ed è quest’ultima la sfumatura adottata nella traduzione Shepard.
+                                <lb/>Appare comunque più probabile che il <seg type="it">clamans</seg> del v. 49 non sia altri che lo stesso io lirico, soggetto singolare del verbo, seguendo un’ipotesi già avanzata da Gambini nella sua edizione. Gambini sottolinea il frequente utilizzo di Gausbert di termini legati al <seg type="it">clamar</seg> per descrivere il lamento e l’afflizione causati dalla sua condizione amorosa.</def>
+                    </note>
+                                </term>, <rhyme label="a">seignor</rhyme>,</l>
+                    <l n="50">del <seg xml:id="v50" type="diff">gran</seg> mal de sa <rhyme label="a">calor</rhyme>.</l>
+                </lg>
+                <lb/>
+                <!-- Tornada -->
+                <label>VI</label>
+                        <lg type="envoy" n="tornada" rhyme="ddaa">
+                    <l n="51">Si sa calor <rhyme label="d">gran</rhyme>
+                    </l>
+                    <l n="52">frezis fin <rhyme label="d">aman</rhyme>,</l>
+                    <l n="53">fora cautz per sa <rhyme label="a">freidor</rhyme>,</l>
+                    <l n="54">quar <seg type="corr" xml:id="002">soi fregz
+                            </seg> per sa <term type="glossario">
+                                    <rhyme label="a">calor</rhyme>
+                                    <note xml:id="gloss-calor" type="popup">
+                                    <label>≋ LIT</label>
+                                    <term type="lex">calor/fregz</term>
+                                    <def>Il comportamento della donna amata è condannato da Gausbert in corrispondenza della tornada di chiusura della canzone, in cui il poeta lamenta il suo essere raggelato dall'ardore delle sue azioni, con esplicito riferimento ai tradimenti della donna con altri pretendenti.</def>
+                                    </note>
+                                </term>.</l>
+                </lg>
+                <lb/>
+            </div>
+            <!-- Apparato critico delle varianti sostanziali -->
+            <div type="app_crt_sos">
+              <listApp>
+                 <app ana="sos">
+                        <num>44</num>
+                                <lem>que</lem>
+                                <rdg>e<witDetail wit="#C"> C</witDetail>
+                                </rdg>
+                 </app> <app ana="sos">
+                        <num>54</num>
+                                <lem>soi fregz</lem>
+                                <rdg>suefre<witDetail wit="#C"> C</witDetail>
+                                </rdg>
+                  </app>
+              </listApp>
+            </div>
+            <div type="app_crt_form">
+             </div>
+            
+            <div type="txt_costellazione" xml:id="canso8.1">
+
+                <title>Testo di costellazione α</title>
+                <p>Ms. base E <lb/>Correzioni da <seg type="corr_c">H</seg>
+                </p>
+                <!-- Cobla I -->
+                <lg type="stanza" n="1.1" rhyme="abbaccddaa">
+                    <l n="1">Partit de joi e d’<rhyme label="a">amor</rhyme>,</l>
+
+                    <l n="2">e liurat a mal <rhyme label="b">sufrir</rhyme>,</l>
+
+                    <l n="3">
+                                <seg type="diff_c" corresp="#v3">volgra</seg>, si pogues, <rhyme label="b">morir</rhyme>.
+                    </l>
+
+                    <l n="4">Mas, per creisser ma <rhyme label="a">dolor</rhyme>
+                    </l>
+
+                    <l n="5">e l’ira que no <rhyme label="c">m’oblida</rhyme>,</l>
+
+                    <l n="6">
+                        me creis mal mon grat ma <rhyme label="c">vida</rhyme>;
+                    </l>
+
+                    <l n="7">
+                        que solatz e <rhyme label="d">
+                            <seg type="diff_c" corresp="#v7">chans</seg>
+                        </rhyme>
+                    </l>
+
+                    <l n="8">m’es dols et <rhyme label="d">
+                            <seg type="diff_c" corresp="#v8">afans</seg>
+                        </rhyme>
+                    </l>
+
+                    <l n="9">
+                        e <seg type="corr_c">nuls jois</seg>
+                        no m’a <rhyme label="a">sabor</rhyme>,
+                    </l>
+
+                    <l n="10">
+                        per qu’ieu que sueill
+                        chantar <rhyme label="a">plor</rhyme>.
+                    </l>
+                </lg>
+                <lb/>
+                <!-- Cobla II -->
+                <lg type="stanza" n="2.1" rhyme="abbaccddaa">
+
+                    <l n="11">Sella que·m ten en <rhyme label="a">error</rhyme>
+                    </l>
+
+                    <l n="12">me saup tant en grat <rhyme label="b">servir</rhyme>
+                    </l>
+
+                    <l n="13">
+                      <seg corresp="#v13" type="diff_c">que tot sol no·m volc</seg> <rhyme label="b">delir</rhyme>
+                    </l>
+
+                    <l n="14">ans ponh’en sa <rhyme label="a">dezonor</rhyme>;</l>
+
+                    <l n="15">
+                        e platz li, tant <seg corresp="#v15" type="diff_c">
+                                    <rhyme label="c">deschauzida</rhyme>!</seg>
+                    </l>
+
+                    <l n="16"> Pos m’a mort, quill <rhyme label="c">si’aunida</rhyme>
+                    </l>
+
+                    <l n="17">C’anta·l fora <seg type="diff_c" corresp="#v17">
+                        <rhyme label="d">grans</rhyme>
+                                </seg>
+                    </l>
+
+                    <l n="18">
+                        de mi <seg type="corr_c">sol</seg> l’<seg type="diff_c" corresp="#v18">
+                                    <rhyme label="d">enguans</rhyme>,
+                                </seg>
+                            </l>
+
+                    <l n="19">
+                        per que·s tol <seg type="diff_c" corresp="#v19">pretz</seg> et <rhyme label="a">honor</rhyme>,                        
+                    </l>
+
+                    <l n="20">que blasme no il fai <rhyme label="a">paor</rhyme>.</l>
+
+                </lg>
+                <lb/>
+                <!-- Cobla III -->
+                <lg type="stanza" n="3.1" rhyme="abbaccddaa">
+
+                    <l n="21">Ab bel semblan <rhyme label="a">trichador</rhyme>
+                            </l>
+                    <l n="22">
+                        me saup gent <rhyme label="b">enfoletir</rhyme>
+                    </l>
+                    <l n="23">e sa falsedat <rhyme label="b">cubrir</rhyme>
+                    </l>
+                    <l n="24">tro m’ac pres per <rhyme label="a">servidor</rhyme>;</l>
+                    <l n="25">
+                        pueis quan fo de mi <rhyme label="c">aizida</rhyme>,
+                    </l>
+                    <l n="26">no·m poc <seg type="diff_c" corresp="#v26">plus far</seg> de <rhyme label="c">gandida</rhyme>
+                    </l>
+                    <l n="27">son leugiers <seg type="diff_c" corresp="#v27">
+                            <rhyme label="d">talans</rhyme>
+                        </seg>
+                    </l>
+                    <l n="28">quans que passes l’<seg type="diff_c" corresp="#v28">
+                                    <rhyme label="d">ans</rhyme>,</seg>
+                    </l>
+                    <l n="29">
+                        <seg type="diff_c" corresp="#v29">sofri maint fol</seg> <rhyme label="a">preiador</rhyme>
+                    </l>
+                    <l n="30">ab si <seg type="diff_c" corresp="#v30">sotz</seg> son <rhyme label="a">cobertor</rhyme>.</l>
+                </lg>
+                <lb/>
+                <!-- Cobla IV -->
+                <lg type="stanza" n="4.1" rhyme="abbaccddaa">
+
+                    <l n="31">Aras <seg type="diff_c" corresp="#v31">penet</seg> ma <rhyme label="a">folor</rhyme>,</l>
+                    <l n="32">
+                        quar trop saubi mal <rhyme label="b">chauzir</rhyme>.
+                    </l>
+                    <l n="33">E s’anc Dieus per <rhyme label="b">repentir</rhyme>
+                            </l>
+                    <l n="34">perdonet a <rhyme label="a">peccador</rhyme>,</l>
+                    <l n="35">
+                        <seg type="diff_c" corresp="#v35">ja per aquesta <rhyme label="c">faillida</rhyme>,
+                        </seg>
+                    </l>
+                    <l n="36">
+                        m'arma no <seg type="diff_c" corresp="#v36">sera</seg> <rhyme label="c">delida</rhyme>.
+                    </l>
+                    <l n="37">
+                                <seg corresp="#v37a" type="diff_c">Mas</seg> mos cors <seg corresp="#v37b" type="diff_c">
+                                    <rhyme label="d">pezans</rhyme>
+                                </seg>
+                    </l>
+                    <l n="38">
+                        <seg type="diff_c" corresp="#v38">n’es tan <rhyme label="d">malanans</rhyme>
+                                </seg>
+                    </l>
+                    <l n="39">
+                                <seg type="diff_c" corresp="#v39">qu’ieu</seg> tem, si Dieus no·m <rhyme label="a">socor</rhyme>,
+                    </l>
+                    <l n="40">perdre mi e ma <rhyme label="a">valor</rhyme>.</l>
+                </lg>
+                <lb/>
+                <!-- Cobla V -->
+                <lg type="stanza" n="5.1" rhyme="abbaccddaa">
+                    <l n="41">Qu’ieu non ai sen ni <rhyme label="a">viguor</rhyme>
+                    </l>
+                    <l n="42">que·m puesca de lieis <rhyme label="b">partir</rhyme>,
+                    </l>
+                    <l n="43">ni cor lunhar ni <seg type="corr_c" corresp="#v43">
+                                    <rhyme label="b">frezir</rhyme>
+                                </seg>
+                    </l>
+                    <l n="44">
+                        que ja non feira <rhyme label="a">clamor</rhyme>.
+                    </l>
+                    <l n="45">
+                        <seg type="diff_c" corresp="#v45">Ans</seg> es aitals m’<rhyme label="c">escarida</rhyme>
+                    </l>
+                    <l n="46">c’ab tot aital <rhyme label="c">deschauzida</rhyme>
+                            </l>
+                    <l n="47">
+                        <seg type="diff_c" corresp="#v47">fora <rhyme label="d">humelians</rhyme>
+                                </seg>
+                    </l>
+                    <l n="48">Per que totz <seg type="diff_c" corresp="#v48">
+                                    <rhyme label="d">clamans</rhyme>
+                                </seg>
+                    </l>
+                    <l n="49">volgra termenes, <rhyme label="a">seignor</rhyme>
+                            </l>
+                    <l n="50">
+                        del <seg type="diff_c" corresp="#v50">greu</seg> mal de sa <rhyme label="a">calor</rhyme>.
+                    </l>
+
+                </lg>
+                <lb/>
+                <!-- Tornada -->
+                <lg type="envoy" n="tornada1" rhyme="ddaa">
+
+                    <l n="51">
+                        Si sa calors <rhyme label="d">grans</rhyme>
+                    </l>
+
+                    <l n="52">
+                                <seg type="corr_c">frezis</seg>
+                        fis <rhyme label="d">amans</rhyme>,
+                    </l>
+
+                    <l n="53">
+                        fora <seg type="corr_c">cautz</seg>
+                        per sa <rhyme label="a">freidor</rhyme>,
+                    </l>
+
+                    <l n="54">
+                        quar soi freitz
+                        per sa <rhyme label="a">calor</rhyme>.
+                    </l>
+
+                </lg>
+            </div>
+            </div>
+            <!-- Apparato critico delle varianti sostanziali del testo di costellazione -->
+            <div type="app_cos_sos">
+              <listApp>
+                <app ana="sos">
+                    <num>3</num>
+                            <lem>volgra</lem>
+                            <rdg>volgri<witDetail wit="#H"> H</witDetail>
+                            </rdg>
+                </app>
+                <app ana="sos">
+                    <num>4</num>
+                            <lem>creisser</lem>
+                            <rdg>greuiar<witDetail wit="#H"> H</witDetail>
+                            </rdg>
+                        </app>
+                <app ana="sos">
+                    <num>6</num>
+                            <lem>mal mon grat</lem>
+                            <rdg>mal grat meu<witDetail wit="#V"> V</witDetail>
+                            </rdg>
+                        </app>
+                <app ana="sos">
+                    <num>7</num>
+                            <lem>que</lem>
+                            <rdg>e<witDetail wit="#V"> V</witDetail>
+                            </rdg>
+                        </app>
+                <app ana="sos" type="locus">
+                    <num>9</num>
+                            <lem>nuls jois</lem>
+                                <rdg>nuil joi<witDetail wit="#E #V"> EV</witDetail>
+                            </rdg>
+                </app>
+                <app ana="sos">
+                    <num>13</num>
+                            <lem>sol</lem>
+                        <rdg>sols<witDetail wit="#V"> V</witDetail>
+                            </rdg>
+                </app>
+                <app ana="sos" type="locus">
+                    <num>15</num>
+                            <lem>deschauzida</lem>
+                        <rdg>es<gap reason="lost" unit="word" quantity="1"/>
+                                <witDetail wit="#H"> H</witDetail>
+                            </rdg>
+                        <note xml:id="paleo1" type="popup">In H, il verbo è seguito da uno spazio bianco che copre l'estensione di circa una parola.</note>
+                </app>
+                <app ana="sos">
+                    <num>16</num>
+                            <lem>Pos m’a mort, quill</lem>
+                        <rdg>Ma mortz e qill<witDetail wit="#H"> H</witDetail>
+                            </rdg>
+                </app>
+                                        <app ana="sos" type="locus">
+                            <num>18</num>
+                            <lem>sol</lem>
+                            <rdg>sols<witDetail wit="#E #V"> EV</witDetail>
+                            </rdg>
+                        </app>
+                        <app ana="sos">
+                            <num>19</num>
+                            <lem>tol</lem>
+                            <rdg>tot<witDetail wit="#V"> V</witDetail>
+                            </rdg>
+                        </app>        
+                                  <app ana="sos">
+                            <num>25</num>
+                            <lem>fo</lem>
+                            <rdg>fon<witDetail wit="#H #V"> HV</witDetail>
+                            </rdg>
+                        </app>
+                        <app ana="sos">
+                            <num>32</num>
+                            <lem>trop</lem>
+                            <rdg>tan chaussa<witDetail wit="#V"> V</witDetail>
+                            </rdg>
+                        </app>
+                                                <app ana="sos">
+                            <num>36</num>
+                            <lem>delida</lem>
+                            <rdg>perida<witDetail wit="#V"> V</witDetail>
+                            </rdg>
+                        </app>
+                                                <app ana="sos">
+                            <num>39</num>
+                            <lem>qu’ieu</lem>
+                            <rdg>que<witDetail wit="#H #V"> HV</witDetail>
+                            </rdg>
+                        </app>
+                                                <app ana="sos">
+                            <num>41</num>
+                            <lem>Qu’ieu</lem>
+                            <rdg>sieu<witDetail wit="#H"> H</witDetail>
+                            </rdg>
+                        </app>
+                                                <app ana="sos">
+                            <num>43</num>
+                            <lem>ni cor</lem>
+                            <rdg>nil cor<witDetail wit="#H"> H </witDetail>
+                            </rdg>
+                        </app>
+
+                        <app ana="sos">
+                            <lem>frezir</lem>
+                            <rdg>refreidir<witDetail wit="#E"> E</witDetail>
+                            </rdg>
+                        </app>
+                        
+                        <app ana="sos">
+                            <num>47</num>
+                            <lem>fora humelians</lem>
+                            <rdg>fora humilitatz<witDetail wit="#H"> H</witDetail>
+                            </rdg>
+                            <rdg>for humilians<witDetail wit="#V"> V</witDetail>
+                            </rdg>
+                        </app>
+                        <app ana="sos">
+                            <num>48</num>
+                            <rdg wit="#H" type="omission"/>
+                            <note type="text">Verso omesso in H.</note>
+                        </app>
+                
+                
+                        <app ana="sos">
+                            <num>50</num>
+                            <lem>calor</lem>
+                            <rdg>color<witDetail wit="#H"> H</witDetail>
+                            </rdg>
+                        </app>
+                <app ana="sos">
+                   <num>51</num>
+                            <lem>calors</lem>
+                            <rdg>valors<witDetail wit="#H"> H</witDetail>
+                            </rdg>
+                </app>
+                <app ana="sos">
+                    <num>52</num>
+                            <lem>frezis</lem>
+                            <rdg>refreidis <witDetail wit="#E"> E</witDetail>
+                            </rdg>
+                </app>
+
+                <app ana="sos">
+                    <num>53</num>
+                            <lem type="corr_c">cautz</lem>
+                        <rdg>quan<witDetail wit="#E"> E</witDetail>
+                            </rdg>
+                </app>
+              </listApp>
+              <!-- Apparato critico delle varianti formali del testo di costellazione -->
+            </div>
+            <div type="app_cos_form">
+              <listApp>
+                <app ana="form">
+                    <num>6</num>
+                            <lem>ma vida</lem>
+                    <rdg>ma ivda<witDetail wit="#V"> V</witDetail>
+                            </rdg>
+                </app>
+                <app ana="form">
+                    <num>10</num>
+                            <lem>sueill</lem>
+                    <rdg>soill<witDetail wit="#H"> H</witDetail>
+                            </rdg>
+                    <rdg>sujll<witDetail wit="#V"> V</witDetail>
+                            </rdg>
+                </app>
+                                        <app ana="form">
+                            <num>18</num>
+                            <lem>enguans</lem>
+                            <rdg>enians<witDetail wit="#H #V"> HV </witDetail>
+                            </rdg>
+                        </app>
+                        <app ana="form">
+                            <num>22</num>
+                            <lem>saup</lem>
+                            <rdg>sap<witDetail wit="#V"> V</witDetail>
+                            </rdg>
+                        </app>
+                                                <app ana="form">
+                            <num>43</num>
+                            <lem>lunhar</lem>
+                            <rdg>lo<del rend="erasure">i</del>ngnar<witDetail wit="#H"> H</witDetail>
+                            </rdg>
+                            <note xml:id="paleo2" type="popup">In H, la vocale <seg type="it">i</seg> è espunta probabilmente dalla medesima mano.</note>
+                        </app>
+                        <app ana="form">
+                            <num>46</num>
+                            <lem>c’ab</lem>
+                            <rdg>qu’ab<witDetail wit="#H"> H</witDetail>
+                            </rdg>
+                            <rdg>c’ap<witDetail wit="#V"> V</witDetail>
+                            </rdg>
+                        </app>
+                        <app ana="form">
+                            <num>49</num>
+                            <lem>volgra</lem>
+                            <rdg>volg
+                                <add place="above" hand="#H">ra</add>
+                                <witDetail wit="#H"> H</witDetail>
+                            </rdg>
+                            <note xml:id="paleo3" type="popup">Il copista di H lascia uno spazio bianco dopo <seg type="it">volg</seg> per poi completare il verbo con <seg type="it">ra</seg> nel margine superiore in interlinea.</note>
+                        </app>
+                <app ana="form">
+                            <num>54</num>
+                            <lem>freitz</lem>
+                    <rdg>fregs<witDetail wit="#H #V"> HV</witDetail>
+                            </rdg>
+                </app>
+                                        
+
+              </listApp>
+            </div>
+           <!-- <div type="trad_costellazione" xml:lang="it">
+
+                <head>Traduzione del testo di costellazione</head>
+                <p n="1">I
+                    <lb/>Allontanato dalla gioia e dall'amore, e consumato dalla tristezza, vorrei morire, se potessi.
+                    Eppure, per accrescere il mio dolore e l’afflizione che non mi abbandona, la mia vita continua, mio
+                    malgrado. Poiché il piacere e il canto sono per me dolore e angoscia, e non gradisco alcuna gioia,
+                    per questo, io che ero solito cantare, piango.
+                </p>
+                <p n="2">II
+                    <lb/>Colei che mi tormenta mi seppe tanto usare a suo piacimento che non mi volle distruggere da
+                    solo, ma anzi si impegna nel suo disonore, e le piace – tanto è rozza! – che sia ricoperta di
+                    vergogna dopo avermi ucciso. Sarebbe per lei un grande affronto se l’inganno fosse solo per me,
+                    perciò da sé allontana pregio e onore, poiché il biasimo non la spaventa.
+                </p>
+                <p n="3">III
+                    <lb/>Attraverso un bell’aspetto ingannatore, mi seppe rendere folle dolcemente e nascondere la sua
+                    slealtà, fino a che non mi prese al suo servizio; poi, non appena mi ebbe a sua disposizione, il suo
+                    desiderio volubile non potè più raggirarmi, perché, prima che terminasse l’anno, accolse molti folli
+                    supplicanti con sé nel suo letto.
+                </p>
+                <p n="4">IV
+                    <lb/>Ora mi pento della mia sconsideratezza, poiché ho compiuto una scelta oltremodo pessima. E se
+                    mai Dio perdonò un peccatore pentito, la mia anima non sarà perduta per questo errore. Ma il mio
+                    corpo affaticato è tanto malandato, che io temo, se Dio non viene in mio aiuto, di perdere me e il
+                    mio valore.
+                </p>
+                <p n="5">V
+                    <lb/>Perché io non ho buonsenso né forza che mi possa separare da lei, né allontanare né
+                    raffreddare il cuore, così che io non mi lamenti più. Anzi, è tale il mio destino che sarei umiliato
+                    con una donna così vile. Per questo, signori, io che mi lamento vorrei ponesse fine al grande
+                    peccato del suo ardore.
+                </p>
+                <p n="6">VI
+                    <lb/>Se il suo grande ardore raffreddasse gli amanti fedeli, sarei riscaldato dalla sua freddezza,
+                    invece sono raggelato per il suo calore.
+                </p>
+
+            </div> -->
+                        <div type="trad_critico" xml:lang="it">
+
+                <p n="1">
+                        <label>I</label>
+                    Allontanato dalla gioia e dall’amore, e consumato dalla tristezza, io vorrei morire, se
+                    potessi. Eppure, per accrescere il mio dolore e l’afflizione che non mi abbandonala mia vita
+                    continua, mio malgrado. Poiché il piacere e il canto sono per me dolore e angoscia, e non gradisco
+                    alcuna gioia, per questo, io che ero solito cantare, piango.
+                </p>
+                <lb/>
+                <p n="2">
+                        <lb/>
+                        <label>II</label>
+                    Colei che mi tormenta mi seppe tanto usare a suo piacimento che non volle distruggere me solo,
+                    ma anzi si impegna nel suo disonore, e le piace – tanto è virtuosa! – che sia ricoperta di vergogna
+                    dopo avermi ucciso. Sarebbe per lei un grande affronto se l’inganno fosse solo per me, perciò da sé
+                    allontana pregio e onore, poiché il biasimo non la spaventa.
+                </p>
+                                    <lb/>
+                <p n="3">
+                        <lb/>
+                        <label>III</label>
+                    E attraverso un bell’aspetto ingannatore, mi seppe rendere folle dolcemente e nascondere la
+                    sua slealtà, fino a che non mi prese al suo servizio; poi, non appena mi ebbe a sua disposizione, il
+                    suo desiderio volubile non potè più raggirarmi, perché, prima che terminasse l’anno, accolse un
+                    falso supplicante con sé nel suo letto.
+                </p>
+                                    <lb/>
+                <p n="4">
+                        <lb/>
+                        <label>IV</label>
+                    Ora riconosco la mia sconsideratezza, poiché ho compiuto una scelta oltremodo pessima. E se
+                    mai Dio perdonò un peccatore pentito, la mia anima non sarà perduta per questo errore. Poiché il mio
+                    corpo affaticato è tanto malandato, e temo, se Dio non viene in mio aiuto, di perdere me e il mio
+                    valore.
+                </p>
+                                    <lb/>
+                <p n="5">
+                        <lb/>
+                        <label>V</label>
+                    Perché io non ho buonsenso né forza che mi possa separare da lei, né allontanare né
+                    raffreddare il cuore, così che io non mi lamenti più. Anzi, è tale il mio destino che con una donna
+                    così vile sono umiliato. Per questo, signori, io che mi lamento vorrei ponesse fine al grande
+                    peccato del suo ardore.
+                </p>
+                                    <lb/>
+                <p n="6">
+                        <lb/>
+                        <label>VI</label>
+                    Se il suo grande ardore raffreddasse gli amanti fedeli, sarei riscaldato dalla sua freddezza,
+                    invece sono raggelato per il suo calore.
+                </p>
+            </div>
+        </body>
+        <back>
+            <div type="biblio">
+                <head>Edizioni e studi</head>
+                <div type="section" xml:id="section-edizioni">
+                   <title>Edizioni</title>
+                     <p>Shepard 1924, <witDetail>H</witDetail>, pp. 25, 76;
+                     <lb/>Gambini 2001, <witDetail>C</witDetail>, pp. 240 e seguenti.
+                     </p>
+                </div>
+        
+                <div type="section">
+                   <title>Antologie</title>
+                        <p>Sanguineti-Scarpati 2013, pp. 180-186.</p>
+                </div>
+
+                <div type="section">
+                   <title>Studi</title>
+                        <p>Careri 1990, pp. 98, 103, 177, 207;
+                    <lb/>Menichetti 2015, pp. 200, 202.
+                        </p> 
+                </div>
+                
+                <div type="section">
+                   <title>Edizioni CAO</title>
+                        <p>
+                            <witDetail>C</witDetail>: <ref rend="exit" target="https://www.rialto.unina.it/cao/diplomatiche/d/">dipl</ref>
+                            <lb/>
+                        <witDetail>E</witDetail>: <ref rend="exit" target="https://www.rialto.unina.it/cao/diplomatiche/d/">dipl</ref>, <ref rend="exit" target="https://www.rialto.unina.it/wp-content/uploads/2023/02/E.pdf">interp</ref>
+                    </p>
+                </div>
+            </div>
+        </back>
+     </div>
+    </text>
+</TEI>

@@ -1,0 +1,1134 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="oc">
+                    Oimais de vos non aten
+                </title>
+                <title xml:lang="it">
+                    Proposta di edizione critica digitale
+                </title>
+                <author>
+                    Gausbert de Poicibot
+                </author>
+
+                <editor role="editor">
+                    Rossella Lucisano
+                </editor>
+
+                <respStmt>
+                    <resp>Primo Relatore</resp>
+                    <name>Prof.ssa Speranza Cerullo</name>
+                    <resp>Secondo Relatore</resp>
+                    <name>Prof. Angelo Mario Del Grosso</name>
+                </respStmt>
+
+            </titleStmt>
+
+            <publicationStmt>
+
+                <publisher>
+                    Università di Pisa
+                </publisher>
+
+                <pubPlace>
+                    Pisa
+                </pubPlace>
+
+                <date when="2026">
+                    2026
+                </date>
+
+                <availability status="restricted"/>
+
+            </publicationStmt>
+
+            <sourceDesc>
+
+                <bibl type="tesi_di_laurea">
+
+                    <author>Rossella Lucisano</author>
+
+                    <title>
+                        Per un'edizione critica digitale delle canzoni del trovatore Gausbert de Poicibot
+                    </title>
+
+                    <date when="2026">2026</date>
+
+                </bibl>
+                <listWit>
+                    <witness xml:id="C">
+                        <msDesc>
+                            <msIdentifier>
+                                <country>Francia</country>
+                                <repository>Parigi, Bibliothèque nationale de France</repository>
+                                <idno>fr. 856</idno>
+                            </msIdentifier>
+                        </msDesc>
+                    </witness>
+                    <witness xml:id="E">
+                        <msDesc>
+                            <msIdentifier>
+                                <country>Francia</country>
+                                <repository>Parigi, Bibliothèque nationale de France</repository>
+                                <idno>fr. 1749</idno>
+                            </msIdentifier>
+                        </msDesc>
+                    </witness>
+                    <witness xml:id="R">
+                        <msDesc>
+                            <msIdentifier>
+                                <country>Francia</country>
+                                <repository>Parigi, Bibliothèque nationale de France</repository>
+                                <idno>fr. 22543</idno>
+                            </msIdentifier>
+                        </msDesc>
+                    </witness>
+                    <witness xml:id="S">
+                        <msDesc>
+                            <msIdentifier>
+                                <country>Regno Unito</country>
+                                <repository>Oxoford, Bodleian Library</repository>
+                                <idno>Douce 269</idno>
+                            </msIdentifier>
+                        </msDesc>
+                    </witness>
+                    <witness xml:id="beta">
+                        Raimon Vidal de Besalù, So fo el tems com'era jais, vv. 1594-1605.
+                    </witness>
+                </listWit>
+
+            </sourceDesc>
+
+        </fileDesc>
+
+        <encodingDesc>
+
+            <metDecl>
+                <metSym xml:id="schema_metrico">
+                    La canzone di Gausbert è composta da cinque coblas di dodici versi ciascuna e una tornada finale di
+                    sette versi. La canzone è composta da settenari e quinari non in alternanza uniforme, ma si nota una
+                    prevalenza di versi da sette sillabe.
+                </metSym>
+
+            </metDecl>
+
+            <classDecl>
+                <taxonomy xml:id="var_types">
+                    <category xml:id="sos">
+                        <catDesc>Variante sostanziale</catDesc>
+                    </category>
+                    <category xml:id="form">
+                        <catDesc>Variante grafica</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+
+            <projectDesc>
+                <p>
+                    Proposta di edizione critica digitale realizzata come progetto di tesi per la Laurea Magistrale in
+                    Informatica Umanistica dell'Università di Pisa.
+                </p>
+            </projectDesc>
+
+            <schemaRef ident="gausbert.odd" type="ODD"/>
+
+        </encodingDesc>
+
+        <profileDesc>
+
+            <langUsage>
+
+                <language ident="oc">
+                    Antico provenzale
+                </language>
+
+                <language ident="it">
+                    Italiano
+                </language>
+
+            </langUsage>
+
+            <textClass>
+
+                <keywords scheme="genre">
+                    <term>lirica trobadorica</term>
+                    <term>poesia medievale</term>
+                    <term>Gausbert de Poicibot</term>
+                    <term>digital humanities</term>
+                    <term>filologia digitale</term>
+                </keywords>
+
+            </textClass>
+
+        </profileDesc>
+
+        <revisionDesc>
+
+            <change when="2026-07-18" who="#editor">
+                Creazione iniziale del file XML.
+            </change>
+
+        </revisionDesc>
+
+    </teiHeader>
+    <facsimile>
+    <surfaceGrp xml:id="C">
+        <surface n="1">
+            <graphic url="images/C7a.png"/>
+        </surface>
+
+        <surface n="2">
+            <graphic url="images/C7b.png"/>
+        </surface>
+    </surfaceGrp>
+
+    <surfaceGrp xml:id="E">
+        <surface n="1">
+            <graphic url="images/E7a.png"/>
+        </surface>
+
+        <surface n="2">
+            <graphic url="images/E7b.png"/>
+        </surface>
+    </surfaceGrp>
+    <surfaceGrp xml:id="R">
+        <surface n="1">
+            <graphic url="images/R7a.png"/>
+        </surface>
+
+        <surface n="2">
+            <graphic url="images/R7b.png"/>
+        </surface>
+    </surfaceGrp>
+
+    <surfaceGrp xml:id="S">
+        <surface n="1">
+            <graphic url="images/S7a.jpg"/>
+        </surface>
+
+        <surface n="2">
+            <graphic url="images/S7b.jpg"/>
+        </surface>
+    </surfaceGrp>
+    </facsimile>
+    <text>
+      <div type="edition">
+        <body>
+            <front>
+                <div type="manoscritti">
+                    <p>
+                        <list>
+                            <item>
+                                <witDetail>C</witDetail> 190v: <seg>Gausbert de Puegc.</seg>;
+                            </item>
+                            <item>
+                                <witDetail>E</witDetail> 161: <seg>Monge de Pueisibot</seg>;
+                            </item>
+                            <item>
+                                <witDetail>R</witDetail> 37v: <seg>Gaub</seg>(<seg>er</seg>)<seg>t de Puegsibot</seg>;
+                            </item>
+                            <item>
+                                <witDetail>S</witDetail> 225: <seg>En Iaubert lo monge de Monsibot</seg>.
+                            </item>
+                        </list>
+                    </p>
+                </div>
+                <div type="trad_ind">
+                  <head>Tradizione indiretta</head>
+                    <p>
+                        <list>
+                            <item>
+                                 <witDetail>β</witDetail> vv. 1594-1605 (da <seg type="it">So fo el tems qu’om era gais</seg> di Raimon Vidal de Besalù).<note type="popup" xml:id="nota_extra1">Il testo della <seg type="it">cobla</seg> extravagante è tratto da Shepard 1924, p. 58, che cita a sua volta <seg type="it">Boletin de la Real Academia de Las Buenas Letras de Barcelona</seg>, XII (8912).</note></item>
+                        </list>
+                    </p>
+                </div>
+                <div type="scheda_metrica">
+
+                    <head>Scheda metrica</head>
+                    <p>[65 : 1]
+                        <lb/>Unicum
+                        <lb/>a ₇ a ₅ a ₇ b ₅ b ₇ a ₅ a ₇ a ₇ b ₅ b ₅ c ₇ c ₇
+                        <lb/>a: <rhyme type="a">en</rhyme>, b: <rhyme type="b">atz</rhyme>, c: <rhyme type="c">os</rhyme>
+                    </p>
+                </div>
+                <div type="testo">
+                   <div type="txt_critico" xml:id="canso7">
+                    <title>Testo critico</title>
+                    <p>Ms. base S
+                        <lb/>Correzioni da <seg type="corr">C</seg>
+                                <lb/>
+                        <seg type="edit">Interventi editoriali</seg>
+                    </p>
+                    <!-- Cobla I -->
+                    <label>I</label>
+<lg type="stanza" n="1" rhyme="aaabbaaabbcc">
+    <l n="1">Oimais, de vos non <rhyme label="a">aten</rhyme>
+                                </l>
+    <l n="2">aver <rhyme label="a">iausimen</rhyme>,</l>
+    <l n="3">Amors, pois tan <rhyme label="a">loniamen</rhyme>
+                                </l>
+    <l n="4">me soi <rhyme label="b">faidiaz</rhyme>,</l>
+    <l n="5">celant et sufrend en <rhyme label="b">paz</rhyme>
+                                </l>
+    <l n="6">L’afan e·l <rhyme label="a">turmen</rhyme>.</l>
+    <l n="7">Mais er quan <seg type="corr">m'en vau</seg> <rhyme label="a">plagnen</rhyme>
+                                </l>
+    <l n="8">ni m’en clam, non val <rhyme label="a">nien</rhyme>.</l>
+    <l n="9">Mais del clam q’eu <rhyme label="b">faz</rhyme>
+                                </l>
+    <l n="10">mi tegn per <rhyme label="b">pagaz</rhyme>,</l>
+    <l n="11">d’aitan que se no m’es <rhyme label="c">pros</rhyme>,</l>
+    <l n="12">blasmes er sivals a <rhyme label="c">vos</rhyme>.</l>
+</lg>
+
+<lb/>
+
+<!-- Cobla II -->
+<label>II</label>
+<lg type="stanza" n="2" rhyme="aaabbaaabbcc">
+    <l n="13">Blasmar vos degr’eu <rhyme label="a">fortmen</rhyme>,</l>
+    <l n="14">mais vau vos <rhyme label="a">sofren</rhyme>,</l>
+    <l n="15">qu’aicel que s’irais <rhyme label="a">greumen</rhyme>,</l>
+    <l n="16">plus quant es <rhyme label="b">iraz</rhyme>,</l>
+    <l n="17">es fels et <rhyme label="b">desmesuraz</rhyme>.</l>
+    <l n="18">Doncs tem, s’eu <rhyme label="a">m’espren</rhyme>,</l>
+    <l n="19">que vos e mei chan <rhyme label="a">plazen</rhyme>
+                                </l>
+    <l n="20">en serez trop <seg type="corr">meins</seg> <rhyme label="a">valen</rhyme>.</l>
+    <l n="21">Per que vol <rhyme label="b">sapchaz</rhyme>,</l>
+    <l n="22">se no·us <rhyme label="b">melloraz</rhyme>,</l>
+    <l n="23">
+                                    <seg type="edit">tan descarrai <rhyme label="c">andos</rhyme>
+                                    </seg>,</l>
+    <l n="24">Amors, vos et <seg type="corr">mas</seg> <rhyme label="c">chanzos</rhyme>.</l>
+</lg>
+
+<lb/>
+
+<!-- Cobla III -->
+<label>III</label>
+<lg type="stanza" n="3" rhyme="aaabbaaabbcc">
+    <l n="25">Ben soi fols car eu <rhyme label="a">aten</rhyme>
+                                </l>
+    <l n="26">null <rhyme label="a">melloramen</rhyme>,</l>
+    <l n="27">qu’ades on plus vos <rhyme label="a">repren</rhyme>
+                                </l>
+    <l n="28">com amics <rhyme label="b">privaz</rhyme>,</l>
+    <l n="29">vos cressez et <rhyme label="b">peioraz</rhyme>
+                                </l>
+    <l n="30">vostre <rhyme label="a">fallimen</rhyme>.</l>
+    <l n="31">Et qui, per <rhyme label="a">castiamen</rhyme>
+                                </l>
+    <l n="32">ne per blasme de la <rhyme label="a">gen</rhyme>,</l>
+    <l n="33">no tem far <rhyme label="b">foldaz</rhyme>,</l>
+    <l n="34">es <rhyme label="b">desvergognaz</rhyme>,</l>
+    <l n="35">et qui non es <rhyme label="c">vergognos</rhyme>
+                                </l>
+    <l n="36">non er ia valenz ni <rhyme label="c">bos</rhyme>.</l>
+</lg>
+
+<lb/>
+
+<!-- Cobla IV -->
+<label>IV</label>
+<lg type="stanza" n="4" rhyme="aaabbaaabbcc">
+    <l n="37">Et si sai que non es <rhyme label="a">gen</rhyme>
+                                </l>
+    <l n="38">quar ab vos <rhyme label="a">conten</rhyme>,</l>
+    <l n="39">mas fatz lo <rhyme label="a">forzadamen</rhyme>,</l>
+    <l n="40">quar me <rhyme label="b">malmenaz</rhyme>,</l>
+    <l n="41">don eu soi tan <rhyme label="b">forsenaz</rhyme>
+                                </l>
+    <l n="42">q’eu no posc dir <rhyme label="a">sen</rhyme>.</l>
+    <l n="43">Et s’eu dic <rhyme label="a">deschauzimen</rhyme>
+                                </l>
+    <l n="44">contra vos, pois <seg type="edit">forsatz <rhyme label="a">m’en</rhyme>
+                                    </seg>,</l>
+    <l n="45">er tort et <rhyme label="b">pechaz</rhyme>
+                                </l>
+    <l n="46">s’eu en soi <rhyme label="b">blasmaz</rhyme>.</l>
+    <l n="47">Et vos tang lo <seg type="corr">mals</seg> <rhyme label="c">resos</rhyme>
+                                </l>
+    <l n="48">don mou·l torz e l’<rhyme label="c">ochasos</rhyme>.</l>
+</lg>
+<lb/>
+                    <!-- Cobla V -->
+                    <label>V</label>
+                    <lg type="stanza" n="5" rhyme="aaabbaaabbcc">
+                        <l n="49">Ben soi <seg type="corr">fols</seg>, ad <rhyme label="a">escien</rhyme>,
+                        </l>
+                        <l n="50">quar gast et <rhyme label="a">despen</rhyme>
+                        </l>
+                        <l n="51">en vos mon <rhyme label="a">castiamen</rhyme>,</l>
+                        <l n="52">Amors, qe·l <rhyme label="b">maltaz</rhyme>
+                        </l>
+                        <l n="53">e·l <seg type="corr">folors</seg> e·l <rhyme label="b">crueltaz</rhyme>
+                        </l>
+                        <l n="54">qui en vos <rhyme label="a">s'enpren</rhyme>
+                        </l>
+                        <l n="55">no·us lais c’aver <rhyme label="a">chauzimen</rhyme>,</l>
+                        <l n="56">anz vos tol et vos <rhyme label="a">defen</rhyme>
+                        </l>
+                        <l n="57">que ren non <rhyme label="b">creaz</rhyme>.</l>
+                        <l n="58">Mas per so no·m <rhyme label="b">taz</rhyme>,</l>
+                        <l n="59">anz sofrirai <rhyme label="c">pensasos</rhyme>
+                        </l>
+                        <l n="60">tro veia meiller <rhyme label="c">sasos</rhyme>.</l>
+                    </lg>
+                    <lb/>
+
+                    <!-- Tornada -->
+                    <label>VI</label>
+                    <lg type="envoy" n="tornada" rhyme="aaabbbc">
+                        <l n="61">Canpagna, be·us <rhyme label="a">pren</rhyme>
+                        </l>
+                        <l n="62">quar donpn’avez ses <rhyme label="a">contenpn</rhyme>
+                        </l>
+                        <l n="63">ses par de prez et de <rhyme label="a">sen</rhyme>
+                        </l>
+                        <l n="64">don vos <rhyme label="b">melloraz</rhyme>,</l>
+                        <l n="65">qu’ill fai vas toz <rhyme label="b">laz</rhyme>
+                        </l>
+                        <l n="66">a son ric prez <rhyme label="c">cabalos</rhyme>
+                        </l>
+                        <l n="67">Espaigna grazir et <rhyme label="c">vos</rhyme>.</l>
+                    </lg>
+                    <lb/>
+                </div>
+            <!-- Apparato critico delle varianti sostanziali -->
+            <div type="app_crt_sos">
+              <listApp>
+
+   <app ana="sos">
+      <num>7</num>
+      <lem>m'en</lem>
+      <rdg>me<witDetail wit="#S"> S</witDetail>
+                                    </rdg>
+   </app>
+
+   <app ana="sos">
+      <num>20</num>
+      <lem>meins</lem>
+      <note type="text">manca S</note>
+   </app>
+
+   <app ana="sos">
+      <num>23</num>
+      <lem>tan descarrai andos</lem>
+      <rdg>tan descarriem andos<witDetail wit="#S"> S</witDetail>
+                                    </rdg>
+   </app>
+
+   <app ana="sos">
+      <num>24</num>
+      <lem>mas</lem>
+      <note type="text">manca S</note>
+   </app>
+
+   <app ana="sos">
+      <num>44</num>
+      <lem>forsatz m'en</lem>
+      <rdg>forzamen<witDetail wit="#S"> S</witDetail>
+                                    </rdg>
+   </app>
+
+   <app ana="sos">
+      <num>47</num>
+      <lem>mals</lem>
+      <rdg>mal<witDetail wit="#S"> S</witDetail>
+                                    </rdg>
+   </app>
+                            <app ana="sos">
+                                <num>49</num>
+                                <lem>fols</lem>
+                                <rdg>fol<witDetail wit="#S"> S</witDetail>
+                                    </rdg>
+                            </app>
+                            <app ana="sos">
+                                <num>53</num>
+                                <lem>folors</lem>
+                                <rdg>folor<witDetail wit="#S"> S</witDetail>
+                                    </rdg>
+                            </app>
+              </listApp>
+            </div>
+            <div type="app_crt_form"/>
+            <div type="txt_costellazione" xml:id="canso7.1">
+                            <title>Testo di costellazione α</title>
+                <p>Ms. base C <lb/>Correzioni e <seg type="it">tornada</seg> da <seg type="corr_c">E</seg>
+                </p>
+                <!-- Cobla I -->
+                <lb/>
+<lg type="stanza" n="1" rhyme="aaabbaaabbcc">
+    <l n="1">Hueymais, de vos non <rhyme label="a">aten</rhyme>
+                                </l>
+    <l n="2">aver <rhyme label="a">iauzimen</rhyme>,</l>
+    <l n="3">Amors, mas tan <rhyme label="a">lonjamen</rhyme>
+                                </l>
+    <l n="4">mi suy <rhyme label="b">fadiatz</rhyme>,</l>
+    <l n="5">celan e sufren en <rhyme label="b">patz</rhyme>
+                                </l>
+    <l n="6">l’afan e·l <rhyme label="a">turmen</rhyme>.</l>
+    <l n="7">Mas er quan m’en vauc <rhyme label="a">planhen</rhyme>
+                                </l>
+    <l n="8">ni m’en clam, no·m val <rhyme label="a">nien</rhyme>.</l>
+    <l n="9">mas del clam qu’ieu <rhyme label="b">fatz</rhyme>
+                                </l>
+    <l n="10">mi tenh per <rhyme label="b">paguatz</rhyme>,</l>
+    <l n="11">
+                                    <seg type="edit">d’aitan</seg> que si no m’es <rhyme label="c">pros</rhyme>,</l>
+    <l n="12">blasmes er sivals a <rhyme label="c">vos</rhyme>.</l>
+</lg>
+
+<!-- Cobla II -->
+<lb/>
+<lg type="stanza" n="2" rhyme="aaabbaaabbcc">
+    <l n="13">Blasmar vos degra <rhyme label="a">fortmen</rhyme>,</l>
+    <l n="14">mas vauc <seg type="corr_c">vos</seg> <rhyme label="a">sufren</rhyme>,</l>
+    <l n="15">quar sel que s’irays <rhyme label="a">greumen</rhyme>,</l>
+    <l n="16">plus quant es <rhyme label="b">iratz</rhyme>,</l>
+    <l n="17">e felhs ni <rhyme label="b">demezuratz</rhyme>.</l>
+    <l n="18">Don tem, s’ieu mi <rhyme label="a">enpren</rhyme>,</l>
+    <l n="19">que vos e mei chan <rhyme label="a">plazen</rhyme>
+                                </l>
+    <l n="20">en seretz trop meins <rhyme label="a">valen</rhyme>.</l>
+    <l n="21">Per qu’ieu vuelh <rhyme label="b">sapchatz</rhyme>,</l>
+    <l n="22">si no·us <rhyme label="b">meluyratz</rhyme>,</l>
+    <l n="23">qu’ans dechairi’<rhyme label="c">ambedos</rhyme>,</l>
+    <l n="24">
+                                    <seg type="edit">Amors</seg>, vos e mas <rhyme label="c">chansos</rhyme>.</l>
+</lg>
+
+<!-- Cobla III -->
+<lb/>
+<lg type="stanza" n="3" xml:id="extra" rhyme="aaabbaaabbcc">
+    <l n="25">Ben suy folhs quar hi <rhyme label="a">aten</rhyme>
+                                </l>
+    <l n="26">nul <rhyme label="a">meluyramen</rhyme>,</l>
+    <l n="27">qu’ades on plus vos <rhyme label="a">repren</rhyme>
+                                </l>
+    <l n="28">cum amicx <rhyme label="b">privatz</rhyme>,</l>
+    <l n="29">
+                                    <seg type="corr_c">vos creisetz e <rhyme label="b">peiuratz</rhyme>
+                                    </seg>
+                                </l>
+    <l n="30">vostre <rhyme label="a">falhimen</rhyme>.</l>
+    <l n="31">E qui, per <rhyme label="a">castiamen</rhyme>
+                                </l>
+    <l n="32">ni per blasme de la <rhyme label="a">gen</rhyme>,</l>
+    <l n="33">no tem far <rhyme label="b">foudatz</rhyme>,</l>
+    <l n="34">es <rhyme label="b">desverguonhaz</rhyme>,</l>
+    <l n="35">e qui non es <rhyme label="c">vergonhos</rhyme>
+                                </l>
+    <l n="36">non er ia valens ni <rhyme label="c">bos</rhyme>.</l>
+</lg>
+
+<!-- Cobla IV -->
+<lb/>
+<lg type="stanza" n="4" rhyme="aaabbaaabbcc">
+    <l n="37">E say ben que no·m es <rhyme label="a">gen</rhyme>
+                                </l>
+    <l n="38">quar ab vos <rhyme label="a">conten</rhyme>,</l>
+    <l n="39">mas <seg type="edit">fatz lo</seg> <rhyme label="a">forsadamen</rhyme>,</l>
+    <l n="40">quar mi <rhyme label="b">malmenatz</rhyme>,</l>
+    <l n="41">don ieu suy tan <rhyme label="b">forsenatz</rhyme>
+                                </l>
+    <l n="42">que no puesc dir <rhyme label="a">sen</rhyme>.</l>
+    <l n="43">E s’ieu dic <rhyme label="a">deschauzimen</rhyme>
+                                </l>
+    <l n="44">contra vos, pois <seg type="edit">forsatz <rhyme label="a">m’en</rhyme>
+                                    </seg>,</l>
+    <l n="45">er tortz e <rhyme label="b">peccatz</rhyme>
+                                </l>
+    <l n="46">s’ieu en suy <rhyme label="b">blasmatz</rhyme>.</l>
+    <l n="47">Qu’a <seg type="corr_c">vos</seg> tanh lo mals <rhyme label="c">ressos</rhyme>
+                                </l>
+    <l n="48">don ve·l tortz e l’<rhyme label="c">ochaizos</rhyme>.</l>
+</lg>
+
+<!-- Cobla V -->
+<lb/>
+<lg type="stanza" n="5" rhyme="aaabbaaabbcc">
+    <l n="49">Ben suy folhs, ad <rhyme label="a">essien</rhyme>,</l>
+    <l n="50">quar guast e <rhyme label="a">despen</rhyme>
+                                </l>
+    <l n="51">en vos mon <rhyme label="a">castiamen</rhyme>,</l>
+    <l n="52">Amors, que·l <seg type="edit">
+                                        <rhyme label="b">maltatz</rhyme>
+                                    </seg>
+                                </l>
+    <l n="53">e·ylh follors e·ylh <rhyme label="b">crueltatz</rhyme>
+                                </l>
+    <l n="54">
+                                    <seg type="edit">qui en vos <rhyme label="a">s'enpren</rhyme>
+                                    </seg>
+                                </l>
+    <l n="55">
+                                    <seg type="edit">no·us laiss’aver <rhyme label="a">chauzimen</rhyme>
+                                    </seg>,</l>
+    <l n="56">anz vos tolh e vos <rhyme label="a">defen</rhyme>
+                                </l>
+    <l n="57">que re non <rhyme label="b">crezatz</rhyme>.</l>
+    <l n="58">Mas per so no·m <rhyme label="b">tatz</rhyme>,</l>
+    <l n="59">quans sufriray <rhyme label="c">pezansos</rhyme>
+                                </l>
+    <l n="60">tro venha mielhers <rhyme label="c">sazos</rhyme>.</l>
+</lg>
+
+<!-- Tornada -->
+<lb/>
+<lg type="envoy" n="tornada">
+    <l n="61">Campanha, be·us <rhyme label="a">pren</rhyme>
+                                </l>
+    <l n="62">que don’avetz ses <rhyme label="a">conten</rhyme>
+                                </l>
+    <l n="63">ses par de pretz e de <rhyme label="a">sen</rhyme>,</l>
+    <l n="64">don vos <rhyme label="b">meilluratz</rhyme>,</l>
+    <l n="65">qu’ill fai ves totz <rhyme label="b">latz</rhyme>
+                                </l>
+    <l n="66">ab son ric pretz <rhyme label="c">cabalos</rhyme>
+                                </l>
+    <l n="67">Espanha grazir e <rhyme label="c">vos</rhyme>.</l>
+</lg>
+            </div>
+            <!-- Apparato critico delle varianti sostanziali del testo di costellazione -->
+            <div type="app_cos_sos">
+              <listApp>
+              <listApp>
+
+    <app ana="sos">
+        <num>3</num>
+        <lem>Amors</lem>
+        <rdg>Amor<witDetail wit="#E"> E</witDetail>
+                                        </rdg>
+    </app>
+
+    <app ana="sos">
+        <num>5</num>
+        <lem>celan e sufren en</lem>
+        <rdg>celan sufren et en<witDetail wit="#R"> R</witDetail>
+                                        </rdg>
+    </app>
+
+    <app ana="sos">
+        <num>7</num>
+        <lem>Mas er quan m’en vauc</lem>
+        <rdg>mas enquer<witDetail wit="#R"> R</witDetail>
+                                        </rdg>
+    </app>
+
+    <app ana="sos">
+        <num>8</num>
+        <lem>ni m’en clam, no·m</lem>
+        <rdg>e mos chans no<witDetail wit="#R"> R</witDetail>
+                                        </rdg>
+    </app>
+
+    <app ana="sos">
+        <num>9</num>
+        <lem>mas del clam qu’ieu fatz</lem>
+        <rdg>que dels chans que fas<witDetail wit="#R"> R</witDetail>
+                                        </rdg>
+    </app>
+
+    <app ana="sos">
+        <num>11</num>
+        <lem>d’aitan que si</lem>
+        <rdg>sivals que si<witDetail wit="#C #E"> CE</witDetail>
+                                        </rdg>
+        <rdg>cals mens si tot<witDetail wit="#R"> R</witDetail>
+                                        </rdg>
+    </app>
+
+    <app ana="sos">
+        <num>13</num>
+        <lem>degra</lem>
+        <rdg>degran<witDetail wit="#E"> E</witDetail>
+                                        </rdg>
+        <rdg>degreu<witDetail wit="#R"> R</witDetail>
+                                        </rdg>
+    </app>
+
+    <app ana="sos">
+        <num>14</num>
+        <lem>vauc vos</lem>
+        <rdg>vauc men<witDetail wit="#C"> C</witDetail>
+                                        </rdg>
+        <rdg>vas vos<witDetail wit="#R"> R</witDetail>
+                                        </rdg>
+    </app>
+
+    <app ana="sos">
+        <num>15</num>
+        <lem>greumen</lem>
+        <rdg>formens<witDetail wit="#R"> R</witDetail>
+                                        </rdg>
+    </app>
+
+    <app ana="sos">
+        <num>16</num>
+        <lem>plus quant</lem>
+        <rdg>pus car<witDetail wit="#R"> R</witDetail>
+                                        </rdg>
+    </app>
+
+    <app ana="sos">
+        <num>17</num>
+        <lem>e felhs ni</lem>
+        <rdg>es fols e<witDetail wit="#R"> R</witDetail>
+                                        </rdg>
+    </app>
+
+    <app ana="sos">
+        <num>18</num>
+        <lem>mi enpren</lem>
+        <rdg>mi pren<witDetail wit="#E #R"> ER</witDetail>
+                                        </rdg>
+    </app>
+
+    <app ana="sos">
+        <num>20</num>
+        <lem>meins valen</lem>
+        <rdg>pus valent<witDetail wit="#R"> R</witDetail>
+                                        </rdg>
+    </app>
+
+    <app ana="sos">
+        <num>21-22</num>
+        <note type="text">i versi sono invertiti in R</note>
+    </app>
+    
+    <app ana="sos">
+        <num>22</num>
+        <lem>no·us</lem>
+        <rdg>vos<witDetail wit="#R"> R</witDetail>
+                                        </rdg>
+    </app>
+
+    <app ana="sos">
+        <num>23</num>
+        <lem>dechairi’ambedos</lem>
+        <rdg>dechayra ambedos<witDetail wit="#R"> R</witDetail>
+                                        </rdg>
+    </app>
+
+    <app ana="sos">
+        <num>24</num>
+        <lem>Amors, vos e mas chansos</lem>
+        <rdg>Amor<witDetail wit="#C #E"> CE</witDetail>
+                                        </rdg>
+        <rdg>Amors, mas chansos e vos<witDetail wit="#R"> R</witDetail>
+                                        </rdg>
+    </app>
+
+    <app ana="sos">
+        <num>25</num>
+        <lem>Ben</lem>
+        <rdg>Heu<witDetail wit="#beta"> β</witDetail>
+                                        </rdg>
+    </app>
+
+    <app ana="sos">
+        <num>25</num>
+        <lem>hi aten</lem>
+        <rdg>ia naten<witDetail wit="#R"> R</witDetail>
+                                        </rdg>
+        <rdg>i enten<witDetail wit="#beta"> β</witDetail>
+                                        </rdg>
+    </app>
+
+    <app ana="form">
+        <num>26</num>
+        <lem>meluyramen</lem>
+        <rdg>mezuramen<witDetail wit="#E"> E</witDetail>
+                                        </rdg>
+    </app>
+
+    <app ana="sos">
+        <num>27</num>
+        <lem>on plus</lem>
+        <rdg>con pus<witDetail wit="#R"> R</witDetail>
+                                        </rdg>
+    </app>
+
+    <app ana="sos">
+        <num>29</num>
+        <note type="text">manca C</note>
+    </app>
+
+    <app ana="sos">
+        <num>31</num>
+        <lem>castiamen</lem>
+        <rdg>reprendemen<witDetail wit="#beta"> β</witDetail>
+                                        </rdg>
+    </app>
+
+    <app ana="sos">
+        <num>33</num>
+        <lem>far foudatz</lem>
+        <rdg>fayre foldatz<witDetail wit="#R"> R</witDetail>
+                                        </rdg>
+    </app>
+
+    <app ana="sos">
+        <num>36</num>
+        <lem>non er ja valens ni bos</lem>
+        <rdg>greu sera valens ni pros<witDetail wit="#beta"> β</witDetail>
+                                        </rdg>
+    </app>
+ 
+<app ana="sos">
+    <num>37</num>
+    <lem>no m’es</lem>
+    <rdg>no es<witDetail wit="#R"> R</witDetail>
+                                        </rdg>
+</app>
+
+<app ana="sos">
+    <num>39</num>
+    <lem>mas fatz lo forsadamen</lem>
+    <rdg>mas forsadamen<witDetail wit="#CE"> CE</witDetail>
+                                        </rdg>
+    <rdg>mas prenc mi f.<witDetail wit="#R"> R</witDetail>
+                                        </rdg>
+</app>
+
+<app ana="sos">
+    <num>41</num>
+    <lem>forsenatz</lem>
+    <rdg>fort yratz<witDetail wit="#R"> R</witDetail>
+                                        </rdg>
+</app>
+
+<app ana="sos">
+    <num>44</num>
+    <lem>pois forsatz m’en</lem>
+    <rdg>mas foudatz<witDetail wit="#C"> C</witDetail>
+                                        </rdg>
+    <rdg>mas forsatz<witDetail wit="#E"> E</witDetail>
+                                        </rdg>
+    <rdg>e chan marridamen<witDetail wit="#R"> R</witDetail>
+                                        </rdg>
+</app>
+
+<app ana="sos">
+    <num>45</num>
+    <lem>er tortz e peccatz</lem>
+    <rdg>men er t. e p.<witDetail wit="#CE"> CE</witDetail>
+                                        </rdg>
+    <rdg>contra vos forsatz<witDetail wit="#R"> R</witDetail>
+                                        </rdg>
+</app>
+
+<app ana="sos">
+    <num>46</num>
+    <lem>s’ieu en suy</lem>
+    <rdg>ai ia non sia<witDetail wit="#R"> R</witDetail>
+                                        </rdg>
+</app>
+
+<app ana="sos">
+    <num>47</num>
+    <lem>qu’a vos tanh</lem>
+    <rdg>qua lors tanh<witDetail wit="#C"> C</witDetail>
+                                        </rdg>
+    <rdg>ca vos falh<witDetail wit="#R"> R</witDetail>
+                                        </rdg>
+    <lem>mals</lem>
+    <rdg>mal<witDetail wit="#ER"> ER</witDetail>
+                                        </rdg>
+</app>
+
+<app ana="sos">
+    <num>48</num>
+    <lem>ve·l</lem>
+    <rdg>vol<witDetail wit="#E"> E</witDetail>
+                                        </rdg>
+    <rdg>nel<witDetail wit="#R"> R</witDetail>
+                                        </rdg>
+</app>
+
+<app ana="sos">
+    <num>50</num>
+    <lem>gast</lem>
+    <rdg>gatz<witDetail wit="#R"> R</witDetail>
+                                        </rdg>
+</app>
+
+<app ana="sos">
+    <num>52</num>
+    <lem>Amors</lem>
+    <rdg>Amor<witDetail wit="#E"> E</witDetail>
+                                        </rdg>
+    <note type="text">manca R</note>
+</app>
+
+<app ana="sos">
+    <num>52</num>
+    <lem>que·l maltatz</lem>
+    <rdg>quel malvestatz<witDetail wit="#C"> C</witDetail>
+                                        </rdg>
+    <rdg>que ill malvestatz<witDetail wit="#E"> E</witDetail>
+                                        </rdg>
+    <rdg>que la malvestatz<witDetail wit="#R"> R</witDetail>
+                                        </rdg>
+</app>
+
+<app ana="sos">
+    <num>53</num>
+    <lem>e·l crueltatz</lem>
+    <rdg>e lor vertatz<witDetail wit="#R"> R</witDetail>
+                                        </rdg>
+</app>
+
+<app ana="sos">
+    <num>54</num>
+    <lem>qui en vos s’enpren</lem>
+    <rdg>nous laiss aver sen<witDetail wit="#CE"> CE</witDetail>
+                                        </rdg>
+    <rdg>nous laissan aver sen<witDetail wit="#R"> R</witDetail>
+                                        </rdg>
+</app>
+
+<app ana="sos">
+    <num>55</num>
+    <lem>no·us laiss’aver chauzimen</lem>
+    <rdg>ni nulh chauzimen<witDetail wit="#CER"> CER</witDetail>
+                                        </rdg>
+</app>
+
+<app ana="sos">
+    <num>56</num>
+    <lem>anz vos tol et vos defen</lem>
+    <rdg>ans lus tol e vos destrenh<witDetail wit="#R"> R</witDetail>
+                                        </rdg>
+</app>
+
+<app ana="sos">
+    <num>58</num>
+    <lem>no·m taz</lem>
+    <rdg>mon tatz<witDetail wit="#R"> R</witDetail>
+                                        </rdg>
+</app>
+
+<app ana="sos">
+    <num>59</num>
+    <lem>quans</lem>
+    <rdg>ans<witDetail wit="#R"> R</witDetail>
+                                        </rdg>
+</app>
+
+<app ana="sos">
+    <num>60</num>
+    <lem>tro venha</lem>
+    <rdg>no veya<witDetail wit="#R"> R</witDetail>
+                                        </rdg>
+</app>
+
+<app ana="sos">
+    <num>61-67</num>
+    <note type="text">manca C</note>
+</app>
+
+</listApp>
+              </listApp>
+            </div>
+            <!-- Apparato critico delle varianti formali del testo di costellazione -->
+            <div type="app_cos_form">
+              <listApp>
+    <app ana="form">
+        <num>10</num>
+        <lem>tenh</lem>
+        <rdg>ten<witDetail wit="#R"> R</witDetail>
+                                    </rdg>
+    </app>
+    <app ana="form">
+        <num>26</num>
+        <lem>melhuramen</lem>
+        <rdg>meilloramen<witDetail wit="#beta"> β</witDetail>
+                                    </rdg>
+    </app>
+    <app ana="form">
+        <num>61</num>
+        <lem>Campanha</lem>
+        <rdg>capagna<witDetail wit="#R"> R</witDetail>
+                                    </rdg>
+    </app>
+              </listApp>
+            </div>
+                <!--
+                <div type="trad_costellazione" xml:lang="it">
+
+                    <head>Traduzione del testo di costellazione</head>
+                    <lg n="1">I
+                        Ormai non attendo da voi gioie, Amore, sebbene tanto lungamente ho sperato invano,
+                        tenendo il segreto e soffrendo in silenzio la fatica e il tormento. Ma ora, quando me ne vado
+                        piangendo e lamentandomi, non mi serve a nulla.
+                        Eppure, del reclamo che io faccio mi ritengo soddisfatto, dal momento che se non ne ricaverò
+                        vantaggio, il biasimo almeno sarà su di voi.
+                        <lb />
+                    </lg>
+                    <lb />
+                    <lg n="2">II
+                        Dovrei biasimarvi con fermezza, ma proseguo nel sopportarvi, poiché colui che si infuria con
+                        violenza,
+                        soprattutto quando è preda dell’ira, è scellerato e fuori da ogni misura. Quindi temo, se mi
+                        intestardisco, che voi e i miei piacevoli canti ne risultino troppo ridotti nel valore.
+                        Perciò, voglio sappiate che, se non vi migliorate, allora svaluterei entrambi, Amore, voi e le
+                        mie canzoni.
+                        <lb />
+                    </lg>
+                    <lb />
+                    <lg n="3">III
+                        Sono di certo un folle perché attendo qualche miglioramento, poiché ogni volta più vi rimprovero
+                        come fossi un amico intimo,
+                        più voi intensificate e peggiorate il vostro errore.
+                        E chi non teme di fare follie, per le lamentele e il biasimo della gente, è privo di vergogna, e
+                        chi non prova vergogna non sarà mai né nobile né buono.
+                        <lb />
+                    </lg>
+                    <lb />
+                    <lg n="4">IV
+                        E sebbene so che non mi conviene discutere con voi, eppure lo faccio, forzatamente, poiché mi
+                        maltrattate, quindi io sono tanto forsennato che non posso parlare con giudizio. E se io mi
+                        pronuncerò scortesemente contro di voi, poiché mi costringete, sarà un torto e un peccato se ne
+                        sono biasimato. Poiché a voi spetta il crudele risentimento da cui provengono il torto e la
+                        colpa.
+                        <lb />
+                    </lg>
+                    <lb />
+                    <lg n="5">V
+                        Sono davvero un folle, sicuramente, poiché spreco e disperdo su di voi il mio insegnamento,
+                        Amore, dato che la malvagità e la follia e la crudeltà che si trovano in voi non permettono che
+                        voi abbiate discernimento, anzi vi negano e vi proibiscono di credere a qualcosa. Ma per questo
+                        io non mi taccio, perché anzi soffrirò afflitto finché giungano momenti migliori.
+                        <lb />
+                    </lg>
+                    <lb />
+                    <lg n="6">VI
+                        Champagne, vi è spettata una gran fortuna, perché è fra voi una donna senza dubbio priva di pari
+                        in prestigio e intelligenza, da cui migliorarvi, perché lei giunge in ogni dove con il suo
+                        valore prezioso e perfetto portando lodi alla Spagna e a voi.
+                        <lb />
+                    </lg>
+                </div> -->
+                            
+                </div>
+                
+            
+                <div type="trad_critico" xml:lang="it">
+                   
+                    <p n="1">
+                            <label>I</label>
+                        Ormai non attendo da voi gioie, Amore, sebbene tanto lungamente ho sperato invano, tenendo il
+                        segreto e soffrendo in silenzio la fatica e il tormento. Ma ora, quando me ne vado piangendo e
+                        lamentandomi, non mi serve a nulla. Eppure, del reclamo che io faccio mi ritengo soddisfatto,
+                        dal momento che se non ne ricaverò vantaggio, il biasimo almeno sarà su di voi.
+                    </p>
+                    <lb/>
+                    <p n="2">
+                            <lb/>
+                            <label>II</label>
+                    
+                        Dovrei biasimarvi con fermezza, ma proseguo nel sopportarvi, poiché colui che si infuria con
+                        violenza, soprattutto quando è preda dell’ira, è scellerato e fuori da ogni misura. Quindi temo,
+                        se mi infervoro, che voi e i miei piacevoli canti ne risultino troppo ridotti nel valore.
+                        Perciò, voglio sappiate che, se non vi migliorate, allora svaluterò entrambi, Amore, voi e le
+                        mie canzoni.
+                    </p>
+                    <lb/>
+                    <p n="3">
+                            <lb/>
+                            <label>III</label>
+                    
+                        Sono di certo un folle perché attendo qualche miglioramento, poiché ogni volta più vi rimprovero
+                        come fossi un amico intimo, più voi intensificate e peggiorate il vostro errore. E chi non teme
+                        di fare follie, per le lamentele e il biasimo della gente, è privo di vergogna, e chi non prova
+                        vergogna non sarà mai né nobile né buono.
+                    </p>
+                    <lb/>
+                    <p n="4">
+                            <lb/>
+                            <label>IV</label>
+                    
+                        E sebbene so che non è opportuno io discuta con voi, eppure lo faccio, forzatamente, poiché mi
+                        maltrattate, quindi io sono tanto forsennato che non posso parlare con giudizio. E se io mi
+                        pronuncerò scortesemente contro di voi, poiché mi costringete, sarà un torto e un peccato se ne
+                        sono biasimato. Infatti a voi spetta il crudele risentimento da cui derivano il torto e la
+                        colpa.
+                    </p>
+                    
+                    <p n="5">
+                            <lb/>
+                            <label>V</label>
+                        Sono davvero un folle, sicuramente, poiché spreco e disperdo su di voi il mio ammonimento,
+                        Amore, dato che la malvagità e la follia e la crudeltà che si trovano in voi non permettono che
+                        voi abbiate discernimento, anzi vi negano e vi proibiscono di credere a qualcosa. Ma per questo
+                        io non mi taccio, anzi soffrirò afflitto fino a che non veda momenti migliori.
+                    </p>
+                   
+                    <p n="6"> <lb/>
+                            <label>VI</label>
+                        Champagne, vi è spettata una gran fortuna, perché è fra voi una donna senza dubbio priva di pari
+                        in prestigio e intelligenza, da cui migliorarvi, perché lei giunge in ogni dove con il suo
+                        valore prezioso e perfetto portando lodi alla Spagna e a voi.
+                    </p>
+                </div>
+                
+                
+                <div type="trad_extra">
+                    <p>
+                            <title>Cobla trasmessa per tradizione indiretta</title>
+                        </p>
+                    <label>III</label>
+                    <lg type="stanza" n="extra">
+                                <l n="24">Heu sui folls car i enten</l>
+                                <l n="25">nuill meilloramen,</l>
+                                <l n="26">c’ades on plus vos repren</l>
+                                <l n="27">com amix privatz</l>
+                                <l n="28">vos creissetz e pejuratz</l>
+                                <l n="29">vostre falhimen;</l>
+                                <l n="30">e qi per reprendemen </l>
+                                <l n="31">ni per blasme de la gen</l>
+                                <l n="32">no tem far foudatz,</l>
+                                <l n="33">es desvergoinhatz</l>
+                                <l n="34">e qi non es vergoinhos</l>
+                                <l n="35">greu sera valens ni pros.</l>
+                    </lg>
+                    <lb/>
+                </div> 
+                
+            </front>
+        </body>
+        <back>
+            <div type="biblio">
+                <head>Edizioni e studi</head>
+                <div type="section" xml:id="section-edizioni">
+                <title>Edizioni</title>
+                <p>Shepard 1924, <witDetail>S</witDetail> pp. 22-25, 58, 75-76;
+                    <lb/>Gambini 2001, <witDetail>C</witDetail> pp. 211 e seguenti.
+                </p>
+                </div>
+
+            <div type="section">
+                <title>Studi</title>
+                <p>Meyer 1897: pp. 255, 274.</p>
+            </div>
+
+            <div type="section">
+                <title>Edizioni CAO</title>
+                <p>
+                            <witDetail>C</witDetail>: <ref rend="exit" target="https://www.rialto.unina.it/cao/diplomatiche/c/">dipl</ref>
+                    <lb/>
+                            <witDetail>E</witDetail>: <ref rend="exit" target="https://www.rialto.unina.it/cao/diplomatiche/e/">dipl</ref>, <ref rend="exit" target="https://www.rialto.unina.it/wp-content/uploads/2023/02/E.pdf">interp</ref>
+                    <lb/>
+                            <witDetail>S</witDetail>: <ref rend="exit" target="https://www.rialto.unina.it/cao/diplomatiche/s/">dipl</ref>, <ref rend="exit" target="https://www.rialto.unina.it/wp-content/uploads/2023/02/Interpretativa-S.pdf">interp
+                    </ref>
+                </p>
+            </div>
+          </div>
+        </back>
+     </div>
+    </text>
+</TEI>

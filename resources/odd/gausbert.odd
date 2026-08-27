@@ -134,11 +134,11 @@
 </elementSpec>
 <elementSpec mode="change" ident="l">
   <modelSequence>
-    <model behaviour="block">
-    </model>
     <model predicate="(number(@n) mod 5) = 0" behaviour="inline" cssClass="num_versi">
        <param name="content" value="@n"/>
             <outputRendition>font-size: 13px; color: grey; display: inline;</outputRendition>
+    </model>
+    <model behaviour="block">
     </model>
   </modelSequence>
 </elementSpec>
@@ -228,6 +228,9 @@
     </model>
     <model predicate="@type='d'" behaviour="inline" cssClass="scheda_rime">
         <outputRendition>background-color:#deb841;</outputRendition>
+    </model>
+    <model predicate="@type='e'" behaviour="inline" cssClass="scheda_rime">
+        <outputRendition>background-color:#7d8769;</outputRendition>
     </model>
 </elementSpec>
             </schemaSpec>

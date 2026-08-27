@@ -3,7 +3,7 @@
         <fileDesc>
             <titleStmt>
                 <title xml:lang="oc">
-                    Partit de joi e d'amor
+                    Partit de joi e d’amor
                 </title>
                 <title xml:lang="it">
                     Proposta di edizione critica digitale
@@ -50,14 +50,14 @@
                     <author>Rossella Lucisano</author>
 
                     <title>
-                        Per un'edizione critica digitale delle canzoni del trovatore Gausbert de Poicibot
+                        Per un’edizione critica digitale delle canzoni del trovatore Gausbert de Poicibot
                     </title>
 
                     <date when="2026">2026</date>
 
                 </bibl>
                 <listWit>
-                    <witness xml:id="C">
+                    <witness xml:id="ms.C">
                         <msDesc>
                             <msIdentifier>
                                 <country>Francia</country>
@@ -66,7 +66,7 @@
                             </msIdentifier>
                         </msDesc>
                     </witness>
-                    <witness xml:id="E">
+                    <witness xml:id="ms.E">
                         <msDesc>
                             <msIdentifier>
                                 <country>Francia</country>
@@ -75,7 +75,7 @@
                             </msIdentifier>
                         </msDesc>
                     </witness>
-                    <witness xml:id="H">
+                    <witness xml:id="ms.H">
                         <msDesc>
                             <msIdentifier>
                                 <country>Italia</country>
@@ -84,7 +84,7 @@
                             </msIdentifier>
                         </msDesc>
                     </witness>
-                    <witness xml:id="V">
+                    <witness xml:id="ms.V">
                         <msDesc>
                             <msIdentifier>
                                 <country>Italia</country>
@@ -104,7 +104,7 @@
             <metDecl>
                 <metSym xml:id="schema_metrico">
                     La canzone di Gausbert è composta da cinque coblas di dieci versi ciascuna e una tornada finale di
-                    quattro versi. I versi delle coblas cono perlopiù settenari, con l'eccezione di due quinari in
+                    quattro versi. I versi delle coblas cono perlopiù settenari, con l’eccezione di due quinari in
                     corrispondenza di settimo e ottavo verso. La tornada è composta da due quinari seguiti da
                     altrettanti settenari.
                 </metSym>
@@ -125,7 +125,7 @@
             <projectDesc>
                 <p>
                     Proposta di edizione critica digitale realizzata come progetto di tesi per la Laurea Magistrale in
-                    Informatica Umanistica dell'Università di Pisa.
+                    Informatica Umanistica dell’Università di Pisa.
                 </p>
             </projectDesc>
             
@@ -217,7 +217,7 @@
                     <p>
                         <list type="facsimile">
                             <item>
-                               <witDetail>C</witDetail> 192v: <seg>Gausbert de Puegsibot</seg> (nell’indice <seg>Aimeric de
+                               <witDetail>C</witDetail> 192v: <seg>Gausbert de Puegsibot</seg> (in tavola <seg>Aimeric de
                                 Pegulhan</seg>);
                             </item>
                             <item>
@@ -237,7 +237,7 @@
                     <head>Scheda metrica</head>
                     <p>[579 : 1]
                         <lb/>Unicum
-                        <lb/>a ₇ b ₇ b ₇ a ₇ c ₇' c ₇' d ₅ d ₅ a ₇ a ₇
+                        <lb/>a ₇ b ₇ b ₇ a ₇ c ₇’ c ₇’ d ₅ d ₅ a ₇ a ₇
                         <lb/>a: <rhyme type="a">or</rhyme> b: <rhyme type="b">ir</rhyme> c: <rhyme type="c">ida</rhyme> d: <rhyme type="d">an(s)</rhyme>
                     </p>
                 </div>
@@ -318,8 +318,8 @@
                         </seg>
                     </l>
                     <l n="28">quans que passes l’<seg xml:id="v28" type="diff">
-                                    <rhyme label="d">an</rhyme>,</seg>
-                            </l>
+                                    <rhyme label="d">an</rhyme>
+                                </seg>,</l>
                     <l n="29">
                         <seg xml:id="v29" type="diff">
                                     <term type="glossario">aizic<note xml:id="gloss-aizic" type="popup">
@@ -328,8 +328,8 @@
                             <def>⤷ v. | mettere, accogliere, favorire</def>
                             <ref rend="exit" target="https://dom-en-ligne.de/dom.php?lhid=7k163jfag9kynok7mxYjoH">DOM</ref>
                                             <lb/>
-                            <def>Le due versioni del verso appaiono a prima vista equivalenti, poiché entrambe corrette dal punto di vista metrico e semantico, ma per l'edizione si condivide l’ipotesi di Gambini sulla qualità superiore di C data dalla presenza del poliptoto fra <seg type="it">aizic</seg> e il participio passato <seg type="it">aizida</seg>, in rima al v. 25, entrambe forme del verbo <seg type="it">aizir</seg>.
-                                <lb/>Notare l'assenza del verbo nella costellazione EHV, in cui si legge <seg type="it">sofri maint</seg>, struttura che indica la presenza di più amanti della donna amata.
+                            <def>Le due versioni del verso appaiono a prima vista equivalenti, poiché entrambe corrette dal punto di vista metrico e semantico, ma per l’edizione si condivide l’ipotesi di Gambini sulla qualità superiore di C data dalla presenza del poliptoto fra <seg type="it">aizic</seg> e il participio passato <seg type="it">aizida</seg>, in rima al v. 25, entrambe forme del verbo <seg type="it">aizir</seg>.
+                                <lb/>Notare l’assenza del verbo nella costellazione EHV, in cui si legge <seg type="it">sofri maint</seg>, struttura che indica la presenza di più amanti della donna amata.
                             </def>
                         </note>
                                     </term> un fals</seg> <rhyme label="a">preiador</rhyme>
@@ -410,7 +410,7 @@
                             <lb/>
                             <def>Il verbo <seg type="it">termenar</seg> è tradotto da Levy come “poser des bornes, delimiter” e associato al sostantivo <seg type="it">terme</seg>, che si rifa appunto al concetto di “limite, confine”. In più, nella FEW si ritrovano i significati di “concludere, porre fine”, ma anche “perire, uccidere”, ed è quest’ultima la sfumatura adottata nella traduzione Shepard.
                                 <lb/>Appare comunque più probabile che il <seg type="it">clamans</seg> del v. 49 non sia altri che lo stesso io lirico, soggetto singolare del verbo, seguendo un’ipotesi già avanzata da Gambini nella sua edizione. Gambini sottolinea il frequente utilizzo di Gausbert di termini legati al <seg type="it">clamar</seg> per descrivere il lamento e l’afflizione causati dalla sua condizione amorosa.</def>
-                    </note>
+                                    </note>
                                 </term>, <rhyme label="a">seignor</rhyme>,</l>
                     <l n="50">del <seg xml:id="v50" type="diff">gran</seg> mal de sa <rhyme label="a">calor</rhyme>.</l>
                 </lg>
@@ -428,7 +428,7 @@
                                     <note xml:id="gloss-calor" type="popup">
                                     <label>≋ LIT</label>
                                     <term type="lex">calor/fregz</term>
-                                    <def>Il comportamento della donna amata è condannato da Gausbert in corrispondenza della tornada di chiusura della canzone, in cui il poeta lamenta il suo essere raggelato dall'ardore delle sue azioni, con esplicito riferimento ai tradimenti della donna con altri pretendenti.</def>
+                                    <def>Il comportamento della donna amata è condannato da Gausbert in corrispondenza della tornada di chiusura della canzone, in cui il poeta lamenta il suo essere raggelato dall’ardore delle sue azioni, con esplicito riferimento ai tradimenti della donna con altri pretendenti.</def>
                                     </note>
                                 </term>.</l>
                 </lg>
@@ -436,6 +436,7 @@
             </div>
             <!-- Apparato critico delle varianti sostanziali -->
             <div type="app_crt_sos">
+            <head>Apparato critico</head>
               <listApp>
                  <app ana="sos">
                         <num>44</num>
@@ -585,7 +586,7 @@
                         </seg>
                     </l>
                     <l n="36">
-                        m'arma no <seg type="diff_c" corresp="#v36">sera</seg> <rhyme label="c">delida</rhyme>.
+                        m’arma no <seg type="diff_c" corresp="#v36">sera</seg> <rhyme label="c">delida</rhyme>.
                     </l>
                     <l n="37">
                                 <seg corresp="#v37a" type="diff_c">Mas</seg> mos cors <seg corresp="#v37b" type="diff_c">
@@ -663,6 +664,7 @@
             </div>
             <!-- Apparato critico delle varianti sostanziali del testo di costellazione -->
             <div type="app_cos_sos">
+            <head>Apparato di costellazione</head>
               <listApp>
                 <app ana="sos">
                     <num>3</num>
@@ -706,7 +708,7 @@
                         <rdg>es<gap reason="lost" unit="word" quantity="1"/>
                                 <witDetail wit="#H"> H</witDetail>
                             </rdg>
-                        <note xml:id="paleo1" type="popup">In H, il verbo è seguito da uno spazio bianco che copre l'estensione di circa una parola.</note>
+                        <note xml:id="paleo1" type="popup">In H, il verbo è seguito da uno spazio bianco che copre l’estensione di circa una parola.</note>
                 </app>
                 <app ana="sos">
                     <num>16</num>
@@ -878,7 +880,7 @@
 
                 <head>Traduzione del testo di costellazione</head>
                 <p n="1">I
-                    <lb/>Allontanato dalla gioia e dall'amore, e consumato dalla tristezza, vorrei morire, se potessi.
+                    <lb/>Allontanato dalla gioia e dall’amore, e consumato dalla tristezza, vorrei morire, se potessi.
                     Eppure, per accrescere il mio dolore e l’afflizione che non mi abbandona, la mia vita continua, mio
                     malgrado. Poiché il piacere e il canto sono per me dolore e angoscia, e non gradisco alcuna gioia,
                     per questo, io che ero solito cantare, piango.

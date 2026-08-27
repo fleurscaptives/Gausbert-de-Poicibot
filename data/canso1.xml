@@ -3,7 +3,7 @@
         <fileDesc>
             <titleStmt>
                 <title xml:lang="oc">
-                    Amors s'a vos plagues
+                    Amors s’a vos plagues
                 </title>
                 <title xml:lang="it">
                     Proposta di edizione critica digitale
@@ -50,14 +50,14 @@
                     <author>Rossella Lucisano</author>
 
                     <title>
-                        Per un'edizione critica digitale delle canzoni del trovatore Gausbert de Poicibot.
+                        Per un’edizione critica digitale delle canzoni del trovatore Gausbert de Poicibot.
                     </title>
 
                     <date when="2026">2026</date>
 
                 </bibl>
                 <listWit>
-                    <witness xml:id="A"/>
+                    <witness xml:id="ms.A"/>
                         <msDesc>
                             <msIdentifier>
                                 <country>Italia</country>
@@ -65,7 +65,7 @@
                                 <idno>Lat. 5232</idno>
                             </msIdentifier>
                         </msDesc>
-                    <witness xml:id="C">
+                    <witness xml:id="ms.C">
                         <msDesc>
                             <msIdentifier>
                                 <country>Francia</country>
@@ -74,7 +74,7 @@
                             </msIdentifier>
                         </msDesc>
                     </witness>
-                    <witness xml:id="D"/>
+                    <witness xml:id="ms.D"/>
                         <msDesc>
                             <msIdentifier>
                                 <country>Italia</country>
@@ -82,7 +82,7 @@
                                 <idno>alfa. R.4.4</idno>
                             </msIdentifier>
                         </msDesc>
-                    <witness xml:id="E">
+                    <witness xml:id="ms.E">
                         <msDesc>
                             <msIdentifier>
                                 <country>Francia</country>
@@ -91,7 +91,7 @@
                             </msIdentifier>
                         </msDesc>
                     </witness>
-                    <witness xml:id="H"/>
+                    <witness xml:id="ms.H"/>
                         <msDesc>
                             <msIdentifier>
                                 <country>Italia</country>
@@ -99,7 +99,7 @@
                                 <idno>Lat. 3207</idno>
                             </msIdentifier>
                         </msDesc>
-                    <witness xml:id="I">
+                    <witness xml:id="ms.I">
                         <msDesc>
                             <msIdentifier>
                                 <country>Francia</country>
@@ -108,7 +108,7 @@
                             </msIdentifier>
                         </msDesc>
                     </witness>
-                    <witness xml:id="K">
+                    <witness xml:id="ms.K">
                         <msDesc>
                             <msIdentifier>
                                 <country>Francia</country>
@@ -117,7 +117,7 @@
                             </msIdentifier>
                         </msDesc>
                     </witness>
-                    <witness xml:id="N">
+                    <witness xml:id="ms.N">
                         <msDesc>
                             <msIdentifier>
                                 <country>Stati Uniti</country>
@@ -126,7 +126,7 @@
                             </msIdentifier>
                         </msDesc>
                     </witness>
-                    <witness xml:id="P">
+                    <witness xml:id="ms.P">
                         <msDesc>
                             <msIdentifier>
                                 <country>Italia</country>
@@ -135,7 +135,7 @@
                             </msIdentifier>
                         </msDesc>
                     </witness>
-                    <witness xml:id="T">
+                    <witness xml:id="ms.T">
                         <msDesc>
                             <msIdentifier>
                                 <country>Francia</country>
@@ -172,7 +172,7 @@
             <projectDesc>
                 <p>
                     Proposta di edizione critica digitale realizzata come progetto di tesi per la Laurea Magistrale in
-                    Informatica Umanistica dell'Università di Pisa.
+                    Informatica Umanistica dell’Università di Pisa.
                 </p>
             </projectDesc>
 
@@ -370,8 +370,7 @@
                     <l n="1">Amors, s’a vos <rhyme label="a">plagues</rhyme>
                                 </l>
                     <l n="2">
-                                    <seg xml:id="v2" type="diff">e non fos <rhyme label="b">desrazos</rhyme>
-                                    </seg>,</l>
+                                    <seg xml:id="v2" type="diff">e non fos <rhyme label="b">desrazos</rhyme></seg>,</l>
                     <l n="3">c’apres cen mals m’en <rhyme label="b">fos</rhyme>
                                 </l>
                     <l n="4">escaritz uns sols <rhyme label="a">bes</rhyme>,</l>
@@ -389,12 +388,7 @@
                     <l n="10">C’aissi, cum d’aut luoc <rhyme label="a">pres</rhyme>
                                 </l>
                     <l n="11">mos chans <rhyme label="b">comensamen</rhyme>,</l>
-                    <l n="12">et en aut luoc 
-                                        <rhyme label="b">
-                                        <seg xml:id="v12" type="diff">
-                                            <seg type="corr">m’enten</seg>
-                                        </seg>
-                                    </rhyme>,</l>
+                    <l n="12">et en aut luoc <rhyme label="b"><seg xml:id="v12" type="diff"><seg type="corr">m’enten</seg></seg></rhyme>,</l>
                     <l n="13">et autz luocs m’a <rhyme label="a">conques</rhyme>,</l>
                     <l n="14">covengra qu’eu <rhyme label="a">fezes</rhyme>
                                 </l>
@@ -404,16 +398,12 @@
                     <l n="17">
                                     <seg xml:id="v17" type="diff">c’a mon chant</seg> <rhyme label="a">paregues</rhyme>
                                 </l>
-                    <l n="18">que <term type="glossario">de valen luoc <rhyme label="a">es</rhyme>
-                                        <note type="popup" xml:id="gloss-luoc">
+                    <l n="18">que <term type="glossario">de valen luoc <rhyme label="a">es</rhyme><note type="popup" xml:id="gloss-luoc">
                             <label>≋ LIT</label>
                             <term type="lit">(mos chans) de valen luoc es</term>
                             <def>Gausbert segue, secondo una disposizione quasi chiastica, il suo canto dal luogo di origine sino al luogo che questo aspira a raggiungere, riferendosi al punto iniziale e finale del percorso effettuato dalla canzone.<lb/>
-                                La struttura della figura proposta dal trovatore ha generato la diffrazione <seg type="it">m'enten</seg>/<seg type="it">s'enten</seg> al v.12; il soggetto della prima variante sarebbe l'io lirico e non più il canto stesso del trovatore.<lb/>Per il testo critico, si mette a testo la lezione <seg type="it">m'enten</seg>, vista anche la vicinanza con <seg type="it">m'a conques</seg> al v. 13, da riferirsi sempre al vissuto interiore dell'io lirico.
-                                    <lb/>Ad ogni modo, la natura stessa della variante la rende suscettibile di innovazioni indipendenti.
-</def>
-                                        </note>
-                                    </term>.</l>
+                                La struttura della figura proposta dal trovatore ha generato la diffrazione <seg type="it">m’enten</seg>/<seg type="it">s’enten</seg> al v.12; il soggetto della prima variante sarebbe l’io lirico e non più il canto stesso del trovatore.<lb/>Per il testo critico, si mette a testo la lezione <seg type="it">m’enten</seg>, vista anche la vicinanza con <seg type="it">m’a conques</seg> al v. 13, da riferirsi sempre al vissuto interiore dell’io lirico.
+                                    <lb/>Ad ogni modo, la natura stessa della variante la rende suscettibile di innovazioni indipendenti.</def></note></term>.</l>
                     </lg>
                 <!-- Cobla III -->
                     <label>III</label>
@@ -430,13 +420,9 @@
                             <label>≋ LIT</label>
                             <term type="lit">aprendre/desaprendre</term>
                             <def>In questo luogo del testo, Gausbert inserisce un’antitesi tra i due verbi in opposizione <seg type="it">aprendre</seg> e <seg type="it">desaprendre</seg>; l’intento è biasimare Amore che, dopo aver ispirato
-                            i sentimenti oggetto del suo canto, ha posto il trovatore in una condizione sfavorevole.</def>
-                    </note>
-                                    </term>
-                                </l>
+                            i sentimenti oggetto del suo canto, ha posto il trovatore in una condizione sfavorevole.</def></note></term></l>
                     <l n="24">chantar, mi <term type="glossario">
-                                        <rhyme label="c">desapren</rhyme>
-                                    </term>,</l>
+                                        <rhyme label="c">desapren</rhyme></term>,</l>
                     <l n="25">que m’a lo cor e·l <rhyme label="c">sen</rhyme>
                                 </l>
                     <l n="26">per <seg xml:id="v26" type="diff">
@@ -458,13 +444,10 @@
                                 </l>
                     <l n="33">lo sieu cor <rhyme label="c">orgoillos</rhyme>
                                 </l>
-                    <l n="34">tant <term type="glossario">aclinar en <rhyme label="c">ios</rhyme>
-                                        <note type="popup" xml:id="gloss-aclinar">
+                    <l n="34">tant <term type="glossario">aclinar en <rhyme label="c">ios</rhyme><note type="popup" xml:id="gloss-aclinar">
                             <label>≋ LIT</label>
                             <term type="lit">aclinar en ios</term>
-                            <def>L’attestazione in questa lirica sembra l’unica in cui <seg type="it">aclinar</seg> è seguito dalla preposizione <seg type="it">en</seg>.<lb/> Diverso è invece il caso del medesimo verbo seguito dalle preposizioni <seg type="it">vas/ves</seg> e <seg type="it">vers</seg>, per cui si registrano almeno quattro occorrenze, fra cui si ricordano una lirica di Beatriz de Dia (<seg type="it">vas vos non si aclina</seg>, BdT 46.2, v. 25), un <seg type="it">salutz</seg> anonimo copiato nel canzoniere N (<seg type="it">ves lei t’aclina</seg>, BdT 146.7, v. 106), e ancora una canzone di Guilhem de Cabestaing (<seg type="it">aclin vers autre seingnoratge</seg>, BdT 213.7, v. 28), in cui il verbo non ha valore riflessivo, come nella lirica qui analizzata.</def>
-                    </note>
-                                    </term>,</l>
+                            <def>L’attestazione in questa lirica sembra l’unica in cui <seg type="it">aclinar</seg> è seguito dalla preposizione <seg type="it">en</seg>.<lb/> Diverso è invece il caso del medesimo verbo seguito dalle preposizioni <seg type="it">vas/ves</seg> e <seg type="it">vers</seg>, per cui si registrano almeno quattro occorrenze, fra cui si ricordano una lirica di Beatriz de Dia (<seg type="it">vas vos non si aclina</seg>, BdT 46.2, v. 25), un <seg type="it">salutz</seg> anonimo copiato nel canzoniere N (<seg type="it">ves lei t’aclina</seg>, BdT 146.7, v. 106), e ancora una canzone di Guilhem de Cabestaing (<seg type="it">aclin vers autre seingnoratge</seg>, BdT 213.7, v. 28), in cui il verbo non ha valore riflessivo, come nella lirica qui analizzata.</def></note></term>,</l>
                     <l n="35">c’a orguoill <seg type="corr">no·s</seg> <rhyme label="a">tengues</rhyme>,</l>
                     <l n="36">si vas mi <rhyme label="a">s’afraises</rhyme>.</l>
                 </lg>
@@ -497,9 +480,7 @@
                                     <seg xml:id="tornada48" type="diff">vai, chansos, per <rhyme label="b">presen</rhyme>,</seg>
                                 </l>
                     <l n="49">
-                                    <seg xml:id="tornada49" type="diff">tot dreich en <rhyme label="a">
-                                            <seg type="corr">Creones</seg>
-                                        </rhyme>,</seg>
+                                    <seg xml:id="tornada49" type="diff">tot dreich en <rhyme label="a"><seg type="corr">Creones</seg></rhyme>,</seg>
                                 </l>
                     <l n="50">
                                     <seg xml:id="tornada50" type="diff">al seignor del <rhyme label="a">paes</rhyme>.</seg>
@@ -521,6 +502,7 @@
             </div>
             <!-- Apparato critico delle varianti sostanziali -->
             <div type="app_crt_sos">
+            <head>Apparato critico</head>
               <listApp>
               <app ana="sos">
    <num>1</num>
@@ -777,7 +759,7 @@
     <note type="popup_cont" xml:id="cont2">
             <surface>
         <graphic url="images/glossaH_2.png"/>
-      </surface>All'inizio della prima <seg type="it">tornada</seg>, dedicata ad Amalric I, duca di Craon, si nota a margine l’aggiunta di una glossa, in Careri 1990 giudicata contemporanea alla trascrizione, che segnala invece una versione alternativa del verso: <seg type="it">~ alias. E·l beutatz ab ioven</seg>.<lb/>
+      </surface>All’inizio della prima <seg type="it">tornada</seg>, dedicata ad Amalric I, duca di Craon, si nota a margine l’aggiunta di una glossa, in Careri 1990 giudicata contemporanea alla trascrizione, che segnala invece una versione alternativa del verso: <seg type="it">~ alias. E·l beutatz ab ioven</seg>.<lb/>
           H è l’unico testimone a trasmettere questa versione del verso, pienamente accettabile dal punto di vista metrico.
           Non è chiaro se l’attestazione isolata possa essere considerata una spia che segnala la perdita di un’ulteriore tradizione del testo che non ha lasciato tracce nel resto 
           dei testimoni; ciò appare probabile, visto l’utilizzo dell’<seg type="it">alias</seg> che introduce la glossa.<lb/>
@@ -870,13 +852,13 @@
                   </app>
                   <app ana="form">
                       <num>30</num>
-                        <note type="text">Commento del copista a margine dell'incipit della cobla </note>
+                        <note type="text">Commento del copista a margine dell’incipit della cobla </note>
                         <witDetail wit="#H">H</witDetail>
                         <note type="popup" xml:id="paleo7">
                          <surface>
                             <graphic url="images/glossaH.png"/>
                          </surface>
-                         In H, un segno di rimando copiato nel testo sopra il verbo <seg type="it">q'ausses</seg> riporta a una glossa marginale dove si legge
+                         In H, un segno di rimando copiato nel testo sopra il verbo <seg type="it">q’ausses</seg> riporta a una glossa marginale dove si legge
                          <seg type="it">id est en aut leues. quod est alsare</seg>. 
                          <lb/>Il verbo <seg type="it">alsare</seg>, giudicato in Careri 1990 un derivato da una varietà volgare veneta, 
                          sarebbe una traduzione del provenzale <seg type="it">ausar</seg>.
@@ -889,7 +871,7 @@
                   </app>
                   <app ana="form">
                       <num>36</num>
-                      <lem>s'afraises</lem>
+                      <lem>s’afraises</lem>
                       <rdg>
                         safrainses<witDetail wit="#D #H"> DH</witDetail>
                       </rdg>
@@ -906,7 +888,7 @@
                   </app>
                   <app ana="form">
                       <num>53</num>
-                      <lem>qu'en</lem>
+                      <lem>qu’en</lem>
                       <rdg>
                         quem<witDetail wit="#D"> D</witDetail>
                       </rdg>
@@ -925,14 +907,12 @@
                                 </l>
                     <l n="2">
                                     <seg type="diff_c" corresp="#v2">
-                                        <seg type="edit">ben</seg> semblera <rhyme label="b">razos</rhyme>
-                                    </seg>,</l>
+                                        <seg type="edit">ben</seg> semblera <rhyme label="b">razos</rhyme></seg>,</l>
                     <l n="3">qu’apres cent mals m’en <rhyme label="b">fos</rhyme>
                                 </l>
-                    <l n="4">escazuitz uns sols <rhyme label="a">bes</rhyme>
-                                    <seg type="edit"> ;</seg>
+                    <l n="4">escazuitz uns sols <rhyme label="a">bes</rhyme><seg type="edit"> ;</seg>
                                 </l>
-                    <l n="5">dregz fora qu'ieu <rhyme label="a">l’agues</rhyme>,</l>
+                    <l n="5">dregz fora qu’ieu <rhyme label="a">l’agues</rhyme>,</l>
                     <l n="6">mas vos no·n platz <rhyme label="c">nien</rhyme>.</l>
                     <l n="7">Pero, si·us fora <rhyme label="c">gen</rhyme>
                                 </l>
@@ -945,8 +925,7 @@
                                 </l>
                     <l n="11">mos chans <rhyme label="b">comensamen</rhyme>,</l>
                     <l n="12">et en aut luec <seg type="diff_c" corresp="#v12">
-                                        <rhyme label="b">s’enten</rhyme>
-                                    </seg>,</l>
+                                        <rhyme label="b">s’enten</rhyme></seg>,</l>
                     <l n="13">et autz luecs m’a <rhyme label="a">conques</rhyme>,</l>
                     <l n="14">covengra qu’ieu <rhyme label="a">fezes</rhyme>
                                 </l>
@@ -1040,6 +1019,7 @@
             </div>
             <!-- Apparato critico delle varianti sostanziali del testo di costellazione -->
             <div type="app_cos_sos">
+            <head>Apparato di costellazione</head>
  <listApp>
                                 <app ana="sos">
                         <num>1</num>
@@ -1267,7 +1247,7 @@
    <rdg>e pos
       <witDetail wit="#P">P</witDetail>
    </rdg>
-   <lem>s'en etremes</lem>
+   <lem>s’en etremes</lem>
    <rdg>sentremes
       <witDetail wit="#I">I</witDetail>
    </rdg>
@@ -1383,7 +1363,7 @@
    <lem>que joi tant avinen</lem>
    <rdg>si jois tant avinen
       <witDetail wit="#N">N</witDetail>
-      <note type="popup" xml:id="paleo5">La lezione <seg type="it">vinen</seg> è corretta in interlinea con l'aggiunta della <seg type="it">a</seg> da una seconda mano.</note>
+      <note type="popup" xml:id="paleo5">La lezione <seg type="it">vinen</seg> è corretta in interlinea con l’aggiunta della <seg type="it">a</seg> da una seconda mano.</note>
    </rdg>
 </app>
 
@@ -1537,7 +1517,7 @@
                 </app>
                 <app ana="form">
                     <num>36</num>
-                            <lem>s'afraysses</lem>
+                            <lem>s’afraysses</lem>
                             <rdg>safrainsses
                             <witDetail wit="#P"> P</witDetail>
                             </rdg>
@@ -1566,7 +1546,7 @@
                             <witDetail wit="#N"> N</witDetail>
                             <note xml:id="paleo1" type="popup">Il copista di N ha aggiunto <seg type="it">tan</seg> in interlinea in un momento successivo.</note>
                             </rdg>
-                            <lem>qu'en</lem>
+                            <lem>qu’en</lem>
                             <rdg>quem
                             <witDetail wit="#I #K"> IK</witDetail>
                             </rdg>

@@ -1,0 +1,630 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="14">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="oc">
+                    Una grans amors corals
+                </title>
+                <title xml:lang="it">
+                    Proposta di edizione critica digitale
+                </title>
+                <author>
+                    Gausbert de Poicibot
+                </author>
+
+                <editor role="editor">
+                    Rossella Lucisano
+                </editor>
+
+                <respStmt>
+                    <resp>Primo Relatore</resp>
+                    <name>Prof.ssa Speranza Cerullo</name>
+                    <resp>Secondo Relatore</resp>
+                    <name>Prof. Angelo Mario Del Grosso</name>
+                </respStmt>
+
+            </titleStmt>
+
+            <publicationStmt>
+
+                <publisher>
+                    Università di Pisa
+                </publisher>
+
+                <pubPlace>
+                    Pisa
+                </pubPlace>
+
+                <date when="2026">
+                    2026
+                </date>
+
+                <availability status="restricted"/>
+
+            </publicationStmt>
+
+            <sourceDesc>
+
+                <bibl type="tesi_di_laurea">
+
+                    <author>Rossella Lucisano</author>
+
+                    <title>
+                        Per un’edizione critica digitale delle canzoni del trovatore Gausbert de Poicibot.
+                    </title>
+
+                    <date when="2026">2026</date>
+
+                </bibl>
+                <listWit>
+                    <witness xml:id="ms.A"/>
+                        <msDesc>
+                            <msIdentifier>
+                                <country>Italia</country>
+                                <repository>Roma, Biblioteca Apostolica Vaticana</repository>
+                                <idno>Lat. 5232</idno>
+                            </msIdentifier>
+                        </msDesc>
+                    <witness xml:id="ms.C">
+                        <msDesc>
+                            <msIdentifier>
+                                <country>Francia</country>
+                                <repository>Parigi, Bibliothèque nationale de France</repository>
+                                <idno>fr. 856</idno>
+                            </msIdentifier>
+                        </msDesc>
+                    </witness>
+                    <witness xml:id="ms.D"/>
+                        <msDesc>
+                            <msIdentifier>
+                                <country>Italia</country>
+                                <repository>Modena, Bilioteca Nazionale Estense</repository>
+                                <idno>alfa. R.4.4</idno>
+                            </msIdentifier>
+                        </msDesc>
+                    <witness xml:id="ms.E">
+                        <msDesc>
+                            <msIdentifier>
+                                <country>Francia</country>
+                                <repository>Parigi, Bibliothèque nationale de France</repository>
+                                <idno>fr. 1749</idno>
+                            </msIdentifier>
+                        </msDesc>
+                    </witness>
+                    <witness xml:id="ms.G">
+                        <msDesc>
+                            <msIdentifier>
+                                <country>Italia</country>
+                                <repository>Milano, Biblioteca Ambrosiana</repository>
+                                <idno>R 71 superiore</idno>
+                            </msIdentifier>
+                        </msDesc>
+                    </witness>
+                    <witness xml:id="ms.I">
+                        <msDesc>
+                            <msIdentifier>
+                                <country>Francia</country>
+                                <repository>Parigi, Bibliothèque nationale de France</repository>
+                                <idno>fr. 854</idno>
+                            </msIdentifier>
+                        </msDesc>
+                    </witness>
+                    <witness xml:id="ms.K">
+                        <msDesc>
+                            <msIdentifier>
+                                <country>Francia</country>
+                                <repository>Parigi, Bibliothèque nationale de France</repository>
+                                <idno>fr. 12473</idno>
+                            </msIdentifier>
+                        </msDesc>
+                    </witness>
+                    <witness xml:id="ms.L">
+                        <msDesc>
+                            <msIdentifier>
+                                <country>Italia</country>
+                                <repository>Roma, Biblioteca Apostolica Vaticana</repository>
+                                <idno>lat. 3206</idno>
+                            </msIdentifier>
+                        </msDesc>
+                    </witness>
+                    <witness xml:id="ms.N">
+                        <msDesc>
+                            <msIdentifier>
+                                <country>Stati Uniti</country>
+                                <repository>New York, Pierpont Morgan Library</repository>
+                                <idno>819</idno>
+                            </msIdentifier>
+                        </msDesc>
+                    </witness>
+                    <witness xml:id="ms.P">
+                        <msDesc>
+                            <msIdentifier>
+                                <country>Italia</country>
+                                <repository>Firenze, Biblioteca Medicea Laurenziana</repository>
+                                <idno>Plut. 41.42</idno>
+                            </msIdentifier>
+                        </msDesc>
+                    </witness>
+                    <witness xml:id="ms.R">
+                        <msDesc>
+                            <msIdentifier>
+                                <country>Francia</country>
+                                <repository>Parigi, Bibliothèque nationale de France</repository>
+                                <idno>fr. 22543</idno>
+                            </msIdentifier>
+                        </msDesc>
+                    </witness>
+                    <witness xml:id="ms.T">
+                        <msDesc>
+                            <msIdentifier>
+                                <country>Francia</country>
+                                <repository>Parigi, Bibliothèque nationale de France</repository>
+                                <idno>fr. 15211</idno>
+                            </msIdentifier>
+                        </msDesc>
+                    </witness>
+                    <witness xml:id="ms.U">
+                        <msDesc>
+                            <msIdentifier>
+                                <country>Italia</country>
+                                <repository>Biblioteca Medicea Laurenziana</repository>
+                                <idno>Plut. 41. 43</idno>
+                            </msIdentifier>
+                        </msDesc>
+                    </witness>
+                    <witness xml:id="ms.a¹">
+                        <msDesc>
+                            <msIdentifier>
+                                <country>Italia</country>
+                                <repository>Firenze, Biblioteca Riccardiana</repository>
+                                <idno>2814</idno>
+                            </msIdentifier>
+                        </msDesc>
+                    </witness>
+                    <witness xml:id="ms.w">
+                        <msDesc>
+                            <msIdentifier>
+                                <country>Italia</country>
+                                <repository>Roma, Biblioteca Apostolica Vaticana</repository>
+                                <idno>barb. 3965</idno>
+                            </msIdentifier>
+                        </msDesc>
+                    </witness>
+                     <witness xml:id="alfa">
+                        Maatfre Ermengau, Breviari d'Amor, vv. 28050-28063.
+                    </witness>
+                </listWit>
+
+            </sourceDesc>
+
+        </fileDesc>
+
+        <encodingDesc>
+
+            <metDecl>
+                <metSym xml:id="schema_metrico">
+                    La canzone di Gausbert è composta da cinque coblas di undici versi dal metro che prevede l'alternarsi non uniforme di quinari e settenari. Tre testimoni trasmettono anche da una a due tornadas conclusive. 
+                </metSym>
+            </metDecl>
+
+            <classDecl>
+                <taxonomy xml:id="var_types">
+                    <category xml:id="sos">
+                        <catDesc>Variante sostanziale</catDesc>
+                    </category>
+                    <category xml:id="form">
+                        <catDesc>Variante grafica</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+
+            <projectDesc>
+                <p>
+                    Proposta di edizione critica digitale realizzata come progetto di tesi per la Laurea Magistrale in
+                    Informatica Umanistica dell’Università di Pisa.
+                </p>
+            </projectDesc>
+
+            <schemaRef ident="gausbert.odd" type="ODD"/>
+
+        </encodingDesc>
+
+        <profileDesc>
+
+            <langUsage>
+
+                <language ident="oc">
+                    Antico provenzale
+                </language>
+
+                <language ident="it">
+                    Italiano
+                </language>
+
+            </langUsage>
+
+            <textClass>
+
+                <keywords scheme="genre">
+                    <term>lirica trobadorica</term>
+                    <term>poesia medievale</term>
+                    <term>Gausbert de Poicibot</term>
+                    <term>digital humanities</term>
+                    <term>filologia digitale</term>
+                </keywords>
+
+            </textClass>
+
+        </profileDesc>
+
+        <revisionDesc>
+
+            <change when="2026-07-19" who="#editor">
+                Creazione iniziale del file XML.
+            </change>
+
+        </revisionDesc>
+
+    </teiHeader>
+    <facsimile>
+      <surfaceGrp xml:id="A">
+        <surface n="1">
+            <graphic url="images/A14a.png"/>
+        </surface>
+        <surface n="2">
+            <graphic url="images/A14b.png"/>
+        </surface>
+      </surfaceGrp>
+      <surfaceGrp xml:id="C">
+        <surface n="1">
+            <graphic url="images/C14a.png"/>
+        </surface>
+        <surface n="2">
+            <graphic url="images/C14b.png"/>
+        </surface>
+     </surfaceGrp>
+     <surfaceGrp xml:id="D">
+        <surface n="1">
+            <graphic url="images/D14a.png"/>
+        </surface>
+        <surface n="2">
+            <graphic url="images/D14b.png"/>
+        </surface>
+     </surfaceGrp>
+     <surfaceGrp xml:id="E">
+        <surface n="1">
+            <graphic url="images/E14a.png"/>
+        </surface>
+        <surface n="2">
+            <graphic url="images/E14b.png"/>
+        </surface>
+     </surfaceGrp>
+     <surfaceGrp xml:id="G">
+        <surface n="1">
+            <graphic url="images/G14a.png"/>
+        </surface>
+        <surface n="1a">
+            <graphic url="images/G14a2.png"/>
+        </surface>
+        <surface n="2">
+            <graphic url="images/G14b.png"/>
+        </surface>
+     </surfaceGrp>
+     <surfaceGrp xml:id="I">
+        <surface n="1">
+            <graphic url="images/I14a.jpg"/>
+        </surface>
+     </surfaceGrp>
+     <surfaceGrp xml:id="K">
+        <surface n="1">
+            <graphic url="images/K14a.jpg"/>
+        </surface>
+     </surfaceGrp>
+     <surfaceGrp xml:id="L">
+        <surface n="1">
+            <graphic url="images/L14a.png"/>
+        </surface>
+        <surface n="2">
+            <graphic url="images/L14b.png"/>
+        </surface>
+     </surfaceGrp>
+     <surfaceGrp xml:id="N">
+        <surface n="1">
+            <graphic url="images/N14a.jpg"/>
+        </surface>
+        <surface n="2">
+            <graphic url="images/N14b.jpg"/>
+        </surface>
+     </surfaceGrp>
+     <surfaceGrp xml:id="P">
+        <surface n="1">
+            <graphic url="images/P14a.jpg"/>
+        </surface>
+        <surface n="2">
+            <graphic url="images/P14b.jpg"/>
+        </surface>
+     </surfaceGrp>
+     <surfaceGrp xml:id="R">
+        <surface n="1">
+            <graphic url="images/R14a.jpg"/>
+        </surface>
+     </surfaceGrp>
+     <surfaceGrp xml:id="T">
+        <surface n="1">
+            <graphic url="images/T14a.png"/>
+        </surface>
+        <surface n="2">
+            <graphic url="images/T14b.png"/>
+        </surface>
+     </surfaceGrp>
+     <surfaceGrp xml:id="U">
+        <surface n="1">
+            <graphic url="images/U14a.jpg"/>
+        </surface>
+        <surface n="2">
+            <graphic url="images/U14b.jpg"/>
+        </surface>
+        <surface n="3">
+            <graphic url="images/U14c.png"/>
+        </surface>
+     </surfaceGrp>
+     <surfaceGrp xml:id="a¹">
+        <surface n="1">
+            <graphic url="images/a14a.png"/>
+        </surface>
+     </surfaceGrp>
+     <surfaceGrp xml:id="w">
+        <surface n="1">
+            <graphic url="images/w14a.jpg"/>
+        </surface>
+        <surface n="2">
+            <graphic url="images/w14b.png"/>
+        </surface>
+     </surfaceGrp>
+    </facsimile>
+    
+    
+    <text>
+    <div type="edition">
+    <body>
+        <front>
+            <div type="manoscritti">
+                <p>
+                    <list type="facsimile">
+                        <item>
+                            <witDetail>A</witDetail> 116r: <seg>Lo monges de Ponciboc</seg>;
+                        </item>
+                        <item>
+                            <witDetail>C</witDetail> 190r: <seg>.Gausbert de Puegcibot</seg>; 
+                        </item>
+                        <item>
+                            <witDetail>D</witDetail> 46v: <seg>Lo monge de Poicibot</seg>; 
+                        </item>
+                        <item>
+                            <witDetail>E</witDetail> 159: <seg>Monge d</seg>(<seg>e</seg>)<seg> Pueisibot</seg>; 
+                        </item>
+                        <item>
+                            <witDetail>G</witDetail> 104r: <seg>Moge d</seg>(<seg>e</seg>)<seg> Pocibot</seg>;  
+                        </item>
+                        <item>
+                            <witDetail>I</witDetail> 80v: <seg>Lo monge Gaubertz de Poicibot</seg>; 
+                        </item>
+                        <item>
+                            <witDetail>K</witDetail> 64v: <seg>Lo monge Gaubertz de Poicibot</seg>;
+                        </item>
+                        <item>
+                            <witDetail>L</witDetail> 37v: <seg>Monge de Ponçibec</seg>;
+                        </item>
+                        <item>
+                            <witDetail>N</witDetail> 208v: <seg>Lo monge de Pueisibot</seg>;
+                        </item>
+                        <item>
+                            <witDetail>P</witDetail> 11r: <seg>Gaubert</seg>; 
+                        </item>
+                        <item>
+                            <witDetail>R</witDetail> 28r: <seg>.Gaub</seg>(<seg>er</seg>)<seg>t de Puegsiboth.</seg>.
+                        </item>
+                        <item>
+                            <witDetail>T</witDetail> 114r: <seg>Gaubert de Pontibot</seg>.
+                        </item>
+                        <item>
+                            <witDetail>U</witDetail> 80v: <seg>Gaub</seg>(<seg>er</seg>)<seg>t li monge de Pogibot</seg>.
+                        </item>
+                        <item>
+                            <witDetail>a¹</witDetail> 212: <seg>Gaubertz de Puigcibot</seg>.
+                        </item>
+                        <item>
+                            <witDetail>w</witDetail> 283r: anonimo.
+                        </item>
+                    </list>
+                </p>
+            </div>
+            <div type="trad_ind">
+                  <head>Tradizione indiretta</head>
+                    <p>
+                        <list>
+                            <item>
+                                 <witDetail>α</witDetail> vv. 28050-28063 (dal <seg type="it">Breviari d'Amor</seg> di Matfre Ermengau).<note type="popup" xml:id="nota_extra1"/>
+                                </item>
+                        </list>
+                    </p>
+                </div>
+            <div type="scheda_metrica">
+
+                <head>Scheda metrica</head>
+                <p>[342 : 1]
+                    <lb/>Unicum
+                    <lb/>a ₇ b ₅ a ₇ b ₅ b ₇ c ₇ d ₇ c ₇ e ₇ e ₇ d ₅
+                    <lb/>a: <rhyme type="a">als</rhyme>, b: <rhyme type="b">e</rhyme>, c: <rhyme type="c">ens</rhyme>, d: <rhyme type="d">ensa</rhyme>, e: <rhyme type="e">ors</rhyme>
+                        </p>
+            </div>
+            <div type="testo">
+              <div type="txt_critico" xml:id="canso1">
+                <title>Testo critico</title>
+                <p/>
+                <!-- Cobla I -->
+                    <label>I</label>
+                    <lg type="stanza" n="1" rhyme="ababbcdceed">
+                </lg>
+                <lb/>
+                <!-- Cobla II -->
+                    <label>II</label>
+                    <lg type="stanza" n="2" rhyme="ababbcdceed"/>
+                <!-- Cobla III -->
+                    <label>III</label>
+                    <lg type="stanza" n="3" rhyme="ababbcdceed">
+                </lg>
+                <!-- Cobla IV -->
+                    <label>IV</label>
+                    <lg type="stanza" n="4" rhyme="ababbcdceed">
+                </lg>
+                <!-- Cobla V -->
+                    <label>V</label>
+                    <lg type="stanza" n="5" rhyme="ababbcdceed">
+                </lg>
+                <!-- Cobla VI -->
+                    <label>VI</label>
+                    <lg type="enovy" n="tornada1">
+                </lg>
+            </div>
+            <!-- Apparato critico delle varianti sostanziali -->
+            <div type="app_crt_sos">
+            <head>Apparato critico</head>
+              <listApp>
+              </listApp>
+            </div>
+            <div type="app_crt_form">
+              <listApp>
+              </listApp>
+            </div>
+            <div type="txt_costellazione" xml:id="canso1.1">
+
+                <title>Testo di costellazione</title>
+                <p/>
+                <!-- Cobla I -->
+                    <lg type="stanza" n="1.1" rhyme="ababbcdceed">
+                    </lg>
+                <!-- Cobla III -->
+                    <lg type="stanza" n="3.1" rhyme="ababbcdceed">
+                </lg>
+                <!-- Cobla IV -->
+                    <lg type="stanza" n="4.1" rhyme="ababbcdceed">
+                </lg>
+                <!-- Cobla V -->
+                    <lg type="stanza" n="5.1" rhyme="ababbcdceed">
+                </lg>
+                <!-- Cobla VI -->
+                    <lg type="enovy" n="tornada1.1"/>
+            </div>
+            <!-- Apparato critico delle varianti sostanziali del testo di costellazione -->
+            <div type="app_cos_sos">
+            <head>Apparato di costellazione</head>
+ <listApp>
+              </listApp>
+            </div>
+            <!-- Apparato critico delle varianti formali del testo di costellazione -->
+            </div>
+            <div type="app_cos_form">
+              <listApp>
+              </listApp>
+            </div>
+            <div type="trad_critico" xml:lang="it">
+                <p n="1">
+                            <label>I</label>
+                </p>
+                <lb/>
+                <p n="2">
+                            <lb/>
+                            <label>II</label>
+                </p>
+                <lb/>
+                <p n="3">
+                            <lb/>
+                            <label>III</label>
+                </p>
+                <lb/>
+                <p n="4">
+                            <lb/>
+                            <label>IV</label>
+                </p>
+                <lb/>
+                <p n="5">
+                            <lb/>
+                            <label>V</label>
+                </p>
+                <lb/>
+                <p n="6">
+                            <lb/>
+                            <label>VI</label>
+                </p>
+
+            </div>
+            <!-- <div type="trad_costellazione" xml:lang="it">
+
+                <head>Traduzione del testo di costellazione</head>
+                <lg n="1">I
+                    <lb />
+                    Amore, se a voi piacesse, sembrerà ragionevole, che dopo cento mali un solo bene mi fosse accordato; sarebbe giusto che io lo avessi, ma a voi nulla piace. Però, se vi fosse gradito, che ne tragga qualche gioia, allora il mio canto avrebbe maggiore valore. 
+                    <lb />
+                </lg>
+                <lb />
+                <lg n="2">II
+                    <lb />
+                    Poiché, come il mio canto ha avuto inizio da un luogo elevato, e a un luogo elevato aspira, e un luogo elevato mi ha conquistato, converrebbe che io componga, da un argomento tanto nobile, canzoni tanto armoniose, che il cantare dimostri di provenire da un luogo degno.
+                    <lb />
+                </lg>
+                <lb />
+                <lg n="3">III
+                    <lb />
+                    E nulla vi mancherà in me, se io fossi gioioso, perché saprei comporre parole cortesi e melodie allegre. Ma Amore, che mi insegnò a cantare, ora me lo fa dimenticare, poiché mi ha posto il cuore e il senno con la forza tanto in alto che a me non pare adatto. 
+                    <lb />
+                </lg>
+                <lb />
+                <lg n="4">IV
+                    <lb />
+                    E poiché in ciò si è lasciato trascinare con così folle ardire da aumentare il mio interesse, tanto che in lei l’ho riposto, converrebbe che egli debba tanto sottomettere il suo cuore orgoglioso, così che lei non si trattenga nell’orgoglio, e si addolcisca nei miei confronti.
+                    <lb />
+                </lg>
+                <lb />
+                <lg n="5">V
+                    <lb />
+                    Ah, Donna! Che non mi nuoccia né il vostro merito né il rango. E, poiché il diritto non mi è favorevole, se a voi è gradito mi aiuti la pietà. Poiché non penso ad altro che a voi. Tanto vi so di nobile stirpe, che nessun diritto potrebbe concedermi una gioia così perfetta, per quanto possa servire.
+                    <lb />
+                </lg>
+                <lb />
+                <lg n="6">VI
+                    <lb />
+                    Donna, mi avete in buona fede e, poiché amo sinceramente, mi dovrebbe rendere felice perché, dopo che Dio ripone in voi tante doti, non credo non vi infonda la pietà.
+                    <lb />
+                </lg>
+                <lg n="7">VII
+                    <lb />
+                    Maria, il vostro pregio è tanto di valore e grande, che non credo alcun uomo possa raccontare narrando o con canti le grandi doti e virtù in voi.
+                    <lb />
+                </lg>
+            </div> -->
+        </front>
+    </body>
+    <back>
+        <div type="biblio">
+
+            <head>Edizioni e studi</head>
+            <div type="section">
+                <title>Edizioni</title>
+                    <p>
+                    </p>
+            </div>
+            <div type="section">
+                <title>Studi</title>
+                <p/>
+            </div>
+            <div type="section">
+                <title>Edizioni CAO</title>
+            <p>
+            </p>
+          </div>
+        </div>
+      </back>
+     </div>
+    </text>
+</TEI>

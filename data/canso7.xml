@@ -50,14 +50,14 @@
                     <author>Rossella Lucisano</author>
 
                     <title>
-                        Per un'edizione critica digitale delle canzoni del trovatore Gausbert de Poicibot
+                        Per un’edizione critica digitale delle canzoni del trovatore Gausbert de Poicibot
                     </title>
 
                     <date when="2026">2026</date>
 
                 </bibl>
                 <listWit>
-                    <witness xml:id="C">
+                    <witness xml:id="ms.C">
                         <msDesc>
                             <msIdentifier>
                                 <country>Francia</country>
@@ -66,7 +66,7 @@
                             </msIdentifier>
                         </msDesc>
                     </witness>
-                    <witness xml:id="E">
+                    <witness xml:id="ms.E">
                         <msDesc>
                             <msIdentifier>
                                 <country>Francia</country>
@@ -75,7 +75,7 @@
                             </msIdentifier>
                         </msDesc>
                     </witness>
-                    <witness xml:id="R">
+                    <witness xml:id="ms.R">
                         <msDesc>
                             <msIdentifier>
                                 <country>Francia</country>
@@ -84,17 +84,17 @@
                             </msIdentifier>
                         </msDesc>
                     </witness>
-                    <witness xml:id="S">
+                    <witness xml:id="ms.S">
                         <msDesc>
                             <msIdentifier>
                                 <country>Regno Unito</country>
-                                <repository>Oxoford, Bodleian Library</repository>
+                                <repository>Oxford, Bodleian Library</repository>
                                 <idno>Douce 269</idno>
                             </msIdentifier>
                         </msDesc>
                     </witness>
                     <witness xml:id="beta">
-                        Raimon Vidal de Besalù, So fo el tems com'era jais, vv. 1594-1605.
+                        Raimon Vidal de Besalù, So fo el tems com’era jais, vv. 1594-1605.
                     </witness>
                 </listWit>
 
@@ -127,7 +127,7 @@
             <projectDesc>
                 <p>
                     Proposta di edizione critica digitale realizzata come progetto di tesi per la Laurea Magistrale in
-                    Informatica Umanistica dell'Università di Pisa.
+                    Informatica Umanistica dell’Università di Pisa.
                 </p>
             </projectDesc>
 
@@ -239,7 +239,8 @@
                     <p>
                         <list>
                             <item>
-                                 <witDetail>β</witDetail> vv. 1594-1605 (da <seg type="it">So fo el tems qu’om era gais</seg> di Raimon Vidal de Besalù).<note type="popup" xml:id="nota_extra1">Il testo della <seg type="it">cobla</seg> extravagante è tratto da Shepard 1924, p. 58, che cita a sua volta <seg type="it">Boletin de la Real Academia de Las Buenas Letras de Barcelona</seg>, XII (8912).</note></item>
+                                 <witDetail>β</witDetail> vv. 1594-1605 (da <seg type="it">So fo el tems qu’om era gais</seg> di Raimon Vidal de Besalù).<note type="popup" xml:id="nota_extra1">Il testo della <seg type="it">cobla</seg> extravagante è tratto da Shepard 1924, p. 58, che cita a sua volta <seg type="it">Boletin de la Real Academia de Las Buenas Letras de Barcelona</seg>, XII (8912).</note>
+                                </item>
                         </list>
                     </p>
                 </div>
@@ -266,13 +267,13 @@
     <l n="1">Oimais, de vos non <rhyme label="a">aten</rhyme>
                                 </l>
     <l n="2">aver <rhyme label="a">iausimen</rhyme>,</l>
-    <l n="3">Amors, pois tan <rhyme label="a">loniamen</rhyme>
+    <l n="3">Amors, <seg type="diff">pois</seg> tan <rhyme label="a">loniamen</rhyme>
                                 </l>
     <l n="4">me soi <rhyme label="b">faidiaz</rhyme>,</l>
     <l n="5">celant et sufrend en <rhyme label="b">paz</rhyme>
                                 </l>
     <l n="6">L’afan e·l <rhyme label="a">turmen</rhyme>.</l>
-    <l n="7">Mais er quan <seg type="corr">m'en vau</seg> <rhyme label="a">plagnen</rhyme>
+    <l n="7">Mais er quan <seg type="corr">m’en vau</seg> <rhyme label="a">plagnen</rhyme>
                                 </l>
     <l n="8">ni m’en clam, non val <rhyme label="a">nien</rhyme>.</l>
     <l n="9">Mais del clam q’eu <rhyme label="b">faz</rhyme>
@@ -287,20 +288,46 @@
 <!-- Cobla II -->
 <label>II</label>
 <lg type="stanza" n="2" rhyme="aaabbaaabbcc">
-    <l n="13">Blasmar vos degr’eu <rhyme label="a">fortmen</rhyme>,</l>
+    <l n="13">Blasmar vos <seg type="diff">degr’eu</seg> <rhyme label="a">fortmen</rhyme>,</l>
     <l n="14">mais vau vos <rhyme label="a">sofren</rhyme>,</l>
     <l n="15">qu’aicel que s’irais <rhyme label="a">greumen</rhyme>,</l>
     <l n="16">plus quant es <rhyme label="b">iraz</rhyme>,</l>
     <l n="17">es fels et <rhyme label="b">desmesuraz</rhyme>.</l>
-    <l n="18">Doncs tem, s’eu <rhyme label="a">m’espren</rhyme>,</l>
+    <l n="18">Doncs tem, s’eu <term type="glossario">
+                                        <seg type="diff">
+                                            <rhyme label="a">m’espren</rhyme>
+                                        </seg>
+                                        <note xml:id="gloss-esprendre" type="popup">
+                                    <label>≡ LEX</label>
+                            <term type="lex">esprendre</term>
+                            <def>⤷ v. | accendersi, adirarsi</def>
+                            <ref rend="exit" target="https://archive.org/details/petitdictionnair00levyuoft/page/172/mode/2up">PD</ref>
+                                            <lb/>
+                            <def>Il verbo in S, <seg type="it">m’espren</seg>, appare più adatto a comparire nel passo, considerato il riferimento a un forte attacco d’ira nei versi precedenti della medesima <seg type="it">cobla</seg>. In Lévy, per il verbo è indicata la traduzione ‘allumer, enflammer’. La coppia ER concorda sulla forma <seg type="it">mi pren</seg>, mentre C scrive <seg type="it">mi enpren</seg>, traducibile anche con il significato di ‘ostinarsi, intestardirsi’. Si tratta di varianti non classificabili come errori, ma comunque meno semanticamente appropriate, per i motivi sopra descritti, frutto di probabili banalizzazioni del luogo del testo.‬‬‬‬‬‬‬‬
+                            </def>
+    </note>
+                                    </term>,</l>
     <l n="19">que vos e mei chan <rhyme label="a">plazen</rhyme>
                                 </l>
     <l n="20">en serez trop <seg type="corr">meins</seg> <rhyme label="a">valen</rhyme>.</l>
-    <l n="21">Per que vol <rhyme label="b">sapchaz</rhyme>,</l>
+    <l n="21">Per <seg type="diff">que</seg> vol <rhyme label="b">sapchaz</rhyme>,</l>
     <l n="22">se no·us <rhyme label="b">melloraz</rhyme>,</l>
     <l n="23">
-                                    <seg type="edit">tan descarrai <rhyme label="c">andos</rhyme>
-                                    </seg>,</l>
+                                    <term type="glossario">
+                                        <seg type="diff">
+                                            <seg type="edit">tan descarrai <rhyme label="c">andos</rhyme>
+                                            </seg>
+                                        </seg>
+                                        <note xml:id="gloss-descarrai" type="popup">
+                                    <label>≡ LEX ≋ LIT</label>
+                            <term type="lex">decazer</term>
+                            <def>⤷ v. | decadere, degradare, distruggere
+                            <lb/>Dal latino [ᴅᴇᴄᴀᴅᴇ̆ʀᴇ]</def>
+                            <ref rend="exit" target="https://dom-en-ligne.de/dom.php?lhid=3B2DGpdRbggoz8tHPFVUne">DOM</ref>
+                                            <lb/>
+                            <def>Per la coniugazione del verbo <seg type="it">decazer</seg>, la tradizione non offre una lezione pienamente soddisfacente. In S si legge <seg type="it">descarriem andos</seg>, con un futuro alla prima persona plurale poco coerente con il soggetto del passo, ossia Gausbert stesso, che minaccia Amore di svalutare <seg type="it">vos e mas chansos</seg>.<lb/>I testimoni del ramo α tramandano, invece, forme differenti del verbo e il pronome <seg type="it">ambedos</seg>. Shepard accoglie la lezione di CE (<seg type="it">qu’ans dechairi’ambedos</seg>), interpretandola come la migliore disponibile, mentre Gambini propone <seg type="it">qu’ans dechairai ambedos</seg>, ipotizzando la perdita di una forma futura alla prima persona singolare già a livello archetipico.<lb/> Tale intervento trova riscontro nell’<seg type="it">usus scribendi</seg> di Gausbert, che nei periodi ipotetici privilegia regolarmente il presente in protasi e il futuro in apodosi (cfr. 173.1, vv. 19-20; 173.3, vv. 33-35; 173.4, vv. 33-35 e 48-50; nonché i vv. 11-12 di 173.7), mentre non mostra una particolare predilezione per il condizionale. Per questa ragione si propone a testo la forma <seg type="it">tan descarrai andos</seg>, ottenuta correggendo la lezione di S mediante il passaggio dalla prima persona plurale alla prima persona singolare.</def>
+    </note>
+                                    </term>,</l>
     <l n="24">Amors, vos et <seg type="corr">mas</seg> <rhyme label="c">chanzos</rhyme>.</l>
 </lg>
 
@@ -309,7 +336,7 @@
 <!-- Cobla III -->
 <label>III</label>
 <lg type="stanza" n="3" rhyme="aaabbaaabbcc">
-    <l n="25">Ben soi fols car eu <rhyme label="a">aten</rhyme>
+    <l n="25">Ben soi fols car <seg type="diff">eu</seg> <rhyme label="a">aten</rhyme>
                                 </l>
     <l n="26">null <rhyme label="a">melloramen</rhyme>,</l>
     <l n="27">qu’ades on plus vos <rhyme label="a">repren</rhyme>
@@ -333,7 +360,7 @@
 <!-- Cobla IV -->
 <label>IV</label>
 <lg type="stanza" n="4" rhyme="aaabbaaabbcc">
-    <l n="37">Et si sai que non es <rhyme label="a">gen</rhyme>
+    <l n="37">Et <seg type="diff">si sai</seg> que <seg type="diff">non</seg> es <rhyme label="a">gen</rhyme>
                                 </l>
     <l n="38">quar ab vos <rhyme label="a">conten</rhyme>,</l>
     <l n="39">mas fatz lo <rhyme label="a">forzadamen</rhyme>,</l>
@@ -348,9 +375,10 @@
     <l n="45">er tort et <rhyme label="b">pechaz</rhyme>
                                 </l>
     <l n="46">s’eu en soi <rhyme label="b">blasmaz</rhyme>.</l>
-    <l n="47">Et vos tang lo <seg type="corr">mals</seg> <rhyme label="c">resos</rhyme>
+    <l n="47">
+                                    <seg type="diff">Et</seg> vos tang lo <seg type="corr">mals</seg> <rhyme label="c">resos</rhyme>
                                 </l>
-    <l n="48">don mou·l torz e l’<rhyme label="c">ochasos</rhyme>.</l>
+    <l n="48">don <seg type="diff">mou·l</seg> torz e l’<rhyme label="c">ochasos</rhyme>.</l>
 </lg>
 <lb/>
                     <!-- Cobla V -->
@@ -361,20 +389,32 @@
                         <l n="50">quar gast et <rhyme label="a">despen</rhyme>
                         </l>
                         <l n="51">en vos mon <rhyme label="a">castiamen</rhyme>,</l>
-                        <l n="52">Amors, qe·l <rhyme label="b">maltaz</rhyme>
+                        <l n="52">Amors, qe·l <term type="glossario">
+                                        <rhyme label="b">maltatz</rhyme>
+                                    <note type="popup" xml:id="gloss-maltatz">
+                            <label>≡ LEX</label>
+                            <term type="lex">maltatz</term>
+                            <def>⤷ s. f. | crudeltà, cattiveria</def>
+                            <ref rend="exit" target="https://dom-en-ligne.de/dom.php?lhid=5G6Uuuiy5VJmUTeLLeYBje">DOM</ref>
+                                            <lb/>
+                            <def>La forma <seg type="it">maltatz</seg> in S sarebbe rara; il sostantivo è citato in una voce del Petit Dictionnaire di Lévy, che rimanda, a sua volta, a uno scritto di Paul Meyer apparso in ‭«Romania» nel 1897. Nel testo, Meyer commenta due occorrenze del termine in trattati di astrologia e geomanzia in antico provenzale, proponendo la definizione di “ce qui est mauvais, l’opposé de bontat”.<lb/>Le risorse lessicografiche non offrono molti altri spunti a riguardo.‬‬‬‬‬‬‬‬‬‬‬‬‬‬‬‬‬‬‬‬‬ Invece, i vocabolari dedicano maggiore spazio al corrispettivo <seg type="it">malvestatz</seg>, la forma condivisa dal ramo α, assente nel corpus di Gausbert ma comunque attestata in numerosi componimenti di altri trovatori. Pertanto, è possibile che la corruzione del verso sia da imputare alla poca familiarità dei copisti con la lezione sopravvissuta solo in S.‬‬‬‬‬‬‬‬‬‬
+                            </def>
+                                    </note>
+                                    </term>
                         </l>
                         <l n="53">e·l <seg type="corr">folors</seg> e·l <rhyme label="b">crueltaz</rhyme>
                         </l>
-                        <l n="54">qui en vos <rhyme label="a">s'enpren</rhyme>
+                        <l n="54">qui en vos <rhyme label="a">s’enpren</rhyme>
                         </l>
-                        <l n="55">no·us lais c’aver <rhyme label="a">chauzimen</rhyme>,</l>
+                        <l n="55">no·us <seg type="diff">lais c’aver</seg> <rhyme label="a">chauzimen</rhyme>,</l>
                         <l n="56">anz vos tol et vos <rhyme label="a">defen</rhyme>
                         </l>
                         <l n="57">que ren non <rhyme label="b">creaz</rhyme>.</l>
                         <l n="58">Mas per so no·m <rhyme label="b">taz</rhyme>,</l>
-                        <l n="59">anz sofrirai <rhyme label="c">pensasos</rhyme>
+                        <l n="59">
+                                    <seg type="diff">anz</seg> sofrirai <rhyme label="c">pensasos</rhyme>
                         </l>
-                        <l n="60">tro veia meiller <rhyme label="c">sasos</rhyme>.</l>
+                        <l n="60">tro <seg type="diff">veia</seg> meillers <rhyme label="c">sasos</rhyme>.</l>
                     </lg>
                     <lb/>
 
@@ -398,11 +438,12 @@
                 </div>
             <!-- Apparato critico delle varianti sostanziali -->
             <div type="app_crt_sos">
+            <head>Apparato critico</head>
               <listApp>
 
    <app ana="sos">
       <num>7</num>
-      <lem>m'en</lem>
+      <lem>m’en</lem>
       <rdg>me<witDetail wit="#S"> S</witDetail>
                                     </rdg>
    </app>
@@ -428,7 +469,7 @@
 
    <app ana="sos">
       <num>44</num>
-      <lem>forsatz m'en</lem>
+      <lem>forsatz m’en</lem>
       <rdg>forzamen<witDetail wit="#S"> S</witDetail>
                                     </rdg>
    </app>
@@ -464,7 +505,7 @@
     <l n="1">Hueymais, de vos non <rhyme label="a">aten</rhyme>
                                 </l>
     <l n="2">aver <rhyme label="a">iauzimen</rhyme>,</l>
-    <l n="3">Amors, mas tan <rhyme label="a">lonjamen</rhyme>
+    <l n="3">Amors, <seg type="diff_c">mas</seg> tan <rhyme label="a">lonjamen</rhyme>
                                 </l>
     <l n="4">mi suy <rhyme label="b">fadiatz</rhyme>,</l>
     <l n="5">celan e sufren en <rhyme label="b">patz</rhyme>
@@ -484,18 +525,21 @@
 <!-- Cobla II -->
 <lb/>
 <lg type="stanza" n="2" rhyme="aaabbaaabbcc">
-    <l n="13">Blasmar vos degra <rhyme label="a">fortmen</rhyme>,</l>
+    <l n="13">Blasmar vos <seg type="diff_c">degra</seg> <rhyme label="a">fortmen</rhyme>,</l>
     <l n="14">mas vauc <seg type="corr_c">vos</seg> <rhyme label="a">sufren</rhyme>,</l>
     <l n="15">quar sel que s’irays <rhyme label="a">greumen</rhyme>,</l>
     <l n="16">plus quant es <rhyme label="b">iratz</rhyme>,</l>
     <l n="17">e felhs ni <rhyme label="b">demezuratz</rhyme>.</l>
-    <l n="18">Don tem, s’ieu mi <rhyme label="a">enpren</rhyme>,</l>
+    <l n="18">Don tem, s’ieu <seg type="diff_c">mi <rhyme label="a">enpren</rhyme>
+                                    </seg>,</l>
     <l n="19">que vos e mei chan <rhyme label="a">plazen</rhyme>
                                 </l>
     <l n="20">en seretz trop meins <rhyme label="a">valen</rhyme>.</l>
-    <l n="21">Per qu’ieu vuelh <rhyme label="b">sapchatz</rhyme>,</l>
+    <l n="21">Per <seg type="diff_c">qu’ieu</seg> vuelh <rhyme label="b">sapchatz</rhyme>,</l>
     <l n="22">si no·us <rhyme label="b">meluyratz</rhyme>,</l>
-    <l n="23">qu’ans dechairi’<rhyme label="c">ambedos</rhyme>,</l>
+    <l n="23">
+                                    <seg type="diff_c">qu’ans dechairi’<rhyme label="c">ambedos</rhyme>
+                                    </seg>,</l>
     <l n="24">
                                     <seg type="edit">Amors</seg>, vos e mas <rhyme label="c">chansos</rhyme>.</l>
 </lg>
@@ -503,7 +547,7 @@
 <!-- Cobla III -->
 <lb/>
 <lg type="stanza" n="3" xml:id="extra" rhyme="aaabbaaabbcc">
-    <l n="25">Ben suy folhs quar hi <rhyme label="a">aten</rhyme>
+    <l n="25">Ben suy folhs quar <seg type="diff_c">hi</seg> <rhyme label="a">aten</rhyme>
                                 </l>
     <l n="26">nul <rhyme label="a">meluyramen</rhyme>,</l>
     <l n="27">qu’ades on plus vos <rhyme label="a">repren</rhyme>
@@ -527,7 +571,7 @@
 <!-- Cobla IV -->
 <lb/>
 <lg type="stanza" n="4" rhyme="aaabbaaabbcc">
-    <l n="37">E say ben que no·m es <rhyme label="a">gen</rhyme>
+    <l n="37">E <seg type="diff_c">say ben</seg> que <seg type="diff_c">no·m</seg> es <rhyme label="a">gen</rhyme>
                                 </l>
     <l n="38">quar ab vos <rhyme label="a">conten</rhyme>,</l>
     <l n="39">mas <seg type="edit">fatz lo</seg> <rhyme label="a">forsadamen</rhyme>,</l>
@@ -542,9 +586,10 @@
     <l n="45">er tortz e <rhyme label="b">peccatz</rhyme>
                                 </l>
     <l n="46">s’ieu en suy <rhyme label="b">blasmatz</rhyme>.</l>
-    <l n="47">Qu’a <seg type="corr_c">vos</seg> tanh lo mals <rhyme label="c">ressos</rhyme>
+    <l n="47">
+                                    <seg type="diff_c">Qu’a</seg> <seg type="corr_c">vos</seg> tanh lo mals <rhyme label="c">ressos</rhyme>
                                 </l>
-    <l n="48">don ve·l tortz e l’<rhyme label="c">ochaizos</rhyme>.</l>
+    <l n="48">don <seg type="diff_c">ve·l</seg> tortz e l’<rhyme label="c">ochaizos</rhyme>.</l>
 </lg>
 
 <!-- Cobla V -->
@@ -561,19 +606,20 @@
     <l n="53">e·ylh follors e·ylh <rhyme label="b">crueltatz</rhyme>
                                 </l>
     <l n="54">
-                                    <seg type="edit">qui en vos <rhyme label="a">s'enpren</rhyme>
+                                    <seg type="edit">qui en vos <rhyme label="a">s’enpren</rhyme>
                                     </seg>
                                 </l>
     <l n="55">
-                                    <seg type="edit">no·us laiss’aver <rhyme label="a">chauzimen</rhyme>
+                                    <seg type="edit">no·us <seg type="diff_c">laiss’aver</seg> <rhyme label="a">chauzimen</rhyme>
                                     </seg>,</l>
     <l n="56">anz vos tolh e vos <rhyme label="a">defen</rhyme>
                                 </l>
     <l n="57">que re non <rhyme label="b">crezatz</rhyme>.</l>
     <l n="58">Mas per so no·m <rhyme label="b">tatz</rhyme>,</l>
-    <l n="59">quans sufriray <rhyme label="c">pezansos</rhyme>
+    <l n="59">
+                                    <seg type="diff_c">qu’ans</seg> sufriray <rhyme label="c">pezansos</rhyme>
                                 </l>
-    <l n="60">tro venha mielhers <rhyme label="c">sazos</rhyme>.</l>
+    <l n="60">tro <seg type="diff_c">venha</seg> mielhers <rhyme label="c">sazos</rhyme>.</l>
 </lg>
 
 <!-- Tornada -->
@@ -594,7 +640,7 @@
             </div>
             <!-- Apparato critico delle varianti sostanziali del testo di costellazione -->
             <div type="app_cos_sos">
-              <listApp>
+            <head>Apparato di costellazione</head>
               <listApp>
 
     <app ana="sos">
@@ -680,7 +726,7 @@
                                         </rdg>
     </app>
 
-    <app ana="sos">
+    <app ana="sos" type="locus">
         <num>18</num>
         <lem>mi enpren</lem>
         <rdg>mi pren<witDetail wit="#E #R"> ER</witDetail>
@@ -706,7 +752,7 @@
                                         </rdg>
     </app>
 
-    <app ana="sos">
+    <app ana="sos" type="locus">
         <num>23</num>
         <lem>dechairi’ambedos</lem>
         <rdg>dechayra ambedos<witDetail wit="#R"> R</witDetail>
@@ -785,10 +831,10 @@
                                         </rdg>
 </app>
 
-<app ana="sos">
+<app ana="sos" type="locus">
     <num>39</num>
     <lem>mas fatz lo forsadamen</lem>
-    <rdg>mas forsadamen<witDetail wit="#CE"> CE</witDetail>
+    <rdg>mas forsadamen<witDetail wit="#C #E"> CE</witDetail>
                                         </rdg>
     <rdg>mas prenc mi f.<witDetail wit="#R"> R</witDetail>
                                         </rdg>
@@ -801,7 +847,7 @@
                                         </rdg>
 </app>
 
-<app ana="sos">
+<app ana="sos" type="locus">
     <num>44</num>
     <lem>pois forsatz m’en</lem>
     <rdg>mas foudatz<witDetail wit="#C"> C</witDetail>
@@ -812,10 +858,10 @@
                                         </rdg>
 </app>
 
-<app ana="sos">
+<app ana="sos" type="locus">
     <num>45</num>
     <lem>er tortz e peccatz</lem>
-    <rdg>men er t. e p.<witDetail wit="#CE"> CE</witDetail>
+    <rdg>men er t. e p.<witDetail wit="#C  #E"> CE</witDetail>
                                         </rdg>
     <rdg>contra vos forsatz<witDetail wit="#R"> R</witDetail>
                                         </rdg>
@@ -836,11 +882,11 @@
     <rdg>ca vos falh<witDetail wit="#R"> R</witDetail>
                                         </rdg>
     <lem>mals</lem>
-    <rdg>mal<witDetail wit="#ER"> ER</witDetail>
+    <rdg>mal<witDetail wit="#E #R"> ER</witDetail>
                                         </rdg>
 </app>
 
-<app ana="sos">
+<app ana="sos" type="locus">
     <num>48</num>
     <lem>ve·l</lem>
     <rdg>vol<witDetail wit="#E"> E</witDetail>
@@ -864,8 +910,7 @@
     <note type="text">manca R</note>
 </app>
 
-<app ana="sos">
-    <num>52</num>
+<app ana="sos" type="locus">
     <lem>que·l maltatz</lem>
     <rdg>quel malvestatz<witDetail wit="#C"> C</witDetail>
                                         </rdg>
@@ -882,19 +927,19 @@
                                         </rdg>
 </app>
 
-<app ana="sos">
+<app ana="sos" type="locus">
     <num>54</num>
     <lem>qui en vos s’enpren</lem>
-    <rdg>nous laiss aver sen<witDetail wit="#CE"> CE</witDetail>
+    <rdg>nous laiss aver sen<witDetail wit="#C #E"> CE</witDetail>
                                         </rdg>
     <rdg>nous laissan aver sen<witDetail wit="#R"> R</witDetail>
                                         </rdg>
 </app>
 
-<app ana="sos">
+<app ana="sos" type="locus">
     <num>55</num>
     <lem>no·us laiss’aver chauzimen</lem>
-    <rdg>ni nulh chauzimen<witDetail wit="#CER"> CER</witDetail>
+    <rdg>ni nulh chauzimen<witDetail wit="#C #E #R"> CER</witDetail>
                                         </rdg>
 </app>
 
@@ -919,7 +964,7 @@
                                         </rdg>
 </app>
 
-<app ana="sos">
+<app ana="sos" type="locus">
     <num>60</num>
     <lem>tro venha</lem>
     <rdg>no veya<witDetail wit="#R"> R</witDetail>
@@ -930,8 +975,6 @@
     <num>61-67</num>
     <note type="text">manca C</note>
 </app>
-
-</listApp>
               </listApp>
             </div>
             <!-- Apparato critico delle varianti formali del testo di costellazione -->
@@ -1081,7 +1124,6 @@
                     <p>
                             <title>Cobla trasmessa per tradizione indiretta</title>
                         </p>
-                    <label>III</label>
                     <lg type="stanza" n="extra">
                                 <l n="24">Heu sui folls car i enten</l>
                                 <l n="25">nuill meilloramen,</l>

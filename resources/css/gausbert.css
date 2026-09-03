@@ -1,3 +1,7 @@
+/* font */
+
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=IM+Fell+English:ital@0;1&family=IM+Fell+French+Canon+SC&display=swap');
+
 /* generale */
 
 .num_versi {
@@ -64,12 +68,13 @@ button, .interagisci p {
     display: inline-block;
     font-size: 18px;
     transition-duration: 0.4s;
-    font-family: Cambria;
+    font-family: "IM Fell French Canon SC", serif;
+    letter-spacing: 1.1px;
 }
 
 .interagisci p {
     margin-top: 0;
-    font-family: Candara, sans-serif;
+    font-family: "Faculty Glyphic", sans-serif;
 }
 
 .interagisci label {
@@ -86,7 +91,7 @@ button, .interagisci p {
 }
 
 .interagisci h2, .interagisci h3, #mss-panel h2 {
-    font-family: Candara, sans-serif;
+    font-family: "Faculty Glyphic", sans-serif;
     margin: 10px;
     text-align: center;
 }
@@ -96,7 +101,7 @@ button, .interagisci p {
 }
 
 h1 {
-    font-family: Garamond, serif;
+    font-family: "IM Fell English", serif;
     color: ivory;
 }
 
@@ -246,16 +251,19 @@ aside {
 #btn_glos:hover, #btn_glos.attivo {
   background-color: #c48e89;
   color: white;
+  font-weight: 600;
 }
 
 #btn_loci:hover, #btn_loci.attivo {
   background-color: #01567d;
   color: white;
+  font-weight: 600;
 }
 
 #btn_diff:hover, #btn_diff.attivo {
   background-color: #AC9048;
   color: white;
+  font-weight: 600;
 }
 
 .diff-attivo {
@@ -329,13 +337,16 @@ aside {
     font-weight: 600;
     margin-bottom: 3px;
     letter-spacing: 1.2px;
-    font-family: Garamond;
+    font-family: "Garamond", serif;
 }
 
 .sym {
     font-size: 1.2rem;
     text-align: left;
     padding-left: 3%;
+    font-weight: 500;
+    letter-spacing: 1px;
+    
 }
 
 .trigger pb-popover {
@@ -370,7 +381,7 @@ aside {
 .stemma-collapse, .trad-collapse {
     cursor: pointer;
     font-weight: bold;
-    font-family: Garamond, serif;
+    font-family: "IM Fell English", serif;
     padding: 8px;
     font-size: 20px;
     letter-spacing: 1.3px;
@@ -395,7 +406,7 @@ aside {
 
 .pgg_btn {
     font-style: oblique;
-    font-family: Garamond, serif;
+    font-family: "IM Fell English", serif;
     font-size: 18px;
     border-radius: 0px;
     letter-spacing: 2px;
@@ -411,7 +422,7 @@ aside {
 #mss-panel {
     display: block;
     position: absolute;
-    top: 150px;
+    top: 170px;
     bottom: 0;
     right: 30px;
     width: 29%;
@@ -420,6 +431,10 @@ aside {
     border: double #d8d0c4 6px;
     padding: 8px;
     z-index: +2;
+}
+
+#mss-panel button {
+    font-family: Garamond, serif;
 }
 
 #mss-panel.nascosto {
@@ -445,7 +460,7 @@ aside {
 
 h2, .mss_btn, #apri_mss, h3 {
     font-weight: bold;
-    font-family: Garamond, serif;
+    font-family: "IM Fell English", serif;
     padding: 8px;
     letter-spacing: 2px;
     color: black;
@@ -536,13 +551,13 @@ h2, .mss_btn, #apri_mss, h3 {
 
 
 #check_extra {
-    font-family: Candara;
+    font-family: "Faculty Glyphic", sans-serif;
     font-weight: bold;
     background: transparent;
     letter-spacing: 1px;
     padding:1.3%;
     margin-left: 5%;
-    font-size: 14.5px;
+    font-size: 13px;
     border-radius: 3.5px;
     border: solid #d8d0c4 2px;
     display: inline;
@@ -565,6 +580,7 @@ h2, .mss_btn, #apri_mss, h3 {
     align-self: flex-start;
     margin-left: 5%;
     top:0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
     
 }
 

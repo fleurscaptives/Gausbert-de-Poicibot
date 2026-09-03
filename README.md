@@ -6,7 +6,7 @@ Questo repository contiene il codice sorgente e i dati relativi all'edizione cri
 
 L'edizione è pubblicata tramite la piattaforma TEI Publisher. 
 
-*Ultimo aggiornamento: 27 agosto 2026.* 
+*Ultimo aggiornamento: 3 settembre 2026.* 
 
 ## Contenuti del repository
 
@@ -58,12 +58,13 @@ Il repository contiene esclusivamente le personalizzazioni sviluppate per il pro
 
 ## Struttura dei file nella repository
 ```bash
+config.json            File di configurazione JSON base dell'applicazione
 data/                  File TEI XML
 data/images/           Riproduzioni facsimile delle pagine dei testimoni manoscritti
 
 resources/        
 resources/css          Fogli di stile CSS
-resources/images       Banner e stemmi per ognuna delle canzoni edite
+resources/images       Banner principale, più banner e stemmi per ognuna delle canzoni edite
 resources/odd          Personalizzazioni ODD
 resources/scripts      Script JS
 

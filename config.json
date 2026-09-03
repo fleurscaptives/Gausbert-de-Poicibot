@@ -1,0 +1,21 @@
+{
+  "theme": {
+    "logo": {
+      "image": "../images/prova_logo.png"
+    },
+    "menubar": {
+      "background-image": "../images/sfondo_logo.jpeg"
+    }
+  },
+  "label" : "GausbPub",
+  "odds" : [ "gausbert.odd" ],
+  "id" : "https://e-editiones.org/apps/GausbPub",
+  "defaults" : {
+    "odd" : "gausbert.odd"
+  },
+  "extends" : [ "base10", "theme-base10" ],
+  "pkg" : {
+    "abbrev" : "GausbPub"
+  },
+  "description" : ""
+}

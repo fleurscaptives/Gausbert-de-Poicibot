@@ -1,10 +1,10 @@
 {
-  "theme": {
-    "logo": {
-      "image": "../images/prova_logo.png"
+  "theme" : {
+    "logo" : {
+      "image" : "../images/prova_logo.png"
     },
-    "menubar": {
-      "background-image": "../images/sfondo_logo.jpeg"
+    "menubar" : {
+      "background-image" : "../images/sfondo_logo.jpeg"
     }
   },
   "label" : "GausbPub",

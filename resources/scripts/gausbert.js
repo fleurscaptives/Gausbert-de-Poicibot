@@ -230,7 +230,6 @@ function toggleExtra() {
     });
 }
 
-
 document.addEventListener("DOMContentLoaded", toggleExtra);
 
 
@@ -260,3 +259,138 @@ function allineaExtra() {
     extra.style.top = y + "px";
     extra.style.left = x + "px";
 }
+
+function allineaCoblas() { 
+ 
+    var critView = document.getElementById("txt_critico"); 
+    var cstView = document.getElementById("txt_cst"); 
+ 
+    if (!critView || !cstView) return; 
+    if (!critView.shadowRoot || !cstView.shadowRoot) return; 
+ 
+    var coblasCrit = critView.shadowRoot.querySelectorAll(".tei-lg"); 
+    var coblasCst = cstView.shadowRoot.querySelectorAll(".tei-lg"); 
+ 
+    // utile nel caso di 173.14, che include due tornadas non presenti nel testo critico
+    var numeroCoblas = Math.min(coblasCrit.length, coblasCst.length);
+ 
+    // azzero i margin-top solo delle coblas del testo di costellazione che hanno un corrispondente nel testo critico
+    for (var i = 0; i < numeroCoblas; i++) { 
+        coblasCst[i].style.marginTop = "0px"; 
+    } 
+
+    for (var i = 0; i < numeroCoblas; i++) { 
+ 
+        var critRect = coblasCrit[i].getBoundingClientRect(); 
+        var cstRect = coblasCst[i].getBoundingClientRect(); 
+ 
+        var differenza = critRect.top - cstRect.top; 
+ 
+        coblasCst[i].style.marginTop = differenza + "px"; 
+    } 
+}
+
+function creaCollapseTraduzioni() {
+
+    var txtCritico = document.querySelector("#txt_critico");
+    var traduzione = document.querySelector(".traduzione pb-view");
+
+    if (!txtCritico || !traduzione) {
+        return;
+    }
+
+    var criticoRoot = txtCritico.shadowRoot;
+    var tradRoot = traduzione.shadowRoot;
+
+    if (!criticoRoot || !tradRoot) {
+        return;
+    }
+
+    var coblas = criticoRoot.querySelectorAll(".tei-lg");
+
+    var tradContent = tradRoot.querySelector(".content");
+
+    if (!tradContent) {
+        return;
+    }
+
+    // trovo label
+    var numerazioni = tradContent.querySelectorAll(".tei-label.numerazione");
+
+    coblas.forEach((cobla, i) => {
+
+        var numerazione = numerazioni[i];
+
+        if (!numerazione) {
+            return;
+        }
+
+        var wrapper = document.createElement("div");
+        wrapper.className = "traduzione-cobla";
+
+        var collapse = document.createElement("pb-collapse");
+
+        var trigger = document.createElement("div");
+        trigger.setAttribute("slot", "collapse-trigger");
+        trigger.className = "trad-collapse";
+        trigger.innerHTML = "<h4>Traduzione</h4>";
+
+        var content = document.createElement("div");
+        content.setAttribute("slot", "collapse-content");
+        content.className = "trad-content";
+
+        // estraggo il nodo che include gli elementi della cobla[i] fino alla label successiva
+        let nodo = numerazione.nextSibling;
+
+        while (nodo && nodo !== numerazioni[i + 1]) {
+
+            // clono il nodo
+            content.appendChild(nodo.cloneNode(true));
+
+            nodo = nodo.nextSibling;
+        }
+
+        collapse.appendChild(trigger);
+        collapse.appendChild(content);
+
+        wrapper.appendChild(collapse);
+        
+        // nodo clonato inserito dopo la cobla
+        cobla.after(wrapper);
+    });
+}
+
+// reagisce ai cambiamenti di dimensione all'espansione del collapse riallineando coblasCrt e coblasCst
+function aggiornaCoblas() {
+
+    var critView = document.getElementById("txt_critico");
+
+    if (!critView || !critView.shadowRoot) return;
+
+    critView.shadowRoot
+        .querySelectorAll(".trad-collapse")
+        .forEach(function(trigger) {
+
+            trigger.addEventListener("click", function() {
+
+                // aggiornamento
+                setTimeout(function() {
+                    allineaCoblas();
+                }, 500);
+            });
+
+        });
+}
+
+setTimeout(function() {
+
+    creaCollapseTraduzioni();
+
+    setTimeout(function() {
+
+        allineaCoblas();
+        aggiornaCoblas();
+
+    }, 500);
+
+}, 3000);

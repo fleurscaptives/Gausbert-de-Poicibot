@@ -1000,62 +1000,6 @@
     </app>
               </listApp>
             </div>
-                <!--
-                <div type="trad_costellazione" xml:lang="it">
-
-                    <head>Traduzione del testo di costellazione</head>
-                    <lg n="1">I
-                        Ormai non attendo da voi gioie, Amore, sebbene tanto lungamente ho sperato invano,
-                        tenendo il segreto e soffrendo in silenzio la fatica e il tormento. Ma ora, quando me ne vado
-                        piangendo e lamentandomi, non mi serve a nulla.
-                        Eppure, del reclamo che io faccio mi ritengo soddisfatto, dal momento che se non ne ricaverò
-                        vantaggio, il biasimo almeno sarà su di voi.
-                        <lb />
-                    </lg>
-                    <lb />
-                    <lg n="2">II
-                        Dovrei biasimarvi con fermezza, ma proseguo nel sopportarvi, poiché colui che si infuria con
-                        violenza,
-                        soprattutto quando è preda dell’ira, è scellerato e fuori da ogni misura. Quindi temo, se mi
-                        intestardisco, che voi e i miei piacevoli canti ne risultino troppo ridotti nel valore.
-                        Perciò, voglio sappiate che, se non vi migliorate, allora svaluterei entrambi, Amore, voi e le
-                        mie canzoni.
-                        <lb />
-                    </lg>
-                    <lb />
-                    <lg n="3">III
-                        Sono di certo un folle perché attendo qualche miglioramento, poiché ogni volta più vi rimprovero
-                        come fossi un amico intimo,
-                        più voi intensificate e peggiorate il vostro errore.
-                        E chi non teme di fare follie, per le lamentele e il biasimo della gente, è privo di vergogna, e
-                        chi non prova vergogna non sarà mai né nobile né buono.
-                        <lb />
-                    </lg>
-                    <lb />
-                    <lg n="4">IV
-                        E sebbene so che non mi conviene discutere con voi, eppure lo faccio, forzatamente, poiché mi
-                        maltrattate, quindi io sono tanto forsennato che non posso parlare con giudizio. E se io mi
-                        pronuncerò scortesemente contro di voi, poiché mi costringete, sarà un torto e un peccato se ne
-                        sono biasimato. Poiché a voi spetta il crudele risentimento da cui provengono il torto e la
-                        colpa.
-                        <lb />
-                    </lg>
-                    <lb />
-                    <lg n="5">V
-                        Sono davvero un folle, sicuramente, poiché spreco e disperdo su di voi il mio insegnamento,
-                        Amore, dato che la malvagità e la follia e la crudeltà che si trovano in voi non permettono che
-                        voi abbiate discernimento, anzi vi negano e vi proibiscono di credere a qualcosa. Ma per questo
-                        io non mi taccio, perché anzi soffrirò afflitto finché giungano momenti migliori.
-                        <lb />
-                    </lg>
-                    <lb />
-                    <lg n="6">VI
-                        Champagne, vi è spettata una gran fortuna, perché è fra voi una donna senza dubbio priva di pari
-                        in prestigio e intelligenza, da cui migliorarvi, perché lei giunge in ogni dove con il suo
-                        valore prezioso e perfetto portando lodi alla Spagna e a voi.
-                        <lb />
-                    </lg>
-                </div> -->
                             
                 </div>
                 
@@ -1125,18 +1069,18 @@
                             <title>Cobla trasmessa per tradizione indiretta</title>
                         </p>
                     <lg type="stanza" n="extra">
-                                <l n="24">Heu sui folls car i enten</l>
-                                <l n="25">nuill meilloramen,</l>
-                                <l n="26">c’ades on plus vos repren</l>
-                                <l n="27">com amix privatz</l>
-                                <l n="28">vos creissetz e pejuratz</l>
-                                <l n="29">vostre falhimen;</l>
-                                <l n="30">e qi per reprendemen </l>
-                                <l n="31">ni per blasme de la gen</l>
-                                <l n="32">no tem far foudatz,</l>
-                                <l n="33">es desvergoinhatz</l>
-                                <l n="34">e qi non es vergoinhos</l>
-                                <l n="35">greu sera valens ni pros.</l>
+                                <l n="25">Heu sui folls car i enten</l>
+                                <l n="26">nuill meilloramen,</l>
+                                <l n="27">c’ades on plus vos repren</l>
+                                <l n="28">com amix privatz</l>
+                                <l n="29">vos creissetz e pejuratz</l>
+                                <l n="30">vostre falhimen;</l>
+                                <l n="31">e qi per reprendemen </l>
+                                <l n="32">ni per blasme de la gen</l>
+                                <l n="33">no tem far foudatz,</l>
+                                <l n="34">es desvergoinhatz</l>
+                                <l n="35">e qi non es vergoinhos</l>
+                                <l n="36">greu sera valens ni pros.</l>
                     </lg>
                     <lb/>
                 </div> 
@@ -1148,8 +1092,8 @@
                 <head>Edizioni e studi</head>
                 <div type="section" xml:id="section-edizioni">
                 <title>Edizioni</title>
-                <p>Shepard 1924, <witDetail>S</witDetail> pp. 22-25, 58, 75-76;
-                    <lb/>Gambini 2001, <witDetail>C</witDetail> pp. 211 e seguenti.
+                <p>Shepard 1924, <witDetail>S</witDetail>, pp. 22-25, 58, 75-76;
+                    <lb/>Gambini 2001, <witDetail>C</witDetail>, pp. 211 e seguenti.
                 </p>
                 </div>
 

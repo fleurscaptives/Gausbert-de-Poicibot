@@ -370,7 +370,8 @@
                     <l n="1">Amors, s’a vos <rhyme label="a">plagues</rhyme>
                                 </l>
                     <l n="2">
-                                    <seg xml:id="v2" type="diff">e non fos <rhyme label="b">desrazos</rhyme></seg>,</l>
+                                    <seg xml:id="v2" type="diff">e non fos <rhyme label="b">desrazos</rhyme>
+                                    </seg>,</l>
                     <l n="3">c’apres cen mals m’en <rhyme label="b">fos</rhyme>
                                 </l>
                     <l n="4">escaritz uns sols <rhyme label="a">bes</rhyme>,</l>
@@ -388,7 +389,11 @@
                     <l n="10">C’aissi, cum d’aut luoc <rhyme label="a">pres</rhyme>
                                 </l>
                     <l n="11">mos chans <rhyme label="b">comensamen</rhyme>,</l>
-                    <l n="12">et en aut luoc <rhyme label="b"><seg xml:id="v12" type="diff"><seg type="corr">m’enten</seg></seg></rhyme>,</l>
+                    <l n="12">et en aut luoc <rhyme label="b">
+                                        <seg xml:id="v12" type="diff">
+                                            <seg type="corr">m’enten</seg>
+                                        </seg>
+                                    </rhyme>,</l>
                     <l n="13">et autz luocs m’a <rhyme label="a">conques</rhyme>,</l>
                     <l n="14">covengra qu’eu <rhyme label="a">fezes</rhyme>
                                 </l>
@@ -398,13 +403,17 @@
                     <l n="17">
                                     <seg xml:id="v17" type="diff">c’a mon chant</seg> <rhyme label="a">paregues</rhyme>
                                 </l>
-                    <l n="18">que <term type="glossario">de valen luoc <rhyme label="a">es</rhyme><note type="popup" xml:id="gloss-luoc">
+                    <l n="18">que <term type="glossario">de valen luoc <rhyme label="a">es</rhyme>
+                                        <note type="popup" xml:id="gloss-luoc">
                             <label>≋ LIT</label>
                             <term type="lit">(mos chans) de valen luoc es</term>
                             <def>Gausbert segue, secondo una disposizione quasi chiastica, il suo canto dal luogo di origine sino al luogo che questo aspira a raggiungere, riferendosi al punto iniziale e finale del percorso effettuato dalla canzone.<lb/>
                                 La struttura della figura proposta dal trovatore ha generato la diffrazione <seg type="it">m’enten</seg>/<seg type="it">s’enten</seg> al v.12; il soggetto della prima variante sarebbe l’io lirico e non più il canto stesso del trovatore.<lb/>Per il testo critico, si mette a testo la lezione <seg type="it">m’enten</seg>, vista anche la vicinanza con <seg type="it">m’a conques</seg> al v. 13, da riferirsi sempre al vissuto interiore dell’io lirico.
-                                    <lb/>Ad ogni modo, la natura stessa della variante la rende suscettibile di innovazioni indipendenti.</def></note></term>.</l>
+                                    <lb/>Ad ogni modo, la natura stessa della variante la rende suscettibile di innovazioni indipendenti.</def>
+                                        </note>
+                                    </term>.</l>
                     </lg>
+                    <lb/>
                 <!-- Cobla III -->
                     <label>III</label>
                     <lg type="stanza" n="3" rhyme="abbaaccaa">
@@ -420,15 +429,20 @@
                             <label>≋ LIT</label>
                             <term type="lit">aprendre/desaprendre</term>
                             <def>In questo luogo del testo, Gausbert inserisce un’antitesi tra i due verbi in opposizione <seg type="it">aprendre</seg> e <seg type="it">desaprendre</seg>; l’intento è biasimare Amore che, dopo aver ispirato
-                            i sentimenti oggetto del suo canto, ha posto il trovatore in una condizione sfavorevole.</def></note></term></l>
+                            i sentimenti oggetto del suo canto, ha posto il trovatore in una condizione sfavorevole.</def>
+                                        </note>
+                                    </term>
+                                </l>
                     <l n="24">chantar, mi <term type="glossario">
-                                        <rhyme label="c">desapren</rhyme></term>,</l>
+                                        <rhyme label="c">desapren</rhyme>
+                                    </term>,</l>
                     <l n="25">que m’a lo cor e·l <rhyme label="c">sen</rhyme>
                                 </l>
                     <l n="26">per <seg xml:id="v26" type="diff">
                                         <seg type="corr">fors’en</seg> tal luoc</seg> <rhyme label="a">mes</rhyme>,</l>
                     <l n="27">don no·m par que·m <rhyme label="a">taisses</rhyme>.</l>
                 </lg>
+                <lb/>
                 <!-- Cobla IV -->
                     <label>IV</label>
                     <lg type="stanza" n="4" rhyme="abbaaccaa">
@@ -444,13 +458,17 @@
                                 </l>
                     <l n="33">lo sieu cor <rhyme label="c">orgoillos</rhyme>
                                 </l>
-                    <l n="34">tant <term type="glossario">aclinar en <rhyme label="c">ios</rhyme><note type="popup" xml:id="gloss-aclinar">
+                    <l n="34">tant <term type="glossario">aclinar en <rhyme label="c">ios</rhyme>
+                                        <note type="popup" xml:id="gloss-aclinar">
                             <label>≋ LIT</label>
                             <term type="lit">aclinar en ios</term>
-                            <def>L’attestazione in questa lirica sembra l’unica in cui <seg type="it">aclinar</seg> è seguito dalla preposizione <seg type="it">en</seg>.<lb/> Diverso è invece il caso del medesimo verbo seguito dalle preposizioni <seg type="it">vas/ves</seg> e <seg type="it">vers</seg>, per cui si registrano almeno quattro occorrenze, fra cui si ricordano una lirica di Beatriz de Dia (<seg type="it">vas vos non si aclina</seg>, BdT 46.2, v. 25), un <seg type="it">salutz</seg> anonimo copiato nel canzoniere N (<seg type="it">ves lei t’aclina</seg>, BdT 146.7, v. 106), e ancora una canzone di Guilhem de Cabestaing (<seg type="it">aclin vers autre seingnoratge</seg>, BdT 213.7, v. 28), in cui il verbo non ha valore riflessivo, come nella lirica qui analizzata.</def></note></term>,</l>
+                            <def>L’attestazione in questa lirica sembra l’unica in cui <seg type="it">aclinar</seg> è seguito dalla preposizione <seg type="it">en</seg>.<lb/> Diverso è invece il caso del medesimo verbo seguito dalle preposizioni <seg type="it">vas/ves</seg> e <seg type="it">vers</seg>, per cui si registrano almeno quattro occorrenze, fra cui si ricordano una lirica di Beatriz de Dia (<seg type="it">vas vos non si aclina</seg>, BdT 46.2, v. 25), un <seg type="it">salutz</seg> anonimo copiato nel canzoniere N (<seg type="it">ves lei t’aclina</seg>, BdT 146.7, v. 106), e ancora una canzone di Guilhem de Cabestaing (<seg type="it">aclin vers autre seingnoratge</seg>, BdT 213.7, v. 28), in cui il verbo non ha valore riflessivo, come nella lirica qui analizzata.</def>
+                                        </note>
+                                    </term>,</l>
                     <l n="35">c’a orguoill <seg type="corr">no·s</seg> <rhyme label="a">tengues</rhyme>,</l>
                     <l n="36">si vas mi <rhyme label="a">s’afraises</rhyme>.</l>
                 </lg>
+                <lb/>
                 <!-- Cobla V -->
                     <label>V</label>
                     <lg type="stanza" n="5" rhyme="abbaaccaa">
@@ -466,6 +484,7 @@
                     <l n="44">negus <seg type="corr">dreitz</seg> <rhyme label="a">m’aduisses</rhyme>,</l>
                     <l n="45">ia tant servir <rhyme label="a">pogues</rhyme>.</l>
                 </lg>
+                <lb/>
                 <!-- Cobla VI -->
                     <label>VI</label>
                     <lg type="enovy" n="tornada1" rhyme="abbaa">
@@ -480,12 +499,15 @@
                                     <seg xml:id="tornada48" type="diff">vai, chansos, per <rhyme label="b">presen</rhyme>,</seg>
                                 </l>
                     <l n="49">
-                                    <seg xml:id="tornada49" type="diff">tot dreich en <rhyme label="a"><seg type="corr">Creones</seg></rhyme>,</seg>
+                                    <seg xml:id="tornada49" type="diff">tot dreich en <rhyme label="a">
+                                            <seg type="corr">Creones</seg>
+                                        </rhyme>,</seg>
                                 </l>
                     <l n="50">
                                     <seg xml:id="tornada50" type="diff">al seignor del <rhyme label="a">paes</rhyme>.</seg>
                                 </l>
                 </lg>
+                <lb/>
                 <!-- Cobla VII -->
                     <label>VII</label>
                     <lg type="envoy" n="tornada2" rhyme="abbaa">
@@ -907,10 +929,12 @@
                                 </l>
                     <l n="2">
                                     <seg type="diff_c" corresp="#v2">
-                                        <seg type="edit">ben</seg> semblera <rhyme label="b">razos</rhyme></seg>,</l>
+                                        <seg type="edit">ben</seg> semblera <rhyme label="b">razos</rhyme>
+                                    </seg>,</l>
                     <l n="3">qu’apres cent mals m’en <rhyme label="b">fos</rhyme>
                                 </l>
-                    <l n="4">escazuitz uns sols <rhyme label="a">bes</rhyme><seg type="edit"> ;</seg>
+                    <l n="4">escazuitz uns sols <rhyme label="a">bes</rhyme>
+                                    <seg type="edit"> ;</seg>
                                 </l>
                     <l n="5">dregz fora qu’ieu <rhyme label="a">l’agues</rhyme>,</l>
                     <l n="6">mas vos no·n platz <rhyme label="c">nien</rhyme>.</l>
@@ -920,12 +944,14 @@
                     <l n="9">don mos chans mais <rhyme label="a">valgues</rhyme>.</l>
                             </lg> 
                 <!-- Cobla II -->
+                   <lb/>
                     <lg type="stanza" n="2.1" rhyme="abbaaccaa">
                     <l n="10">Qu’aissi cum d’aut luec <rhyme label="a">pres</rhyme>
                                 </l>
                     <l n="11">mos chans <rhyme label="b">comensamen</rhyme>,</l>
                     <l n="12">et en aut luec <seg type="diff_c" corresp="#v12">
-                                        <rhyme label="b">s’enten</rhyme></seg>,</l>
+                                        <rhyme label="b">s’enten</rhyme>
+                                    </seg>,</l>
                     <l n="13">et autz luecs m’a <rhyme label="a">conques</rhyme>,</l>
                     <l n="14">covengra qu’ieu <rhyme label="a">fezes</rhyme>
                                 </l>
@@ -938,6 +964,7 @@
                     <l n="18">que de valen luec <rhyme label="a">es</rhyme>.</l>
                     </lg>
                 <!-- Cobla III -->
+                <lb/>
                     <lg type="stanza" n="3.1" rhyme="abbaaccaa">
                     <l n="19">E <seg type="diff_c" corresp="#v19">no·i</seg> falhira <rhyme label="a">res</rhyme>
                                 </l>
@@ -956,7 +983,8 @@
                                     <seg type="corr_c">don no·m</seg> par <seg type="corr_c">que·m</seg> <rhyme label="a">taiches</rhyme>.</l>
                 </lg>
                 <!-- Cobla IV -->
-                    <lg type="stanza" n="4.1" rhyme="abbaaccaa">
+                    <lb/>
+                            <lg type="stanza" n="4.1" rhyme="abbaaccaa">
                     <l n="28">E quar s’en <rhyme label="a">entremes</rhyme>
                                 </l>
                     <l n="29">
@@ -973,7 +1001,8 @@
                     <l n="36">si vas me <rhyme label="a">s’afraysses</rhyme>.</l>
                 </lg>
                 <!-- Cobla V -->
-                    <lg type="stanza" n="5.1" rhyme="abbaaccaa">
+                    <lb/>
+                            <lg type="stanza" n="5.1" rhyme="abbaaccaa">
                     <l n="37">Ai, dona! No·m <rhyme label="a">nogues</rhyme>
                                 </l>
                     <l n="38">pretz ni ricors ab <rhyme label="b">vos</rhyme>,</l>
@@ -987,7 +1016,8 @@
                     <l n="45">ia tan servir <rhyme label="a">pogues</rhyme>.</l>
                 </lg>
                 <!-- Cobla VI -->
-                    <lg type="enovy" n="tornada1.1" rhyme="abbaa">
+                    <lb/>
+                            <lg type="enovy" n="tornada1.1" rhyme="abbaa">
                     <l n="46">
                                     <seg type="diff_c" corresp="#tornada46">Dona, m’a bona <rhyme label="a">fes</rhyme>,</seg>
                                 </l>
@@ -1006,7 +1036,8 @@
                                 </l>
                 </lg>
                 <!-- Cobla VII -->
-                    <lg type="envoy" n="tornada2.1" rhyme="abbaa">
+                    <lb/>
+                            <lg type="envoy" n="tornada2.1" rhyme="abbaa">
                     <l n="51">Na Maria, tant <rhyme label="a">es</rhyme>
                                 </l>
                     <l n="52">vostre pretz cars e <rhyme label="b">bos</rhyme>,</l>
@@ -1594,50 +1625,6 @@
                     Maria, il vostro pregio è tanto di valore e grande, che non credo alcun uomo possa esprimere narrando o con canti le grandi doti e virtù in voi.
                 </p>
             </div>
-            <!-- <div type="trad_costellazione" xml:lang="it">
-
-                <head>Traduzione del testo di costellazione</head>
-                <lg n="1">I
-                    <lb />
-                    Amore, se a voi piacesse, sembrerà ragionevole, che dopo cento mali un solo bene mi fosse accordato; sarebbe giusto che io lo avessi, ma a voi nulla piace. Però, se vi fosse gradito, che ne tragga qualche gioia, allora il mio canto avrebbe maggiore valore. 
-                    <lb />
-                </lg>
-                <lb />
-                <lg n="2">II
-                    <lb />
-                    Poiché, come il mio canto ha avuto inizio da un luogo elevato, e a un luogo elevato aspira, e un luogo elevato mi ha conquistato, converrebbe che io componga, da un argomento tanto nobile, canzoni tanto armoniose, che il cantare dimostri di provenire da un luogo degno.
-                    <lb />
-                </lg>
-                <lb />
-                <lg n="3">III
-                    <lb />
-                    E nulla vi mancherà in me, se io fossi gioioso, perché saprei comporre parole cortesi e melodie allegre. Ma Amore, che mi insegnò a cantare, ora me lo fa dimenticare, poiché mi ha posto il cuore e il senno con la forza tanto in alto che a me non pare adatto. 
-                    <lb />
-                </lg>
-                <lb />
-                <lg n="4">IV
-                    <lb />
-                    E poiché in ciò si è lasciato trascinare con così folle ardire da aumentare il mio interesse, tanto che in lei l’ho riposto, converrebbe che egli debba tanto sottomettere il suo cuore orgoglioso, così che lei non si trattenga nell’orgoglio, e si addolcisca nei miei confronti.
-                    <lb />
-                </lg>
-                <lb />
-                <lg n="5">V
-                    <lb />
-                    Ah, Donna! Che non mi nuoccia né il vostro merito né il rango. E, poiché il diritto non mi è favorevole, se a voi è gradito mi aiuti la pietà. Poiché non penso ad altro che a voi. Tanto vi so di nobile stirpe, che nessun diritto potrebbe concedermi una gioia così perfetta, per quanto possa servire.
-                    <lb />
-                </lg>
-                <lb />
-                <lg n="6">VI
-                    <lb />
-                    Donna, mi avete in buona fede e, poiché amo sinceramente, mi dovrebbe rendere felice perché, dopo che Dio ripone in voi tante doti, non credo non vi infonda la pietà.
-                    <lb />
-                </lg>
-                <lg n="7">VII
-                    <lb />
-                    Maria, il vostro pregio è tanto di valore e grande, che non credo alcun uomo possa raccontare narrando o con canti le grandi doti e virtù in voi.
-                    <lb />
-                </lg>
-            </div> -->
         </front>
     </body>
     <back>

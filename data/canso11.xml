@@ -241,7 +241,7 @@
 
         <revisionDesc>
 
-            <change when="2026-07-19" who="#editor">
+            <change when="2026-08-26" who="#editor">
                 Creazione iniziale del file XML.
             </change>
 
@@ -292,7 +292,7 @@
      </surfaceGrp>
      <surfaceGrp xml:id="H">
         <surface n="1">
-            <graphic url="images/H11a.png"/>
+            <graphic url="images/H11a.jpg"/>
         </surface>
         <surface n="2">
             <graphic url="images/H11b.png"/>
@@ -406,13 +406,13 @@
                             <witDetail>P</witDetail> 10v: <seg>Folket.</seg>; 
                         </item>
                         <item>
-                            <witDetail>R</witDetail> 38r: <seg>.Gaub</seg>(<seg>er</seg>)<seg>t de Puegsibot.</seg>.
+                            <witDetail>R</witDetail> 38r: <seg>.Gaub</seg>(<seg>er</seg>)<seg>t de Puegsibot</seg>;
                         </item>
                         <item>
-                            <witDetail>S</witDetail> 226: <seg>En Iaubert</seg>.
+                            <witDetail>S</witDetail> 226: <seg>En Iaubert</seg>;
                         </item>
                         <item>
-                            <witDetail>T</witDetail> 113v: <seg>Gaubert de Pontibot</seg>.
+                            <witDetail>T</witDetail> 113v: <seg>Gaubert de Pontibot</seg>;
                         </item>
                         <item>
                             <witDetail>U</witDetail> 81v: <seg>Gaub</seg>(<seg>er</seg>)<seg>t li monge de Pogibot</seg>.
@@ -425,7 +425,7 @@
                     <p>
                         <list>
                             <item>
-                                 <witDetail>α</witDetail> vv. 28074-28086 (dal <seg type="it">Breviari d'Amor</seg> di Matfre Ermengau).<note type="popup" xml:id="nota_extra1"/>
+                                 <witDetail>α</witDetail> vv. 28074-28086 (dal <seg type="it">Breviari d'Amor</seg> di Matfre Ermengau).<note type="popup" xml:id="nota_extra1">Il testo di riferimento è l’edizione del <seg type="it">Breviari</seg> curata da Peter T. Ricketts e pubblicata nel 2011, in particolare le pp. 50-51.</note>
                                 </item>
                         </list>
                     </p>
@@ -437,7 +437,7 @@
                     <lb/>Unicum
                     <lb/>a ₆ b ₆ b ₆ a ₆ a ₆ b ₆ b ₇ a ₇ c ₇ c ₁₀ d ₈ d ₈
                     <lb/>a: <rhyme type="a">ans</rhyme>, b: <rhyme type="b">ors</rhyme>, c: <rhyme type="c">er</rhyme>, d: <rhyme type="d">al</rhyme>
-                    <lb/>Stesso schema rimico di BdT 266.1.<note type="popup" xml:id="nota_metrica1"/>
+                    <lb/>Stesso schema rimico di BdT 266.1.<note type="popup" xml:id="nota_metrica1">La canzone condivide gran parte della struttura metrica con un <seg type="it">planh</seg> di Joan Esteve de Bezers, <seg type="it">Aissi co·l malanans</seg> (BdT 266.1), che replica anche le rime della canzone di Gausbert.</note>
                 </p>
             </div>
             <div type="testo">
@@ -452,18 +452,22 @@
                 <!-- Cobla II -->
                     <label>II</label>
                     <lg type="stanza" n="2" rhyme="abbaabbaccd"/>
+                     <lb/>
                 <!-- Cobla III -->
                     <label>III</label>
                     <lg type="stanza" n="3" rhyme="abbaabbaccd">
                 </lg>
+                 <lb/>
                 <!-- Cobla IV -->
                     <label>IV</label>
                     <lg type="stanza" n="4" rhyme="abbaabbaccd">
                 </lg>
+                 <lb/>
                 <!-- Cobla V -->
                     <label>V</label>
                     <lg type="stanza" n="5" rhyme="abbaabbaccd">
                 </lg>
+                 <lb/>
                 <!-- Cobla VI -->
                     <label>VI</label>
                     <lg type="enovy" n="tornada1">
@@ -485,6 +489,9 @@
                 <p/>
                 <!-- Cobla I -->
                     <lg type="stanza" n="1.1" rhyme="abbaabbaccd">
+                    </lg>
+                <!-- Cobla II -->
+                    <lg type="stanza" n="2.1" xml:id="extra" rhyme="abbaabbaccd">
                     </lg>
                 <!-- Cobla III -->
                     <lg type="stanza" n="3.1" rhyme="abbaabbaccd">
@@ -541,50 +548,26 @@
                 </p>
 
             </div>
-            <!-- <div type="trad_costellazione" xml:lang="it">
-
-                <head>Traduzione del testo di costellazione</head>
-                <lg n="1">I
-                    <lb />
-                    Amore, se a voi piacesse, sembrerà ragionevole, che dopo cento mali un solo bene mi fosse accordato; sarebbe giusto che io lo avessi, ma a voi nulla piace. Però, se vi fosse gradito, che ne tragga qualche gioia, allora il mio canto avrebbe maggiore valore. 
-                    <lb />
-                </lg>
-                <lb />
-                <lg n="2">II
-                    <lb />
-                    Poiché, come il mio canto ha avuto inizio da un luogo elevato, e a un luogo elevato aspira, e un luogo elevato mi ha conquistato, converrebbe che io componga, da un argomento tanto nobile, canzoni tanto armoniose, che il cantare dimostri di provenire da un luogo degno.
-                    <lb />
-                </lg>
-                <lb />
-                <lg n="3">III
-                    <lb />
-                    E nulla vi mancherà in me, se io fossi gioioso, perché saprei comporre parole cortesi e melodie allegre. Ma Amore, che mi insegnò a cantare, ora me lo fa dimenticare, poiché mi ha posto il cuore e il senno con la forza tanto in alto che a me non pare adatto. 
-                    <lb />
-                </lg>
-                <lb />
-                <lg n="4">IV
-                    <lb />
-                    E poiché in ciò si è lasciato trascinare con così folle ardire da aumentare il mio interesse, tanto che in lei l’ho riposto, converrebbe che egli debba tanto sottomettere il suo cuore orgoglioso, così che lei non si trattenga nell’orgoglio, e si addolcisca nei miei confronti.
-                    <lb />
-                </lg>
-                <lb />
-                <lg n="5">V
-                    <lb />
-                    Ah, Donna! Che non mi nuoccia né il vostro merito né il rango. E, poiché il diritto non mi è favorevole, se a voi è gradito mi aiuti la pietà. Poiché non penso ad altro che a voi. Tanto vi so di nobile stirpe, che nessun diritto potrebbe concedermi una gioia così perfetta, per quanto possa servire.
-                    <lb />
-                </lg>
-                <lb />
-                <lg n="6">VI
-                    <lb />
-                    Donna, mi avete in buona fede e, poiché amo sinceramente, mi dovrebbe rendere felice perché, dopo che Dio ripone in voi tante doti, non credo non vi infonda la pietà.
-                    <lb />
-                </lg>
-                <lg n="7">VII
-                    <lb />
-                    Maria, il vostro pregio è tanto di valore e grande, che non credo alcun uomo possa raccontare narrando o con canti le grandi doti e virtù in voi.
-                    <lb />
-                </lg>
-            </div> -->
+                            <div type="trad_extra">
+                    <p>
+                            <title>Cobla trasmessa per tradizione indiretta</title>
+                        </p>
+                    <lg type="stanza" n="extra">
+                                <l n="13">Humils e mercejans</l>
+                                <l n="14">mi ren a vos, Amors,</l>
+                                <l n="15">quar m’i forset errors</l>
+                                <l n="16">e·ilh lenga mal parlans</l>
+                                <l n="17">qu’ie·us fos contrarians</l>
+                                <l n="18">ab digz mal dizedors,</l>
+                                <l n="19">et hieu dirai lauzors</l>
+                                <l n="20">et de plazers cent tans</l>
+                                <l n="21">que no vos digs desplazer,</l>
+                                <l n="22">qu’orgueilhs sai be que no m’i pot valer</l>
+                                <l n="23">per qu'hueimai d’enemic mortal</l>
+                                <l n="24">m’auretz amic fin e coral.</l>
+                    </lg>
+                    <lb/>
+                </div> 
         </front>
     </body>
     <back>
@@ -594,15 +577,38 @@
             <div type="section">
                 <title>Edizioni</title>
                     <p>
+                    Shepard 1924, <witDetail>A</witDetail>, pp. 35-38, 78-81;<lb/>Gambini 2001, <witDetail>C</witDetail>, pp. 312 e seguenti.
                     </p>
             </div>
             <div type="section">
                 <title>Studi</title>
-                <p/>
+                <p>
+                Careri 1990: p. 188, 223;<lb/>De Vic-Vaissette 1872: p. 404;<lb/>Resconi 2014: pp. 113, 166;<lb/>Ricketts 2011: pp. 50-51;<lb/>Vatteroni 2001: pp. 376-377.
+                </p>
             </div>
             <div type="section">
                 <title>Edizioni CAO</title>
-            <p>
+            <p> 
+               <witDetail>A</witDetail>: <ref rend="exit" target="https://www.rialto.unina.it/cao/diplomatiche/a/">dipl</ref>
+                            <lb/> 
+               <witDetail>C</witDetail>: <ref rend="exit" target="https://www.rialto.unina.it/cao/diplomatiche/c/">dipl</ref>
+                            <lb/> 
+               <witDetail>D</witDetail>: <ref rend="exit" target="https://www.rialto.unina.it/cao/diplomatiche/d/">dipl</ref>
+                            <lb/>
+               <witDetail>E</witDetail>: <ref rend="exit" target="https://www.rialto.unina.it/cao/diplomatiche/e/">dipl</ref>, <ref rend="exit" target="https://www.rialto.unina.it/wp-content/uploads/2023/02/E.pdf">interp</ref>
+                            <lb/> 
+               <witDetail>G</witDetail>: <ref rend="exit" target="https://www.rialto.unina.it/cao/diplomatiche/g/">dipl</ref>, <ref rend="exit" target="https://www.rialto.unina.it/wp-content/uploads/2023/02/G.pdf">interp</ref>
+                            <lb/>
+               <witDetail>N</witDetail>: <ref rend="exit" target="https://www.rialto.unina.it/cao/diplomatiche/n/">dipl</ref>
+                            <lb/> 
+               <witDetail>P</witDetail>: <ref rend="exit" target="https://www.rialto.unina.it/cao/diplomatiche/p/">dipl</ref>
+                            <lb/>
+                            <witDetail>S</witDetail>: <ref rend="exit" target="https://www.rialto.unina.it/cao/diplomatiche/s/">dipl</ref>, <ref rend="exit" target="https://www.rialto.unina.it/wp-content/uploads/2023/02/Interpretativa-S.pdf">interp
+                    </ref>
+                    <lb/> 
+               <witDetail>T</witDetail>: <ref rend="exit" target="https://www.rialto.unina.it/cao/diplomatiche/t1/">dipl</ref>
+                                   <lb/> 
+               <witDetail>U</witDetail>: <ref rend="exit" target="https://www.rialto.unina.it/cao/diplomatiche/u/">dipl</ref>
             </p>
           </div>
         </div>

@@ -202,7 +202,7 @@
     </surfaceGrp>
     <surfaceGrp xml:id="V">
         <surface n="1">
-            <graphic url="images/V8.jpg"/>
+            <graphic url="images/V8a.jpeg"/>
         </surface>
     </surfaceGrp>
     </facsimile>
@@ -876,51 +876,12 @@
 
               </listApp>
             </div>
-           <!-- <div type="trad_costellazione" xml:lang="it">
-
-                <head>Traduzione del testo di costellazione</head>
-                <p n="1">I
-                    <lb/>Allontanato dalla gioia e dall’amore, e consumato dalla tristezza, vorrei morire, se potessi.
-                    Eppure, per accrescere il mio dolore e l’afflizione che non mi abbandona, la mia vita continua, mio
-                    malgrado. Poiché il piacere e il canto sono per me dolore e angoscia, e non gradisco alcuna gioia,
-                    per questo, io che ero solito cantare, piango.
-                </p>
-                <p n="2">II
-                    <lb/>Colei che mi tormenta mi seppe tanto usare a suo piacimento che non mi volle distruggere da
-                    solo, ma anzi si impegna nel suo disonore, e le piace – tanto è rozza! – che sia ricoperta di
-                    vergogna dopo avermi ucciso. Sarebbe per lei un grande affronto se l’inganno fosse solo per me,
-                    perciò da sé allontana pregio e onore, poiché il biasimo non la spaventa.
-                </p>
-                <p n="3">III
-                    <lb/>Attraverso un bell’aspetto ingannatore, mi seppe rendere folle dolcemente e nascondere la sua
-                    slealtà, fino a che non mi prese al suo servizio; poi, non appena mi ebbe a sua disposizione, il suo
-                    desiderio volubile non potè più raggirarmi, perché, prima che terminasse l’anno, accolse molti folli
-                    supplicanti con sé nel suo letto.
-                </p>
-                <p n="4">IV
-                    <lb/>Ora mi pento della mia sconsideratezza, poiché ho compiuto una scelta oltremodo pessima. E se
-                    mai Dio perdonò un peccatore pentito, la mia anima non sarà perduta per questo errore. Ma il mio
-                    corpo affaticato è tanto malandato, che io temo, se Dio non viene in mio aiuto, di perdere me e il
-                    mio valore.
-                </p>
-                <p n="5">V
-                    <lb/>Perché io non ho buonsenso né forza che mi possa separare da lei, né allontanare né
-                    raffreddare il cuore, così che io non mi lamenti più. Anzi, è tale il mio destino che sarei umiliato
-                    con una donna così vile. Per questo, signori, io che mi lamento vorrei ponesse fine al grande
-                    peccato del suo ardore.
-                </p>
-                <p n="6">VI
-                    <lb/>Se il suo grande ardore raffreddasse gli amanti fedeli, sarei riscaldato dalla sua freddezza,
-                    invece sono raggelato per il suo calore.
-                </p>
-
-            </div> -->
                         <div type="trad_critico" xml:lang="it">
 
                 <p n="1">
                         <label>I</label>
                     Allontanato dalla gioia e dall’amore, e consumato dalla tristezza, io vorrei morire, se
-                    potessi. Eppure, per accrescere il mio dolore e l’afflizione che non mi abbandonala mia vita
+                    potessi. Eppure, per accrescere il mio dolore e l’afflizione che non mi abbandona la mia vita
                     continua, mio malgrado. Poiché il piacere e il canto sono per me dolore e angoscia, e non gradisco
                     alcuna gioia, per questo, io che ero solito cantare, piango.
                 </p>

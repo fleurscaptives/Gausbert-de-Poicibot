@@ -7,10 +7,11 @@
 
     /* Logo */
 
-    --jinks-logo-light: url("../images/prova_logo.png");
-    --jinks-logo-image-width: 315px;
-    --jinks-logo-image-height: 100px;
-    --jinks-logo-margin-right: 1rem;
+    --jinks-logo-light: url("../images/logo.png");;
+    --jinks-logo-image-width: 440px;
+    --jinks-logo-image-height: 140px;
+    --jinks-logo-image-margin: 0;
+    
 
     /* Image backgrounds */
 
@@ -42,7 +43,7 @@
     
 
     --jinks-menubar-color: var(--jinks-color-primary);
-    --jinks-menubar-font-size: 16px;
+    --jinks-menubar-font-size: 14px;
     --jinks-menubar-button-color: #7e503f;
 
     --jinks-toolbar-background-color: var(--jinks-colors-200);

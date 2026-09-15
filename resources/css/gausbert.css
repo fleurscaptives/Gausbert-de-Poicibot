@@ -4,6 +4,10 @@
 
 /* generale */
 
+.menubar {
+    padding: 0;
+}
+
 .num_versi {
     display: inline;
     position: absolute;
@@ -105,6 +109,11 @@ h1 {
     color: ivory;
 }
 
+h4 {
+    font-size: 75%;
+    font-style: italic;
+}
+
 .tei-add {
     color:#ab5252;
     font-weight: bold;
@@ -122,7 +131,7 @@ h1 {
 
 .tei-ref {
     color:#1282a2;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .tei-item {
@@ -172,9 +181,10 @@ aside {
 
 
 .colonne {
-    display: flex;
-    gap: 3rem;
+    gap: 4rem;
     position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
 }
 
 .colonne > div {
@@ -234,36 +244,37 @@ aside {
 
 #btn_diff {
     border: 3px solid #AC9048;
-    cursor: pointer
+    cursor: pointer;
+    letter-spacing: 2px;
 }
 
 #btn_loci {
     border: 3px solid #01567d;
     white-space: nowrap;
-    cursor: pointer
+    cursor: pointer;
+    letter-spacing: 2px;
 }
 
 #btn_glos {
-    border: 3px solid #c48e89;
-    cursor: pointer
+    border: 3px solid #ba7b75;
+    cursor: pointer;
+    letter-spacing: 2px;
 }
 
 #btn_glos:hover, #btn_glos.attivo {
-  background-color: #c48e89;
+  background-color: #ba7b75;
   color: white;
-  font-weight: 600;
+ 
 }
 
 #btn_loci:hover, #btn_loci.attivo {
   background-color: #01567d;
   color: white;
-  font-weight: 600;
 }
 
 #btn_diff:hover, #btn_diff.attivo {
   background-color: #AC9048;
   color: white;
-  font-weight: 600;
 }
 
 .diff-attivo {
@@ -283,7 +294,7 @@ aside {
 }
 
 .glossario-attivo {
-    background-color: #c48e89;
+    background-color: #ba7b75;
     padding: 4px;
     color: white;
     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
@@ -350,12 +361,15 @@ aside {
 }
 
 .trigger pb-popover {
-    letter-spacing: 1.2px;
+    letter-spacing: 1.5px;
     
 }
 
 /* collapse */
 
+.traduzione {
+    display: none;
+}
 
 .stemma-content img {
     max-width: 100%;
@@ -388,16 +402,22 @@ aside {
     text-decoration: underline wavy #d8d0c4;
     text-underline-offset: 7px;  
     width: 100%;
+    text-align: center;
 }
 
 .trad-content {
     background-color: #faf8f3;
     border: 3px solid #d8d0c4;
-    border-radius: 8px;
+    border-radius: 0px;
     padding: 1rem;
-    margin: 3px;
+    margin: 5%;
     box-shadow: 0 2px 6px rgba(0,0,0,0.08);
     line-height: 1.6;
+    font-family: "Garamond", serif;
+    font-size: 135%;
+    letter-spacing: 1.3px;
+    width: 90%;
+    
 }
 
 
@@ -422,10 +442,10 @@ aside {
 #mss-panel {
     display: block;
     position: absolute;
-    top: 170px;
+    top: 15%;
     bottom: 0;
     right: 30px;
-    width: 29%;
+    width: 31%;
     overflow-y: auto;
     background: white;
     border: double #d8d0c4 6px;
@@ -573,8 +593,8 @@ h2, .mss_btn, #apri_mss, h3 {
 #extra_container {
     display: none;
     position: absolute;
-    border: 3px dashed #bfa441;
-    width: 33%;
+    border: 3px dashed #9c8636;
+    width: 46%;
     z-index: +1;
     background-color: transparent;
     align-self: flex-start;

@@ -38,6 +38,7 @@
             <schemaSpec start="TEI teiCorpus" source="teipublisher.odd">
         
                 <elementSpec ident="lg" mode="change">
+                 <model predicate="parent::div[@type='txt_costellazione'] and @type='envoy14'" cssClass="trnd14" behaviour="block"/>
                     <model predicate="parent::div[@type='txt_critico']" behaviour="block">
                         <outputRendition xml:space="preserve">
                             margin: 1em;

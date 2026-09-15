@@ -22,7 +22,7 @@
         <aside class="interagisci">
 
             <h2>Scopri</h2>
-            <button id="btn_diff">⊶ Differenze</button>
+            <button id="btn_diff">⊶ Loci divergenti</button>
             <button id="btn_loci">𖦹 Loci direttivi</button>
             <button id="btn_glos">🕮 Glossario </button>
             <br/>
@@ -32,13 +32,13 @@
               <pb-popover theme="light">
                  <span id="gen_pop">⁕</span>
                  <template slot="alternate">
-                                <span class="sym" id="info_gen">Approfondimenti dal Glossario, note paleografiche dagli Apparati e ulteriori informazioni generali.</span>
+                                <span class="sym" id="info_gen">Approfondimenti dal glossario, note paleografiche dagli apparati e ulteriori informazioni generali.</span>
                  </template>
               </pb-popover>
               <pb-popover theme="light">
                  <span id="con_pop">𖣢</span>
                  <template slot="alternate">
-                                <span class="sym" id="info_con">Indicazione in Apparato di avvenuta contaminazione fra due rami della tradizione.</span>
+                                <span class="sym" id="info_con">Indicazione negli apparati di avvenuta contaminazione fra due rami della tradizione.</span>
                  </template>
               </pb-popover>
               </div>
@@ -134,8 +134,6 @@
                     <div>
                        <pb-view id="txt_critico" src="document1" load-css="resources/css/gausbert.css" xpath="//tei:div[@type='txt_critico']"/>
                     </div>
-     
-
                     <div>
                         <pb-view id="txt_cst" src="document1" load-css="resources/css/txt_cst.css" xpath="//tei:div[@type='txt_costellazione']"/>
                     </div>
@@ -144,22 +142,8 @@
                     <pb-view src="document1" load-css="resources/css/gausbert.css" xpath="//div[@type='trad_extra']"/>
                 </div>
                 </div>
-                    
-
-  
-                
-                <div class="colonne">
-                    <div>
-                        <pb-view id="app_crt" src="document1" load-css="resources/css/gausbert.css" xpath="//tei:div[@type='app_crt_sos']"/>
-                        <pb-view src="document1" load-css="resources/css/gausbert.css" xpath="//tei:div[@type='app_crt_form']"/>
-                    </div>
-
-                    <div>
-                        <pb-view id="app_cst" src="document1" load-css="resources/css/gausbert.css" xpath="//tei:div[@type='app_cos_sos']"/>
-                        <pb-view src="document1" load-css="resources/css/gausbert.css" xpath="//tei:div[@type='app_cos_form']"/>
-                    </div>
-                </div>
-                <div class="traduzione">
+            </section>
+            <div class="traduzione">
                          <pb-collapse>
                             <div slot="collapse-trigger" class="trad-collapse">
                                     <h2>Traduzione</h2>
@@ -171,7 +155,23 @@
                 </div>
 
 
+  
+                <br/>
+                <section class="testi">
+                <div class="colonne">
+                    <div>
+                        <pb-view id="app_crt" src="document1" load-css="resources/css/gausbert.css" xpath="//tei:div[@type='app_crt_sos']"/>
+                        <pb-view src="document1" load-css="resources/css/gausbert.css" xpath="//tei:div[@type='app_crt_form']"/>
+                    </div>
+
+                    <div>
+                        <pb-view id="app_cst" src="document1" load-css="resources/css/gausbert.css" xpath="//tei:div[@type='app_cos_sos']"/>
+                        <pb-view src="document1" load-css="resources/css/gausbert.css" xpath="//tei:div[@type='app_cos_form']"/>
+                    </div>
+                </div>
             </section>
+            
+            
 
 
             <div>

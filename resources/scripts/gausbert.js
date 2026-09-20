@@ -360,37 +360,52 @@ function creaCollapseTraduzioni() {
     });
 }
 
-// reagisce ai cambiamenti di dimensione all'espansione del collapse riallineando coblasCrt e coblasCst
-function aggiornaCoblas() {
+function inizializzaTraduzioni() {
 
-    var critView = document.getElementById("txt_critico");
+    var txtCritico = document.getElementById("txt_critico");
+    var traduzione = document.querySelector(".traduzione pb-view");
 
-    if (!critView || !critView.shadowRoot) return;
+    if (!txtCritico || !traduzione) return;
+    if (!txtCritico.shadowRoot || !traduzione.shadowRoot) return;
 
-    critView.shadowRoot
-        .querySelectorAll(".trad-collapse")
-        .forEach(function(trigger) {
-
-            trigger.addEventListener("click", function() {
-
-                // aggiornamento
-                setTimeout(function() {
-                    allineaCoblas();
-                }, 500);
-            });
-
-        });
-}
-
-setTimeout(function() {
+    // evita doppi collapse
+    if (txtCritico.shadowRoot.querySelector(".traduzione-cobla")) {
+        return;
+    }
 
     creaCollapseTraduzioni();
 
-    setTimeout(function() {
+    allineaCoblas();
 
+    osservaResize();
+}
+
+function osservaResize() {
+
+    var txtCritico = document.getElementById("txt_critico");
+
+    if (!txtCritico || !txtCritico.shadowRoot) return;
+
+    var observer = new ResizeObserver(function() {
+        // funzione di allineamento richiamata qualora il layout sia modificato
         allineaCoblas();
-        aggiornaCoblas();
 
-    }, 500);
+    });
+    // host = <pb-view id="txt_critico">; l'elemento osservato che contiene lo shadow DOM del testo critico
+    observer.observe(txtCritico.shadowRoot.host);
+}
 
-}, 3000);
+window.addEventListener("DOMContentLoaded", function() {
+
+    var txtCritico = document.getElementById("txt_critico");
+
+    if (!txtCritico) return;
+    
+    // il testo critico viene caricato o aggiornato
+    txtCritico.addEventListener("pb-update", function() {
+
+        inizializzaTraduzioni();
+
+    });
+
+});

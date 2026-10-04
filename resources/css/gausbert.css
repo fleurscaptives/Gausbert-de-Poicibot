@@ -110,7 +110,7 @@ h1 {
 }
 
 h4 {
-    font-size: 75%;
+    font-size: 72%;
     font-style: italic;
 }
 
@@ -375,11 +375,11 @@ aside {
     max-width: 100%;
     display: block;
     margin: 1em auto;
-    transition: transform 0.3s ease;
+    transition: transform 0.2s ease;
 }
 
 .stemma-content img:hover {
-    transform: scale(1.4);
+    transform: scale(1.25);
 }
 
 .stemma-content {
@@ -397,7 +397,7 @@ aside {
     font-weight: bold;
     font-family: "IM Fell English", serif;
     padding: 8px;
-    font-size: 20px;
+    font-size: 127%;
     letter-spacing: 1.3px;
     text-decoration: underline wavy #d8d0c4;
     text-underline-offset: 7px;  
@@ -445,7 +445,7 @@ aside {
     top: 15%;
     bottom: 0;
     right: 30px;
-    width: 31%;
+    width: 29%;
     overflow-y: auto;
     background: white;
     border: double #d8d0c4 6px;

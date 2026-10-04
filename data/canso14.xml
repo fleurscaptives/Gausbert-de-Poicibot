@@ -484,7 +484,8 @@
                             <ref rend="exit" target="https://dom-en-ligne.de/dom.php?lhid=5hv7tHesQjjLPZHFoxtSfL">DOM</ref>
                                             <lb/>
                             <def>R è l’unico testimone a presentare la lezione <seg type="it">monors</seg>, una probabile variante erronea riconducibile a <seg type="it">menor</seg>. <lb/>Si tratta della prima occorrenza in cui in R si legge una lezione singolare che termina in -<seg type="it">ors</seg> e che, in più, appare in contrasto con una lezione di maggiore qualità condivisa dal resto dei testimoni. Ai vv. 22 (v. 44 in R) e 53, si leggono le lezioni <seg type="it">ressors</seg> (laddove il resto dei testimoni trasmettono il sostantivo <seg type="it">recels</seg>) e <seg type="it">calhors</seg> (laddove gli altri manoscritti scrivono <seg type="it">calar</seg>).<lb/> La proliferazione in R di lezioni singolari in -<seg type="it">ors</seg> potrebbe essere interpretata come il prodotto di interventi dei copisti su errate identificazioni di rimanti con questa terminazione. Tuttavia, ciò appare plausibile solo nel caso di <seg type="it">monors</seg>, copiato in posizione di fine rigo. <lb/>A ogni modo, la lezione <seg type="it">monors</seg> è corretta con <seg type="it">menor</seg> nel testo di costellazione. <lb/>Si segnala un simile intervento anche sulla lezione <seg type="it">termens</seg> che, al v. 30 di R, compare in luogo del termine corretto <seg type="it">tormens</seg>, forse generato dal ripresentarsi dell’assimilazione vocalica che ha prodotto la corruzione di <seg type="it">menor</seg>.</def>
-                                        </note></term> ma <rhyme>sabenssa</rhyme>.</l>
+                                        </note>
+                                    </term> ma <rhyme>sabenssa</rhyme>.</l>
     <l n="8">Doncs Amors qe·m <seg type="corr">forss’e·m</seg> <rhyme>vens</rhyme>
                                 </l>
     <l n="9">degra venser mas <rhyme>clamors</rhyme>,</l>
@@ -2224,26 +2225,28 @@ In una delle poche occorrenze di un altro derivato di <seg type="it">envezar</se
             <div type="trad_critico" xml:lang="it">
                 <p n="1">
                             <label>I</label>
-                </p>
-                <lb/>
+                Un grande amore sincero mi stringe e mi possiede, così che non penso a nient’altro, se non a chiedere Benevolenza. E poiché non mi ricordo d’altro, sembro folle tra la gente e la mia sapienza appare minore. Dunque, le mie suppliche dovrebbero vincere Amore, che mi combatte e mi vince, poiché per il vincitore è un onore che la Pietà lo vinca.</p>
                 <p n="2">
                             <lb/>
                             <label>II</label>
-                </p>
+                Da voi ricevo un male ingiusto e non so perché. Ma di tanto, Amore, almeno me ne verrà un bene: racconterò la vostra condotta a coloro che non sanno della vostra ingratitudine. Così sarete meno stimato e avrete meno servitori, per i quali i miei grandi dolori saranno avvertimento e timore.</p>
                 <lb/>
                 <p n="3">
                             <lb/>
                             <label>III</label>
+                            E poiché non mi giova esser tale come conviene a un amante fedele, se mi comportassi in modo sleale ne otterrei vantaggi. Volgerei facilmente il freno in quella direzione, ma non si addice, così mi dice la ragione, ripagare una colpa con un’altra. Preferisco tutte le sofferenze che sono proprie degli amanti fedeli alla parvenza di gioia dei falsi seduttori. 
                 </p>
                 <lb/>
                 <p n="4">
                             <lb/>
                             <label>IV</label>
+                            Amore, il vostro nome è falso, poiché non amate me, che vi sono fedele e leale e vi ho sempre amato. E poiché così avviene, che io vi sono obbediente con amore e benevolenza, mentre voi mi siete malevolo e crudele, senza bontà e senza aiuto, per diritto sono io Amore e voi siete Malvagità.
                 </p>
                 <lb/>
                 <p n="5">
                             <lb/>
                             <label>V</label>
+                            Il vostro comportamento è tale che a chiunque creda in voi diminuisce il capitale di gioia, poiché da voi non riceve altro che falsità senza alcuna fede, danno senza appagamento e sofferenza senza vantaggio. Commettete molte altre colpe, ma parlarne mi spaventa, perché rappresenta grande superbia e follia la contesa con chi è più forte.
                 </p>
                 <lb/>
                 <p n="6">

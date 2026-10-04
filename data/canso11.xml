@@ -443,108 +443,1845 @@
             <div type="testo">
               <div type="txt_critico" xml:id="canso1">
                 <title>Testo critico</title>
-                <p/>
+                    <p>Ms. base A
+                        <lb/>Correzioni da <seg type="corr">H</seg>
+                                <lb/>
+                        <seg type="edit">Interventi editoriali</seg>
+                    </p>
                 <!-- Cobla I -->
                     <label>I</label>
-                    <lg type="stanza" n="1" rhyme="abbaabbaccd">
-                </lg>
+<lg type="stanza" n="1" rhyme="abbaabbaccdd">
+    <l n="1">S’ieu anc iorn dis <rhyme label="a">clamans</rhyme>
+                                </l>
+    <l n="2">encontra vos, <rhyme label="b">Amors</rhyme>,</l>
+    <l n="3">orguoill ni <rhyme label="b">desonors</rhyme>
+                                </l>
+    <l n="4">ara·m dei e mos <rhyme label="a">chans</rhyme>
+                                </l>
+    <l n="5">humiliar dos <rhyme label="a">tans</rhyme>
+                                </l>
+    <l n="6">e laissar mas <rhyme label="b">clamors</rhyme>,</l>
+    <l n="7">pois ma dompna <rhyme label="b">Lionors</rhyme>,</l>
+    <l n="8">la pros <term type="glossario"><seg type="edit">reina</seg>
+        <note type="popup" xml:id="gloss-reina">
+        <label>≋ LIT</label>
+        <term type="lit">reina/comtessa</term>
+        <def>La lezione <seg type="it">comtessa</seg>, trasmessa dai soli ADHT, si contrappone a <seg type="it">reina</seg>, lezione condivisa da CGIKPSU. L’identificazione della nobildonna è stata oggetto di discussione: Gambini ipotizza una prima redazione dedicata a Eleonora di Tolosa, moglie del conte Raimondo VI e figura legata alla corte tolosana, e una seconda redazione dedicata a Eleonora di Castiglia, divenuta regina consorte d’Aragona nel 1221 dopo il matrimonio con Giacomo I. Quest’ultima identificazione appare più plausibile anche alla luce della <seg type="it">tornada</seg> dedicata al re d’Aragona, che chiude questa lirica, e del contesto cronologico dell’attività di Gausbert, collocata negli anni Venti del XIII secolo.<lb/>La canzone potrebbe dunque essere stata composta in relazione alle nozze dei sovrani aragonesi, mentre non emergono elementi altrettanto significativi che colleghino Gausbert alla corte di Tolosa. Si accoglie pertanto <seg type="it">reina</seg> in entrambi i testi, emendando in tal modo una lezione posteriore probabilmente corrotta in R.
+</def>
+            
+        </note>
+    </term> <rhyme label="a">prezans</rhyme>,</l>
+    <l n="9">
+                                    <seg type="diff">deign’en</seg> aissi <rhyme label="c">voler</rhyme>.</l>
+    <l n="10">E si tot ieu de vos grat non <rhyme label="c">esper</rhyme>,</l>
+    <l n="11">be·us dei grazir lo dan e·l <rhyme label="d">mal</rhyme>,</l>
+    <l n="12">puois ill m’o manda que tant <rhyme label="d">val</rhyme>.</l>
+</lg>
                 <lb/>
                 <!-- Cobla II -->
                     <label>II</label>
-                    <lg type="stanza" n="2" rhyme="abbaabbaccd"/>
+                    <lg type="stanza" n="2" rhyme="abbaabbaccdd">
+                        <l n="13">Humils e <rhyme label="a">merceians</rhyme>
+                                </l>
+    <l n="14">mi rend a vos <rhyme label="b">Amors</rhyme>,</l>
+    <l n="15">car mi <seg type="diff">forsset</seg> <rhyme label="b">errors</rhyme>
+                                </l>
+    <l n="16">
+                                    <seg type="diff">e·ill</seg> lenga <rhyme label="a">malparlans</rhyme>
+                                </l>
+    <l n="17">
+                                    <seg type="diff">qe·us fos <rhyme label="a">contrarians</rhyme>
+                                    </seg>
+                                </l>
+    <l n="18">
+                                    <seg type="diff">ab digz <rhyme label="b">maldizedors</rhyme>.</seg>
+                                </l>
+    <l n="19">Et <seg type="corr">ieu vos</seg> dirai <rhyme label="a">lauzors</rhyme>
+                                </l>
+    <l n="20">e de plazers cent <rhyme label="a">aitans</rhyme>
+                                </l>
+    <l n="21">
+                                    <seg type="diff">que non vos dis</seg> <rhyme label="c">desplazer</rhyme>,</l>
+    <l n="22">c’orgoills sai ben que no mi pot <rhyme label="c">valer</rhyme>.</l>
+    <l n="23">Per c’oimais d’enemic <rhyme label="d">mortal</rhyme>
+                                </l>
+    <l n="24">m’auretz amic fin e <term type="glossario"><rhyme label="d">leial</rhyme>
+    <note type="popup" xml:id="gloss-leial">
+        <label>≋ LIT</label>
+        <term type="lit">leial</term>
+        <def>Nella citazione della <seg type="it">cobla</seg> tratta dal Breviari, si legge l’aggettivo <seg type="it">coral</seg>, assente dal testo della canzone 173.11, ma presente nell’incipit della lirica 173.14, <seg type="it">Una grans amors corals</seg>. Quest’ultimo componimento è citato nel trattato di Matfre Ermengau solamente poche righe prima della ripresa della seconda <seg type="it">cobla</seg> della canzone 173.11, sebbene il verso che include l’aggettivo <seg type="it">corals</seg> non appaia nella <seg type="it">cobla</seg> di 173.14 trasmessa.<lb/>
+        Non è da escludere che la fonte di Matfre presentasse una lacuna in corrispondenza della fine del v. 24 della canzone ora discussa, e che, dalla ricerca di una rima adatta, la canzone 173.14 avrebbe fornito come possibile sostituto l’aggettivo <seg type="it">coral</seg>. Si ricorda, a proposito, che nelle disposizioni seriali individuate nei canzonieri oggi sopravvissuti le due liriche citate in questo commento (11 e 14) erano spesso contigue all’interno delle sezioni dedicate a Gausbert. <lb/>Ad ogni modo, l’aggettivo <seg type="it">lial</seg> è ovviamente più adeguato a far parte della dittologia <seg type="it">fin e lial</seg>, oltre ad essere in opposizione con il termine che, nella medesima posizione, chiude la <seg type="it">cobla</seg> successiva, <seg type="it">desleial</seg>.</def>
+    </note>
+        
+    </term>.</l>
+                            </lg>
+                    
                      <lb/>
                 <!-- Cobla III -->
                     <label>III</label>
-                    <lg type="stanza" n="3" rhyme="abbaabbaccd">
+                    <lg type="stanza" n="3" rhyme="abbaabbaccdd">
+                        <l n="25">Q’ie·us vencerai <rhyme label="a">enans</rhyme>
+                                </l>
+    <l n="26">merce claman, <rhyme label="b">Amors</rhyme>,</l>
+    <l n="27">ab precs et ab <rhyme label="b">temors</rhyme>,</l>
+    <l n="28">que s’ieu ab braus <rhyme label="a">semblans</rhyme>
+                                </l>
+    <l n="29">vos era <rhyme label="a">contrastans</rhyme>
+                                </l>
+    <l n="30">ni·us dizia <rhyme label="b">follors</rhyme>
+                                </l>
+    <l n="31">ab fals digz <rhyme label="b">reprendedors</rhyme>,</l>
+    <l n="32">e si mos leugiers <rhyme label="a">talans</rhyme>
+                                </l>
+    <l n="33">mi fetz orgoillos <rhyme label="c">parer</rhyme>
+                                </l>
+    <l n="34">encontra vos ni dire non <rhyme label="c">dever</rhyme>,</l>
+    <l n="35">ben dei far penedenssa <rhyme label="d">tal</rhyme>
+                                </l>
+    <l n="36">cum taing a forfaich <rhyme label="d">desleial</rhyme>.</l>
                 </lg>
                  <lb/>
                 <!-- Cobla IV -->
                     <label>IV</label>
-                    <lg type="stanza" n="4" rhyme="abbaabbaccd">
+                    <lg type="stanza" n="4" rhyme="abbaabbaccdd">
+                        <l n="37">Sabetz cal? Als mieus <rhyme label="a">ans</rhyme>
+                                </l>
+    <l n="38">m’er totz temps mais, <rhyme label="b">Amors</rhyme>,</l>
+    <l n="39">doussa ma greus <rhyme label="b">dolors</rhyme>,</l>
+    <l n="40">e bes e pros mos <rhyme label="a">dans</rhyme>,</l>
+    <l n="41">e soiorns mos <rhyme label="a">affans</rhyme>,</l>
+    <l n="42">e gabs e ris mos <rhyme label="b">plors</rhyme>,</l>
+    <l n="43">e mos loncs trebaills <seg type="diff">
+                                <rhyme label="b">legors</rhyme>
+                                    </seg>,</l>
+    <l n="44">e totz mos destrics <rhyme label="a">enans</rhyme>
+                                </l>
+    <l n="45">e <term type="glossario">tuich<note type="popup" xml:id="gloss-tuich">
+    <label>≡ LEX</label>
+    <term type="lex">tuich</term>
+    <def>⤷ pron. | tutto</def>
+    <ref rend="exit" target="https://dom-en-ligne.de/dom.php?lhid=6CjVOsbA7lQb3hrxao6m2G">DOM</ref>
+    <lb/>
+    <def>Nello stemma fornito per l'edizione, la costellazione GIKSU forma un gruppo unitario. Lo studio della <seg type="it">varia lectio</seg> della canzone permette di individuare una comune riformulazione del v. 45 come  circostanza che funge da prova del legame fra i cinque codici. Nel passo, in GIKSU, si nota l’omissione di <seg type="it">tuich</seg> parallela all’introduzione dell’aggettivo <seg type="it">grand</seg> in SU e <seg type="it">grans</seg> in GIK. La lezione <seg type="it">grand</seg> appare anche in R, sebbene il testimone non sia incluso nella costellazione perché nel canzoniere occitano l’aggettivo precede il sostantivo <seg type="it">plazer</seg> e, soprattutto, il verso non presenta l’omissione di <seg type="it">tuich</seg>.<lb/>L’uso dell’aggettivo <seg type="it">grand</seg>/<seg type="it">s</seg> nel gruppo GIKSU potrebbe provenire da un tentativo di sanare l’ipometria generata da una corruzione (l’assenza di <seg type="it">tuich</seg>) tramandata da una possibile fonte comune. </def>
+        </note>
+    </term> miei enoi <rhyme label="c">plazer</rhyme>;</l>
+    <l n="46">e despendrai mo sen e mon <rhyme label="c">saber</rhyme>
+                                </l>
+    <l n="47">en vos gen servir a <rhyme label="d">iornal</rhyme>,</l>
+    <l n="48">cum hom serv seignor <rhyme label="d">natural</rhyme>.</l>
                 </lg>
                  <lb/>
                 <!-- Cobla V -->
                     <label>V</label>
-                    <lg type="stanza" n="5" rhyme="abbaabbaccd">
+                    <lg type="stanza" n="5" rhyme="abbaabbaccdd">
+                        <l n="49">Al rei dels <rhyme label="a">Alamans</rhyme>,</l>
+    <l n="50">cap dels <rhyme label="b">emperadors</rhyme>,</l>
+    <l n="51">vai, chanssos, <seg type="diff">cui</seg> <rhyme label="b">valors</rhyme>
+                                </l>
+    <l n="52">
+                                    <seg type="diff">dona</seg> sobre·ls <rhyme label="a">prezans</rhyme>,</l>
+    <l n="53">tant de pretz cum es <rhyme label="a">grans</rhyme>
+                                </l>
+    <l n="54">sobre <seg type="diff">totz sa</seg> <rhyme label="b">ricors</rhyme>.</l>
+    <l n="55">
+                                    <seg type="diff">Del sieu pretz</seg> es <rhyme label="b">autors</rhyme>
+                                </l>
+    <l n="56">
+                                    <seg type="diff">lo sieus noms <seg type="edit">rics</seg>
+                                    </seg> <rhyme label="a">benestans</rhyme>,</l>
+    <l n="57">q’el <seg type="diff">a</seg> <term type="glossario">fre de ric<note type="popup" xml:id="gloss-frederic">
+    <label>≋ LIT</label>
+    <term type="lit">fre de ric</term>
+    <def>Federico II fu con tutta probabilità incoronato imperatore nel periodo di composizione della lirica, ed è una lunga dedica al sovrano a occupare la quinta <seg type="it">cobla</seg> nella sua interezza, con l’inclusione di un gioco di parole su come il nome del regnante risulti consono a un capo che è, in tutto e per tutto, <seg type="it">fre de ric per ver</seg>. Di Federico è elogiato, infatti, lo spirito valoroso e la fermezza nel porre un freno alle azioni vili di uomini ricchi e potenti, incapaci di sovrastarlo in quanto a nobiltà d’animo e di imprese.<lb/>In questo luogo del testo, si nota come l'errata comprensione dell’epiteto attribuito a Federico abbia generato alcune varianti evidentemente erronee.</def>        
+        </note>
+    </term> per <rhyme label="c">ver</rhyme>,</l>
+    <l n="58">per refrenar vils faitz e <rhyme label="c">retener</rhyme>,</l>
+    <l n="59">
+                                    <seg type="diff">q’us non toc</seg> a son pretz <rhyme label="d">cabal</rhyme>,</l>
+    <l n="60">
+                                    <seg type="diff">fren ric e man</seg> porta <rhyme label="d">aital</rhyme>.</l>
                 </lg>
                  <lb/>
-                <!-- Cobla VI -->
+                <!-- Tornada VI -->
                     <label>VI</label>
-                    <lg type="enovy" n="tornada1">
+                    <lg type="enovy" n="tornada" rhyme="ccdd">
+                        <l n="61">Del rei d’Aragon <rhyme label="c">esper</rhyme>
+                                </l>
+    <l n="62">c’ades meillur e sapcha mais <rhyme label="c">valer</rhyme>,</l>
+    <l n="63">quand el aura sen <rhyme label="d">natural</rhyme>,</l>
+    <l n="64">pois <seg type="diff"><term type="glossario">ioves<note type="popup" xml:id="gloss-ioves">
+    <label>≡ LEX</label>
+                            <term type="lex">ioves/tosetz</term>
+                            <def>⤷ agg. | ragazzo, giovane uomo</def>
+                            <ref rend="exit" target="https://lecteur-few.atilf.fr/lire/132/32">FEW</ref>
+                                            <lb/>
+                            <def>L'aggettivo <seg type="it">tosetz</seg> compare in luogo di <seg type="it">ioves</seg> nel gruppo IKRS. Sebbene la veste grafica sia difforme, il significato di entrambi gli aggettivi è sovrapponibile, benché l’etimologia di <seg type="it">tosetz</seg> sarebbe da ricercare nel latino <seg type="it">tonsus</seg> (“rasato, sfrondato”), con riferimento al taglio di capelli attraverso cui era possibile riconoscere i ragazzi che ancora non avevano raggiunto l’età adulta.<lb/> L’aggettivo <seg type="it">tosetz</seg> (o il femminile <seg type="it">toseta</seg>) sono di certo molto meno frequenti di <seg type="it">ioves</seg> nella poesia trobadorica, ma la sostanziale interscambiabilità dei termini rende meno significativa la convergenza. 
+                            </def>
+        </note>
+    </term> sap tant</seg> e tant <rhyme label="d">val</rhyme>.</l>
                 </lg>
             </div>
             <!-- Apparato critico delle varianti sostanziali -->
             <div type="app_crt_sos">
             <head>Apparato critico</head>
               <listApp>
+              <app ana="sos">
+    <num>1</num>
+    <lem>jorn</lem>
+    <rdg>
+        <note type="text">manca<witDetail wit="#G"> G</witDetail></note>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <lem>clamans</lem>
+    <rdg>
+        clams<witDetail wit="#C"> C</witDetail>
+    </rdg>
+    <rdg>
+        claman<witDetail wit="#P"> P</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>3</num>
+    <lem>orguoill</lem>
+    <rdg>
+        orgouills<witDetail wit="#D #G #H #N"> DGHN</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <lem>desonors</lem>
+    <rdg>
+        desinors<witDetail wit="#T"> T</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>4</num>
+    <lem>ara·m</lem>
+    <rdg>
+        aitan<witDetail wit="#D"> D</witDetail>
+    </rdg>
+    <rdg>
+        er mi<witDetail wit="#G"> G</witDetail>
+    </rdg>
+    <rdg>
+        eran<witDetail wit="#S"> S</witDetail>
+    </rdg>
+    <rdg>
+        ar mon<witDetail wit="#U"> U</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <lem>e</lem>
+    <rdg>
+        en<witDetail wit="#C #G #P"> CGP</witDetail>
+    </rdg>
+    <rdg>
+        es<witDetail wit="#T"> T</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>6</num>
+    <lem>e laissar</lem>
+    <rdg>
+        el lausar<witDetail wit="#D"> D</witDetail>
+    </rdg>
+    <rdg>
+        e lausar<witDetail wit="#T"> T</witDetail>
+    </rdg>
+    <rdg>
+        e baissar<witDetail wit="#S"> S</witDetail>
+    </rdg>
+    <rdg>
+        e blasmar<witDetail wit="#U"> U</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>7</num>
+    <lem>pois</lem>
+    <rdg>
+        mas<witDetail wit="#U"> U</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>8</num>
+    <lem>pros</lem>
+    <rdg>
+        pro<witDetail wit="#U"> U</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <lem>reina</lem>
+    <rdg>
+        comtessa<witDetail wit="#A #D #H #T"> ADHT</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>9</num>
+    <lem>deign’en aissi</lem>
+    <rdg>
+        deigna aissi<witDetail wit="#A"> A</witDetail>
+    </rdg>
+    <rdg>
+       (ho <witDetail wit="#C"> C</witDetail>) deigna (deig <witDetail wit="#N"> N</witDetail>) en asi<witDetail wit="#H #K #S #U"> CHKNSU</witDetail>
+    </rdg>
+    <rdg>
+        deig en asi<witDetail wit="#N"> N</witDetail>
+    </rdg>
+    <rdg>
+        dein atsi<witDetail wit="#D"> D</witDetail>
+    </rdg>
+    <rdg>
+        degna on aissi<witDetail wit="#G #I"> GI</witDetail>
+    </rdg>
+    <rdg>
+        denh an aissi<witDetail wit="#P"> P</witDetail>
+    </rdg>
+    <rdg>
+        deinha si<witDetail wit="#T"> T</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>10</num>
+    <lem>eu de vos grat</lem>
+    <rdg>
+        de<note type="text"> manca <witDetail wit="#D"> D</witDetail></note>
+    </rdg>
+    <rdg>
+        eu grat de vos<witDetail wit="#G #T"> GT</witDetail>
+    </rdg>
+    <rdg>
+        en te vos g.<witDetail wit="#K"> K</witDetail>
+    </rdg>
+    <rdg>
+        eu de v. gart<witDetail wit="#N"> N</witDetail>
+    </rdg>
+    <rdg>
+        eu<note type="text"> manca <witDetail wit="#P"> P</witDetail></note>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>11</num>
+    <lem>be·us</lem>
+    <rdg>
+        bens<witDetail wit="#G #P"> GP</witDetail>
+    </rdg>
+    <rdg>
+        ben<witDetail wit="#S #U"> SU</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <lem>dei</lem>
+    <rdg>
+        de<witDetail wit="#D"> D</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <lem>dan</lem>
+    <rdg>
+        bes<witDetail wit="#G"> G</witDetail>
+    </rdg>
+    <rdg>
+        danz<witDetail wit="#N"> N</witDetail>
+    </rdg>
+    <rdg>
+        ben<witDetail wit="#P #U"> PU</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <lem>mal</lem>
+    <rdg>
+        ben<witDetail wit="#T"> T</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>12</num>
+    <lem>puois ill</lem>
+    <rdg>
+        po lil<witDetail wit="#D"> D</witDetail>
+    </rdg>
+    <rdg>
+        ill <note type="text"> manca <witDetail wit="#T"> T</witDetail></note>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <lem>m’o</lem>
+    <rdg>
+        o<witDetail wit="#G"> G</witDetail>
+    </rdg>
+    <rdg>
+        ma<witDetail wit="#P"> P</witDetail>
+    </rdg>
+    <rdg>
+        me<witDetail wit="#S"> S</witDetail>
+    </rdg>
+    <rdg>
+        mi<witDetail wit="#U"> U</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <lem>qe tant</lem>
+    <rdg>
+        q’aitan<witDetail wit="#S"> S</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>13</num>
+    <lem>e</lem>
+    <rdg>
+        <note type="text"> manca <witDetail wit="#A #D"> AD</witDetail></note>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>14</num>
+    <lem>a vos</lem>
+    <rdg>
+        a vos a vos<witDetail wit="#A"> A</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>16</num>
+    <lem>e·ill lenga</lem>
+    <rdg>
+        el l.<witDetail wit="#C #I #K"> CIK</witDetail>
+    </rdg>
+    <rdg>
+        e lenga<witDetail wit="#D #H #N #α"> DHNα</witDetail>
+    </rdg>
+    <rdg>
+        ni l.<witDetail wit="#S #U"> SU</witDetail>
+    </rdg>
+    <rdg>
+        e las lengas<witDetail wit="#T"> T</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <lem>malparlans</lem>
+    <rdg>
+        mals parlans<witDetail wit="#D #H #I #K"> DHIK</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>17</num>
+    <lem>qe·us</lem>
+    <rdg>
+        qieu<witDetail wit="#I #K"> IK</witDetail>
+    </rdg>
+    <rdg>
+        quieu<witDetail wit="#α"> α</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>18</num>
+    <lem>ab digz</lem>
+    <rdg>
+        a dig<witDetail wit="#P"> P</witDetail>
+    </rdg>
+    <rdg>
+        ab mos d.<witDetail wit="#U"> U</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <lem>maldizedors</lem>
+    <rdg>
+        mals dizedors<witDetail wit="#C #D #H #I #K #P #U"> CDHIKPU</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>19</num>
+    <lem>et</lem>
+    <rdg>
+        es<witDetail wit="#G #P"> GP</witDetail>
+    </rdg>
+    <rdg>
+        <note type="text"> manca <witDetail wit="#T"> T</witDetail></note>
+    </rdg>
+    <rdg>
+        mas<witDetail wit="#U"> U</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <lem>ieu vos dirai</lem>
+    <rdg>
+        ieus dirai<witDetail wit="#A #P"> AP</witDetail>
+    </rdg>
+    <rdg>
+        ieu dirai vos<witDetail wit="#C #G #I #K #N #S #T #α"> CGIKNSTα</witDetail>
+    </rdg>
+    <rdg>
+        er vos dirai<witDetail wit="#U"> U</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>20</num>
+    <lem>de plazers</lem>
+    <rdg>
+        de plazer<witDetail wit="#N #S #U"> NSU</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <lem>cent aitans</lem>
+    <rdg>
+        cent tans<witDetail wit="#α"> α</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>21</num>
+    <lem>que non vos</lem>
+    <rdg>
+        qeu nous<witDetail wit="#T"> T</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <lem>dis desplazer</lem>
+    <rdg>
+        dis desplazers<witDetail wit="#H #α"> Hα</witDetail>
+    </rdg>
+    <rdg>
+        dis plazer<witDetail wit="#U"> U</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>22</num>
+    <lem>c’orgoills</lem>
+    <rdg>
+        corguoill<witDetail wit="#N #S #T #α"> NSTα</witDetail>
+    </rdg>
+    <rdg>
+        e o.<witDetail wit="#U"> U</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <lem>sai que no mi pot</lem>
+    <rdg>
+        s. que mi po<witDetail wit="#D"> D</witDetail>
+    </rdg>
+    <rdg>
+        seu ben<witDetail wit="#G"> G</witDetail>
+    </rdg>
+    <rdg>
+        s. que no·m pot<witDetail wit="#T"> T</witDetail>
+    </rdg>
+    <rdg>
+        vei que non i pot<witDetail wit="#U"> U</witDetail>
+    </rdg>
+    <rdg>
+        sai ben que<witDetail wit="#α"> α</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>23</num>
+    <lem>per</lem>
+    <rdg>
+        pero<witDetail wit="#N"> N</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <lem>coimais</lem>
+    <rdg>
+        quois mais<witDetail wit="#D"> D</witDetail>
+    </rdg>
+    <rdg>
+        quoi oimais<witDetail wit="#H"> H</witDetail>
+    </rdg>
+    <rdg>
+        cui oimai<witDetail wit="#T"> T</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <lem>mortal</lem>
+    <rdg>
+        <note type="text"> manca <witDetail wit="#N"> N</witDetail></note>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>24</num>
+    <lem>amics fin</lem>
+    <rdg>
+        amic finc<witDetail wit="#G"> G</witDetail>
+    </rdg>
+    <rdg>
+        amic f.<witDetail wit="#U"> U</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <lem>leial</lem>
+    <rdg>
+        coral<witDetail wit="#α"> α</witDetail>
+    </rdg>
+</app>
+<app ana="sos">
+    <num>25</num>
+    <lem>vencerai</lem>
+    <rdg>
+        venzeria<witDetail wit="#G"> G</witDetail>
+    </rdg>
+    <rdg>
+        seu vensereai ennans<witDetail wit="#U"> U</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>26</num>
+    <lem>merce</lem>
+    <rdg>
+        merces<witDetail wit="#G #T"> GT</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <lem>claman</lem>
+    <rdg>
+        clamans<witDetail wit="#D #G #T #U"> DGTU</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>27</num>
+    <rdg>
+        <note type="text"> manca <witDetail wit="#C #P"> CP</witDetail></note>
+        <note type="popup" xml:id="paleo1">
+                        <surface>
+        <graphic url="images/paleo11a.png"/>
+      </surface> La lacuna è indicata in P mediante uno spazio bianco lasciato in corrispondenza del verso, mentre in C non vi è alcun segnale a indicare una mancanza. A livello semantico, si è già detto in Introduzione che l’assenza del verso non provoca stravolgimenti del significato della <seg type="it">cobla</seg>.<lb/> La possibilità che la lacuna sia stata ereditata in CP da una medesima fonte non è da escludere, sebbene la tradizione della canzone non includa altri passi significativi che provino un’affinità di fonti per la coppia CP.
+        </note>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <lem>temors</lem>
+    <rdg>
+        lausors<witDetail wit="#S"> S</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>28</num>
+    <lem>ab braus</lem>
+    <rdg>
+        am braus<witDetail wit="#P"> P</witDetail>
+    </rdg>
+    <rdg>
+        a blau<witDetail wit="#S"> S</witDetail>
+    </rdg>
+    <rdg>
+        a brau<witDetail wit="#T"> T</witDetail>
+    </rdg>
+    <rdg>
+        a brao<witDetail wit="#U"> U</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>30</num>
+    <lem>ni·us</lem>
+    <rdg>
+        eu<witDetail wit="#S"> S</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <lem>dizia</lem>
+    <rdg>
+        desia<witDetail wit="#I #K"> IK</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>31</num>
+    <lem>ab fals digs</lem>
+    <rdg>
+        al fals dig<witDetail wit="#P"> P</witDetail>
+    </rdg>
+    <rdg>
+        am ditz<witDetail wit="#T"> T</witDetail>
+    </rdg>
+    <rdg>
+        ab fols d.<witDetail wit="#U"> U</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>32</num>
+    <lem>mos leugiers</lem>
+    <rdg>
+        mos leugier<witDetail wit="#S #U"> SU</witDetail>
+    </rdg>
+    <rdg>
+        mon leugier<witDetail wit="#T"> T</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>33</num>
+    <lem>mo fez</lem>
+    <rdg>
+        o fes<witDetail wit="#S"> S</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>34</num>
+    <lem>ni dire</lem>
+    <rdg>
+        ai dire<witDetail wit="#D"> D</witDetail>
+    </rdg>
+    <rdg>
+        e dire<witDetail wit="#G"> G</witDetail>
+    </rdg>
+    <rdg>
+        ne (<note type="text"> espunto ne<seg type="edit">l</seg> <witDetail wit="#H"> H</witDetail>)</note> dire<witDetail wit="#H #I #K #N #U"> HIKNU</witDetail>
+    </rdg>
+    <rdg>
+        nim fez dir<witDetail wit="#S"> S</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <lem>non dever</lem>
+    <rdg>
+        non ver<witDetail wit="#N"> N</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>35</num>
+    <lem>dei</lem>
+    <rdg>
+        deu<witDetail wit="#G"> G</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <lem>pois</lem>
+    <rdg>
+        reis<witDetail wit="#S"> S</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <lem>penedenssa</lem>
+    <rdg>
+        penedens<witDetail wit="#I #K #N #P"> IKNP</witDetail>
+    </rdg>
+    <rdg>
+        penitenci<witDetail wit="#C"> C</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <lem>tal</lem>
+    <rdg>
+        aital<witDetail wit="#C #D #H #I #K #N #P #T #U"> CDHIKNPTU</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>36</num>
+    <lem>taing a forfaich</lem>
+    <rdg>
+        t. a forza<witDetail wit="#S"> S</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <lem>desleial</lem>
+    <rdg>
+        desleials<witDetail wit="#U"> U</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>37</num>
+    <lem>Sabetz</lem>
+    <rdg>
+        sabel<witDetail wit="#G"> G</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <lem>cal</lem>
+    <rdg>
+        que<witDetail wit="#C #P"> CP</witDetail>
+    </rdg>
+    <rdg>
+        tal<witDetail wit="#D"> D</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <lem>als</lem>
+    <rdg>
+        al<witDetail wit="#G #T"> GT</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <lem>mieus ans</lem>
+    <rdg>
+        mos ans<witDetail wit="#U"> U</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <rdg>
+        Tant sui al sieu comanz<witDetail wit="#I #K"> IK</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>38</num>
+    <lem>m'er totz temps</lem>
+    <rdg>
+        merces tems<witDetail wit="#D"> D</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <lem>mais, Amors</lem>
+    <rdg>
+        mais amoros<witDetail wit="#T"> T</witDetail>
+    </rdg>
+    <rdg>
+        vas, Amors<witDetail wit="#U"> U</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <rdg>
+        fins queu cre que amors<witDetail wit="#I #K"> IK</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>39</num>
+    <lem>ma greus</lem>
+    <rdg>
+        mas g.<witDetail wit="#C #N #P #U"> CNPU</witDetail>
+    </rdg>
+    <rdg>
+        greus <note type="text"> manca <witDetail wit="#C"> C</witDetail></note>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>40</num>
+    <lem>e</lem>
+    <rdg>
+        es<witDetail wit="#T"> T</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <lem>bes</lem>
+    <rdg>
+        ben<witDetail wit="#U"> U</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <lem>mos</lem>
+    <rdg>
+        mon<witDetail wit="#U"> U</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>41</num>
+    <lem>soiorns</lem>
+    <rdg>
+        sojor<witDetail wit="#N"> N</witDetail>
+    </rdg>
+    <rdg>
+        soiorn<witDetail wit="#T #U"> TU</witDetail>
+    </rdg>
+    <rdg>
+        sochors<witDetail wit="#S"> S</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>42</num>
+    <lem>gabs</lem>
+    <rdg>
+        gaug<witDetail wit="#U"> U</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <lem>mos</lem>
+    <rdg>
+        mon<witDetail wit="#T"> T</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>43</num>
+    <lem>loncs</lem>
+    <rdg>
+        granz<witDetail wit="#G #I #K #U"> GIKU</witDetail>
+    </rdg>
+    <rdg>
+        greus<witDetail wit="#S"> S</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <lem>trebaills</lem>
+    <rdg>
+        treblaus<witDetail wit="#D"> D</witDetail>
+    </rdg>
+    <rdg>
+        tresbails<witDetail wit="#I #K"> IK</witDetail>
+    </rdg>
+    <rdg>
+        trabailh<witDetail wit="#P #U"> PU</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos" type="locus">
+    <num>44</num>
+    <lem>totz mos destrics</lem>
+    <rdg>
+        t. mos destric<witDetail wit="#P"> P</witDetail>
+    </rdg>
+    <rdg>
+        mos long destric<witDetail wit="#S"> S</witDetail>
+    </rdg>
+    <rdg>
+        mos grand d.<witDetail wit="#U"> U</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <rdg>
+        e folia mer gazains<witDetail wit="#G"> G</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos" type="locus">
+    <num>45</num>
+    <lem>tuich</lem>
+    <rdg>
+        <note type="text"> manca <witDetail wit="#G #I #K #S #U"> GIKSU</witDetail></note>
+    </rdg>
+</app>
+
+<app ana="sos" type="locus">
+    <lem>miei enoi plazer</lem>
+    <rdg>
+        e mei grans (grand <witDetail wit="#S #U"> SU</witDetail>) enueiz p.<witDetail wit="#G #I #K"> GIK</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos" type="locus">
+    <num>46</num>
+    <lem>sen</lem>
+    <rdg>
+        senz<witDetail wit="#G #I #K"> GIK</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos" type="locus">
+    <num>47</num>
+    <lem>gen</lem>
+    <rdg>
+        <note type="text"> manca <witDetail wit="#G #I #K"> GIK</witDetail></note>
+    </rdg>
+    <rdg>
+        ges<witDetail wit="#S"> S</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>48</num>
+    <lem>cum hom</lem>
+    <rdg>
+        quon hom<witDetail wit="#C"> C</witDetail>
+    </rdg>
+    <rdg>
+        cirai<witDetail wit="#G"> G</witDetail>
+    </rdg>
+    <rdg>
+        c. homs<witDetail wit="#I #K"> IK</witDetail>
+    </rdg>
+    <rdg>
+        com<witDetail wit="#S"> S</witDetail>
+    </rdg>
+    <rdg>
+        com on son<witDetail wit="#U"> U</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <lem>serv</lem>
+    <rdg>
+        sers<witDetail wit="#G"> G</witDetail>
+    </rdg>
+    <rdg>
+        <note type="text"> manca <witDetail wit="#H"> H</witDetail></note>
+    </rdg>
+    <rdg>
+        serf <note type="text"> seguito da espunzione</note> hom <witDetail wit="#S"> S</witDetail>
+    </rdg>
+</app>
+<app ana="sos">
+    <num>49</num>
+    <lem>cap</lem>
+    <rdg>
+        caps<witDetail wit="#G #I #K #U"> GIKU</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <lem>dels</lem>
+    <rdg>
+        del<witDetail wit="#G #I #K"> GIK</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>50</num>
+    <lem>chansos</lem>
+    <rdg>
+        chanso<witDetail wit="#C"> C</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>51</num>
+    <lem>valors</lem>
+    <rdg>
+        valor<witDetail wit="#I"> I</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>52</num>
+    <lem>dona</lem>
+    <rdg>
+        da prez<witDetail wit="#U"> U</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <lem>sobre·ls</lem>
+    <rdg>
+        sobra<witDetail wit="#S"> S</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>53</num>
+    <lem>tant de pretz cum</lem>
+    <rdg>
+        tant de p. quant<witDetail wit="#C"> C</witDetail>
+    </rdg>
+    <rdg>
+        tant donor qar<witDetail wit="#U"> U</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>54</num>
+    <lem>totz sa</lem>
+    <rdg>
+        totas<witDetail wit="#S"> S</witDetail>
+    </rdg>
+    <rdg>
+        que sos faiz ausors<witDetail wit="#U"> U</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos" type="locus">
+    <num>55</num>
+    <lem>del sieu pretz es autors</lem>
+    <rdg>
+        e del sieu nom es a.<witDetail wit="#C"> C</witDetail>
+    </rdg>
+    <rdg>
+        el seu<witDetail wit="#I #K"> IK</witDetail>
+    </rdg>
+    <rdg>
+        et del seu non es auzors<witDetail wit="#S"> S</witDetail>
+    </rdg>
+    <rdg>
+        qel sal prez e puia ennanz<witDetail wit="#U"> U</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>56</num>
+    <lem>sieus</lem>
+    <rdg>
+        seu<witDetail wit="#G #I #K"> GIK</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <lem>rics</lem>
+    <rdg>
+        <note type="text">manca<witDetail wit="#A"> A</witDetail></note>
+    </rdg>
+    <rdg>
+        rics faitz<witDetail wit="#C"> C</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <lem>noms</lem>
+    <rdg>
+        nom<witDetail wit="#N"> N</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos" type="locus">
+    <num>56</num>
+    <rdg>
+        tan gran non ac lo rei ancz<witDetail wit="#S"> S</witDetail>
+              <note type="popup" xml:id="paleo2">
+                        <surface>
+        <graphic url="images/paleo11b.png"/>
+      </surface> Nel canzoniere S si legge la macrovariante <seg type="it">tan gran non ac lo rei ancz</seg> che, occorrendo unicamente in questo testimone, risulta isolata rispetto all’affermazione di Gausbert riguardo il nome di Federico che, da solo, sarebbe garante del grande valore dell’imperatore. In S, in più, il verso sembra essere stato aggiunto in un momento posteriore da una seconda mano, ed è inoltre succeduto da una <seg type="it">crux</seg> nel margine destro del foglio.
+        </note>
+    </rdg>
+    <rdg>
+        e so ben estans<witDetail wit="#U"> U</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>57</num>
+    <lem>q’el a fre</lem>
+    <rdg>
+        quel es<witDetail wit="#N"> N</witDetail>
+    </rdg>
+    <rdg>
+        qeilh a nom fres<witDetail wit="#U"> U</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>58</num>
+    <lem>refrenar</lem>
+    <rdg>
+        refrenail<witDetail wit="#G"> G</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <lem>vils</lem>
+    <rdg>
+        vil<witDetail wit="#G #I #K #S"> GIKS</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>59</num>
+    <lem>a son pretz</lem>
+    <rdg>
+        al son p.<witDetail wit="#U"> U</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>60</num>
+    <lem>fren ric e man porta aital</lem>
+    <rdg>
+        fre (fren <witDetail wit="#U"> U</witDetail>) de riquesa port (porta <witDetail wit="#U"> U</witDetail>) aital<witDetail wit="#C #S #U"> CSU</witDetail>
+    </rdg>
+    <rdg>
+        fren de ric e ma p.<witDetail wit="#G"> G</witDetail>
+    </rdg>
+    <rdg>
+        fren ri que man porta aital<witDetail wit="#I #K"> IK</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <lem>el rey d’Ar</lem>
+    <rdg>
+        <note type="text">esp. a fine rigo<witDetail wit="#K"> K</witDetail></note>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>62</num>
+    <lem>sapcha</lem>
+    <rdg>
+        sa pogz (<note type="text">marg.</note> pogz a)<witDetail wit="#H"> H</witDetail>
+                      <note type="popup" xml:id="paleo3">
+                        <surface>
+        <graphic url="images/paleo11c.png"/>
+      </surface> Nel margine della seconda riga della  <seg type="it">tornada</seg>, il codice Vaticano H include la glossa  <seg type="it">pogz a</seg>, opera della medesima mano. Da un punto di vista grafico, la preposizione  <seg type="it">a</seg> nelle righe di testo appare in corpo minore e dalle sembianze differenti rispetto a come appare la lettera nelle righe contigue. È possibile che la <seg type="it">a</seg> che precede  <seg type="it">mais</seg> nel testo della  <seg type="it">tornada</seg> sia stata aggiunta in un secondo momento, e che la glossa a margine non fosse altro che un ‘promemoria’ per indicare la correzione da eseguire oppure una nota per far risaltare la presenza di una preposizione copiata in un momento successivo.
+        </note>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>63</num>
+    <lem>quand el aura</lem>
+    <rdg>
+        on plus a.<witDetail wit="#I #K"> IK</witDetail>
+    </rdg>
+    <rdg>
+        com plus a.<witDetail wit="#S"> S</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>64</num>
+    <lem>ioves sap tant</lem>
+    <rdg>
+        tant gioves (tosetz <witDetail wit="#I #K"> IK</witDetail>; toset <witDetail wit="#S"> S</witDetail>) sap<witDetail wit="#C #I #K #S #T"> CIKST</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>64</num>
+    <lem>tant val</lem>
+    <rdg>
+        tant <note type="text"> manca<witDetail wit="#H #I #K #S"> HIKS</witDetail></note>
+    </rdg>
+</app>
               </listApp>
             </div>
             <div type="app_crt_form">
               <listApp>
+              <app ana="form">
+    <num>7</num>
+    <lem>Lionors</lem>
+    <rdg>
+        Lienors<witDetail wit="#D #H #N"> DHN</witDetail>
+    </rdg>
+    <rdg>
+        Elyonors<witDetail wit="#C #G #U"> CGU</witDetail>
+    </rdg>
+    <rdg>
+        Lihonors<witDetail wit="#I #K"> IK</witDetail>
+    </rdg>
+    <rdg>
+        Elienors<witDetail wit="#P"> P</witDetail>
+    </rdg>
+    <rdg>
+        Leionors<witDetail wit="#S"> S</witDetail>
+    </rdg>
+    <rdg>
+        Lieonors<witDetail wit="#T"> T</witDetail>
+    </rdg>
+</app>
+
+<app ana="form">
+    <num>16</num>
+    <lem>malparlans</lem>
+    <rdg>
+        malparlants<witDetail wit="#T"> T</witDetail>
+    </rdg>
+</app>
+
+<app ana="form">
+    <num>17</num>
+    <lem>q'eus</lem>
+    <rdg>
+        ch'ieu<witDetail wit="#T"> T</witDetail>
+    </rdg>
+</app>
+
+<app ana="form">
+    <num>18</num>
+    <lem>maldizedors</lem>
+    <rdg>
+        maldesidors<witDetail wit="#T"> T</witDetail>
+    </rdg>
+</app>
+
+<app ana="form">
+    <num>20</num>
+    <lem>plazer</lem>
+    <rdg>
+        plaizir<witDetail wit="#T"> T</witDetail>
+    </rdg>
+</app>
+
+<app ana="form">
+    <num>39</num>
+    <lem>doussa</lem>
+    <rdg>
+        doza<witDetail wit="#G #I #K"> GIK</witDetail>
+    </rdg>
+    <rdg>
+        dolza<witDetail wit="#S #U"> SU</witDetail>
+    </rdg>
+    <rdg>
+        doullça<witDetail wit="#T"> T</witDetail>
+    </rdg>
+</app>
+
+<app ana="form">
+    <num>42</num>
+    <lem>gabs</lem>
+    <rdg>
+        guagz<witDetail wit="#C #P"> CP</witDetail>
+    </rdg>
+    <rdg>
+        cabs<witDetail wit="#I #K"> IK</witDetail>
+    </rdg>
+    <rdg>
+        gauz<witDetail wit="#S"> S</witDetail>
+    </rdg>
+</app>
+
+<app ana="form">
+    <num>43</num>
+    <lem>trebaills</lem>
+    <rdg>
+        tresbails<witDetail wit="#I #K"> IK</witDetail>
+    </rdg>
+    <rdg>
+        traballs<witDetail wit="#T"> T</witDetail>
+    </rdg>
+</app>
+
+<app ana="form">
+    <num>44</num>
+    <lem>destrics</lem>
+    <rdg>
+        destreics<witDetail wit="#H"> H</witDetail>
+    </rdg>
+</app>
+
+<app ana="form">
+    <num>45</num>
+    <lem>tuich</lem>
+    <rdg>
+        tuit<witDetail wit="#H"> H</witDetail>
+    </rdg>
+</app>
+
+<app ana="form">
+    <num>48</num>
+    <lem>serv</lem>
+    <rdg>
+        ser<witDetail wit="#N #P #T"> NPT</witDetail>
+    </rdg>
+</app>
+
+<app ana="form">
+    <num>52</num>
+    <lem>prezans</lem>
+    <rdg>
+        preissanz<witDetail wit="#I #K"> IK</witDetail>
+    </rdg>
+</app>
+
+<app ana="form">
+    <num>52</num>
+    <lem>dona</lem>
+    <rdg>
+        domna<witDetail wit="#G"> G</witDetail>
+    </rdg>
+</app>
+
+<app ana="form">
+    <num>62</num>
+    <lem>sapcha</lem>
+    <rdg>
+        sapcia<witDetail wit="#T"> T</witDetail>
+    </rdg>
+</app>
               </listApp>
             </div>
             <div type="txt_costellazione" xml:id="canso1.1">
 
-                <title>Testo di costellazione</title>
-                <p/>
+                <title>Testo alternativo e cobla di costellazione</title>
+                    <p>Ms. base R
+                        <lb/>Correzioni della <seg type="it">cobla</seg> V da <seg type="corr_c">H</seg>
+                                <lb/>
+                        <seg type="edit">Interventi editoriali</seg>
+                    </p>
                 <!-- Cobla I -->
-                    <lg type="stanza" n="1.1" rhyme="abbaabbaccd">
-                    </lg>
-                <!-- Cobla II -->
-                    <lg type="stanza" n="2.1" xml:id="extra" rhyme="abbaabbaccd">
-                    </lg>
-                <!-- Cobla III -->
-                    <lg type="stanza" n="3.1" rhyme="abbaabbaccd">
-                </lg>
-                <!-- Cobla IV -->
-                    <lg type="stanza" n="4.1" rhyme="abbaabbaccd">
-                </lg>
-                <!-- Cobla V -->
-                    <lg type="stanza" n="5.1" rhyme="abbaabbaccd">
-                </lg>
-                <!-- Cobla VI -->
-                    <lg type="enovy" n="tornada1.1"/>
+<lg type="stanza" n="1" rhyme="aaabbaaabbccdd">
+    <l n="1">S’ieu anc jorn dis <rhyme label="a">clamans</rhyme>
+                                </l>
+    <l n="2">encontra vos, <rhyme label="b">Amors</rhyme>,</l>
+    <l n="3">erguelh ni <rhyme label="b">desonors</rhyme>
+                                </l>
+    <l n="4">era·m dei e mos <rhyme label="a">chans</rhyme>
+                                </l>
+    <l n="5">humiliar dos <rhyme label="a">tans</rhyme>
+                                </l>
+    <l n="6">e laisar mas <rhyme label="b">clamors</rhyme>,</l>
+    <l n="7">pus ma dona <rhyme label="b">Helihonors</rhyme>,</l>
+    <l n="8">
+                                    <seg type="edit">la pros reina <rhyme label="a">prezans</rhyme>
+                                    </seg>,</l>
+    <l n="9">
+                                    <seg type="diff_c">o denha en</seg> aysi <rhyme label="c">voler</rhyme>.</l>
+    <l n="10">E si tot yeu de vos grat non <rhyme label="c">esper</rhyme>,</l>
+    <l n="11">be·us dey grazir lo dan e·l <rhyme label="d">mal</rhyme>,</l>
+    <l n="12">pus ilh m’o manda que tan <rhyme label="d">val</rhyme>.</l>
+</lg>
+
+<lb/>
+
+<!-- Cobla II -->
+<lg type="stanza" n="2" rhyme="aaabbaaabbccdd" xml:id="extra">
+    <l n="13">Humils e <rhyme label="a">merceyans</rhyme>
+                                </l>
+    <l n="14">mi ren a vos <rhyme label="b">Amors</rhyme>,</l>
+    <l n="15">car mi <seg type="diff_c">falsetz</seg> <rhyme label="b">errors</rhyme>
+                                </l>
+    <l n="16">
+                                    <seg type="diff_c">e</seg> <seg type="edit">lenga</seg> mal <rhyme label="a">parlans</rhyme>;</l>
+    <l n="17">
+                                    <seg type="diff_c">e fai <rhyme label="a">sopleyans</rhyme>
+                                    </seg>
+                                </l>
+    <l n="18">
+                                    <seg type="diff_c">mays a vostra <rhyme label="b">valors</rhyme>
+                                    </seg>.</l>
+    <l n="19">E <seg type="edit">ieu vos</seg> dirai <rhyme label="b">lauzors</rhyme>.</l>
+    <l n="20">E <seg type="edit">de plazers</seg> cent <rhyme label="a">aytans</rhyme>
+                                </l>
+    <l n="21">
+                                    <seg type="diff_c">c’anc no·us dissi</seg> <seg type="edit">
+                                        <rhyme label="c">desplazer</rhyme>
+                                    </seg>,</l>
+    <l n="22">c’<seg type="edit">orguelhs</seg> sai ben que no mi pot <rhyme label="c">valer</rhyme>.</l>
+    <l n="23">Per <seg type="edit">c’oimais</seg> d’enemic <seg type="edit">
+                                        <rhyme label="d">mortal</rhyme>
+                                    </seg>
+                                </l>
+    <l n="24">m’auretz fin amic e <seg type="edit">
+                                        <rhyme label="d">lial</rhyme>
+                                    </seg>.</l>
+</lg>
+
+<lb/>
+
+<!-- Cobla III -->
+<lg type="stanza" n="3" rhyme="aaabbaaabbccdd">
+    <l n="25">Qu’ie·us venserai <rhyme label="a">enans</rhyme>
+                                </l>
+    <l n="26">merce claman, <rhyme label="b">Amors</rhyme>,</l>
+    <l n="27">ab precx et ab <rhyme label="b">temors</rhyme>,</l>
+    <l n="28">que s’ieu ab braus <rhyme label="a">semblans</rhyme>
+                                </l>
+    <l n="29">vos era <rhyme label="a">contrastans</rhyme>
+                                </l>
+    <l n="30">
+                                    <seg type="edit">ni eus</seg> dizia <rhyme label="b">folors</rhyme>
+                                </l>
+    <l n="31">ab fals ditz <rhyme label="b">reprendedors</rhyme>,</l>
+    <l n="32">e si mos leugiers <rhyme label="a">talans</rhyme>
+                                </l>
+    <l n="33">mi fe erguilhos <rhyme label="c">parer</rhyme>
+                                </l>
+    <l n="34">encontra vos <seg type="edit">ni dire</seg> non <rhyme label="c">dever</rhyme>,</l>
+    <l n="35">ben dey far penedensa <rhyme label="d">tal</rhyme>
+                                </l>
+    <l n="36">com tanh a forfag <rhyme label="d">deslial</rhyme>.</l>
+</lg>
+
+<lb/>
+
+<!-- Cobla IV -->
+<lg type="stanza" n="4" rhyme="aaabbaaabbccdd">
+    <l n="37">Sabetz <seg type="edit">cal</seg>? <seg type="edit">Als</seg> mos <rhyme label="a">ans</rhyme>
+                                </l>
+    <l n="38">m’er tos tems mais, <rhyme label="b">Amors</rhyme>,</l>
+    <l n="39">dossa ma <seg type="edit">greus</seg> <rhyme label="b">dolors</rhyme>,</l>
+    <l n="40">e bes e pros mos <rhyme label="a">dans</rhyme>,</l>
+    <l n="41">e <seg type="edit">soiorns</seg> mos <rhyme label="a">afans</rhyme>,</l>
+    <l n="42">e <seg type="edit">gaugs</seg> e ris mos <rhyme label="b">plors</rhyme>,</l>
+    <l n="43">e mos loncx trebals <seg type="diff_c">
+                                        <rhyme label="b">dollors</rhyme>
+                                    </seg>,</l>
+    <l n="44">e tug mos destricx <rhyme label="a">enans</rhyme>
+                                </l>
+    <l n="45">e tug miey enueg <rhyme label="c">plazer</rhyme>;</l>
+    <l n="46">e despendray mo sen e mo <rhyme label="c">saber</rhyme>
+                                </l>
+    <l n="47">e vos gen servir a <rhyme label="d">iornal</rhyme>,</l>
+    <l n="48">co hom ser senhor <rhyme label="d">natural</rhyme>.</l>
+</lg>
+
+<lb/>
+
+<!-- Cobla V -->
+<lg type="stanza" n="5" rhyme="aaabbaaabbccdd">
+    <l n="49">Al rey dels <rhyme label="a">Alamans</rhyme>,</l>
+    <l n="50">caps dels <rhyme label="b">emperadors</rhyme>,</l>
+    <l n="51">vay, chanson, <seg type="diff_c">car</seg> <rhyme label="b">valors</rhyme>
+                                </l>
+    <l n="52">
+                                    <seg type="diff_c">la dat</seg> sobre·ls <rhyme label="a">prezans</rhyme>,</l>
+    <l n="53">tan de pretz con es <rhyme label="a">grans</rhyme>
+                                </l>
+    <l n="54">sobre <seg type="diff_c">totas</seg> <rhyme label="b">ricors</rhyme>.</l>
+    <l n="55">
+                                    <seg type="diff_c">Que de bos fatz</seg> <seg type="corr_c">es <rhyme label="b">aussors</rhyme>
+                                    </seg>
+                                </l>
+    <l n="56">
+                                    <seg type="diff_c">bel tanh sos noms</seg> <rhyme label="a">benestans</rhyme>,</l>
+    <l n="57">q’e·l <seg type="diff_c">es</seg> fredericx per <seg type="corr_c">
+                                        <rhyme label="c">ver</rhyme>
+                                    </seg>,</l>
+    <l n="58">per refrenar vils fatz e <rhyme label="c">retener</rhyme>,</l>
+    <l n="59">
+                                    <seg type="diff_c">car no·s pren</seg> a sos pretz <rhyme label="d">cabal</rhyme>,</l>
+    <l n="60">
+                                    <seg type="diff_c">
+                                        <seg type="edit">fre de riqeza</seg> port’<rhyme label="d">aital</rhyme>
+                                    </seg>.</l>
+</lg>
+
+<lb/>
+
+<!-- Tornada VI -->
+<lg type="envoy" n="tornada" rhyme="ccdd">
+    <l n="61">Del rey d’Aragon <rhyme label="c">esper</rhyme>
+                                </l>
+    <l n="62">c’ades melhur e sapcha mais <rhyme label="c">valer</rhyme>,</l>
+    <l n="63">can el aura sen <rhyme label="d">natural</rhyme>,</l>
+    <l n="64">pus <seg type="diff_c">tan tosetz es</seg> e tan <rhyme label="d">val</rhyme>.</l>
+</lg>
+<lb/>
             </div>
             <!-- Apparato critico delle varianti sostanziali del testo di costellazione -->
             <div type="app_cos_sos">
             <head>Apparato di costellazione</head>
  <listApp>
+ <app ana="sos">
+    <num>8</num>
+    <lem>la pros reina prezans</lem>
+    <rdg>
+        que vol totz bos faytz benestans<witDetail wit="#R"> R</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>16</num>
+    <lem>lenga</lem>
+    <rdg>
+        lengas<witDetail wit="#R"> R</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>19</num>
+    <lem>ieu vos dirai lauzors</lem>
+    <rdg>
+        von dirai mai de l.<witDetail wit="#R"> R</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>20</num>
+    <lem>de plazers</lem>
+    <rdg>
+        desplazers<witDetail wit="#R"> R</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>21</num>
+    <lem>desplazer</lem>
+    <rdg>
+        de desplazers<witDetail wit="#R"> R</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>22</num>
+    <lem>orguelh</lem>
+    <rdg>
+        orguelhs<witDetail wit="#R"> R</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>23</num>
+    <lem>c’oimais</lem>
+    <rdg>
+        que vey mais<witDetail wit="#R"> R</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <lem>mortal</lem>
+    <rdg>
+        mortals<witDetail wit="#R"> R</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>24</num>
+    <lem>lial</lem>
+    <rdg>
+        lials<witDetail wit="#R"> R</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>30</num>
+    <lem>ni·us</lem>
+    <rdg>
+        ni eus<witDetail wit="#R"> R</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>31</num>
+    <lem>ditz</lem>
+    <rdg>
+        ditz e<witDetail wit="#R"> R</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>33</num>
+    <lem>mi fe</lem>
+    <rdg>
+        mi fe far<witDetail wit="#R"> R</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>35</num>
+    <lem>ni dire</lem>
+    <rdg>
+        ni ren de<witDetail wit="#R"> R</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>37</num>
+    <lem>cal</lem>
+    <rdg>
+        cals<witDetail wit="#R"> R</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <lem>als</lem>
+    <rdg>
+        a<witDetail wit="#R"> R</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>39</num>
+    <lem>greus</lem>
+    <rdg>
+        greu<witDetail wit="#R"> R</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>41</num>
+    <lem>soiorns</lem>
+    <rdg>
+        soiorn<witDetail wit="#R"> R</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>42</num>
+    <lem>gaugs</lem>
+    <rdg>
+        gaug<witDetail wit="#R"> R</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>43</num>
+    <lem>mos loncx</lem>
+    <rdg>
+        mos greuz loncx<witDetail wit="#R"> R</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>45</num>
+    <lem>enueg plazer</lem>
+    <rdg>
+        enueg gran p.<witDetail wit="#R"> R</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>47</num>
+    <lem>a jornal</lem>
+    <rdg>
+        <note type="text"> espunto a fine verso <witDetail wit="#R"> R</witDetail></note>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>51</num>
+    <lem>car</lem>
+    <rdg>
+        cui<witDetail wit="#H #N"> HN</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>52</num>
+    <lem>la dat</lem>
+    <rdg>
+        dona<witDetail wit="#N"> N</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>55</num>
+    <lem>que</lem>
+    <rdg>
+        car<witDetail wit="#N"> N</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <lem>es a.</lem>
+    <rdg>
+        fa los a.<witDetail wit="#R"> R</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>56</num>
+    <lem>bel tanh</lem>
+    <rdg>
+        <note type="text">manca <witDetail wit="#H #N"> HN</witDetail></note>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <lem>sos noms benestans</lem>
+    <rdg>
+        lo sieus noms b.<witDetail wit="#H"> H</witDetail>
+    </rdg>
+    <rdg>
+        lo seus nom rics b.<witDetail wit="#N"> N</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>57</num>
+    <lem>ver</lem>
+    <rdg>
+        aver<witDetail wit="#R"> R</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>59</num>
+    <lem>Car no·s pren a</lem>
+    <rdg>
+        Cun non toca<witDetail wit="#H #N"> HN</witDetail>
+    </rdg>
+</app>
+
+<app ana="sos">
+    <num>60</num>
+    <lem>fre de riqeza port’aital</lem>
+    <rdg>
+        negus que renhe ni tan val<witDetail wit="#R"> R</witDetail>
+    </rdg>
+    <note type="popup_cont" xml:id="cont1">La lunga dedica all’imperatore Federico II appare sostanzialmente diversa nei canzonieri HNR; il codice H, peraltro, trasmette una versione della <seg type="it">cobla</seg> affine a quella in NR a causa di probabile contaminazione. Il fenomeno è descritto da Careri nel suo studio di sul canzoniere H, in cui si legge che, sebbene dalle prime sezioni del testo emerga l’influenza dell’<seg type="it">editio variorum</seg> ε, che giustifica così la vicinanza di H ad ADT, le <seg type="it">coblas</seg> V e VI sarebbero state aggiunte in seguito all’adozione di una seconda fonte, stavolta affine a (C)R.<lb/>
+Il caso di contaminazione in H è testimoniato sia da un cambio di rima (da -<seg type="it">ans</seg> alla forma -<seg type="it">anz</seg> nella <seg type="it">cobla</seg> V), sia da un simbolo di chiusura nelle sole ultime due sezioni della lirica, probabilmente copiato dal nuovo modello.
+<surface>
+        <graphic url="images/paleo11d.png"/>
+      </surface>
+<lb/>Si prenda ad esempio il testo in H dei vv. 54-55 (<seg type="it">sobre totas ricors</seg>/<seg type="it">Qe de bos fatz es aussors</seg>), indubbiamente prossimo a NR e non al gruppo ADT; ai vv. 54-55, infatti, si legge in A <seg type="it">sobre totz sa ricors.</seg> / <seg type="it">Del sieu pretz es autors</seg>.<lb/> Per quanto riguarda la <seg type="it">tornada</seg> che chiude la canzone, però, i versi finali indirizzati a Giacomo I d’Aragona non includono varianti significative che permettono di isolare in modo altrettanto convincente la costellazione HNR.
+</note>
+</app>
+
+<app ana="sos">
+    <num>62</num>
+    <lem>Del rey</lem>
+    <rdg>
+        del bon r.<witDetail wit="#R"> R</witDetail>
+    </rdg>
+</app>
               </listApp>
             </div>
             <!-- Apparato critico delle varianti formali del testo di costellazione -->
             </div>
-            <div type="app_cos_form">
-              <listApp>
-              </listApp>
-            </div>
+            <div type="app_cos_form"/>
             <div type="trad_critico" xml:lang="it">
                 <p n="1">
                             <label>I</label>
+                            Se mai un giorno mi lamentai di voi, Amore, con orgoglio e disonore, ora io e il mio canto dobbiamo umiliarci doppiamente e abbandonare i miei rimproveri, perché la mia signora Eleonora, contessa nobile e lodevole, si compiace nel volere sia così. E anche se da voi non spero in alcuna grazia, devo comunque ringraziarvi del danno e del male recati, perché questi me li invia colei che tanto vale.
                 </p>
                 <lb/>
                 <p n="2">
                             <lb/>
                             <label>II</label>
+                            Umile e supplichevole mi arrendo a voi, Amore, perché vi sono stato ostile con parole calunniose, costretto dall’errore e dalle malelingue. E vi riserverò lodi e piaceri cento volte tanto quante ne ho dette di spiacevoli, perché so bene che l’orgoglio non può rappresentare per me un vantaggio. Perciò, d’ora in poi, da che ero un nemico mortale, avrete in me un amico fedele e leale. 
                 </p>
                 <lb/>
                 <p n="3">
                             <lb/>
                             <label>III</label>
+                            Vi vincerò d’ora in avanti, Amore, implorando pietà, con preghiere e con timore, poiché se io con un atteggiamento fiero vi ero ostile e vi rivolgevo parole folli con falsi termini di rimprovero, e se la mia volontà leggera mi fece sembrare orgoglioso verso di voi e dire ciò che non avrei dovuto, devo compiere una penitenza quale si addice a un colpevole sleale. 
                 </p>
                 <lb/>
                 <p n="4">
                             <lb/>
                             <label>IV</label>
+                            Sapete cosa? Negli anni che mi restano, mi sarà sempre di più, Amore, dolce il mio pesante dolore, e il mio danno mi sembrerà un bene e un vantaggio, e il mio affanno sarà un sollievo, le mie lacrime saranno scherzi e risate, e le mie lunghe fatiche leggerezze, e tutte le mie pene e preoccupazioni d’ora in avanti saranno piaceri; e impiegherò il mio senno e la mia conoscenza per servirvi ogni giorno degnamente, come un uomo serve il proprio legittimo signore.  
                 </p>
                 <lb/>
                 <p n="5">
                             <lb/>
                             <label>V</label>
+                            Va, canzone, al re dei Romani, il più grande fra gli imperatori, a lui il cui pregio conferisce sopra tutti gli uomini illustri, tanto pregio quanto è grande sopra tutti gli altri la sua ricchezza. Del suo valore è garante il suo nome glorioso, perché lui possiede davvero il freno del potente, per reprimere le azioni vili e trattenerle, cosicché nulla possa intaccare la sua perfetta gloria, tale è il ricco freno che reca in mano.
                 </p>
                 <lb/>
                 <p n="6">
                             <lb/>
                             <label>VI</label>
+                            Dal re d'Aragona mi attendo che sempre più migliori e sappia accrescere il proprio valore, quando avrà raggiunto la piena maturità di giudizio, poiché già così giovane sa tanto e tanto vale.
                 </p>
 
             </div>

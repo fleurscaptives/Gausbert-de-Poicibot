@@ -1743,7 +1743,11 @@ In una delle poche occorrenze di un altro derivato di <seg type="it">envezar</se
    </rdg>
    <rdg>... al
       <witDetail wit="#w"> w</witDetail>
-      <note type="popup" xml:id="paleo4">In w, l'incertezza del copista nella comprensione del verbo è reso evidente dallo spazio bianco che si individua al suo posto, occupato da punti di sospensione e seguito dal solo <seg type="it">al</seg>.</note>
+            <note type="popup" xml:id="paleo4">
+      <surface>
+        <graphic url="images/paleo14.png"/>
+      </surface>In w, l'incertezza del copista nella comprensione del verbo è reso evidente dallo spazio bianco che si individua al suo posto, occupato da punti di sospensione e seguito da <seg type="it">al fre</seg>.
+      </note>
    </rdg>
 </app>
 

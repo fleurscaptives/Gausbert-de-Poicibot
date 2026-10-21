@@ -31,9 +31,9 @@
 
 :root {
 
-    /* Logo */
+ /* Logo */
 
-    --jinks-logo-light: url("../images/logo.png");;
+    --jinks-logo-light: url("../images/logo.png");
     --jinks-logo-image-width: 440px;
     --jinks-logo-image-height: 140px;
     --jinks-logo-image-margin: 0;
@@ -75,6 +75,7 @@
     --jinks-toolbar-background-color: var(--jinks-colors-200);
     --jinks-toolbar-color: var(--jinks-color-primary);
 
+    /* Splash */
     /* Splash */
 
     --jinks-splash-background-light: url("../images/tei-publisher-logo-color.svg");

@@ -1,25 +1,17 @@
 .tei-lg, .txt_extra{
     color: #444;
     opacity: 90;
-    border: 2.3px solid #b8cbb8;
-    border-radius: 10px;
     background: transparent;
-    width: 125%;
+    width: 115%;
     padding: 1rem;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
 
-.trnd14 {
-    margin-top: 20%;
+.tei-l + .tei-l {
+    margin: 4 4 0 4;    
 }
-
-.trnd14 + .trnd14 {
-    margin-top: 15%;
-}
-
 
 .tei-l, .tei-title, .tei-p{
-    font-size: 19px;
+    font-size: 18px;
     margin-left: 10%;
 }
 
@@ -31,11 +23,12 @@ span.tei-l {
     white-space: nowrap;
 }
 
-span.diff_cst-attivo {
+.diff_cst-attivo {
     text-emphasis-style: circle;
     text-emphasis-position: under right;
     text-emphasis-color: #AC9048;
     padding-bottom: 0;
+    font-size: 22px;
 }
 
 .num_versi {
@@ -49,11 +42,10 @@ span.diff_cst-attivo {
     font-style: italic;
 }
 
-.tei-lg > .numerazione {
-    font-style: italic;
-    color: #a6a49a;
-    font-size: 17px;
+.lg-corresp {
+    display: none;
 }
+
 
 
 

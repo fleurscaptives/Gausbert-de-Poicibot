@@ -1,128 +1,76 @@
+
 function gestorePanel() {
+  const view = document.querySelector("#view-facsimili");
+  if (!view) return;
 
-    document.addEventListener("click", function (e) {
+  view.addEventListener("click", function (e) {
+    var path = e.composedPath();
 
-        // manoscritto
-        if (e.target.matches(".mss_btn")) {
+    var mssBtn = path.find(
+      el => el instanceof Element && el.matches(".mss_btn")
+    );
 
-            var id = e.target.textContent.trim();
+    if (!mssBtn) return;
 
-            document.querySelectorAll(".mss_btn").forEach(function (button) {
-                button.classList.remove("active");
-            });
+    var root = view.shadowRoot;
+    if (!root) return;
 
-            document.querySelectorAll(".pgg_btn").forEach(function (button) {
-                button.classList.remove("active");
-            });
+    var manuscript = mssBtn.closest(".mss");
+    var pages = manuscript.querySelectorAll(".mss-pages");
 
-            document.querySelectorAll(".mss-pages").forEach(function (pages) {
-                pages.classList.remove("active");
-            });
+    root.querySelectorAll(
+      ".mss_btn, pb-facs-link.pgg_btn, .mss-pages"
+    ).forEach(el => el.classList.remove("active")); 
 
-            document.getElementById("current-image").src = "";
+    mssBtn.classList.add("active");
 
-            e.target.classList.add("active");
-
-            var pages = document.querySelector(
-                '.mss-pages[data-mss="' + id + '"]'
-            );
-            
-        // folia
-        if (pages) {
-
-                pages.classList.add("active");
-
-                // primo folium
-                var pg1 = pages.querySelector(".pgg_btn");
-
-                if (pg1) {
-
-                    pg1.classList.add("active");
-
-                    document.getElementById("current-image").src =
-                        pg1.dataset.image;
-                }
-            }
-        }
-
-
-        // cambio folia
-        if (e.target.matches(".pgg_btn")) {
-
-            var image = document.getElementById("current-image");
-
-            image.src = e.target.dataset.image;
-
-            document.querySelectorAll(".pgg_btn").forEach(function (button) {
-                button.classList.remove("active");
-            });
-
-            e.target.classList.add("active");
-        }
-
-    });
+    pages.forEach(group => group.classList.add("active"));
+  });
 }
-
-document.addEventListener("DOMContentLoaded", gestorePanel);
 
 
 function showPanel() {
+  var openBttn = document.querySelector("#apri_mss");
+  var panel = document.querySelector("#mss-panel");
+  var view = document.querySelector("#view-facsimili");
 
-    var openButton = document.querySelector("#apri_mss");
-    var closeButton = document.querySelector("#chiudi_mss");
-    var panel = document.querySelector("#mss-panel");
+  if (!openBttn || !panel) return;
 
-    if (!openButton || !closeButton || !panel) return;
+  panel.classList.add("nascosto");
 
-    panel.classList.add("nascosto");
+  openBttn.addEventListener("click", () => {
+    var hiddn = panel.classList.contains("nascosto");
 
-    openButton.addEventListener("click", () => {
-        panel.classList.remove("nascosto");
-    });
-    
+    panel.classList.toggle("nascosto", !hiddn);
+    openBttn.classList.toggle("active", hiddn);
 
-    closeButton.addEventListener("click", () => {
+    if (!hiddn) {
+      const root = view.shadowRoot;
 
-        panel.classList.add("nascosto");
-
-        // reset
-        document.querySelectorAll(".mss_btn")
-            .forEach(btn => btn.classList.remove("active"));
-            
-        document.querySelectorAll(".pgg_btn")
-            .forEach(btn => btn.classList.remove("active"));
-
-        document.querySelectorAll(".mss-pages")
-            .forEach(pages => pages.classList.remove("active"));
-
-        document.querySelector("#current-image").src = "";
-    });
+      root.querySelectorAll(
+        ".mss_btn, pb-facs-link.pgg_btn, .mss-pages"
+      ).forEach(el => el.classList.remove("active"));
+    }
+  });
 }
 
-document.addEventListener("DOMContentLoaded", showPanel);
+
+document.addEventListener("DOMContentLoaded", () => {
+  gestorePanel();
+  showPanel();
+});
 
 
 function toggleDifferenze() {
 
     var critico = document.querySelector("#txt_critico");
-    var costellazione = document.querySelector("#txt_cst");
 
-    if (!critico || !costellazione) return;
+    if (!critico || !critico.shadowRoot) return;
 
-    var rootCritico = critico.shadowRoot;
-    var rootCostellazione = costellazione.shadowRoot;
+    var diff = critico.shadowRoot.querySelectorAll(".diff");
 
-    if (!rootCritico || !rootCostellazione) return;
-
-    var diff = rootCritico.querySelectorAll(".diff");
-    var diffCst = rootCostellazione.querySelectorAll(".diff_cst");
-
-    diff.forEach(element => {
+    diff.forEach(function(element) {
         element.classList.toggle("diff-attivo");
-    });
-
-    diffCst.forEach(element => {
-        element.classList.toggle("diff_cst-attivo");
     });
 
     var button = document.querySelector("#btn_diff");
@@ -133,17 +81,72 @@ function toggleDifferenze() {
 }
 
 
-function initDifferenze() {
+function collegaDiff() {
 
+    var critico = document.querySelector("#txt_critico");
+    var costellazione = document.querySelector("#txt_cst");
     var button = document.querySelector("#btn_diff");
 
-    if (!button) return;
+    if (!critico || !costellazione || !button) return;
 
-    button.addEventListener("click", toggleDifferenze);
+    var rootCritico = critico.shadowRoot;
+    var rootCostellazione = costellazione.shadowRoot;
+
+    if (!rootCritico || !rootCostellazione) return;
+
+    rootCritico.querySelectorAll(".diff").forEach(function(locus) {
+
+        locus.addEventListener("mouseenter", function() {
+
+            if (!button.classList.contains("attivo")) return;
+
+            var id = locus.getAttribute("data-corresp");
+
+            if (!id) return;
+
+            var corrisp = rootCostellazione.querySelector(
+                "#" + id
+            );
+
+            if (corrisp) {
+                corrisp.classList.add("diff_cst-attivo");
+            }
+        });
+
+        locus.addEventListener("mouseleave", function() {
+
+            var id = locus.getAttribute("data-corresp");
+
+            if (!id) return;
+
+            var corrisp = rootCostellazione.querySelector(
+                "#" + id
+            );
+
+            if (corrisp) {
+                corrisp.classList.remove("diff_cst-attivo");
+            }
+        });
+    });
 }
 
 
-document.addEventListener("DOMContentLoaded", initDifferenze);
+function initDiff() {
+
+    var button = document.querySelector("#btn_diff");
+
+    if (button) {
+        button.addEventListener("click", toggleDifferenze);
+    }
+
+    var critico = document.querySelector("#txt_critico");
+
+    if (critico) {
+        critico.addEventListener("pb-update", collegaDiff);
+    }
+ }
+
+document.addEventListener("DOMContentLoaded", initDiff);
 
 
 function toggleLoci() {
@@ -204,6 +207,8 @@ function initGlos() {
 
 
 document.addEventListener("DOMContentLoaded", initGlos);
+
+
 function toggleExtra() {
 
     var check = document.getElementById("xtra");
@@ -233,6 +238,81 @@ function toggleExtra() {
 document.addEventListener("DOMContentLoaded", toggleExtra);
 
 
+function allineaCoblas() {
+    var crt = document.getElementById("txt_critico");
+    var cst = document.getElementById("txt_cst");
+
+    if (!crt.shadowRoot || !cst.shadowRoot) return;
+
+    var coblas = [];
+
+    crt.shadowRoot.querySelectorAll(".lg-corresp").forEach(anchor => {
+        var cstId = anchor.dataset.corresp;
+        var coblaCrt = anchor.closest(".tei-lg");
+        var coblaCst = cst.shadowRoot.getElementById(cstId);
+
+        if (!coblaCrt || !coblaCst) return;
+        if (coblaCst.classList.contains("trnd14")) return;
+
+        coblaCst.style.position = "relative";
+        coblaCst.style.top =
+            coblaCrt.getBoundingClientRect().top -
+            coblaCst.getBoundingClientRect().top + "px";
+
+        coblas.push(coblaCst);
+    });
+
+    var tornadas = cst.shadowRoot.querySelectorAll(".tei-lg.trnd14");
+
+    if (coblas.length > 0 && tornadas.length > 0) {
+       var ultimaCobla = coblas[coblas.length - 1];
+
+        var bordo = ultimaCobla.getBoundingClientRect().bottom;
+
+        tornadas.forEach(tornada => {
+            tornada.style.position = "relative";
+            tornada.style.top = "0px";
+
+            var diff =
+                bordo - tornada.getBoundingClientRect().top + 30;
+
+            tornada.style.top = diff + "px";
+
+            bordo = tornada.getBoundingClientRect().bottom;
+        });
+
+        var ultimaTornada = tornadas[tornadas.length - 1];
+        var bordoTornada = ultimaTornada.getBoundingClientRect().bottom;
+        var bordoCst = cst.getBoundingClientRect().bottom;
+
+        var spazio = bordoTornada - bordoCst;
+
+        cst.style.marginBottom =
+            Math.max(0, spazio + 30) + "px";
+    }
+}
+
+
+function aspettaRendering(callback) {
+    var crt = document.getElementById("txt_critico");
+    var cst = document.getElementById("txt_cst");
+
+    if (
+        crt.shadowRoot.querySelector(".lg-corresp") &&
+        cst.shadowRoot.querySelector(".tei-lg")
+    ) {
+        requestAnimationFrame(() => {
+            callback();
+        });
+    } else {
+        requestAnimationFrame(() => aspettaRendering(callback));
+    }
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+    aspettaRendering(allineaCoblas);
+});
+
 function allineaExtra() {
 
     var extra = document.getElementById("extra_container");
@@ -240,11 +320,15 @@ function allineaExtra() {
 
     if (!extra || !view) return;
 
-    if (!view.shadowRoot) return;
+    var extraView = extra.querySelector("pb-view");
 
-    var cobla = view.shadowRoot.querySelector("#extra");
+    var anchor = extraView.shadowRoot.querySelector(".lg-corresp");
 
-    if (!cobla) return;
+    var cstId = anchor.dataset.corresp;
+
+    var cobla = view.shadowRoot.querySelector(
+        "#" + cstId
+    );
 
     var parent = extra.parentElement;
 
@@ -259,153 +343,3 @@ function allineaExtra() {
     extra.style.top = y + "px";
     extra.style.left = x + "px";
 }
-
-function allineaCoblas() { 
- 
-    var critView = document.getElementById("txt_critico"); 
-    var cstView = document.getElementById("txt_cst"); 
- 
-    if (!critView || !cstView) return; 
-    if (!critView.shadowRoot || !cstView.shadowRoot) return; 
- 
-    var coblasCrit = critView.shadowRoot.querySelectorAll(".tei-lg"); 
-    var coblasCst = cstView.shadowRoot.querySelectorAll(".tei-lg"); 
- 
-    // utile nel caso di 173.14, che include due tornadas non presenti nel testo critico
-    var numeroCoblas = Math.min(coblasCrit.length, coblasCst.length);
- 
-    // azzero i margin-top solo delle coblas del testo di costellazione che hanno un corrispondente nel testo critico
-    for (var i = 0; i < numeroCoblas; i++) { 
-        coblasCst[i].style.marginTop = "0px"; 
-    } 
-
-    for (var i = 0; i < numeroCoblas; i++) { 
- 
-        var critRect = coblasCrit[i].getBoundingClientRect(); 
-        var cstRect = coblasCst[i].getBoundingClientRect(); 
- 
-        var differenza = critRect.top - cstRect.top; 
- 
-        coblasCst[i].style.marginTop = differenza + "px"; 
-    } 
-}
-
-function creaCollapseTraduzioni() {
-
-    var txtCritico = document.querySelector("#txt_critico");
-    var traduzione = document.querySelector(".traduzione pb-view");
-
-    if (!txtCritico || !traduzione) {
-        return;
-    }
-
-    var criticoRoot = txtCritico.shadowRoot;
-    var tradRoot = traduzione.shadowRoot;
-
-    if (!criticoRoot || !tradRoot) {
-        return;
-    }
-
-    var coblas = criticoRoot.querySelectorAll(".tei-lg");
-
-    var tradContent = tradRoot.querySelector(".content");
-
-    if (!tradContent) {
-        return;
-    }
-
-    // trovo label
-    var numerazioni = tradContent.querySelectorAll(".tei-label.numerazione");
-
-    coblas.forEach((cobla, i) => {
-
-        var numerazione = numerazioni[i];
-
-        if (!numerazione) {
-            return;
-        }
-
-        var wrapper = document.createElement("div");
-        wrapper.className = "traduzione-cobla";
-
-        var collapse = document.createElement("pb-collapse");
-
-        var trigger = document.createElement("div");
-        trigger.setAttribute("slot", "collapse-trigger");
-        trigger.className = "trad-collapse";
-        trigger.innerHTML = "<h4>Traduzione</h4>";
-
-        var content = document.createElement("div");
-        content.setAttribute("slot", "collapse-content");
-        content.className = "trad-content";
-
-        // estraggo il nodo che include gli elementi della cobla[i] fino alla label successiva
-        let nodo = numerazione.nextSibling;
-
-        while (nodo && nodo !== numerazioni[i + 1]) {
-
-            // clono il nodo
-            content.appendChild(nodo.cloneNode(true));
-
-            nodo = nodo.nextSibling;
-        }
-
-        collapse.appendChild(trigger);
-        collapse.appendChild(content);
-
-        wrapper.appendChild(collapse);
-        
-        // nodo clonato inserito dopo la cobla
-        cobla.after(wrapper);
-    });
-}
-
-function inizializzaTraduzioni() {
-
-    var txtCritico = document.getElementById("txt_critico");
-    var traduzione = document.querySelector(".traduzione pb-view");
-
-    if (!txtCritico || !traduzione) return;
-    if (!txtCritico.shadowRoot || !traduzione.shadowRoot) return;
-
-    // evita doppi collapse
-    if (txtCritico.shadowRoot.querySelector(".traduzione-cobla")) {
-        return;
-    }
-
-    creaCollapseTraduzioni();
-
-    allineaCoblas();
-
-    osservaResize();
-}
-
-function osservaResize() {
-
-    var txtCritico = document.getElementById("txt_critico");
-
-    if (!txtCritico || !txtCritico.shadowRoot) return;
-
-    var observer = new ResizeObserver(function() {
-        // funzione di allineamento richiamata qualora il layout sia modificato
-        allineaCoblas();
-
-    });
-    // host = <pb-view id="txt_critico">; l'elemento osservato che contiene lo shadow DOM del testo critico
-    observer.observe(txtCritico.shadowRoot.host);
-}
-
-window.addEventListener("DOMContentLoaded", function() {
-
-    var txtCritico = document.getElementById("txt_critico");
-
-    if (!txtCritico) return;
-    
-    // il testo critico viene caricato o aggiornato
-    txtCritico.addEventListener("pb-update", function() {
-
-        inizializzaTraduzioni();
-
-    });
-
-});

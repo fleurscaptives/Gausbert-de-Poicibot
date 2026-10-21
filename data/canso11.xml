@@ -249,6 +249,7 @@
 
     </teiHeader>
     <facsimile>
+    <div>
       <surfaceGrp xml:id="A">
         <surface n="1">
             <graphic url="images/A11a.png"/>
@@ -368,6 +369,7 @@
             <graphic url="images/U11c.png"/>
         </surface>
      </surfaceGrp>
+    </div>
     </facsimile>
     
     
@@ -376,7 +378,6 @@
     <body>
         <front>
             <div type="manoscritti">
-                <p>
                     <list type="facsimile">
                         <item>
                             <witDetail>A</witDetail> 116r: <seg>Lo monges de Ponciboc</seg>;
@@ -418,7 +419,6 @@
                             <witDetail>U</witDetail> 81v: <seg>Gaub</seg>(<seg>er</seg>)<seg>t li monge de Pogibot</seg>.
                         </item>
                     </list>
-                </p>
             </div>
            <div type="trad_ind">
                   <head>Tradizione indiretta</head>
@@ -450,7 +450,8 @@
                     </p>
                 <!-- Cobla I -->
                     <label>I</label>
-<lg type="stanza" n="1" rhyme="abbaabbaccdd">
+<lg type="stanza" n="1" rhyme="abbaabbaccdd" xml:id="crt1" corresp="#cos1">
+                            <anchor xml:id="anchor-crt1"/>
     <l n="1">S’ieu anc iorn dis <rhyme label="a">clamans</rhyme>
                                 </l>
     <l n="2">encontra vos, <rhyme label="b">Amors</rhyme>,</l>
@@ -462,7 +463,8 @@
                                 </l>
     <l n="6">e laissar mas <rhyme label="b">clamors</rhyme>,</l>
     <l n="7">pois ma dompna <rhyme label="b">Lionors</rhyme>,</l>
-    <l n="8">la pros <term type="glossario"><seg type="edit">reina</seg>
+    <l n="8">la pros <term type="glossario">
+                                        <seg type="edit">reina</seg>
         <note type="popup" xml:id="gloss-reina">
         <label>≋ LIT</label>
         <term type="lit">reina/comtessa</term>
@@ -472,7 +474,7 @@
         </note>
     </term> <rhyme label="a">prezans</rhyme>,</l>
     <l n="9">
-                                    <seg type="diff">deign’en</seg> aissi <rhyme label="c">voler</rhyme>.</l>
+                                    <seg type="diff" xml:id="v9" corresp="#v9_cos">deign’en</seg> aissi <rhyme label="c">voler</rhyme>.</l>
     <l n="10">E si tot ieu de vos grat non <rhyme label="c">esper</rhyme>,</l>
     <l n="11">be·us dei grazir lo dan e·l <rhyme label="d">mal</rhyme>,</l>
     <l n="12">puois ill m’o manda que tant <rhyme label="d">val</rhyme>.</l>
@@ -480,32 +482,34 @@
                 <lb/>
                 <!-- Cobla II -->
                     <label>II</label>
-                    <lg type="stanza" n="2" rhyme="abbaabbaccdd">
+                    <lg type="stanza" n="2" rhyme="abbaabbaccdd" xml:id="crt2" corresp="#cos2">
+                            <anchor xml:id="anchor-crt2"/>
                         <l n="13">Humils e <rhyme label="a">merceians</rhyme>
                                 </l>
     <l n="14">mi rend a vos <rhyme label="b">Amors</rhyme>,</l>
-    <l n="15">car mi <seg type="diff">forsset</seg> <rhyme label="b">errors</rhyme>
+    <l n="15">car mi <seg type="diff" xml:id="v15" corresp="#v15_cos">forsset</seg> <rhyme label="b">errors</rhyme>
                                 </l>
     <l n="16">
-                                    <seg type="diff">e·ill</seg> lenga <rhyme label="a">malparlans</rhyme>
+                                    <seg type="diff" xml:id="v16" corresp="#v16_cos">e·ill</seg> lenga <rhyme label="a">malparlans</rhyme>
                                 </l>
     <l n="17">
-                                    <seg type="diff">qe·us fos <rhyme label="a">contrarians</rhyme>
+                                    <seg type="diff" xml:id="v17" corresp="#v17_cos">qe·us fos <rhyme label="a">contrarians</rhyme>
                                     </seg>
                                 </l>
     <l n="18">
-                                    <seg type="diff">ab digz <rhyme label="b">maldizedors</rhyme>.</seg>
+                                    <seg type="diff" xml:id="v18" corresp="#v18_cos">ab digz <rhyme label="b">maldizedors</rhyme>.</seg>
                                 </l>
     <l n="19">Et <seg type="corr">ieu vos</seg> dirai <rhyme label="a">lauzors</rhyme>
                                 </l>
     <l n="20">e de plazers cent <rhyme label="a">aitans</rhyme>
                                 </l>
     <l n="21">
-                                    <seg type="diff">que non vos dis</seg> <rhyme label="c">desplazer</rhyme>,</l>
+                                    <seg type="diff" xml:id="v21" corresp="#v21_cos">que non vos dis</seg> <rhyme label="c">desplazer</rhyme>,</l>
     <l n="22">c’orgoills sai ben que no mi pot <rhyme label="c">valer</rhyme>.</l>
     <l n="23">Per c’oimais d’enemic <rhyme label="d">mortal</rhyme>
                                 </l>
-    <l n="24">m’auretz amic fin e <term type="glossario"><rhyme label="d">leial</rhyme>
+    <l n="24">m’auretz amic fin e <term type="glossario">
+                                        <rhyme label="d">leial</rhyme>
     <note type="popup" xml:id="gloss-leial">
         <label>≋ LIT</label>
         <term type="lit">leial</term>
@@ -519,7 +523,8 @@
                      <lb/>
                 <!-- Cobla III -->
                     <label>III</label>
-                    <lg type="stanza" n="3" rhyme="abbaabbaccdd">
+                    <lg type="stanza" n="3" rhyme="abbaabbaccdd" xml:id="crt3" corresp="#cos3">
+                        <anchor xml:id="anchor-crt3"/>
                         <l n="25">Q’ie·us vencerai <rhyme label="a">enans</rhyme>
                                 </l>
     <l n="26">merce claman, <rhyme label="b">Amors</rhyme>,</l>
@@ -543,7 +548,8 @@
                  <lb/>
                 <!-- Cobla IV -->
                     <label>IV</label>
-                    <lg type="stanza" n="4" rhyme="abbaabbaccdd">
+                    <lg type="stanza" n="4" rhyme="abbaabbaccdd" xml:id="crt4" corresp="#cos4">
+                        <anchor xml:id="anchor-crt4"/>
                         <l n="37">Sabetz cal? Als mieus <rhyme label="a">ans</rhyme>
                                 </l>
     <l n="38">m’er totz temps mais, <rhyme label="b">Amors</rhyme>,</l>
@@ -551,8 +557,8 @@
     <l n="40">e bes e pros mos <rhyme label="a">dans</rhyme>,</l>
     <l n="41">e soiorns mos <rhyme label="a">affans</rhyme>,</l>
     <l n="42">e gabs e ris mos <rhyme label="b">plors</rhyme>,</l>
-    <l n="43">e mos loncs trebaills <seg type="diff">
-                                <rhyme label="b">legors</rhyme>
+    <l n="43">e mos loncs trebaills <seg type="diff" xml:id="v43" corresp="#v43_cos">
+                                        <rhyme label="b">legors</rhyme>
                                     </seg>,</l>
     <l n="44">e totz mos destrics <rhyme label="a">enans</rhyme>
                                 </l>
@@ -573,23 +579,24 @@
                  <lb/>
                 <!-- Cobla V -->
                     <label>V</label>
-                    <lg type="stanza" n="5" rhyme="abbaabbaccdd">
+                    <lg type="stanza" n="5" rhyme="abbaabbaccdd" xml:id="crt5" corresp="#cos5">
+                        <anchor xml:id="anchor-crt5"/>
                         <l n="49">Al rei dels <rhyme label="a">Alamans</rhyme>,</l>
     <l n="50">cap dels <rhyme label="b">emperadors</rhyme>,</l>
-    <l n="51">vai, chanssos, <seg type="diff">cui</seg> <rhyme label="b">valors</rhyme>
+    <l n="51">vai, chanssos, <seg type="diff" xml:id="v51" corresp="#v51_cos">cui</seg> <rhyme label="b">valors</rhyme>
                                 </l>
     <l n="52">
-                                    <seg type="diff">dona</seg> sobre·ls <rhyme label="a">prezans</rhyme>,</l>
+                                    <seg type="diff" xml:id="v52" corresp="#v52_cos">dona</seg> sobre·ls <rhyme label="a">prezans</rhyme>,</l>
     <l n="53">tant de pretz cum es <rhyme label="a">grans</rhyme>
                                 </l>
-    <l n="54">sobre <seg type="diff">totz sa</seg> <rhyme label="b">ricors</rhyme>.</l>
+    <l n="54">sobre <seg type="diff" xml:id="v54" corresp="#v54_cos">totz sa</seg> <rhyme label="b">ricors</rhyme>.</l>
     <l n="55">
-                                    <seg type="diff">Del sieu pretz</seg> es <rhyme label="b">autors</rhyme>
+                                    <seg type="diff" xml:id="v55" corresp="#v55_cos">Del sieu pretz</seg> es <rhyme label="b">autors</rhyme>
                                 </l>
     <l n="56">
-                                    <seg type="diff">lo sieus noms <seg type="edit">rics</seg>
+                                    <seg type="diff" xml:id="v56" corresp="#v56_cos">lo sieus noms <seg type="edit">rics</seg>
                                     </seg> <rhyme label="a">benestans</rhyme>,</l>
-    <l n="57">q’el <seg type="diff">a</seg> <term type="glossario">fre de ric<note type="popup" xml:id="gloss-frederic">
+    <l n="57">q’el <seg type="diff" xml:id="v57" corresp="#v57_cos">a</seg> <term type="glossario">fre de ric<note type="popup" xml:id="gloss-frederic">
     <label>≋ LIT</label>
     <term type="lit">fre de ric</term>
     <def>Federico II fu con tutta probabilità incoronato imperatore nel periodo di composizione della lirica, ed è una lunga dedica al sovrano a occupare la quinta <seg type="it">cobla</seg> nella sua interezza, con l’inclusione di un gioco di parole su come il nome del regnante risulti consono a un capo che è, in tutto e per tutto, <seg type="it">fre de ric per ver</seg>. Di Federico è elogiato, infatti, lo spirito valoroso e la fermezza nel porre un freno alle azioni vili di uomini ricchi e potenti, incapaci di sovrastarlo in quanto a nobiltà d’animo e di imprese.<lb/>In questo luogo del testo, si nota come l'errata comprensione dell’epiteto attribuito a Federico abbia generato alcune varianti evidentemente erronee.</def>        
@@ -597,19 +604,21 @@
     </term> per <rhyme label="c">ver</rhyme>,</l>
     <l n="58">per refrenar vils faitz e <rhyme label="c">retener</rhyme>,</l>
     <l n="59">
-                                    <seg type="diff">q’us non toc</seg> a son pretz <rhyme label="d">cabal</rhyme>,</l>
+                                    <seg type="diff" xml:id="v59" corresp="#v59_cos">q’us non toc</seg> a son pretz <rhyme label="d">cabal</rhyme>,</l>
     <l n="60">
-                                    <seg type="diff">fren ric e man</seg> porta <rhyme label="d">aital</rhyme>.</l>
+                                    <seg type="diff" xml:id="v60" corresp="#v60_cos">fren ric e man</seg> porta <rhyme label="d">aital</rhyme>.</l>
                 </lg>
                  <lb/>
                 <!-- Tornada VI -->
                     <label>VI</label>
-                    <lg type="enovy" n="tornada" rhyme="ccdd">
+                    <lg type="enovy" n="tornada" rhyme="ccdd" xml:id="crt6" corresp="#cos6">
+                        <anchor xml:id="anchor-crt6"/>
                         <l n="61">Del rei d’Aragon <rhyme label="c">esper</rhyme>
                                 </l>
     <l n="62">c’ades meillur e sapcha mais <rhyme label="c">valer</rhyme>,</l>
     <l n="63">quand el aura sen <rhyme label="d">natural</rhyme>,</l>
-    <l n="64">pois <seg type="diff"><term type="glossario">ioves<note type="popup" xml:id="gloss-ioves">
+    <l n="64">pois <seg type="diff" xml:id="v64" corresp="#v64_cos">
+                                        <term type="glossario">ioves<note type="popup" xml:id="gloss-ioves">
     <label>≡ LEX</label>
                             <term type="lex">ioves/tosetz</term>
                             <def>⤷ agg. | ragazzo, giovane uomo</def>
@@ -623,13 +632,13 @@
             </div>
             <!-- Apparato critico delle varianti sostanziali -->
             <div type="app_crt_sos">
-            <head>Apparato critico</head>
               <listApp>
               <app ana="sos">
     <num>1</num>
     <lem>jorn</lem>
     <rdg>
-        <note type="text">manca<witDetail wit="#G"> G</witDetail></note>
+        <note type="text">manca<witDetail wit="#G"> G</witDetail>
+                                        </note>
     </rdg>
 </app>
 
@@ -755,7 +764,8 @@
     <num>10</num>
     <lem>eu de vos grat</lem>
     <rdg>
-        de<note type="text"> manca <witDetail wit="#D"> D</witDetail></note>
+        de<note type="text"> manca <witDetail wit="#D"> D</witDetail>
+                                        </note>
     </rdg>
     <rdg>
         eu grat de vos<witDetail wit="#G #T"> GT</witDetail>
@@ -767,7 +777,8 @@
         eu de v. gart<witDetail wit="#N"> N</witDetail>
     </rdg>
     <rdg>
-        eu<note type="text"> manca <witDetail wit="#P"> P</witDetail></note>
+        eu<note type="text"> manca <witDetail wit="#P"> P</witDetail>
+                                        </note>
     </rdg>
 </app>
 
@@ -816,7 +827,8 @@
         po lil<witDetail wit="#D"> D</witDetail>
     </rdg>
     <rdg>
-        ill <note type="text"> manca <witDetail wit="#T"> T</witDetail></note>
+        ill <note type="text"> manca <witDetail wit="#T"> T</witDetail>
+                                        </note>
     </rdg>
 </app>
 
@@ -847,7 +859,8 @@
     <num>13</num>
     <lem>e</lem>
     <rdg>
-        <note type="text"> manca <witDetail wit="#A #D"> AD</witDetail></note>
+        <note type="text"> manca <witDetail wit="#A #D"> AD</witDetail>
+                                        </note>
     </rdg>
 </app>
 
@@ -919,7 +932,8 @@
         es<witDetail wit="#G #P"> GP</witDetail>
     </rdg>
     <rdg>
-        <note type="text"> manca <witDetail wit="#T"> T</witDetail></note>
+        <note type="text"> manca <witDetail wit="#T"> T</witDetail>
+                                        </note>
     </rdg>
     <rdg>
         mas<witDetail wit="#U"> U</witDetail>
@@ -1026,7 +1040,8 @@
 <app ana="sos">
     <lem>mortal</lem>
     <rdg>
-        <note type="text"> manca <witDetail wit="#N"> N</witDetail></note>
+        <note type="text"> manca <witDetail wit="#N"> N</witDetail>
+                                        </note>
     </rdg>
 </app>
 
@@ -1076,7 +1091,8 @@
 <app ana="sos">
     <num>27</num>
     <rdg>
-        <note type="text"> manca <witDetail wit="#C #P"> CP</witDetail></note>
+        <note type="text"> manca <witDetail wit="#C #P"> CP</witDetail>
+                                        </note>
         <note type="popup" xml:id="paleo1">
                         <surface>
         <graphic url="images/paleo11a.png"/>
@@ -1297,7 +1313,8 @@
         mas g.<witDetail wit="#C #N #P #U"> CNPU</witDetail>
     </rdg>
     <rdg>
-        greus <note type="text"> manca <witDetail wit="#C"> C</witDetail></note>
+        greus <note type="text"> manca <witDetail wit="#C"> C</witDetail>
+                                        </note>
     </rdg>
 </app>
 
@@ -1400,7 +1417,8 @@
     <num>45</num>
     <lem>tuich</lem>
     <rdg>
-        <note type="text"> manca <witDetail wit="#G #I #K #S #U"> GIKSU</witDetail></note>
+        <note type="text"> manca <witDetail wit="#G #I #K #S #U"> GIKSU</witDetail>
+                                        </note>
     </rdg>
 </app>
 
@@ -1423,7 +1441,8 @@
     <num>47</num>
     <lem>gen</lem>
     <rdg>
-        <note type="text"> manca <witDetail wit="#G #I #K"> GIK</witDetail></note>
+        <note type="text"> manca <witDetail wit="#G #I #K"> GIK</witDetail>
+                                        </note>
     </rdg>
     <rdg>
         ges<witDetail wit="#S"> S</witDetail>
@@ -1456,7 +1475,8 @@
         sers<witDetail wit="#G"> G</witDetail>
     </rdg>
     <rdg>
-        <note type="text"> manca <witDetail wit="#H"> H</witDetail></note>
+        <note type="text"> manca <witDetail wit="#H"> H</witDetail>
+                                        </note>
     </rdg>
     <rdg>
         serf <note type="text"> seguito da espunzione</note> hom <witDetail wit="#S"> S</witDetail>
@@ -1558,7 +1578,8 @@
 <app ana="sos">
     <lem>rics</lem>
     <rdg>
-        <note type="text">manca<witDetail wit="#A"> A</witDetail></note>
+        <note type="text">manca<witDetail wit="#A"> A</witDetail>
+                                        </note>
     </rdg>
     <rdg>
         rics faitz<witDetail wit="#C"> C</witDetail>
@@ -1638,7 +1659,8 @@
 <app ana="sos">
     <lem>el rey d’Ar</lem>
     <rdg>
-        <note type="text">esp. a fine rigo<witDetail wit="#K"> K</witDetail></note>
+        <note type="text">esp. a fine rigo<witDetail wit="#K"> K</witDetail>
+                                        </note>
     </rdg>
 </app>
 
@@ -1678,7 +1700,8 @@
     <num>64</num>
     <lem>tant val</lem>
     <rdg>
-        tant <note type="text"> manca<witDetail wit="#H #I #K #S"> HIKS</witDetail></note>
+        tant <note type="text"> manca<witDetail wit="#H #I #K #S"> HIKS</witDetail>
+                                        </note>
     </rdg>
 </app>
               </listApp>
@@ -1837,7 +1860,8 @@
                         <seg type="edit">Interventi editoriali</seg>
                     </p>
                 <!-- Cobla I -->
-<lg type="stanza" n="1" rhyme="aaabbaaabbccdd">
+<lg type="stanza" n="1" rhyme="aaabbaaabbccdd" xml:id="cos1" corresp="#crt1">
+                <anchor xml:id="anchor-cos1"/>
     <l n="1">S’ieu anc jorn dis <rhyme label="a">clamans</rhyme>
                                 </l>
     <l n="2">encontra vos, <rhyme label="b">Amors</rhyme>,</l>
@@ -1853,7 +1877,7 @@
                                     <seg type="edit">la pros reina <rhyme label="a">prezans</rhyme>
                                     </seg>,</l>
     <l n="9">
-                                    <seg type="diff_c">o denha en</seg> aysi <rhyme label="c">voler</rhyme>.</l>
+                                    <seg type="diff_c" xml:id="v9_cos" corresp="#v9">o denha en</seg> aysi <rhyme label="c">voler</rhyme>.</l>
     <l n="10">E si tot yeu de vos grat non <rhyme label="c">esper</rhyme>,</l>
     <l n="11">be·us dey grazir lo dan e·l <rhyme label="d">mal</rhyme>,</l>
     <l n="12">pus ilh m’o manda que tan <rhyme label="d">val</rhyme>.</l>
@@ -1862,26 +1886,27 @@
 <lb/>
 
 <!-- Cobla II -->
-<lg type="stanza" n="2" rhyme="aaabbaaabbccdd" xml:id="extra">
+<lg type="stanza" n="2" rhyme="aaabbaaabbccdd" xml:id="cos2" corresp="#crt2">
+                <anchor xml:id="anchor-cos2"/>
     <l n="13">Humils e <rhyme label="a">merceyans</rhyme>
                                 </l>
     <l n="14">mi ren a vos <rhyme label="b">Amors</rhyme>,</l>
-    <l n="15">car mi <seg type="diff_c">falsetz</seg> <rhyme label="b">errors</rhyme>
+    <l n="15">car mi <seg type="diff_c" xml:id="v15_cos" corresp="#v15">falsetz</seg> <rhyme label="b">errors</rhyme>
                                 </l>
     <l n="16">
-                                    <seg type="diff_c">e</seg> <seg type="edit">lenga</seg> mal <rhyme label="a">parlans</rhyme>;</l>
+                                    <seg type="diff_c" xml:id="v16_cos" corresp="#v16">e</seg> <seg type="edit">lenga</seg> mal <rhyme label="a">parlans</rhyme>;</l>
     <l n="17">
-                                    <seg type="diff_c">e fai <rhyme label="a">sopleyans</rhyme>
+                                    <seg type="diff_c" xml:id="v17_cos" corresp="#v17">e fai <rhyme label="a">sopleyans</rhyme>
                                     </seg>
                                 </l>
     <l n="18">
-                                    <seg type="diff_c">mays a vostra <rhyme label="b">valors</rhyme>
+                                    <seg type="diff_c" xml:id="v18_cos" corresp="#v18">mays a vostra <rhyme label="b">valors</rhyme>
                                     </seg>.</l>
     <l n="19">E <seg type="edit">ieu vos</seg> dirai <rhyme label="b">lauzors</rhyme>.</l>
     <l n="20">E <seg type="edit">de plazers</seg> cent <rhyme label="a">aytans</rhyme>
                                 </l>
     <l n="21">
-                                    <seg type="diff_c">c’anc no·us dissi</seg> <seg type="edit">
+                                    <seg type="diff_c" xml:id="v21_cos" corresp="#v21">c’anc no·us dissi</seg> <seg type="edit">
                                         <rhyme label="c">desplazer</rhyme>
                                     </seg>,</l>
     <l n="22">c’<seg type="edit">orguelhs</seg> sai ben que no mi pot <rhyme label="c">valer</rhyme>.</l>
@@ -1897,7 +1922,8 @@
 <lb/>
 
 <!-- Cobla III -->
-<lg type="stanza" n="3" rhyme="aaabbaaabbccdd">
+<lg type="stanza" n="3" rhyme="aaabbaaabbccdd" xml:id="cos3" corresp="#crt3">
+                <anchor xml:id="anchor-cos3"/>
     <l n="25">Qu’ie·us venserai <rhyme label="a">enans</rhyme>
                                 </l>
     <l n="26">merce claman, <rhyme label="b">Amors</rhyme>,</l>
@@ -1923,7 +1949,8 @@
 <lb/>
 
 <!-- Cobla IV -->
-<lg type="stanza" n="4" rhyme="aaabbaaabbccdd">
+<lg type="stanza" n="4" rhyme="aaabbaaabbccdd" xml:id="cos4" corresp="#crt4">
+                <anchor xml:id="anchor-cos4"/>
     <l n="37">Sabetz <seg type="edit">cal</seg>? <seg type="edit">Als</seg> mos <rhyme label="a">ans</rhyme>
                                 </l>
     <l n="38">m’er tos tems mais, <rhyme label="b">Amors</rhyme>,</l>
@@ -1931,7 +1958,7 @@
     <l n="40">e bes e pros mos <rhyme label="a">dans</rhyme>,</l>
     <l n="41">e <seg type="edit">soiorns</seg> mos <rhyme label="a">afans</rhyme>,</l>
     <l n="42">e <seg type="edit">gaugs</seg> e ris mos <rhyme label="b">plors</rhyme>,</l>
-    <l n="43">e mos loncx trebals <seg type="diff_c">
+    <l n="43">e mos loncx trebals <seg type="diff_c" xml:id="v43_cos" corresp="#v43">
                                         <rhyme label="b">dollors</rhyme>
                                     </seg>,</l>
     <l n="44">e tug mos destricx <rhyme label="a">enans</rhyme>
@@ -1946,30 +1973,31 @@
 <lb/>
 
 <!-- Cobla V -->
-<lg type="stanza" n="5" rhyme="aaabbaaabbccdd">
+<lg type="stanza" n="5" rhyme="aaabbaaabbccdd" xml:id="cos5" corresp="#crt5">
+                <anchor xml:id="anchor-cos5"/>
     <l n="49">Al rey dels <rhyme label="a">Alamans</rhyme>,</l>
     <l n="50">caps dels <rhyme label="b">emperadors</rhyme>,</l>
-    <l n="51">vay, chanson, <seg type="diff_c">car</seg> <rhyme label="b">valors</rhyme>
+    <l n="51">vay, chanson, <seg type="diff_c" xml:id="v51_cos" corresp="#v51">car</seg> <rhyme label="b">valors</rhyme>
                                 </l>
     <l n="52">
-                                    <seg type="diff_c">la dat</seg> sobre·ls <rhyme label="a">prezans</rhyme>,</l>
+                                    <seg type="diff_c" xml:id="v52_cos" corresp="#v52">la dat</seg> sobre·ls <rhyme label="a">prezans</rhyme>,</l>
     <l n="53">tan de pretz con es <rhyme label="a">grans</rhyme>
                                 </l>
-    <l n="54">sobre <seg type="diff_c">totas</seg> <rhyme label="b">ricors</rhyme>.</l>
+    <l n="54">sobre <seg type="diff_c" xml:id="v54_cos" corresp="#v54">totas</seg> <rhyme label="b">ricors</rhyme>.</l>
     <l n="55">
-                                    <seg type="diff_c">Que de bos fatz</seg> <seg type="corr_c">es <rhyme label="b">aussors</rhyme>
+                                    <seg type="diff_c" xml:id="v55_cos" corresp="#v55">Que de bos fatz</seg> <seg type="corr_c">es <rhyme label="b">aussors</rhyme>
                                     </seg>
                                 </l>
     <l n="56">
-                                    <seg type="diff_c">bel tanh sos noms</seg> <rhyme label="a">benestans</rhyme>,</l>
-    <l n="57">q’e·l <seg type="diff_c">es</seg> fredericx per <seg type="corr_c">
+                                    <seg type="diff_c" xml:id="v56_cos" corresp="#v56">bel tanh sos noms</seg> <rhyme label="a">benestans</rhyme>,</l>
+    <l n="57">q’e·l <seg type="diff_c" xml:id="v57_cos" corresp="#v57">es</seg> fredericx per <seg type="corr_c">
                                         <rhyme label="c">ver</rhyme>
                                     </seg>,</l>
     <l n="58">per refrenar vils fatz e <rhyme label="c">retener</rhyme>,</l>
     <l n="59">
-                                    <seg type="diff_c">car no·s pren</seg> a sos pretz <rhyme label="d">cabal</rhyme>,</l>
+                                    <seg type="diff_c" xml:id="v59_cos" corresp="#v59">car no·s pren</seg> a sos pretz <rhyme label="d">cabal</rhyme>,</l>
     <l n="60">
-                                    <seg type="diff_c">
+                                    <seg type="diff_c" xml:id="v60_cos" corresp="#v60">
                                         <seg type="edit">fre de riqeza</seg> port’<rhyme label="d">aital</rhyme>
                                     </seg>.</l>
 </lg>
@@ -1977,18 +2005,18 @@
 <lb/>
 
 <!-- Tornada VI -->
-<lg type="envoy" n="tornada" rhyme="ccdd">
+<lg type="envoy" n="tornada" rhyme="ccdd" xml:id="cos6" corresp="#crt6">
+                <anchor xml:id="anchor-cos6"/>
     <l n="61">Del rey d’Aragon <rhyme label="c">esper</rhyme>
                                 </l>
     <l n="62">c’ades melhur e sapcha mais <rhyme label="c">valer</rhyme>,</l>
     <l n="63">can el aura sen <rhyme label="d">natural</rhyme>,</l>
-    <l n="64">pus <seg type="diff_c">tan tosetz es</seg> e tan <rhyme label="d">val</rhyme>.</l>
+    <l n="64">pus <seg type="diff_c" xml:id="v64_cos" corresp="#v64">tan tosetz es</seg> e tan <rhyme label="d">val</rhyme>.</l>
 </lg>
 <lb/>
             </div>
             <!-- Apparato critico delle varianti sostanziali del testo di costellazione -->
             <div type="app_cos_sos">
-            <head>Apparato di costellazione</head>
  <listApp>
  <app ana="sos">
     <num>8</num>
@@ -1996,6 +2024,12 @@
     <rdg>
         que vol totz bos faytz benestans<witDetail wit="#R"> R</witDetail>
     </rdg>
+        <note type="popup_cont" xml:id="cont1">La lunga dedica all’imperatore Federico II appare sostanzialmente diversa nei canzonieri HNR; il codice H, peraltro, trasmette una versione della <seg type="it">cobla</seg> affine a quella in NR a causa di probabile contaminazione. Il fenomeno è descritto da Careri nel suo studio di sul canzoniere H, in cui si legge che, sebbene dalle prime sezioni del testo emerga l’influenza dell’<seg type="it">editio variorum</seg> ε, che giustifica così la vicinanza di H ad ADT, le <seg type="it">coblas</seg> V e VI sarebbero state aggiunte in seguito all’adozione di una seconda fonte, stavolta affine a (C)R.
+<surface>
+        <graphic url="images/paleo11d.png"/>
+      </surface>
+<lb/>Si prenda ad esempio il testo in H dei vv. 54-55 (<seg type="it">sobre totas ricors</seg>/<seg type="it">Qe de bos fatz es aussors</seg>), indubbiamente prossimo a NR e non al gruppo ADT; ai vv. 54-55, infatti, si legge in A <seg type="it">sobre totz sa ricors.</seg> / <seg type="it">Del sieu pretz es autors</seg>.<lb/> Per quanto riguarda la <seg type="it">tornada</seg> che chiude la canzone, però, i versi finali indirizzati a Giacomo I d’Aragona non includono varianti significative che permettono di isolare in modo altrettanto convincente la costellazione HNR.
+</note>
 </app>
 
 <app ana="sos">
@@ -2152,7 +2186,8 @@
     <num>47</num>
     <lem>a jornal</lem>
     <rdg>
-        <note type="text"> espunto a fine verso <witDetail wit="#R"> R</witDetail></note>
+        <note type="text"> espunto a fine verso <witDetail wit="#R"> R</witDetail>
+                                        </note>
     </rdg>
 </app>
 
@@ -2191,7 +2226,8 @@
     <num>56</num>
     <lem>bel tanh</lem>
     <rdg>
-        <note type="text">manca <witDetail wit="#H #N"> HN</witDetail></note>
+        <note type="text">manca <witDetail wit="#H #N"> HN</witDetail>
+                                        </note>
     </rdg>
 </app>
 
@@ -2227,13 +2263,6 @@
     <rdg>
         negus que renhe ni tan val<witDetail wit="#R"> R</witDetail>
     </rdg>
-    <note type="popup_cont" xml:id="cont1">La lunga dedica all’imperatore Federico II appare sostanzialmente diversa nei canzonieri HNR; il codice H, peraltro, trasmette una versione della <seg type="it">cobla</seg> affine a quella in NR a causa di probabile contaminazione. Il fenomeno è descritto da Careri nel suo studio di sul canzoniere H, in cui si legge che, sebbene dalle prime sezioni del testo emerga l’influenza dell’<seg type="it">editio variorum</seg> ε, che giustifica così la vicinanza di H ad ADT, le <seg type="it">coblas</seg> V e VI sarebbero state aggiunte in seguito all’adozione di una seconda fonte, stavolta affine a (C)R.<lb/>
-Il caso di contaminazione in H è testimoniato sia da un cambio di rima (da -<seg type="it">ans</seg> alla forma -<seg type="it">anz</seg> nella <seg type="it">cobla</seg> V), sia da un simbolo di chiusura nelle sole ultime due sezioni della lirica, probabilmente copiato dal nuovo modello.
-<surface>
-        <graphic url="images/paleo11d.png"/>
-      </surface>
-<lb/>Si prenda ad esempio il testo in H dei vv. 54-55 (<seg type="it">sobre totas ricors</seg>/<seg type="it">Qe de bos fatz es aussors</seg>), indubbiamente prossimo a NR e non al gruppo ADT; ai vv. 54-55, infatti, si legge in A <seg type="it">sobre totz sa ricors.</seg> / <seg type="it">Del sieu pretz es autors</seg>.<lb/> Per quanto riguarda la <seg type="it">tornada</seg> che chiude la canzone, però, i versi finali indirizzati a Giacomo I d’Aragona non includono varianti significative che permettono di isolare in modo altrettanto convincente la costellazione HNR.
-</note>
 </app>
 
 <app ana="sos">
@@ -2289,7 +2318,8 @@ Il caso di contaminazione in H è testimoniato sia da un cambio di rima (da -<se
                     <p>
                             <title>Cobla trasmessa per tradizione indiretta</title>
                         </p>
-                    <lg type="stanza" n="extra">
+                    <lg type="stanza" xml:id="extra11" corresp="#cos2">
+                    <anchor xml:id="anchor-extra11"/>
                                 <l n="13">Humils e mercejans</l>
                                 <l n="14">mi ren a vos, Amors,</l>
                                 <l n="15">quar m’i forset errors</l>

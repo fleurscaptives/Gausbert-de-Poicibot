@@ -172,7 +172,8 @@
         </revisionDesc>
 
     </teiHeader>
-    <facsimile>
+<facsimile>
+  <div>
     <surfaceGrp xml:id="C">
         <surface n="1">
             <graphic url="images/C7a.png"/>
@@ -211,13 +212,13 @@
             <graphic url="images/S7b.jpg"/>
         </surface>
     </surfaceGrp>
-    </facsimile>
+  </div>
+</facsimile>
     <text>
       <div type="edition">
         <body>
             <front>
                 <div type="manoscritti">
-                    <p>
                         <list>
                             <item>
                                 <witDetail>C</witDetail> 190v: <seg>Gausbert de Puegc.</seg>;
@@ -232,7 +233,6 @@
                                 <witDetail>S</witDetail> 225: <seg>En Iaubert lo monge de Monsibot</seg>.
                             </item>
                         </list>
-                    </p>
                 </div>
                 <div type="trad_ind">
                   <head>Tradizione indiretta</head>
@@ -263,11 +263,12 @@
                     </p>
                     <!-- Cobla I -->
                     <label>I</label>
-<lg type="stanza" n="1" rhyme="aaabbaaabbcc">
+<lg type="stanza" n="1" rhyme="aaabbaaabbcc" xml:id="crt1" corresp="#cos1">
+                            <anchor xml:id="anchor-crt1"/>
     <l n="1">Oimais, de vos non <rhyme label="a">aten</rhyme>
                                 </l>
     <l n="2">aver <rhyme label="a">iausimen</rhyme>,</l>
-    <l n="3">Amors, <seg type="diff">pois</seg> tan <rhyme label="a">loniamen</rhyme>
+    <l n="3">Amors, <seg type="diff" xml:id="v3" corresp="#v3_cos">pois</seg> tan <rhyme label="a">loniamen</rhyme>
                                 </l>
     <l n="4">me soi <rhyme label="b">faidiaz</rhyme>,</l>
     <l n="5">celant et sufrend en <rhyme label="b">paz</rhyme>
@@ -287,14 +288,15 @@
 
 <!-- Cobla II -->
 <label>II</label>
-<lg type="stanza" n="2" rhyme="aaabbaaabbcc">
-    <l n="13">Blasmar vos <seg type="diff">degr’eu</seg> <rhyme label="a">fortmen</rhyme>,</l>
+<lg type="stanza" n="2" rhyme="aaabbaaabbcc" xml:id="crt2" corresp="#cos2">
+                            <anchor xml:id="anchor-crt2"/>
+    <l n="13">Blasmar vos <seg type="diff" xml:id="v13" corresp="#v13_cos">degr’eu</seg> <rhyme label="a">fortmen</rhyme>,</l>
     <l n="14">mais vau vos <rhyme label="a">sofren</rhyme>,</l>
     <l n="15">qu’aicel que s’irais <rhyme label="a">greumen</rhyme>,</l>
     <l n="16">plus quant es <rhyme label="b">iraz</rhyme>,</l>
     <l n="17">es fels et <rhyme label="b">desmesuraz</rhyme>.</l>
     <l n="18">Doncs tem, s’eu <term type="glossario">
-                                        <seg type="diff">
+                                        <seg type="diff" xml:id="v18" corresp="#v18_cos">
                                             <rhyme label="a">m’espren</rhyme>
                                         </seg>
                                         <note xml:id="gloss-esprendre" type="popup">
@@ -310,11 +312,11 @@
     <l n="19">que vos e mei chan <rhyme label="a">plazen</rhyme>
                                 </l>
     <l n="20">en serez trop <seg type="corr">meins</seg> <rhyme label="a">valen</rhyme>.</l>
-    <l n="21">Per <seg type="diff">que</seg> vol <rhyme label="b">sapchaz</rhyme>,</l>
+    <l n="21">Per <seg type="diff" xml:id="v21" corresp="#v21_cos">que</seg> vol <rhyme label="b">sapchaz</rhyme>,</l>
     <l n="22">se no·us <rhyme label="b">melloraz</rhyme>,</l>
     <l n="23">
                                     <term type="glossario">
-                                        <seg type="diff">
+                                        <seg type="diff" xml:id="v23" corresp="#v23_cos">
                                             <seg type="edit">tan descarrai <rhyme label="c">andos</rhyme>
                                             </seg>
                                         </seg>
@@ -335,8 +337,9 @@
 
 <!-- Cobla III -->
 <label>III</label>
-<lg type="stanza" n="3" rhyme="aaabbaaabbcc">
-    <l n="25">Ben soi fols car <seg type="diff">eu</seg> <rhyme label="a">aten</rhyme>
+<lg type="stanza" n="3" rhyme="aaabbaaabbcc" xml:id="crt3" corresp="#cos3">
+                        <anchor xml:id="anchor-crt3"/>
+    <l n="25">Ben soi fols car <seg type="diff" xml:id="v25" corresp="#v25_cos">eu</seg> <rhyme label="a">aten</rhyme>
                                 </l>
     <l n="26">null <rhyme label="a">melloramen</rhyme>,</l>
     <l n="27">qu’ades on plus vos <rhyme label="a">repren</rhyme>
@@ -359,8 +362,9 @@
 
 <!-- Cobla IV -->
 <label>IV</label>
-<lg type="stanza" n="4" rhyme="aaabbaaabbcc">
-    <l n="37">Et <seg type="diff">si sai</seg> que <seg type="diff">non</seg> es <rhyme label="a">gen</rhyme>
+<lg type="stanza" n="4" rhyme="aaabbaaabbcc" xml:id="crt4" corresp="#cos4">
+                        <anchor xml:id="anchor-crt4"/>
+    <l n="37">Et <seg type="diff" xml:id="v37a" corresp="#v37a_cos">si sai</seg> que <seg type="diff" xml:id="v37b" corresp="#v37b_cos">non</seg> es <rhyme label="a">gen</rhyme>
                                 </l>
     <l n="38">quar ab vos <rhyme label="a">conten</rhyme>,</l>
     <l n="39">mas fatz lo <rhyme label="a">forzadamen</rhyme>,</l>
@@ -376,14 +380,15 @@
                                 </l>
     <l n="46">s’eu en soi <rhyme label="b">blasmaz</rhyme>.</l>
     <l n="47">
-                                    <seg type="diff">Et</seg> vos tang lo <seg type="corr">mals</seg> <rhyme label="c">resos</rhyme>
+                                    <seg type="diff" xml:id="v47" corresp="#v47_cos">Et</seg> vos tang lo <seg type="corr">mals</seg> <rhyme label="c">resos</rhyme>
                                 </l>
-    <l n="48">don <seg type="diff">mou·l</seg> torz e l’<rhyme label="c">ochasos</rhyme>.</l>
+    <l n="48">don <seg type="diff" xml:id="v48" corresp="#v48_cos">mou·l</seg> torz e l’<rhyme label="c">ochasos</rhyme>.</l>
 </lg>
 <lb/>
                     <!-- Cobla V -->
                     <label>V</label>
-                    <lg type="stanza" n="5" rhyme="aaabbaaabbcc">
+                    <lg type="stanza" n="5" rhyme="aaabbaaabbcc" xml:id="crt5" corresp="#cos5">
+                        <anchor xml:id="anchor-crt5"/>
                         <l n="49">Ben soi <seg type="corr">fols</seg>, ad <rhyme label="a">escien</rhyme>,
                         </l>
                         <l n="50">quar gast et <rhyme label="a">despen</rhyme>
@@ -406,21 +411,22 @@
                         </l>
                         <l n="54">qui en vos <rhyme label="a">s’enpren</rhyme>
                         </l>
-                        <l n="55">no·us <seg type="diff">lais c’aver</seg> <rhyme label="a">chauzimen</rhyme>,</l>
+                        <l n="55">no·us <seg type="diff" xml:id="v55" corresp="#v55_cos">lais c’aver</seg> <rhyme label="a">chauzimen</rhyme>,</l>
                         <l n="56">anz vos tol et vos <rhyme label="a">defen</rhyme>
                         </l>
                         <l n="57">que ren non <rhyme label="b">creaz</rhyme>.</l>
                         <l n="58">Mas per so no·m <rhyme label="b">taz</rhyme>,</l>
                         <l n="59">
-                                    <seg type="diff">anz</seg> sofrirai <rhyme label="c">pensasos</rhyme>
+                                    <seg type="diff" xml:id="v59" corresp="#v59_cos">anz</seg> sofrirai <rhyme label="c">pensasos</rhyme>
                         </l>
-                        <l n="60">tro <seg type="diff">veia</seg> meillers <rhyme label="c">sasos</rhyme>.</l>
+                        <l n="60">tro <seg type="diff" xml:id="v60" corresp="#v60_cos">veia</seg> meillers <rhyme label="c">sasos</rhyme>.</l>
                     </lg>
                     <lb/>
 
                     <!-- Tornada -->
                     <label>VI</label>
-                    <lg type="envoy" n="tornada" rhyme="aaabbbc">
+                    <lg type="envoy" n="tornada" rhyme="aaabbbc" xml:id="crt6" corresp="#cos6">
+                        <anchor xml:id="anchor-crt6"/>
                         <l n="61">Canpagna, be·us <rhyme label="a">pren</rhyme>
                         </l>
                         <l n="62">quar donpn’avez ses <rhyme label="a">contenpn</rhyme>
@@ -438,7 +444,6 @@
                 </div>
             <!-- Apparato critico delle varianti sostanziali -->
             <div type="app_crt_sos">
-            <head>Apparato critico</head>
               <listApp>
 
    <app ana="sos">
@@ -501,11 +506,12 @@
                 </p>
                 <!-- Cobla I -->
                 <lb/>
-<lg type="stanza" n="1" rhyme="aaabbaaabbcc">
+<lg type="stanza" n="1" rhyme="aaabbaaabbcc" xml:id="cos1" corresp="#crt1">
+                <anchor xml:id="anchor-cos1"/>
     <l n="1">Hueymais, de vos non <rhyme label="a">aten</rhyme>
                                 </l>
     <l n="2">aver <rhyme label="a">iauzimen</rhyme>,</l>
-    <l n="3">Amors, <seg type="diff_c">mas</seg> tan <rhyme label="a">lonjamen</rhyme>
+    <l n="3">Amors, <seg type="diff_c" xml:id="v3_cos" corresp="#v3">mas</seg> tan <rhyme label="a">lonjamen</rhyme>
                                 </l>
     <l n="4">mi suy <rhyme label="b">fadiatz</rhyme>,</l>
     <l n="5">celan e sufren en <rhyme label="b">patz</rhyme>
@@ -524,21 +530,22 @@
 
 <!-- Cobla II -->
 <lb/>
-<lg type="stanza" n="2" rhyme="aaabbaaabbcc">
-    <l n="13">Blasmar vos <seg type="diff_c">degra</seg> <rhyme label="a">fortmen</rhyme>,</l>
+<lg type="stanza" n="2" rhyme="aaabbaaabbcc" xml:id="cos2" corresp="#crt2">
+                <anchor xml:id="anchor-cos2"/>
+    <l n="13">Blasmar vos <seg type="diff_c" xml:id="v13_cos" corresp="#v13">degra</seg> <rhyme label="a">fortmen</rhyme>,</l>
     <l n="14">mas vauc <seg type="corr_c">vos</seg> <rhyme label="a">sufren</rhyme>,</l>
     <l n="15">quar sel que s’irays <rhyme label="a">greumen</rhyme>,</l>
     <l n="16">plus quant es <rhyme label="b">iratz</rhyme>,</l>
     <l n="17">e felhs ni <rhyme label="b">demezuratz</rhyme>.</l>
-    <l n="18">Don tem, s’ieu <seg type="diff_c">mi <rhyme label="a">enpren</rhyme>
+    <l n="18">Don tem, s’ieu <seg type="diff_c" xml:id="v18_cos" corresp="#v18">mi <rhyme label="a">enpren</rhyme>
                                     </seg>,</l>
     <l n="19">que vos e mei chan <rhyme label="a">plazen</rhyme>
                                 </l>
     <l n="20">en seretz trop meins <rhyme label="a">valen</rhyme>.</l>
-    <l n="21">Per <seg type="diff_c">qu’ieu</seg> vuelh <rhyme label="b">sapchatz</rhyme>,</l>
+    <l n="21">Per <seg type="diff_c" xml:id="v21_cos" corresp="#v21">qu’ieu</seg> vuelh <rhyme label="b">sapchatz</rhyme>,</l>
     <l n="22">si no·us <rhyme label="b">meluyratz</rhyme>,</l>
     <l n="23">
-                                    <seg type="diff_c">qu’ans dechairi’<rhyme label="c">ambedos</rhyme>
+                                    <seg type="diff_c" xml:id="v23_cos" corresp="#v23">qu’ans dechairi’<rhyme label="c">ambedos</rhyme>
                                     </seg>,</l>
     <l n="24">
                                     <seg type="edit">Amors</seg>, vos e mas <rhyme label="c">chansos</rhyme>.</l>
@@ -546,8 +553,9 @@
 
 <!-- Cobla III -->
 <lb/>
-<lg type="stanza" n="3" xml:id="extra" rhyme="aaabbaaabbcc">
-    <l n="25">Ben suy folhs quar <seg type="diff_c">hi</seg> <rhyme label="a">aten</rhyme>
+<lg type="stanza" n="3" rhyme="aaabbaaabbcc" xml:id="cos3" corresp="#crt3">
+                <anchor xml:id="anchor-cos3"/>
+    <l n="25">Ben suy folhs quar <seg type="diff_c" xml:id="v25_cos" corresp="#v25">hi</seg> <rhyme label="a">aten</rhyme>
                                 </l>
     <l n="26">nul <rhyme label="a">meluyramen</rhyme>,</l>
     <l n="27">qu’ades on plus vos <rhyme label="a">repren</rhyme>
@@ -570,8 +578,9 @@
 
 <!-- Cobla IV -->
 <lb/>
-<lg type="stanza" n="4" rhyme="aaabbaaabbcc">
-    <l n="37">E <seg type="diff_c">say ben</seg> que <seg type="diff_c">no·m</seg> es <rhyme label="a">gen</rhyme>
+<lg type="stanza" n="4" rhyme="aaabbaaabbcc" xml:id="cos4" corresp="#crt4">
+                <anchor xml:id="anchor-cos4"/>
+    <l n="37">E <seg type="diff_c" xml:id="v37a_cos" corresp="#v37a">say ben</seg> que <seg type="diff_c" xml:id="v37b_cos" corresp="#v37b">no·m</seg> es <rhyme label="a">gen</rhyme>
                                 </l>
     <l n="38">quar ab vos <rhyme label="a">conten</rhyme>,</l>
     <l n="39">mas <seg type="edit">fatz lo</seg> <rhyme label="a">forsadamen</rhyme>,</l>
@@ -587,14 +596,15 @@
                                 </l>
     <l n="46">s’ieu en suy <rhyme label="b">blasmatz</rhyme>.</l>
     <l n="47">
-                                    <seg type="diff_c">Qu’a</seg> <seg type="corr_c">vos</seg> tanh lo mals <rhyme label="c">ressos</rhyme>
+                                    <seg type="diff_c" xml:id="v47_cos" corresp="#v47">Qu’a</seg> <seg type="corr_c">vos</seg> tanh lo mals <rhyme label="c">ressos</rhyme>
                                 </l>
-    <l n="48">don <seg type="diff_c">ve·l</seg> tortz e l’<rhyme label="c">ochaizos</rhyme>.</l>
+    <l n="48">don <seg type="diff_c" xml:id="v48_cos" corresp="#v48">ve·l</seg> tortz e l’<rhyme label="c">ochaizos</rhyme>.</l>
 </lg>
 
 <!-- Cobla V -->
 <lb/>
-<lg type="stanza" n="5" rhyme="aaabbaaabbcc">
+<lg type="stanza" n="5" rhyme="aaabbaaabbcc" xml:id="cos5" corresp="#crt5">
+                <anchor xml:id="anchor-cos5"/>
     <l n="49">Ben suy folhs, ad <rhyme label="a">essien</rhyme>,</l>
     <l n="50">quar guast e <rhyme label="a">despen</rhyme>
                                 </l>
@@ -610,21 +620,22 @@
                                     </seg>
                                 </l>
     <l n="55">
-                                    <seg type="edit">no·us <seg type="diff_c">laiss’aver</seg> <rhyme label="a">chauzimen</rhyme>
+                                    <seg type="edit">no·us <seg type="diff_c" xml:id="v55_cos" corresp="#v55">laiss’aver</seg> <rhyme label="a">chauzimen</rhyme>
                                     </seg>,</l>
     <l n="56">anz vos tolh e vos <rhyme label="a">defen</rhyme>
                                 </l>
     <l n="57">que re non <rhyme label="b">crezatz</rhyme>.</l>
     <l n="58">Mas per so no·m <rhyme label="b">tatz</rhyme>,</l>
     <l n="59">
-                                    <seg type="diff_c">qu’ans</seg> sufriray <rhyme label="c">pezansos</rhyme>
+                                    <seg type="diff_c" xml:id="v59_cos" corresp="#v59">qu’ans</seg> sufriray <rhyme label="c">pezansos</rhyme>
                                 </l>
-    <l n="60">tro <seg type="diff_c">venha</seg> mielhers <rhyme label="c">sazos</rhyme>.</l>
+    <l n="60">tro <seg type="diff_c" xml:id="v60_cos" corresp="#v60">venha</seg> mielhers <rhyme label="c">sazos</rhyme>.</l>
 </lg>
 
 <!-- Tornada -->
 <lb/>
-<lg type="envoy" n="tornada">
+<lg type="envoy" n="tornada" xml:id="cos6" corresp="#crt6">
+                <anchor xml:id="anchor-cos6"/>
     <l n="61">Campanha, be·us <rhyme label="a">pren</rhyme>
                                 </l>
     <l n="62">que don’avetz ses <rhyme label="a">conten</rhyme>
@@ -640,7 +651,6 @@
             </div>
             <!-- Apparato critico delle varianti sostanziali del testo di costellazione -->
             <div type="app_cos_sos">
-            <head>Apparato di costellazione</head>
               <listApp>
 
     <app ana="sos">
@@ -1068,7 +1078,8 @@
                     <p>
                             <title>Cobla trasmessa per tradizione indiretta</title>
                         </p>
-                    <lg type="stanza" n="extra">
+                    <lg type="stanza" xml:id="extra7" corresp="#cos3">
+                    <anchor xml:id="anchor-extra7"/>
                                 <l n="25">Heu sui folls car i enten</l>
                                 <l n="26">nuill meilloramen,</l>
                                 <l n="27">c’ades on plus vos repren</l>

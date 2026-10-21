@@ -170,7 +170,9 @@
         </revisionDesc>
 
     </teiHeader>
-    <facsimile>
+    
+<facsimile>
+ <div>
     <surfaceGrp xml:id="C">
         <surface n="1">
             <graphic url="images/C8a.png"/>
@@ -205,19 +207,15 @@
             <graphic url="images/V8a.jpeg"/>
         </surface>
     </surfaceGrp>
-    </facsimile>
-
+  </div>
+</facsimile>
     <text>
-      <div type="edition">
 
         <body>
-
-
                 <div type="manoscritti">
-                    <p>
-                        <list type="facsimile">
+                        <list>
                             <item>
-                               <witDetail>C</witDetail> 192v: <seg>Gausbert de Puegsibot</seg> (in tavola <seg>Aimeric de
+                               <witDetail>C</witDetail> 192v: <seg>Gaubert de Puegsibot</seg> (in tavola <seg>Aimeric de
                                 Pegulhan</seg>);
                             </item>
                             <item>
@@ -230,7 +228,6 @@
                                 <witDetail>V</witDetail> 81r: <seg>Aizo comenzon las chanzos de Pugcibot</seg>.
                             </item>
                         </list>
-                    </p>
                 </div> 
                 <div type="scheda_metrica">
 
@@ -248,21 +245,22 @@
                 </p>
                 <!-- Cobla I -->
                 <label>I</label>
-                        <lg type="stanza" n="1" rhyme="abbaccddaa">
+                        <lg type="stanza" n="1" rhyme="abbaccddaa" xml:id="crt1" corresp="#cos1">
+                            <anchor xml:id="anchor-crt1"/>
                     <l n="1">Partit de joi e d’<rhyme label="a">amor</rhyme>,</l>
                     <l n="2">e liurat a mal <rhyme label="b">sufrir</rhyme>,</l>
                     <l n="3">
-                        <seg xml:id="v3" type="diff">volgr’ieu</seg>, si pogues, <rhyme label="b">morir</rhyme>.</l>
+                        <seg xml:id="v3" corresp="#v3_cos" type="diff">volgr’ieu</seg>, si pogues, <rhyme label="b">morir</rhyme>.</l>
                     <l n="4">Mas, per creisser ma <rhyme label="a">dolor</rhyme>
                     </l>
                     <l n="5">e l’ira que no m’<rhyme label="c">oblida</rhyme>,</l>
                     <l n="6">mi creis mal mon grat ma <rhyme label="c">vida</rhyme>;</l>
                     <l n="7">que solatz e <rhyme label="d">
-                            <seg xml:id="v7" type="diff">chan</seg>
+                            <seg xml:id="v7" corresp="#v7_cos" type="diff">chan</seg>
                         </rhyme>
                     </l>
                     <l n="8">m’es dol et <rhyme label="d">
-                            <seg xml:id="v8" type="diff">afan</seg>
+                            <seg xml:id="v8" corresp="#v8_cos" type="diff">afan</seg>
                         </rhyme>
                     </l>
                     <l n="9">e nuls jois no m’a <rhyme label="a">sabor</rhyme>,</l>
@@ -271,7 +269,8 @@
                 <lb/>
                 <!-- Cobla II -->
                 <label>II</label>
-                        <lg type="stanza" n="2" rhyme="abbaccddaa">
+                        <lg type="stanza" n="2" rhyme="abbaccddaa" xml:id="crt2" corresp="#cos2">
+                        <anchor xml:id="anchor-crt2"/>
                     <l n="11">Sella que·m <term type="glossario">ten en <rhyme label="a">error<note type="popup" xml:id="gloss-error">
                             <label>≡ LEX</label>
                             <term type="lex">tener en error</term>
@@ -284,26 +283,27 @@
                     <l n="12">mi sap tant en grat <rhyme label="b">servir</rhyme>
                     </l>
                     <l n="13">
-                        <seg xml:id="v13" type="diff">que no vol mi sol</seg> <rhyme label="b">delir</rhyme>,</l>
+                        <seg xml:id="v13" corresp="#v13_cos" type="diff">que no vol mi sol</seg> <rhyme label="b">delir</rhyme>,</l>
                     <l n="14">ans ponh’en sa <rhyme label="a">dezonor</rhyme>;</l>
-                    <l n="15">e plai li, tant <seg xml:id="v15" type="diff">es <rhyme label="c">chauzida</rhyme>
+                    <l n="15">e plai li, tant <seg xml:id="v15" corresp="#v15_cos" type="diff">es <rhyme label="c">chauzida</rhyme>
                                 </seg>!
                             </l>
                     <l n="16">Pus mi a mort, quil sia <rhyme label="c">aunida</rhyme>.</l>
-                    <l n="17">Qu’anta·l fora <seg xml:id="v17" type="diff">
+                    <l n="17">Qu’anta·l fora <seg xml:id="v17" corresp="#v17_cos" type="diff">
                             <rhyme label="d">gran</rhyme>
                         </seg>
                     </l>
-                    <l n="18">de mi sol l’<seg xml:id="v18" type="diff">
+                    <l n="18">de mi sol l’<seg xml:id="v18" corresp="#v18_cos" type="diff">
                                     <rhyme label="d">enjan</rhyme>,</seg>
                             </l>
-                    <l n="19">per que·s tol <seg xml:id="v19" type="diff">pros</seg> et <rhyme label="a">honor</rhyme>,</l>
+                    <l n="19">per que·s tol <seg xml:id="v19" corresp="#v19_cos" type="diff">pros</seg> et <rhyme label="a">honor</rhyme>,</l>
                     <l n="20">que blasme no·l fai <rhyme label="a">paor</rhyme>.</l>
                 </lg>
                 <lb/>
                 <!-- Cobla III -->
                 <label>III</label>
-                        <lg type="stanza" n="3" rhyme="abbaccddaa">
+                        <lg type="stanza" n="3" rhyme="abbaccddaa" xml:id="crt3" corresp="#cos3">
+                        <anchor xml:id="anchor-crt3"/>
                     <l n="21">Qu’ab bel semblant trichador</l>
                     <l n="22">mi saup gent <rhyme label="b">enfoletir</rhyme>
                     </l>
@@ -311,17 +311,17 @@
                     </l>
                     <l n="24">tro m’ac pres per <rhyme label="a">servidor</rhyme>;</l>
                     <l n="25">pueis quan fo de mi <rhyme label="c">aizida</rhyme>,</l>
-                    <l n="26">no·m poc <seg xml:id="v26" type="diff">far mais</seg> de <rhyme label="c">guandida</rhyme>
+                    <l n="26">no·m poc <seg xml:id="v26" corresp="#v26_cos" type="diff">far mais</seg> de <rhyme label="c">guandida</rhyme>
                     </l>
-                    <l n="27">son leugier <seg xml:id="v27" type="diff">
+                    <l n="27">son leugier <seg xml:id="v27" corresp="#v27_cos" type="diff">
                             <rhyme label="d">talan</rhyme>
                         </seg>
                     </l>
-                    <l n="28">quans que passes l’<seg xml:id="v28" type="diff">
+                    <l n="28">quans que passes l’<seg xml:id="v28" corresp="#v28_cos" type="diff">
                                     <rhyme label="d">an</rhyme>
                                 </seg>,</l>
                     <l n="29">
-                        <seg xml:id="v29" type="diff">
+                        <seg xml:id="v29" corresp="#v29_cos" type="diff">
                                     <term type="glossario">aizic<note xml:id="gloss-aizic" type="popup">
                             <label>≡ LEX ≋ LIT</label>
                             <term type="lex">aizir</term>
@@ -334,49 +334,50 @@
                         </note>
                                     </term> un fals</seg> <rhyme label="a">preiador</rhyme>
                     </l>
-                    <l n="30">ab si <seg xml:id="v30" type="diff">ios</seg> son <rhyme label="a">cobertor</rhyme>.</l>
+                    <l n="30">ab si <seg xml:id="v30" type="diff" corresp="#v30_cos">ios</seg> son <rhyme label="a">cobertor</rhyme>.</l>
                 </lg>
                 <lb/>
 
                 <!-- Cobla IV -->
                 <label>IV</label>
-                        <lg type="stanza" n="4" rhyme="abbaccddaa">
-                    <l n="31">Aras <seg xml:id="v31" type="diff">conosc</seg> ma <rhyme label="a">folor</rhyme>,</l>
+                        <lg type="stanza" n="4" rhyme="abbaccddaa" xml:id="crt4" corresp="#cos4">
+                        <anchor xml:id="anchor-crt4"/>
+                    <l n="31">Aras <seg xml:id="v31" type="diff" corresp="#v31_cos">conosc</seg> ma <rhyme label="a">folor</rhyme>,</l>
                     <l n="32">que trop saubi mal <rhyme label="b">chauzir</rhyme>.</l>
                     <l n="33">E s’anc Dieus per repentir</l>
                     <l n="34">perdonet a <rhyme label="a">peccador</rhyme>,</l>
                     <l n="35">
-                        <seg xml:id="v35" type="diff">que ja per esta <rhyme label="c">falida</rhyme>,</seg>
+                        <seg xml:id="v35" type="diff" corresp="#v35_cos">que ja per esta <rhyme label="c">falida</rhyme>,</seg>
                             </l>
-                    <l n="36">m’arma no <seg xml:id="v36" type="diff">sia</seg> <rhyme label="c">delida</rhyme>.
+                    <l n="36">m’arma no <seg xml:id="v36" type="diff" corresp="#v36_cos">sia</seg> <rhyme label="c">delida</rhyme>.
                         </l>
                     <l n="37">
-                                <seg xml:id="v37a" type="diff">Que</seg> mon cor <seg xml:id="v37b" type="diff">
+                                <seg xml:id="v37a" type="diff" corresp="#v37a_cos">Que</seg> mon cor <seg xml:id="v37b" type="diff" corresp="#v37b_cos">
                             <rhyme label="d">pessan</rhyme>
                         </seg>
                     </l>
                     <l n="38">
-                        <seg xml:id="v38" type="diff">es trop <rhyme label="d">malanan</rhyme>
+                        <seg xml:id="v38" corresp="#v38_cos" type="diff">es trop <rhyme label="d">malanan</rhyme>
                         </seg>
                     </l>
                     <l n="39">
-                                <seg xml:id="v39" type="diff">e</seg> tem, si Dieus no·m <rhyme label="a">socor</rhyme>,</l>
+                                <seg xml:id="v39" type="diff" corresp="#v39_cos">e</seg> tem, si Dieus no·m <rhyme label="a">socor</rhyme>,</l>
                     <l n="40">perdre mi e ma <rhyme label="a">valor</rhyme>.</l>
                 </lg>
                 <lb/>
                 <!-- Cobla V -->
                 <label>V</label>
-                        <lg type="stanza" n="5" rhyme="abbaccddaa">
+                        <lg type="stanza" n="5" rhyme="abbaccddaa" xml:id="crt5" corresp="#cos5">
+                        <anchor xml:id="anchor-crt5"/>
                     <l n="41">Qu’ieu non ai sen ni <rhyme label="a">viguor</rhyme>
                     </l>
                     <l n="42">que·m puesca de lieis <rhyme label="b">partir</rhyme>,</l>
                     <l n="43">ni·l cor lunhar ni <rhyme label="b">frezir</rhyme>
                     </l>
                     <l n="44">
-                                <seg type="corr" xml:id="001">que</seg> ja non feira <rhyme label="a">clamor</rhyme>.</l>
+                                <seg type="corr">que</seg> ja non feira <rhyme label="a">clamor</rhyme>.</l>
                     <l n="45">
-                                <seg xml:id="v45" type="diff">Que</seg> aitals es m’<rhyme label="c">escharida</rhyme>
-                                <label/>
+                                <seg xml:id="v45" type="diff" corresp="#v45_cos">Que</seg> aitals es m’<rhyme label="c">escharida</rhyme>
                     </l>
                     <l n="46">qu’a tot aital <term type="glossario">
                                     <rhyme label="c">deschauzida</rhyme>
@@ -387,17 +388,17 @@
                                     Dal latino [ᴅᴇᴄᴀᴅᴇ̆ʀᴇ]</def>
                                     <ref rend="exit" target="https://dom-en-ligne.de/dom.php?lhid=3B2DGpdRbggoz8tHPFVUne">DOM</ref>
                                     <lb/>
-                                    <def>L’aggettivo, (qui con un esplicito riferimento a un decadimento morale) è parola-rima anche al v. 46.
-                                    <lb/>Nell’antologia a cura di Sanguineti-Scarpati, la lezione <seg type="it">chauzida</seg> ("virtuosa") in C è giudicata di qualità migliore, poché trasmette un significato ironico che gli altri manoscritti non coglierebbero.</def>
+                                    <def>L’aggettivo, (qui con un esplicito riferimento a un decadimento morale) è parola-rima anche al v. 15 del testo di costellazione.
+                                    <lb/>Nell’antologia a cura di Sanguineti-Scarpati, la lezione corrispondente in C, <seg type="it">chauzida</seg> ("virtuosa"), è giudicata di qualità migliore, poché trasmette un significato ironico che gli altri manoscritti non coglierebbero.</def>
                                 </note>
                                 </term>
                     </l>
                     <l n="47">
-                        <seg xml:id="v47" type="diff">suy <rhyme label="d">humilian</rhyme>.
+                        <seg xml:id="v47" type="diff" corresp="#v47_cos">suy <rhyme label="d">humilian</rhyme>.
                         </seg>
                             </l>
                     <l n="48">Per que tot <rhyme label="d">
-                            <seg xml:id="v48" type="diff">claman</seg>
+                            <seg xml:id="v48" type="diff" corresp="#v48_cos">claman</seg>
                         </rhyme>
                     </l>
                     <l n="49">volgra <term type="glossario">termenes<note xml:id="gloss-termenar" type="popup">
@@ -408,27 +409,27 @@
                             </def>
                             <ref rend="exit" target="https://dom-en-ligne.de/dom.php?lhid=3kq9B9O8sW8ntGO6hNQuRu">DOM</ref>
                             <lb/>
-                            <def>Il verbo <seg type="it">termenar</seg> è tradotto da Levy come “poser des bornes, delimiter” e associato al sostantivo <seg type="it">terme</seg>, che si rifa appunto al concetto di “limite, confine”. In più, nella FEW si ritrovano i significati di “concludere, porre fine”, ma anche “perire, uccidere”, ed è quest’ultima la sfumatura adottata nella traduzione Shepard.
-                                <lb/>Appare comunque più probabile che il <seg type="it">clamans</seg> del v. 49 non sia altri che lo stesso io lirico, soggetto singolare del verbo, seguendo un’ipotesi già avanzata da Gambini nella sua edizione. Gambini sottolinea il frequente utilizzo di Gausbert di termini legati al <seg type="it">clamar</seg> per descrivere il lamento e l’afflizione causati dalla sua condizione amorosa.</def>
+                            <def>Il verbo <seg type="it">termenar</seg> è tradotto da Levy come “poser des bornes, delimiter” e associato al sostantivo <seg type="it">terme</seg>, che si rifa appunto al concetto di “limite, confine”. In più, nella FEW si ritrovano i significati di “concludere, porre fine”, ma anche “perire, uccidere”, ed è quest’ultima la sfumatura adottata nella traduzione Shepard. Gambini, nella sua edizione, giudica comunque più probabile che il <seg type="it">clamans</seg> del v. 49 non sia altri che lo stesso io lirico, soggetto singolare del verbo, notando l’utilizzo di Gausbert di termini legati al <seg type="it">clamar</seg> per descrivere il lamento e l’afflizione causati dalla sua condizione amorosa.<lb/>Nell'edizione qui proposta, si è scelto di riproporre l’interpretazione di Shepard che vede gli amanti della donna oggetto del periodo, non disponendo di certezze grammaticali utili a effettuare confronti sull’uso intransitivo del verbo <seg type="it">termenar</seg> nella produzione trobadorica.</def>
                                     </note>
                                 </term>, <rhyme label="a">seignor</rhyme>,</l>
-                    <l n="50">del <seg xml:id="v50" type="diff">gran</seg> mal de sa <rhyme label="a">calor</rhyme>.</l>
+                    <l n="50">del <seg xml:id="v50" type="diff" corresp="#v50_cos">gran</seg> mal de sa <rhyme label="a">calor</rhyme>.</l>
                 </lg>
                 <lb/>
                 <!-- Tornada -->
                 <label>VI</label>
-                        <lg type="envoy" n="tornada" rhyme="ddaa">
+                        <lg type="envoy" n="tornada" rhyme="ddaa" xml:id="crt6" corresp="#cos6">
+                        <anchor xml:id="anchor-crt6"/>
                     <l n="51">Si sa calor <rhyme label="d">gran</rhyme>
                     </l>
                     <l n="52">frezis fin <rhyme label="d">aman</rhyme>,</l>
                     <l n="53">fora cautz per sa <rhyme label="a">freidor</rhyme>,</l>
-                    <l n="54">quar <seg type="corr" xml:id="002">soi fregz
+                    <l n="54">quar <seg type="corr">soi fregz
                             </seg> per sa <term type="glossario">
                                     <rhyme label="a">calor</rhyme>
                                     <note xml:id="gloss-calor" type="popup">
                                     <label>≋ LIT</label>
                                     <term type="lex">calor/fregz</term>
-                                    <def>Il comportamento della donna amata è condannato da Gausbert in corrispondenza della tornada di chiusura della canzone, in cui il poeta lamenta il suo essere raggelato dall’ardore delle sue azioni, con esplicito riferimento ai tradimenti della donna con altri pretendenti.</def>
+                                    <def>Il comportamento della donna amata è condannato da Gausbert in corrispondenza della <seg type="it">tornada</seg> di chiusura della canzone, in cui il poeta lamenta il suo essere raggelato dall’ardore delle sue azioni, con esplicito riferimento ai tradimenti della donna con altri pretendenti.</def>
                                     </note>
                                 </term>.</l>
                 </lg>
@@ -436,7 +437,6 @@
             </div>
             <!-- Apparato critico delle varianti sostanziali -->
             <div type="app_crt_sos">
-            <head>Apparato critico</head>
               <listApp>
                  <app ana="sos">
                         <num>44</num>
@@ -460,13 +460,14 @@
                 <p>Ms. base E <lb/>Correzioni da <seg type="corr_c">H</seg>
                 </p>
                 <!-- Cobla I -->
-                <lg type="stanza" n="1.1" rhyme="abbaccddaa">
+                <lg type="stanza" n="1.1" rhyme="abbaccddaa" xml:id="cos1" corresp="#crt1">
+                <anchor xml:id="anchor-cos1"/>
                     <l n="1">Partit de joi e d’<rhyme label="a">amor</rhyme>,</l>
 
                     <l n="2">e liurat a mal <rhyme label="b">sufrir</rhyme>,</l>
 
                     <l n="3">
-                                <seg type="diff_c" corresp="#v3">volgra</seg>, si pogues, <rhyme label="b">morir</rhyme>.
+                                <seg type="diff_c" xml:id="v3_cos" corresp="#v3">volgra</seg>, si pogues, <rhyme label="b">morir</rhyme>.
                     </l>
 
                     <l n="4">Mas, per creisser ma <rhyme label="a">dolor</rhyme>
@@ -480,12 +481,12 @@
 
                     <l n="7">
                         que solatz e <rhyme label="d">
-                            <seg type="diff_c" corresp="#v7">chans</seg>
+                            <seg type="diff_c" xml:id="v7_cos" corresp="#v7">chans</seg>
                         </rhyme>
                     </l>
 
                     <l n="8">m’es dols et <rhyme label="d">
-                            <seg type="diff_c" corresp="#v8">afans</seg>
+                            <seg type="diff_c" xml:id="v8_cos" corresp="#v8">afans</seg>
                         </rhyme>
                     </l>
 
@@ -501,7 +502,8 @@
                 </lg>
                 <lb/>
                 <!-- Cobla II -->
-                <lg type="stanza" n="2.1" rhyme="abbaccddaa">
+                <lg type="stanza" n="2.1" rhyme="abbaccddaa" xml:id="cos2" corresp="#crt2">
+                <anchor xml:id="anchor-cos2"/>
 
                     <l n="11">Sella que·m ten en <rhyme label="a">error</rhyme>
                     </l>
@@ -510,32 +512,32 @@
                     </l>
 
                     <l n="13">
-                      <seg corresp="#v13" type="diff_c">que tot sol no·m volc</seg> <rhyme label="b">delir</rhyme>
+                      <seg corresp="#v13" type="diff_c" xml:id="v13_cos">que tot sol no·m volc</seg> <rhyme label="b">delir</rhyme>
                     </l>
 
                     <l n="14">ans ponh’en sa <rhyme label="a">dezonor</rhyme>;</l>
 
                     <l n="15">
-                        e platz li, tant <seg corresp="#v15" type="diff_c">
+                        e platz li, tant <seg corresp="#v15" xml:id="v15_cos" type="diff_c">
                                     <rhyme label="c">deschauzida</rhyme>!</seg>
                     </l>
 
                     <l n="16"> Pos m’a mort, quill <rhyme label="c">si’aunida</rhyme>
                     </l>
 
-                    <l n="17">C’anta·l fora <seg type="diff_c" corresp="#v17">
+                    <l n="17">C’anta·l fora <seg type="diff_c" xml:id="v17_cos" corresp="#v17">
                         <rhyme label="d">grans</rhyme>
                                 </seg>
                     </l>
 
                     <l n="18">
-                        de mi <seg type="corr_c">sol</seg> l’<seg type="diff_c" corresp="#v18">
+                        de mi <seg type="corr_c">sol</seg> l’<seg type="diff_c" xml:id="v18_cos" corresp="#v18">
                                     <rhyme label="d">enguans</rhyme>,
                                 </seg>
                             </l>
 
                     <l n="19">
-                        per que·s tol <seg type="diff_c" corresp="#v19">pretz</seg> et <rhyme label="a">honor</rhyme>,                        
+                        per que·s tol <seg type="diff_c" xml:id="v19_cos" corresp="#v19">pretz</seg> et <rhyme label="a">honor</rhyme>,                        
                     </l>
 
                     <l n="20">que blasme no il fai <rhyme label="a">paor</rhyme>.</l>
@@ -543,7 +545,8 @@
                 </lg>
                 <lb/>
                 <!-- Cobla III -->
-                <lg type="stanza" n="3.1" rhyme="abbaccddaa">
+                <lg type="stanza" n="3.1" rhyme="abbaccddaa" xml:id="cos3" corresp="#crt3">
+                <anchor xml:id="anchor-cos3"/>
 
                     <l n="21">Ab bel semblan <rhyme label="a">trichador</rhyme>
                             </l>
@@ -556,25 +559,26 @@
                     <l n="25">
                         pueis quan fo de mi <rhyme label="c">aizida</rhyme>,
                     </l>
-                    <l n="26">no·m poc <seg type="diff_c" corresp="#v26">plus far</seg> de <rhyme label="c">gandida</rhyme>
+                    <l n="26">no·m poc <seg type="diff_c" xml:id="v26_cos" corresp="#v26">plus far</seg> de <rhyme label="c">gandida</rhyme>
                     </l>
-                    <l n="27">son leugiers <seg type="diff_c" corresp="#v27">
+                    <l n="27">son leugiers <seg type="diff_c" xml:id="v27_cos" corresp="#v27">
                             <rhyme label="d">talans</rhyme>
                         </seg>
                     </l>
-                    <l n="28">quans que passes l’<seg type="diff_c" corresp="#v28">
+                    <l n="28">quans que passes l’<seg type="diff_c" xml:id="v28_cos" corresp="#v28">
                                     <rhyme label="d">ans</rhyme>,</seg>
                     </l>
                     <l n="29">
-                        <seg type="diff_c" corresp="#v29">sofri maint fol</seg> <rhyme label="a">preiador</rhyme>
+                        <seg type="diff_c" xml:id="v29_cos" corresp="#v29">sofri maint fol</seg> <rhyme label="a">preiador</rhyme>
                     </l>
-                    <l n="30">ab si <seg type="diff_c" corresp="#v30">sotz</seg> son <rhyme label="a">cobertor</rhyme>.</l>
+                    <l n="30">ab si <seg type="diff_c" xml:id="v30_cos" corresp="#v30">sotz</seg> son <rhyme label="a">cobertor</rhyme>.</l>
                 </lg>
                 <lb/>
                 <!-- Cobla IV -->
-                <lg type="stanza" n="4.1" rhyme="abbaccddaa">
+                <lg type="stanza" n="4.1" rhyme="abbaccddaa" xml:id="cos4" corresp="#crt4">
+                <anchor xml:id="anchor-cos4"/>
 
-                    <l n="31">Aras <seg type="diff_c" corresp="#v31">penet</seg> ma <rhyme label="a">folor</rhyme>,</l>
+                    <l n="31">Aras <seg type="diff_c" xml:id="v31_cos" corresp="#v31">penet</seg> ma <rhyme label="a">folor</rhyme>,</l>
                     <l n="32">
                         quar trop saubi mal <rhyme label="b">chauzir</rhyme>.
                     </l>
@@ -582,34 +586,35 @@
                             </l>
                     <l n="34">perdonet a <rhyme label="a">peccador</rhyme>,</l>
                     <l n="35">
-                        <seg type="diff_c" corresp="#v35">ja per aquesta <rhyme label="c">faillida</rhyme>,
+                        <seg type="diff_c" xml:id="v35_cos" corresp="#v35">ja per aquesta <rhyme label="c">faillida</rhyme>,
                         </seg>
                     </l>
                     <l n="36">
-                        m’arma no <seg type="diff_c" corresp="#v36">sera</seg> <rhyme label="c">delida</rhyme>.
+                        m’arma no <seg type="diff_c" xml:id="v36_cos" corresp="#v36">sera</seg> <rhyme label="c">delida</rhyme>.
                     </l>
                     <l n="37">
-                                <seg corresp="#v37a" type="diff_c">Mas</seg> mos cors <seg corresp="#v37b" type="diff_c">
+                                <seg corresp="#v37a" xml:id="v37a_cos" type="diff_c">Mas</seg> mos cors <seg corresp="#v37b" xml:id="v37b_cos" type="diff_c">
                                     <rhyme label="d">pezans</rhyme>
                                 </seg>
                     </l>
                     <l n="38">
-                        <seg type="diff_c" corresp="#v38">n’es tan <rhyme label="d">malanans</rhyme>
+                        <seg type="diff_c" xml:id="v38_cos" corresp="#v38">n’es tan <rhyme label="d">malanans</rhyme>
                                 </seg>
                     </l>
                     <l n="39">
-                                <seg type="diff_c" corresp="#v39">qu’ieu</seg> tem, si Dieus no·m <rhyme label="a">socor</rhyme>,
+                                <seg type="diff_c" xml:id="v39_cos" corresp="#v39">qu’ieu</seg> tem, si Dieus no·m <rhyme label="a">socor</rhyme>,
                     </l>
                     <l n="40">perdre mi e ma <rhyme label="a">valor</rhyme>.</l>
                 </lg>
                 <lb/>
                 <!-- Cobla V -->
-                <lg type="stanza" n="5.1" rhyme="abbaccddaa">
+                <lg type="stanza" n="5.1" rhyme="abbaccddaa" xml:id="cos5" corresp="#crt5">
+                <anchor xml:id="anchor-cos5"/>
                     <l n="41">Qu’ieu non ai sen ni <rhyme label="a">viguor</rhyme>
                     </l>
                     <l n="42">que·m puesca de lieis <rhyme label="b">partir</rhyme>,
                     </l>
-                    <l n="43">ni cor lunhar ni <seg type="corr_c" corresp="#v43">
+                    <l n="43">ni cor lunhar ni <seg type="corr_c" xml:id="v43_cos" corresp="#v43">
                                     <rhyme label="b">frezir</rhyme>
                                 </seg>
                     </l>
@@ -617,28 +622,29 @@
                         que ja non feira <rhyme label="a">clamor</rhyme>.
                     </l>
                     <l n="45">
-                        <seg type="diff_c" corresp="#v45">Ans</seg> es aitals m’<rhyme label="c">escarida</rhyme>
+                        <seg type="diff_c" xml:id="v45_cos" corresp="#v45">Ans</seg> es aitals m’<rhyme label="c">escarida</rhyme>
                     </l>
                     <l n="46">c’ab tot aital <rhyme label="c">deschauzida</rhyme>
                             </l>
                     <l n="47">
-                        <seg type="diff_c" corresp="#v47">fora <rhyme label="d">humelians</rhyme>
+                        <seg type="diff_c" xml:id="v47_cos" corresp="#v47">fora <rhyme label="d">humelians</rhyme>
                                 </seg>
                     </l>
-                    <l n="48">Per que totz <seg type="diff_c" corresp="#v48">
+                    <l n="48">Per que totz <seg type="diff_c" xml:id="v48_cos" corresp="#v48">
                                     <rhyme label="d">clamans</rhyme>
                                 </seg>
                     </l>
                     <l n="49">volgra termenes, <rhyme label="a">seignor</rhyme>
                             </l>
                     <l n="50">
-                        del <seg type="diff_c" corresp="#v50">greu</seg> mal de sa <rhyme label="a">calor</rhyme>.
+                        del <seg type="diff_c" xml:id="v50_cos" corresp="#v50">greu</seg> mal de sa <rhyme label="a">calor</rhyme>.
                     </l>
 
                 </lg>
                 <lb/>
                 <!-- Tornada -->
-                <lg type="envoy" n="tornada1" rhyme="ddaa">
+                <lg type="envoy" n="tornada1" rhyme="ddaa" xml:id="cos6" corresp="#crt6">
+                <anchor xml:id="anchor-cos6"/>
 
                     <l n="51">
                         Si sa calors <rhyme label="d">grans</rhyme>
@@ -664,7 +670,6 @@
             </div>
             <!-- Apparato critico delle varianti sostanziali del testo di costellazione -->
             <div type="app_cos_sos">
-            <head>Apparato di costellazione</head>
               <listApp>
                 <app ana="sos">
                     <num>3</num>
@@ -877,10 +882,8 @@
               </listApp>
             </div>
                         <div type="trad_critico" xml:lang="it">
-
                 <p n="1">
-                        <label>I</label>
-                    Allontanato dalla gioia e dall’amore, e consumato dalla tristezza, io vorrei morire, se
+                        <label>I</label>Allontanato dalla gioia e dall’amore, e consumato dalla tristezza, io vorrei morire, se
                     potessi. Eppure, per accrescere il mio dolore e l’afflizione che non mi abbandona la mia vita
                     continua, mio malgrado. Poiché il piacere e il canto sono per me dolore e angoscia, e non gradisco
                     alcuna gioia, per questo, io che ero solito cantare, piango.
@@ -918,8 +921,7 @@
                         <label>V</label>
                     Perché io non ho buonsenso né forza che mi possa separare da lei, né allontanare né
                     raffreddare il cuore, così che io non mi lamenti più. Anzi, è tale il mio destino che con una donna
-                    così vile sono umiliato. Per questo, signori, io che mi lamento vorrei ponesse fine al grande
-                    peccato del suo ardore.
+                    così vile sono umiliato. Per questo, signori, io vorrei che lei finisse i suoi amanti con il grande fuoco del suo calore.
                 </p>
                                     <lb/>
                 <p n="6">
@@ -962,6 +964,5 @@
                 </div>
             </div>
         </back>
-     </div>
     </text>
 </TEI>

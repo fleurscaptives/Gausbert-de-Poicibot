@@ -218,6 +218,7 @@
 
     </teiHeader>
     <facsimile>
+     <div>
       <surfaceGrp xml:id="A">
         <surface n="1">
             <graphic url="images/A1a.jpg"/>
@@ -298,6 +299,7 @@
             <graphic url="images/T1b.png"/>
         </surface>
      </surfaceGrp>
+    </div>
     </facsimile>
     
     
@@ -312,7 +314,6 @@
     <body>
         <front>
             <div type="manoscritti">
-                <p>
                     <list type="facsimile">
                         <item>
                             <witDetail>A</witDetail> 116v: <seg>Lo monges de Ponciboc</seg>;
@@ -345,7 +346,6 @@
                             <witDetail>T</witDetail> 112r: <seg>Gaubert de Porcibot</seg>.
                         </item>
                     </list>
-                </p>
             </div>
             <div type="scheda_metrica">
 
@@ -366,11 +366,12 @@
                             </p>
                 <!-- Cobla I -->
                     <label>I</label>
-                    <lg type="stanza" n="1" rhyme="abbaaccaa">
+                    <lg type="stanza" n="1" rhyme="abbaaccaa" xml:id="crt1" corresp="#cos1">
+                            <anchor xml:id="anchor-crt1"/>
                     <l n="1">Amors, s’a vos <rhyme label="a">plagues</rhyme>
                                 </l>
                     <l n="2">
-                                    <seg xml:id="v2" type="diff">e non fos <rhyme label="b">desrazos</rhyme>
+                                    <seg type="diff" xml:id="v2" corresp="#v2_cos">e non fos <rhyme label="b">desrazos</rhyme>
                                     </seg>,</l>
                     <l n="3">c’apres cen mals m’en <rhyme label="b">fos</rhyme>
                                 </l>
@@ -385,12 +386,13 @@
                 <lb/>
                 <!-- Cobla II -->
                     <label>II</label>
-                    <lg type="stanza" n="2" rhyme="abbaaccaa">
+                    <lg type="stanza" n="2" rhyme="abbaaccaa" xml:id="crt2" corresp="#cos2">
+                            <anchor xml:id="anchor-crt2"/>
                     <l n="10">C’aissi, cum d’aut luoc <rhyme label="a">pres</rhyme>
                                 </l>
                     <l n="11">mos chans <rhyme label="b">comensamen</rhyme>,</l>
                     <l n="12">et en aut luoc <rhyme label="b">
-                                        <seg xml:id="v12" type="diff">
+                                        <seg type="diff" xml:id="v12" corresp="#v12_cos">
                                             <seg type="corr">m’enten</seg>
                                         </seg>
                                     </rhyme>,</l>
@@ -401,7 +403,7 @@
                                 </l>
                     <l n="16">tant avinens <rhyme label="c">chansos</rhyme>,</l>
                     <l n="17">
-                                    <seg xml:id="v17" type="diff">c’a mon chant</seg> <rhyme label="a">paregues</rhyme>
+                                    <seg type="diff" xml:id="v17" corresp="#v17_cos">c’a mon chant</seg> <rhyme label="a">paregues</rhyme>
                                 </l>
                     <l n="18">que <term type="glossario">de valen luoc <rhyme label="a">es</rhyme>
                                         <note type="popup" xml:id="gloss-luoc">
@@ -416,8 +418,9 @@
                     <lb/>
                 <!-- Cobla III -->
                     <label>III</label>
-                    <lg type="stanza" n="3" rhyme="abbaaccaa">
-                    <l n="19">E <seg xml:id="v19" type="diff">non</seg> faillira <rhyme label="a">ges</rhyme>
+                    <lg type="stanza" n="3" rhyme="abbaaccaa" xml:id="crt3" corresp="#cos3">
+                        <anchor xml:id="anchor-crt3"/>
+                    <l n="19">E <seg type="diff" xml:id="v19" corresp="#v19_cos">non</seg> faillira <rhyme label="a">ges</rhyme>
                                 </l>
                     <l n="20">en mi, s’ieu fos <rhyme label="b">ioios</rhyme>,</l>
                     <l n="21">c’adreitz motz e gais <rhyme label="b">sos</rhyme>
@@ -438,18 +441,19 @@
                                     </term>,</l>
                     <l n="25">que m’a lo cor e·l <rhyme label="c">sen</rhyme>
                                 </l>
-                    <l n="26">per <seg xml:id="v26" type="diff">
+                    <l n="26">per <seg type="diff" xml:id="v26" corresp="#v26_cos">
                                         <seg type="corr">fors’en</seg> tal luoc</seg> <rhyme label="a">mes</rhyme>,</l>
                     <l n="27">don no·m par que·m <rhyme label="a">taisses</rhyme>.</l>
                 </lg>
                 <lb/>
                 <!-- Cobla IV -->
                     <label>IV</label>
-                    <lg type="stanza" n="4" rhyme="abbaaccaa">
+                    <lg type="stanza" n="4" rhyme="abbaaccaa" xml:id="crt4" corresp="#cos4">
+                        <anchor xml:id="anchor-crt4"/>
                     <l n="28">E car anc <rhyme label="a">s’entremes</rhyme>
                                 </l>
                     <l n="29">
-                                    <seg xml:id="v29" type="diff">de tant</seg> fol <rhyme label="b">ardimen</rhyme>
+                                    <seg xml:id="v29" type="diff" corresp="#v29_cos">de tant</seg> fol <rhyme label="b">ardimen</rhyme>
                                 </l>
                     <l n="30">c’auses mon <rhyme label="b">pessamen</rhyme>
                                 </l>
@@ -471,7 +475,8 @@
                 <lb/>
                 <!-- Cobla V -->
                     <label>V</label>
-                    <lg type="stanza" n="5" rhyme="abbaaccaa">
+                    <lg type="stanza" n="5" rhyme="abbaaccaa" xml:id="crt5" corresp="#cos5">
+                        <anchor xml:id="anchor-crt5"/>
                     <l n="37">Ai, dompna! No·m <rhyme label="a">nogues</rhyme>
                                 </l>
                     <l n="38">pretz ni ricors ab <rhyme label="b">vos</rhyme>.</l>
@@ -487,30 +492,32 @@
                 <lb/>
                 <!-- Cobla VI -->
                     <label>VI</label>
-                    <lg type="enovy" n="tornada1" rhyme="abbaa">
+                    <lg type="enovy" n="tornada1" rhyme="abbaa" xml:id="crt6" corresp="#cos6">
+                        <anchor xml:id="anchor-crt6"/>
                     <l n="46">
-                                    <seg xml:id="tornada46" type="diff">Lai on pretz s’es <rhyme label="a">empres</rhyme>.</seg>
+                                    <seg xml:id="t1" type="diff" corresp="#t1_cos">Lai on pretz s’es <rhyme label="a">empres</rhyme>.</seg>
                                 </l>
                     <l n="47">
-                                    <seg xml:id="tornada47" type="diff">
+                                    <seg xml:id="t2" type="diff" corresp="#t2_cos">
                                         e valors <rhyme label="b">essaimen</rhyme>,</seg>
                                 </l>
                     <l n="48">
-                                    <seg xml:id="tornada48" type="diff">vai, chansos, per <rhyme label="b">presen</rhyme>,</seg>
+                                    <seg xml:id="t3" type="diff" corresp="#t3_cos">vai, chansos, per <rhyme label="b">presen</rhyme>,</seg>
                                 </l>
                     <l n="49">
-                                    <seg xml:id="tornada49" type="diff">tot dreich en <rhyme label="a">
+                                    <seg xml:id="t4" type="diff" corresp="#t4_cos">tot dreich en <rhyme label="a">
                                             <seg type="corr">Creones</seg>
                                         </rhyme>,</seg>
                                 </l>
                     <l n="50">
-                                    <seg xml:id="tornada50" type="diff">al seignor del <rhyme label="a">paes</rhyme>.</seg>
+                                    <seg xml:id="t5" type="diff" corresp="#t5_cos">al seignor del <rhyme label="a">paes</rhyme>.</seg>
                                 </l>
                 </lg>
                 <lb/>
                 <!-- Cobla VII -->
                     <label>VII</label>
-                    <lg type="envoy" n="tornada2" rhyme="abbaa">
+                    <lg type="envoy" n="tornada2" rhyme="abbaa" xml:id="crt7" corresp="#cos7">
+                        <anchor xml:id="anchor-crt7"/>
                     <l n="51">Na Maria, tant <rhyme label="a">es</rhyme>
                                 </l>
                     <l n="52">vostre pretz cars e <rhyme label="b">bos</rhyme>,</l>
@@ -524,7 +531,6 @@
             </div>
             <!-- Apparato critico delle varianti sostanziali -->
             <div type="app_crt_sos">
-            <head>Apparato critico</head>
               <listApp>
               <app ana="sos">
    <num>1</num>
@@ -924,11 +930,12 @@
                                 <seg type="edit">Interventi editoriali</seg>
                             </p>
                 <!-- Cobla I -->
-                    <lg type="stanza" n="1.1" rhyme="abbaaccaa">
+                    <lg type="stanza" n="1.1" rhyme="abbaaccaa" xml:id="cos1" corresp="#crt1">
+                <anchor xml:id="anchor-cos1"/>
                     <l n="1">Amors, s’a vos <rhyme label="a">plagues</rhyme>
                                 </l>
                     <l n="2">
-                                    <seg type="diff_c" corresp="#v2">
+                                    <seg type="diff_c" xml:id="v2_cos" corresp="#v2">
                                         <seg type="edit">ben</seg> semblera <rhyme label="b">razos</rhyme>
                                     </seg>,</l>
                     <l n="3">qu’apres cent mals m’en <rhyme label="b">fos</rhyme>
@@ -945,11 +952,12 @@
                             </lg> 
                 <!-- Cobla II -->
                    <lb/>
-                    <lg type="stanza" n="2.1" rhyme="abbaaccaa">
+                    <lg type="stanza" n="2.1" rhyme="abbaaccaa" xml:id="cos2" corresp="#crt2">
+                <anchor xml:id="anchor-cos2"/>
                     <l n="10">Qu’aissi cum d’aut luec <rhyme label="a">pres</rhyme>
                                 </l>
                     <l n="11">mos chans <rhyme label="b">comensamen</rhyme>,</l>
-                    <l n="12">et en aut luec <seg type="diff_c" corresp="#v12">
+                    <l n="12">et en aut luec <seg type="diff_c" xml:id="v12_cos" corresp="#v12">
                                         <rhyme label="b">s’enten</rhyme>
                                     </seg>,</l>
                     <l n="13">et autz luecs m’a <rhyme label="a">conques</rhyme>,</l>
@@ -959,14 +967,15 @@
                                 </l>
                     <l n="16">tan avinens <rhyme label="c">chansos</rhyme>,</l>
                     <l n="17">
-                                    <seg type="diff_c" corresp="#v17">qu’a·l chantar</seg> <rhyme label="a">paregues</rhyme>
+                                    <seg type="diff_c" xml:id="v17_cos" corresp="#v17">qu’a·l chantar</seg> <rhyme label="a">paregues</rhyme>
                                 </l>
                     <l n="18">que de valen luec <rhyme label="a">es</rhyme>.</l>
                     </lg>
                 <!-- Cobla III -->
                 <lb/>
-                    <lg type="stanza" n="3.1" rhyme="abbaaccaa">
-                    <l n="19">E <seg type="diff_c" corresp="#v19">no·i</seg> falhira <rhyme label="a">res</rhyme>
+                    <lg type="stanza" n="3.1" rhyme="abbaaccaa" xml:id="cos3" corresp="#crt3">
+                <anchor xml:id="anchor-cos3"/>
+                    <l n="19">E <seg type="diff_c" xml:id="v19_cos" corresp="#v19">no·i</seg> falhira <rhyme label="a">res</rhyme>
                                 </l>
                     <l n="20">en mi, s’ieu fos <rhyme label="b">ioyos</rhyme>,</l>
                     <l n="21">qu’adreitz motz e gays <rhyme label="b">sos</rhyme>
@@ -977,18 +986,19 @@
                     <l n="24">chantar, me <rhyme label="c">dezapren</rhyme>,</l>
                     <l n="25">que <seg type="corr_c">m’a</seg> lo cor e·l <rhyme label="c">sen</rhyme>
                                 </l>
-                    <l n="26">per <seg type="diff_c" corresp="#v26">forsa tan aut</seg> <rhyme label="a">mes</rhyme>
+                    <l n="26">per <seg type="diff_c" xml:id="v26_cos" corresp="#v26">forsa tan aut</seg> <rhyme label="a">mes</rhyme>
                                 </l>
                     <l n="27">
                                     <seg type="corr_c">don no·m</seg> par <seg type="corr_c">que·m</seg> <rhyme label="a">taiches</rhyme>.</l>
                 </lg>
                 <!-- Cobla IV -->
                     <lb/>
-                            <lg type="stanza" n="4.1" rhyme="abbaaccaa">
+                            <lg type="stanza" n="4.1" rhyme="abbaaccaa" xml:id="cos4" corresp="#crt4">
+                <anchor xml:id="anchor-cos4"/>
                     <l n="28">E quar s’en <rhyme label="a">entremes</rhyme>
                                 </l>
                     <l n="29">
-                                    <seg type="diff_c" corresp="#v29">d’aitan</seg> folh <rhyme label="b">ardimen</rhyme>
+                                    <seg type="diff_c" xml:id="v29_cos" corresp="#v29">d’aitan</seg> folh <rhyme label="b">ardimen</rhyme>
                                 </l>
                     <l n="30">qu’auzes mon <rhyme label="b">pessamen</rhyme>,</l>
                     <l n="31">tan qu’en lieys lo <rhyme label="a">mezes</rhyme>,</l>
@@ -1002,7 +1012,8 @@
                 </lg>
                 <!-- Cobla V -->
                     <lb/>
-                            <lg type="stanza" n="5.1" rhyme="abbaaccaa">
+                            <lg type="stanza" n="5.1" rhyme="abbaaccaa" xml:id="cos5" corresp="#crt5">
+                <anchor xml:id="anchor-cos5"/>
                     <l n="37">Ai, dona! No·m <rhyme label="a">nogues</rhyme>
                                 </l>
                     <l n="38">pretz ni ricors ab <rhyme label="b">vos</rhyme>,</l>
@@ -1017,27 +1028,29 @@
                 </lg>
                 <!-- Cobla VI -->
                     <lb/>
-                            <lg type="enovy" n="tornada1.1" rhyme="abbaa">
+                            <lg type="enovy" n="tornada1.1" rhyme="abbaa" xml:id="cos6" corresp="#crt6">
+                <anchor xml:id="anchor-cos6"/>
                     <l n="46">
-                                    <seg type="diff_c" corresp="#tornada46">Dona, m’a bona <rhyme label="a">fes</rhyme>,</seg>
+                                    <seg type="diff_c" corresp="#t1" xml:id="t1_cos">Dona, m’a bona <rhyme label="a">fes</rhyme>,</seg>
                                 </l>
                     <l n="47">
-                                    <seg type="diff_c" corresp="#tornada47">e quar am <rhyme label="b">finamen</rhyme>
+                                    <seg type="diff_c" corresp="#t2" xml:id="t2_cos">e quar am <rhyme label="b">finamen</rhyme>
                                     </seg>
                                 </l>
                     <l n="48">
-                                    <seg type="diff_c" corresp="#tornada48">mi degra far <rhyme label="b">iauzen</rhyme>,</seg>
+                                    <seg type="diff_c" corresp="#t3" xml:id="t3_cos">mi degra far <rhyme label="b">iauzen</rhyme>,</seg>
                                 </l>
                     <l n="49">
-                                    <seg type="diff_c" corresp="#tornada49">que pus Dieus met en vos tans <rhyme label="a">bes</rhyme>,</seg>
+                                    <seg type="diff_c" corresp="#t4" xml:id="t4_cos">que pus Dieus met en vos tans <rhyme label="a">bes</rhyme>,</seg>
                                 </l>
                     <l n="50">
-                                    <seg type="diff_c" corresp="#tornada50">no cre que merce no y <rhyme label="a">mezes</rhyme>.</seg>
+                                    <seg type="diff_c" corresp="#t5" xml:id="t5_cos">no cre que merce no y <rhyme label="a">mezes</rhyme>.</seg>
                                 </l>
                 </lg>
                 <!-- Cobla VII -->
                     <lb/>
-                            <lg type="envoy" n="tornada2.1" rhyme="abbaa">
+                            <lg type="envoy" n="tornada2.1" rhyme="abbaa" xml:id="cos7" corresp="#crt7">
+                <anchor xml:id="anchor-cos7"/>
                     <l n="51">Na Maria, tant <rhyme label="a">es</rhyme>
                                 </l>
                     <l n="52">vostre pretz cars e <rhyme label="b">bos</rhyme>,</l>
@@ -1050,7 +1063,6 @@
             </div>
             <!-- Apparato critico delle varianti sostanziali del testo di costellazione -->
             <div type="app_cos_sos">
-            <head>Apparato di costellazione</head>
  <listApp>
                                 <app ana="sos">
                         <num>1</num>

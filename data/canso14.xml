@@ -267,9 +267,10 @@
 
     </teiHeader>
     <facsimile>
+     <div>
       <surfaceGrp xml:id="A">
         <surface n="1">
-            <graphic url="images/A14a.png"/>
+            <graphic url="images/AA14a.png"/>
         </surface>
         <surface n="2">
             <graphic url="images/A14b.jpg"/>
@@ -381,6 +382,7 @@
             <graphic url="images/w14b.png"/>
         </surface>
      </surfaceGrp>
+    </div>
     </facsimile>
     
     
@@ -389,7 +391,6 @@
     <body>
         <front>
             <div type="manoscritti">
-                <p>
                     <list type="facsimile">
                         <item>
                             <witDetail>A</witDetail> 116r: <seg>Lo monges de Ponciboc</seg>;
@@ -437,7 +438,6 @@
                             <witDetail>w</witDetail> 283r: anonimo.
                         </item>
                     </list>
-                </p>
             </div>
             <div type="trad_ind">
                   <head>Tradizione indiretta</head>
@@ -467,11 +467,12 @@
                             </p>
                <!-- Cobla I -->
 <label>I</label>
-<lg type="stanza" n="1" rhyme="ababbcdceed">
+<lg type="stanza" n="1" rhyme="ababbcdceed" xml:id="crt1" corresp="#cos1">
+                            <anchor xml:id="anchor-crt1"/>
     <l n="1">Una grans amors <rhyme>corals</rhyme>
                                 </l>
     <l n="2">mi destreing e·m <rhyme>te</rhyme>,</l>
-    <l n="3">si que <seg type="diff">non pens</seg> de ren <rhyme>als</rhyme>
+    <l n="3">si que <seg type="diff" xml:id="v3" corresp="#v3_cos">non pens</seg> de ren <rhyme>als</rhyme>
                                 </l>
     <l n="4">mas clamar <rhyme>Merce</rhyme>.</l>
     <l n="5">E puois mi d’als non <rhyme>sove</rhyme>,</l>
@@ -497,14 +498,15 @@
 
 <!-- Cobla II -->
 <label>II</label>
-<lg type="stanza" n="2" rhyme="ababbcdceed">
+<lg type="stanza" n="2" rhyme="ababbcdceed" xml:id="crt2" corresp="#cos2">
+                            <anchor xml:id="anchor-crt2"/>
     <l n="12">A tort mi ven de vos <rhyme>mals</rhyme>
                                 </l>
     <l n="13">e non sai per <rhyme>que</rhyme>.</l>
     <l n="14">Mas d’aitan, Amors, <rhyme>sivals</rhyme>
                                 </l>
     <l n="15">
-                                    <seg type="diff">m’en</seg> vengarai <rhyme>be</rhyme>,</l>
+                                    <seg type="diff" xml:id="v15" corresp="#v15_cos">m’en</seg> vengarai <rhyme>be</rhyme>,</l>
     <l n="16">c’a celz que non sabon <rhyme>re</rhyme>
                                 </l>
     <l n="17">cum vos etz <rhyme>desconoissens</rhyme>,</l>
@@ -512,7 +514,7 @@
     <l n="19">Don vos seretz meins <rhyme>valens</rhyme>
                                 </l>
     <l n="20">e n’auretz meins <rhyme>servidors</rhyme>,</l>
-    <l n="21">cui sera <seg type="diff">ma</seg> greus <rhyme>dolors</rhyme>
+    <l n="21">cui sera <seg type="diff" xml:id="v21" corresp="#v21_cos">ma</seg> greus <rhyme>dolors</rhyme>
                                 </l>
     <l n="22">
                                     <term type="glossario">recels<note type="popup" xml:id="gloss-recels">
@@ -533,8 +535,9 @@ Nel PSW (“Provenzalisches Supplement-Wörterbuch”), Levy individua <seg type
 
 <!-- Cobla III -->
 <label>III</label>
-<lg type="stanza" n="3" rhyme="ababbcdceed">
-    <l n="23">E <seg type="diff">car no·m val car</seg> sui <rhyme>tals</rhyme>
+<lg type="stanza" n="3" rhyme="ababbcdceed" xml:id="crt3" corresp="#cos3">
+                        <anchor xml:id="anchor-crt3"/>
+    <l n="23">E <seg type="diff" xml:id="v23" corresp="#v23_cos">car no·m val car</seg> sui <rhyme>tals</rhyme>
                                 </l>
     <l n="24">cum a <term type="glossario">drut<note type="popup" xml:id="gloss-drut">
                                     <label>≋ LIT</label>
@@ -543,7 +546,7 @@ Nel PSW (“Provenzalisches Supplement-Wörterbuch”), Levy individua <seg type
                             </def>
                                         </note>
                                     </term> <rhyme>cove</rhyme>,</l>
-    <l n="25">si·m <seg type="diff">fazia</seg> <rhyme>desleials</rhyme>
+    <l n="25">si·m <seg type="diff" xml:id="v25" corresp="#v25_cos">fazia</seg> <rhyme>desleials</rhyme>
                                 </l>
     <l n="26">auria·n ia <rhyme>be</rhyme>.</l>
     <l n="27">Ben leu lai <term type="glossario">virera·l <rhyme>fre</rhyme>
@@ -554,23 +557,24 @@ Nel PSW (“Provenzalisches Supplement-Wörterbuch”), Levy individua <seg type
 Si segnala, poi, la <seg type="it">tornada</seg> della canzone-sirventese di Giraut de Borneill <seg type="it">Be for’oimais dregz el temps gen</seg> (BdT 242.19). Al v. 87 del componimento di Giraut si legge <seg type="it">sobre totz eu virera·l fre</seg>; la metafora con verbo al condizionale ricorda l’utilizzo che ne fa Gausbert nella canzone qui analizzata. In questa lirica, tuttavia, è Giraut a minacciare di ‘girare la briglia’ e ritornare nella terra del suo protettore nel caso in cui dovesse perdere il favore divino in amore.</def>
                                         </note>
                                     </term>,</l>
-    <l n="28">mas non <seg type="diff">dei</seg> (so·m ditz mos <rhyme>sens</rhyme>)</l>
+    <l n="28">mas non <seg type="diff" xml:id="v28" corresp="#v28_cos">dei</seg> (so·m ditz mos <rhyme>sens</rhyme>)</l>
     <l n="29">far per faillimen <rhyme>faillenssa</rhyme>.</l>
     <l n="30">
-                                    <seg type="diff">Mais vuoill sufrir loncs</seg> <rhyme>turmens</rhyme>
+                                    <seg type="diff" xml:id="v30" corresp="#v30_cos">Mais vuoill sufrir loncs</seg> <rhyme>turmens</rhyme>
                                 </l>
     <l n="31">
-                                    <seg type="diff">ab los leials</seg> <rhyme>amadors</rhyme>
+                                    <seg type="diff" xml:id="v31" corresp="#v31_cos">ab los leials</seg> <rhyme>amadors</rhyme>
                                 </l>
     <l n="32">qu’ab los fals <rhyme>galiadors</rhyme>
                                 </l>
-    <l n="33">far <seg type="diff">de ioi</seg> <rhyme>parvenssa</rhyme>.</l>
+    <l n="33">far <seg type="diff" xml:id="v33" corresp="#v33_cos">de ioi</seg> <rhyme>parvenssa</rhyme>.</l>
 </lg>
 <lb/>
 
 <!-- Cobla IV -->
 <label>IV</label>
-<lg type="stanza" n="4" rhyme="ababbcdceed">
+<lg type="stanza" n="4" rhyme="ababbcdceed" xml:id="crt4" corresp="#cos4">
+                        <anchor xml:id="anchor-crt4"/>
     <l n="34">Amors, vostre noms es <rhyme>fals</rhyme>,</l>
     <l n="35">car non amatz <rhyme>me</rhyme>,</l>
     <l n="36">q’ieu vos sui fis e <rhyme>leials</rhyme>
@@ -583,7 +587,7 @@ Si segnala, poi, la <seg type="it">tornada</seg> della canzone-sirventese di Gir
     <l n="40">d’<seg type="corr">amor</seg> e de <rhyme>benvolenssa</rhyme>,</l>
     <l n="41">e vos m’etz <seg type="edit">mal’e</seg> <rhyme>cozens</rhyme>,</l>
     <l n="42">ses benfach e ses <rhyme>secors</rhyme>,</l>
-    <l n="43">per dreich <seg type="diff">
+    <l n="43">per dreich <seg type="diff" xml:id="v43" corresp="#v21a_cos">
                                         <seg type="edit">seri’eu</seg>
                                     </seg> <rhyme>Amors</rhyme>
                                 </l>
@@ -593,24 +597,25 @@ Si segnala, poi, la <seg type="it">tornada</seg> della canzone-sirventese di Gir
 
 <!-- Cobla V -->
 <label>V</label>
-<lg type="stanza" n="5" rhyme="ababbcdceed">
+<lg type="stanza" n="5" rhyme="ababbcdceed" xml:id="crt5" corresp="#cos5">
+                        <anchor xml:id="anchor-crt5"/>
     <l n="45">Vostr’usatges es <rhyme>aitals</rhyme>
                                 </l>
-    <l n="46">c’a <seg type="diff">cellui que·us</seg> <rhyme>cre</rhyme>
+    <l n="46">c’a <seg type="diff" xml:id="v46" corresp="#v46_cos">cellui que·us</seg> <rhyme>cre</rhyme>
                                 </l>
     <l n="47">merma de ioi sos <rhyme>captals</rhyme>,</l>
     <l n="48">car de vos non <rhyme>ve</rhyme>
                                 </l>
     <l n="49">mas engans ses tota <rhyme>fe</rhyme>,</l>
-    <l n="50">e <seg type="diff">mals senes</seg> <seg type="corr">
+    <l n="50">e <seg type="diff" xml:id="v50" corresp="#v50_cos">mals senes</seg> <seg type="corr">
                                         <rhyme>gauzimens</rhyme>
                                     </seg>,</l>
-    <l n="51">e senes <seg type="diff">benfaich</seg> <rhyme>cosenssa</rhyme>.</l>
+    <l n="51">e senes <seg type="diff" xml:id="v51" corresp="#v51_cos">benfaich</seg> <rhyme>cosenssa</rhyme>.</l>
     <l n="52">
-                                    <seg type="diff">
+                                    <seg type="diff" xml:id="v52" corresp="#v52_cos">
                                         <seg type="corr">Trop</seg>
                                     </seg> faitz d’autres <rhyme>faillimens</rhyme>,</l>
-    <l n="53">mas calar <seg type="diff">m’en fai <rhyme>temors</rhyme>
+    <l n="53">mas calar <seg type="diff" xml:id="v53" corresp="#v53_cos">m’en fai <rhyme>temors</rhyme>
                                     </seg>,</l>
     <l n="54">c’<term type="glossario">orguoills<note type="popup" xml:id="gloss-orguoills">
                                 <label>≡ LEX</label>
@@ -632,7 +637,6 @@ In una delle poche occorrenze di un altro derivato di <seg type="it">envezar</se
             </div>
             <!-- Apparato critico delle varianti sostanziali -->
             <div type="app_crt_sos">
-            <head>Apparato critico</head>
               <listApp>
               <app ana="sos">
    <num>1</num>
@@ -1327,13 +1331,14 @@ In una delle poche occorrenze di un altro derivato di <seg type="it">envezar</se
                     <seg type="edit">Interventi editoriali</seg>
                 </p>
  <!-- Cobla I -->
-<lg type="stanza" n="1.1" rhyme="ababbcdceed">
+<lg type="stanza" n="1.1" rhyme="ababbcdceed" xml:id="cos1" corresp="#crt1">
+                <anchor xml:id="anchor-cos1"/>
     <l n="1">Una grans amors <rhyme>corals</rhyme>
                                 </l>
     <l n="2">me destrenh e·m <seg type="corr_c">
                                         <rhyme>te</rhyme>
                                     </seg>,</l>
-    <l n="3">si qu’ieu <seg type="diff_c">no say dir</seg> ren <rhyme>als</rhyme>
+    <l n="3">si qu’ieu <seg type="diff_c" xml:id="v3_cos" corresp="#v3">no say dir</seg> ren <rhyme>als</rhyme>
                                 </l>
     <l n="4">mas clamar <rhyme>Merce</rhyme>.</l>
     <l n="5">E car me d’als non <rhyme>sove</rhyme>,</l>
@@ -1351,14 +1356,15 @@ In una delle poche occorrenze di un altro derivato di <seg type="it">envezar</se
 </lg>
 
 <!-- Cobla IV -->
-<lg type="stanza" n="4.1" rhyme="ababbcdceed">
+<lg type="stanza" n="4.1" rhyme="ababbcdceed" xml:id="cos2" corresp="#crt2">
+                <anchor xml:id="anchor-cos2"/>
     <l n="34">A tort mi ven de vos <rhyme>mals</rhyme>
                                 </l>
     <l n="35">e no say per <rhyme>que</rhyme>.</l>
     <l n="36">Mas d’aitan, Amors, <rhyme>sivals</rhyme>
                                 </l>
     <l n="37">
-                                    <seg type="diff_c">mi</seg> veniaray <rhyme>be</rhyme>,</l>
+                                    <seg type="diff_c" xml:id="v15_cos" corresp="#v15">mi</seg> veniaray <rhyme>be</rhyme>,</l>
     <l n="38">c’a cels que no sabon <rhyme>re</rhyme>
                                 </l>
     <l n="39">co vos es <rhyme>desconoissens</rhyme>,</l>
@@ -1366,7 +1372,7 @@ In una delle poche occorrenze di un altro derivato di <seg type="it">envezar</se
     <l n="41">Don vos seretz mens <rhyme>valens</rhyme>
                                 </l>
     <l n="42">e n’auretz mens <rhyme>servidors</rhyme>,</l>
-    <l n="43">cuy seran <seg type="diff_c">las</seg> greus <rhyme>dolors</rhyme>
+    <l n="43">cuy seran <seg type="diff_c" xml:id="v21_cos" corresp="#v21">las</seg> greus <rhyme>dolors</rhyme>
                                 </l>
     <l n="44">
                                     <seg type="edit">recels</seg> e <rhyme>temensa</rhyme>.</l>
@@ -1375,33 +1381,35 @@ In una delle poche occorrenze di un altro derivato di <seg type="it">envezar</se
 
 
 <!-- Cobla III -->
-<lg type="stanza" n="3.1" rhyme="ababbcdceed">
-    <l n="23">E <seg type="diff_c">pus no·m val qu’ieu</seg> son <rhyme>tals</rhyme>
+<lg type="stanza" n="3.1" rhyme="ababbcdceed" xml:id="cos3" corresp="#crt3">
+                <anchor xml:id="anchor-cos3"/>
+    <l n="23">E <seg type="diff_c" xml:id="v23_cos" corresp="#v23">pus no·m val qu’ieu</seg> son <rhyme>tals</rhyme>
                                 </l>
     <l n="24">com a drut <rhyme>cove</rhyme>,</l>
-    <l n="25">si·m <seg type="diff_c">
+    <l n="25">si·m <seg type="diff_c" xml:id="v25_cos" corresp="#v25">
                                         <seg type="corr_c">tornava</seg>
                                     </seg> <rhyme>deslials</rhyme>
                                 </l>
     <l n="26">auria·n ia <rhyme>be</rhyme>.</l>
     <l n="27">Ben leu <seg type="edit">lai virera·l</seg> <rhyme>fre</rhyme>,</l>
-    <l n="28">mas non <seg type="diff_c">tanh</seg> (so·m ditz mos <rhyme>sens</rhyme>)</l>
+    <l n="28">mas non <seg type="diff_c" xml:id="v28_cos" corresp="#v28">tanh</seg> (so·m ditz mos <rhyme>sens</rhyme>)</l>
     <l n="29">far per falhimen <rhyme>falhensa</rhyme>.</l>
     <l n="30">
-                                    <seg type="diff_c">No vuelh que totz los</seg> <seg type="corr_c">
+                                    <seg type="diff_c" xml:id="v30_cos" corresp="#v30">No vuelh que totz los</seg> <seg type="corr_c">
                                         <rhyme>tormens</rhyme>
                                     </seg>
                                 </l>
     <l n="31">
-                                    <seg type="diff_c">esser dels fis</seg> <rhyme>amadors</rhyme>
+                                    <seg type="diff_c" xml:id="v31_cos" corresp="#v31">esser dels fis</seg> <rhyme>amadors</rhyme>
                                 </l>
     <l n="32">c’ab los fals <rhyme>galiadors</rhyme>
                                 </l>
-    <l n="33">far <seg type="diff_c">d’amor</seg> <rhyme>parvensa</rhyme>.</l>
+    <l n="33">far <seg type="diff_c" xml:id="v33_cos" corresp="#v33">d’amor</seg> <rhyme>parvensa</rhyme>.</l>
 </lg>
 
 <!-- Cobla II -->
-<lg type="stanza" n="2.1" rhyme="ababbcdceed">
+<lg type="stanza" n="2.1" rhyme="ababbcdceed" xml:id="cos4" corresp="#crt4">
+                <anchor xml:id="anchor-cos4"/>
     <l n="12">Amors, vostre <seg type="edit">noms</seg> es <rhyme>fals</rhyme>,</l>
     <l n="13">car non amatz <rhyme>me</rhyme>,</l>
     <l n="14">qu’ieu vos soi fis e <rhyme>lials</rhyme>
@@ -1414,17 +1422,18 @@ In una delle poche occorrenze di un altro derivato di <seg type="it">envezar</se
     <l n="18">d’amor e de <rhyme>bevolensa</rhyme>,</l>
     <l n="19">e vos <seg type="corr_c">m’es mal’e</seg> <rhyme>cozens</rhyme>,</l>
     <l n="20">ses befatz e ses <rhyme>secors</rhyme>,</l>
-    <l n="21">per dreg <seg type="diff_c">soi ieu</seg> <rhyme>Amors</rhyme>
+    <l n="21">per dreg <seg type="diff_c" xml:id="v21a_cos" corresp="#v43">soi ieu</seg> <rhyme>Amors</rhyme>
                                 </l>
     <l n="22">e vos <rhyme>Malvolensa</rhyme>.</l>
 </lg>
 
 <!-- Cobla V -->
-<lg type="stanza" xml:id="extra" n="5.1" rhyme="ababbcdceed">
+<lg type="stanza" n="5.1" rhyme="ababbcdceed" xml:id="cos5" corresp="#crt5">
+                <anchor xml:id="anchor-cos5"/>
     <l n="45">
                                     <seg type="edit">Vostr</seg>’uzaties es <rhyme>aitals</rhyme>
                                 </l>
-    <l n="46">c’a <seg type="diff_c">cel que vos</seg> <rhyme>cre</rhyme>
+    <l n="46">c’a <seg type="diff_c" xml:id="v46_cos" corresp="#v46">cel que vos</seg> <rhyme>cre</rhyme>
                                 </l>
     <l n="47">merma de ioi sos <rhyme>captals</rhyme>,</l>
     <l n="48">pus de vos no·l <rhyme>ve</rhyme>
@@ -1432,15 +1441,15 @@ In una delle poche occorrenze di un altro derivato di <seg type="it">envezar</se
     <l n="49">
                                     <seg type="corr_c">mas enian ses tota <rhyme>fe</rhyme>
                                     </seg>,</l>
-    <l n="50">e <seg type="diff_c">dan ses tot</seg> <seg type="corr_c">
+    <l n="50">e <seg type="diff_c" xml:id="v50_cos" corresp="#v50">dan ses tot</seg> <seg type="corr_c">
                                         <rhyme>iauzimens</rhyme>
                                     </seg>,</l>
-    <l n="51">e ses <seg type="diff_c">plazer</seg> <seg type="corr_c">
+    <l n="51">e ses <seg type="diff_c" xml:id="v51_cos" corresp="#v51">plazer</seg> <seg type="corr_c">
                                         <rhyme>cozenza</rhyme>
                                     </seg>.</l>
     <l n="52">
-                                    <seg type="diff_c">Pro</seg> faytz d’autres <rhyme>falhimens</rhyme>,</l>
-    <l n="53">mays <seg type="corr_c">callar</seg> <seg type="diff_c">mi fays <rhyme>paors</rhyme>
+                                    <seg type="diff_c" xml:id="v52_cos" corresp="#v52">Pro</seg> faytz d’autres <rhyme>falhimens</rhyme>,</l>
+    <l n="53">mays <seg type="corr_c">callar</seg> <seg type="diff_c" xml:id="v53_cos" corresp="#v53">mi fays <rhyme>paors</rhyme>
                                     </seg>,</l>
     <l n="54">qu’<seg type="edit">orgoilhs</seg> es grans e <rhyme>folors</rhyme>
                                 </l>
@@ -1448,7 +1457,6 @@ In una delle poche occorrenze di un altro derivato di <seg type="it">envezar</se
 </lg>
 <!-- Cobla VI -->
 <lg type="envoy14" n="tornada1.1">
-<label>VI</label>
     <l n="56">Pros vescomtessa <rhyme>plazens</rhyme>
                                 </l>
     <l n="57">d’Albusson, tant vos <rhyme>agensa</rhyme>
@@ -1462,7 +1470,6 @@ In una delle poche occorrenze di un altro derivato di <seg type="it">envezar</se
 
 <!-- Cobla VII -->
 <lg type="envoy14" n="tornada1.2">
-<label>VII</label>
     <l n="62">Savaric, part los <rhyme>valens</rhyme>
                                 </l>
     <l n="63">faitz valer vostra <rhyme>valensa</rhyme>,</l>
@@ -1476,7 +1483,6 @@ In una delle poche occorrenze di un altro derivato di <seg type="it">envezar</se
             </div>
             <!-- Apparato critico delle varianti sostanziali del testo di costellazione -->
             <div type="app_cos_sos">
-            <head>Apparato di costellazione</head>
               <listApp>
               <app ana="sos">
    <num>1</num>
@@ -1743,7 +1749,7 @@ In una delle poche occorrenze di un altro derivato di <seg type="it">envezar</se
    </rdg>
    <rdg>... al
       <witDetail wit="#w"> w</witDetail>
-            <note type="popup" xml:id="paleo4">
+      <note type="popup" xml:id="paleo4">
       <surface>
         <graphic url="images/paleo14.png"/>
       </surface>In w, l'incertezza del copista nella comprensione del verbo è reso evidente dallo spazio bianco che si individua al suo posto, occupato da punti di sospensione e seguito da <seg type="it">al fre</seg>.
@@ -2252,18 +2258,13 @@ In una delle poche occorrenze di un altro derivato di <seg type="it">envezar</se
                             <label>V</label>
                             Il vostro comportamento è tale che a chiunque creda in voi diminuisce il capitale di gioia, poiché da voi non riceve altro che falsità senza alcuna fede, danno senza appagamento e sofferenza senza vantaggio. Commettete molte altre colpe, ma parlarne mi spaventa, perché rappresenta grande superbia e follia la contesa con chi è più forte.
                 </p>
-                <lb/>
-                <p n="6">
-                            <lb/>
-                            <label>VI</label>
-                </p>
-
             </div>
                 <div type="trad_extra">
                     <p>
                             <title>Cobla trasmessa per tradizione indiretta</title>
                         </p>
-                    <lg type="stanza" n="extra">
+                    <lg type="stanza" xml:id="extra14" corresp="#cos5">
+                    <anchor xml:id="anchor-extra14"/>
                                 <l n="45">Vostr’uzatges es aitals</l>
                                 <l n="46">que celui que·us cre</l>
                                 <l n="47">merma de joi sos cabtals,</l>

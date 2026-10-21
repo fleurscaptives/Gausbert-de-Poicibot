@@ -9,26 +9,29 @@
     <!-- Basic template for a page with a single document -->
     <link rel="stylesheet" href="resources/css/gausbert.css"/>
     <script src="resources/scripts/gausbert.js"/>
-<pb-page endpoint="https://teipublisher.com/exist/apps/tei-publisher" api-version="1.0.0">
+<pb-page endpoint="https://teipublisher.com/exist/apps/tei-publisher" api-version="1.0.0" subscribe="facsimile">
   <div class="pagina">
-
     <div class="banner">
        <img src="resources/images/banner[[ replace($context?doc?path, 'canso|\.xml', '') ]].png" alt="Banner della canzone"/>
     </div>
 
-
     <div class="layout">
     
-        <aside class="interagisci">
-
-            <h2>Scopri</h2>
+    [% template before %]
+ <div id="interagisci">
+            <h3>Scopri</h3>
             <button id="btn_diff">⊶ Loci divergenti</button>
             <button id="btn_loci">𖦹 Loci direttivi</button>
             <button id="btn_glos">🕮 Glossario </button>
-            <br/>
-            <div id="simboli">
-            
-              <h3>Simboli pop-up</h3>
+</div>
+            <pb-collapse>
+        <div slot="collapse-trigger" class="collapse">Stemma</div>
+            <div slot="collapse-content" class="stemma-content">
+               <img src="resources/images/stemma[[ replace($context?doc?path, 'canso|\.xml', '') ]].svg" alt="Stemma della tradizione"/>
+            </div>
+    </pb-collapse>
+    <div id="simboli">
+            <h3>Simboli pop-up</h3>
               <pb-popover theme="light">
                  <span id="gen_pop">⁕</span>
                  <template slot="alternate">
@@ -36,75 +39,19 @@
                  </template>
               </pb-popover>
               <pb-popover theme="light">
-                 <span id="con_pop">𖣢</span>
+                 <span id="con_pop">〰</span>
                  <template slot="alternate">
                                 <span class="sym" id="info_con">Indicazione negli apparati di avvenuta contaminazione fra due rami della tradizione.</span>
                  </template>
               </pb-popover>
               </div>
-              <br/>
-    <pb-collapse>
-        <div slot="collapse-trigger" class="stemma-collapse">Stemma</div>
-            <div slot="collapse-content" class="stemma-content">
-               <img src="resources/images/stemma[[ replace($context?doc?path, 'canso|\.xml', '') ]].svg" alt="Stemma della tradizione"/>
-            </div>
-    </pb-collapse>
+[% endtemplate %]
 
-        </aside>
 
         <main class="contenuto">
         
             <section class="manoscritti">
-                <button id="apri_mss">Manoscritti</button>
-<div id="mss-panel">
-
-    <button id="chiudi_mss">⨉</button>
-                        <h2>Visualizza i testimoni</h2>
-                        
-
-<div id="mss-list">
-
-    <div class="mss-buttons">
-
-        [% for $group in $context?doc?content/*/*:facsimile/*:surfaceGrp %]
-
-            <div class="mss">
-                <button class="mss_btn">
-                    [[ string($group/@xml:id) ]]
-                </button>
-            </div>
-
-        [% endfor %]
-
-    </div>
-
-    <div id="pages-list">
-
-        [% for $group in $context?doc?content/*/*:facsimile/*:surfaceGrp %]
-
-            <div class="mss-pages" data-mss="[[ string($group/@xml:id) ]]">
-
-                [% for $surface in $group/*:surface %]
-
-                    <button class="pgg_btn" data-image="[[ string($surface/*:graphic/@url) ]]">
-                        f. [[ string($surface/@n)  ]]
-                    </button>
-
-                [% endfor %]
-
-            </div>
-
-        [% endfor %]
-
-    </div>
-
-</div>
-
-<div id="mss-image">
-    <img id="current-image" src="" alt=""/>
-</div>
-</div>
-
+                <h3>Manoscritti</h3>
                 <pb-view src="document1" load-css="resources/css/gausbert.css" xpath="//tei:div[@type='manoscritti']"/>
             </section>
             
@@ -138,49 +85,72 @@
                         <pb-view id="txt_cst" src="document1" load-css="resources/css/txt_cst.css" xpath="//tei:div[@type='txt_costellazione']"/>
                     </div>
                     
-                <div id="extra_container">
+                  <div id="extra_container">
                     <pb-view src="document1" load-css="resources/css/gausbert.css" xpath="//div[@type='trad_extra']"/>
-                </div>
+                  </div>
                 </div>
             </section>
-            <div class="traduzione">
-                         <pb-collapse>
-                            <div slot="collapse-trigger" class="trad-collapse">
-                                    <h2>Traduzione</h2>
-                                </div>
-                         <div slot="collapse-content" class="trad-content">
-                         <pb-view src="document1" load-css="resources/css/gausbert.css" xpath="//tei:div[@type='trad_critico']"/>
-                            </div>
-                         </pb-collapse>
-                </div>
-
-
-  
                 <br/>
-                <section class="testi">
-                <div class="colonne">
-                    <div>
-                        <pb-view id="app_crt" src="document1" load-css="resources/css/gausbert.css" xpath="//tei:div[@type='app_crt_sos']"/>
-                        <pb-view src="document1" load-css="resources/css/gausbert.css" xpath="//tei:div[@type='app_crt_form']"/>
-                    </div>
-
-                    <div>
-                        <pb-view id="app_cst" src="document1" load-css="resources/css/gausbert.css" xpath="//tei:div[@type='app_cos_sos']"/>
-                        <pb-view src="document1" load-css="resources/css/gausbert.css" xpath="//tei:div[@type='app_cos_form']"/>
-                    </div>
-                </div>
-            </section>
-            
-            
-
 
             <div>
                 <pb-view src="document1" load-css="resources/css/gausbert.css" xpath="//tei:div[@type='biblio']"/>
             </div>
 
         </main>
-
     </div>
   </div>
+  
+[% template after %]
+  <div class="side">
+    <pb-collapse>
+
+        <div slot="collapse-trigger" class="collapse">
+            <h3>Traduzione</h3>
+        </div>
+
+        <pb-view slot="collapse-content" load-css="resources/css/gausbert.css" src="document1" xpath="//tei:div[@type='trad_critico']" id="traduzione">
+        </pb-view>
+
+    </pb-collapse>
+  </div>
+  
+    <div class="side">
+    <pb-collapse>
+
+        <div slot="collapse-trigger" class="collapse">
+            <h3>Apparato critico</h3>
+        </div>
+        <pb-view slot="collapse-content" id="app_crt" src="document1" load-css="resources/css/gausbert.css" xpath="//tei:div[@type='app_crt_sos']">
+        </pb-view>
+        <pb-view slot="collapse-content" id="app_crt_f" src="document1" load-css="resources/css/gausbert.css" xpath="//tei:div[@type='app_crt_form']">
+        </pb-view>
+
+    </pb-collapse>
+  </div>
+  
+  <div class="side">
+    <pb-collapse>
+
+        <div slot="collapse-trigger" class="collapse">
+            <h3>Apparato di costellazione</h3>
+        </div>
+        <pb-view slot="collapse-content" src="document1" load-css="resources/css/gausbert.css" xpath="//tei:div[@type='app_cos_sos']" id="app_cst">
+        </pb-view>
+        <pb-view slot="collapse-content" src="document1" load-css="resources/css/gausbert.css" xpath="//tei:div[@type='app_cos_form']" id="app_cst_f">
+        </pb-view>
+
+    </pb-collapse>
+    <br/>
+    <button id="apri_mss">Facsimili</button>
+    
+    <div id="mss-panel">
+<pb-view src="document1" id="view-facsimili" load-css="resources/css/gausbert.css" xpath="//tei:facsimile" subscribe="facsimile"/>
+
+        <pb-facsimile type="image" base-uri="http://localhost:8080/exist/apps/GausbPcb/" facsimiles="[&#34;images/no_facs.png&#34;]" default-zoom-level="0" show-navigation-control="true" show-sequence-control="true" subscribe="facsimile" show-full-page-control="true"/>
+        
+    </div>
+ </div>
+[% endtemplate %]
+
 </pb-page>
 </template>

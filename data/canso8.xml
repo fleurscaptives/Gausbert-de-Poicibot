@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="8">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -18,10 +18,13 @@
 
                 <respStmt>
                     <resp>Primo Relatore</resp>
-                    <name>Prof.ssa Speranza Cerullo</name>
-                    <resp>Secondo Relatore</resp>
-                    <name>Prof. Angelo Mario Del Grosso</name>
+                    <persName>Prof.ssa Speranza Cerullo</persName>
                 </respStmt>
+                <respStmt>
+                    <resp>Secondo Relatore</resp>
+                    <persName>Prof. Angelo Mario Del Grosso</persName>
+                </respStmt>
+
 
             </titleStmt>
 
@@ -38,8 +41,6 @@
                 <date when="2026">
                     2026
                 </date>
-
-                <availability status="restricted"/>
 
             </publicationStmt>
 
@@ -102,18 +103,18 @@
         <encodingDesc>
 
             <metDecl>
-                <metSym xml:id="schema_metrico">
+                <note xml:id="schema_metrico">
                     La canzone di Gausbert è composta da cinque coblas di dieci versi ciascuna e una tornada finale di
                     quattro versi. I versi delle coblas cono perlopiù settenari, con l’eccezione di due quinari in
                     corrispondenza di settimo e ottavo verso. La tornada è composta da due quinari seguiti da
                     altrettanti settenari.
-                </metSym>
+                </note>
 
             </metDecl>
 
             <classDecl>
                 <taxonomy xml:id="var_types">
-                    <category xml:id="sost">
+                    <category xml:id="sos">
                         <catDesc>Variante sostanziale</catDesc>
                     </category>
                     <category xml:id="form">
@@ -129,7 +130,7 @@
                 </p>
             </projectDesc>
             
-            <schemaRef ident="gausbert.odd" type="ODD"/>
+            <schemaRef url="resources/odds/gausbert.odd" type="ODD"/>
 
         </encodingDesc>
 
@@ -172,7 +173,6 @@
     </teiHeader>
     
 <facsimile>
- <div>
     <surfaceGrp xml:id="C">
         <surface n="1">
             <graphic url="images/C8a.png"/>
@@ -207,25 +207,24 @@
             <graphic url="images/V8a.jpeg"/>
         </surface>
     </surfaceGrp>
-  </div>
 </facsimile>
-    <text>
 
-        <body>
-                <div type="manoscritti">
+    <text>
+       <front>
+         <div type="manoscritti">
                         <list>
                             <item>
-                               <witDetail>C</witDetail> 192v: <seg>Gaubert de Puegsibot</seg> (in tavola <seg>Aimeric de
+                               <witDetail wit="#ms.C">C</witDetail> 192v: <seg>Gaubert de Puegsibot</seg> (in tavola <seg>Aimeric de
                                 Pegulhan</seg>);
                             </item>
                             <item>
-                                <witDetail>E</witDetail> 161: <seg>Monge de Pueg</seg>;
+                                <witDetail wit="#ms.E">E</witDetail> 161: <seg>Monge de Pueg</seg>;
                             </item>
                             <item>
-                                <witDetail>H</witDetail> 34bisr: <seg>Lo moges de Ponsibot</seg>;
+                                <witDetail wit="#ms.H">H</witDetail> 34bisr: <seg>Lo moges de Ponsibot</seg>;
                             </item>
                             <item>
-                                <witDetail>V</witDetail> 81r: <seg>Aizo comenzon las chanzos de Pugcibot</seg>.
+                                <witDetail wit="#ms.V">V</witDetail> 81r: <seg>Aizo comenzon las chanzos de Pugcibot</seg>.
                             </item>
                         </list>
                 </div> 
@@ -234,15 +233,18 @@
                     <head>Scheda metrica</head>
                     <p>[579 : 1]
                         <lb/>Unicum
-                        <lb/>a ₇ b ₇ b ₇ a ₇ c ₇’ c ₇’ d ₅ d ₅ a ₇ a ₇
+                        <lb/>a ₇ b ₇ b ₇ a ₇ c ₇' c ₇' d ₅ d ₅ a ₇ a ₇
                         <lb/>a: <rhyme type="a">or</rhyme> b: <rhyme type="b">ir</rhyme> c: <rhyme type="c">ida</rhyme> d: <rhyme type="d">an(s)</rhyme>
                     </p>
                 </div>
-            <div type="testo">
-              <div type="txt_critico" xml:id="canso8">
-                <title>Testo critico</title>
+       </front>
+       <group>
+        <text type="txt_critico" xml:id="canso8">
+            <front><head>Testo critico</head>
                 <p>Ms. base C <lb/>Correzioni da <seg type="corr">EHV</seg>
                 </p>
+           </front>
+            <body>
                 <!-- Cobla I -->
                 <label>I</label>
                         <lg type="stanza" n="1" rhyme="abbaccddaa" xml:id="crt1" corresp="#cos1">
@@ -271,11 +273,11 @@
                 <label>II</label>
                         <lg type="stanza" n="2" rhyme="abbaccddaa" xml:id="crt2" corresp="#cos2">
                         <anchor xml:id="anchor-crt2"/>
-                    <l n="11">Sella que·m <term type="glossario">ten en <rhyme label="a">error<note type="popup" xml:id="gloss-error">
+                    <l n="11">Sella que·m <term type="glossario">ten en <rhyme label="a">error<note type="gloss" xml:id="gloss-error">
                             <label>≡ LEX</label>
                             <term type="lex">tener en error</term>
-                            <def>⤷ v. | tormentare</def>
-                            <ref rend="exit" target="https://archive.org/details/petitdictionnair00levyuoft/page/158/mode/2up">PD</ref>
+                            <ab>⤷ v. | tormentare</ab>
+                            <ref target="https://archive.org/details/petitdictionnair00levyuoft/page/158/mode/2up">PD</ref>
                     </note>
                                     </rhyme>
                         </term>
@@ -322,15 +324,15 @@
                                 </seg>,</l>
                     <l n="29">
                         <seg xml:id="v29" corresp="#v29_cos" type="diff">
-                                    <term type="glossario">aizic<note xml:id="gloss-aizic" type="popup">
+                                    <term type="glossario">aizic<note xml:id="gloss-aizic" type="gloss">
                             <label>≡ LEX ≋ LIT</label>
                             <term type="lex">aizir</term>
-                            <def>⤷ v. | mettere, accogliere, favorire</def>
-                            <ref rend="exit" target="https://dom-en-ligne.de/dom.php?lhid=7k163jfag9kynok7mxYjoH">DOM</ref>
+                            <ab>⤷ v. | mettere, accogliere, favorire</ab>
+                            <ref  target="https://dom-en-ligne.de/dom.php?lhid=7k163jfag9kynok7mxYjoH">DOM</ref>
                                             <lb/>
-                            <def>Le due versioni del verso appaiono a prima vista equivalenti, poiché entrambe corrette dal punto di vista metrico e semantico, ma per l’edizione si condivide l’ipotesi di Gambini sulla qualità superiore di C data dalla presenza del poliptoto fra <seg type="it">aizic</seg> e il participio passato <seg type="it">aizida</seg>, in rima al v. 25, entrambe forme del verbo <seg type="it">aizir</seg>.
+                            <p>Le due versioni del verso appaiono a prima vista equivalenti, poiché entrambe corrette dal punto di vista metrico e semantico, ma per l’edizione si condivide l’ipotesi di Gambini sulla qualità superiore di C data dalla presenza del poliptoto fra <seg type="it">aizic</seg> e il participio passato <seg type="it">aizida</seg>, in rima al v. 25, entrambe forme del verbo <seg type="it">aizir</seg>.
                                 <lb/>Notare l’assenza del verbo nella costellazione EHV, in cui si legge <seg type="it">sofri maint</seg>, struttura che indica la presenza di più amanti della donna amata.
-                            </def>
+                            </p>
                         </note>
                                     </term> un fals</seg> <rhyme label="a">preiador</rhyme>
                     </l>
@@ -381,15 +383,15 @@
                     </l>
                     <l n="46">qu’a tot aital <term type="glossario">
                                     <rhyme label="c">deschauzida</rhyme>
-                                <note xml:id="gloss-deschauzida" type="popup">
+                                <note xml:id="gloss-deschauzida" type="gloss">
                                     <label>≡ LEX ≋ LIT</label>
                                     <term type="lex">deschauzida</term>
-                                    <def>⤷ agg. f. | decaduta, disonorata <lb/>
-                                    Dal latino [ᴅᴇᴄᴀᴅᴇ̆ʀᴇ]</def>
-                                    <ref rend="exit" target="https://dom-en-ligne.de/dom.php?lhid=3B2DGpdRbggoz8tHPFVUne">DOM</ref>
+                                    <ab>⤷ agg. f. | decaduta, disonorata <lb/>
+                                    Dal latino [ᴅᴇᴄᴀᴅᴇ̆ʀᴇ]</ab>
+                                    <ref  target="https://dom-en-ligne.de/dom.php?lhid=3B2DGpdRbggoz8tHPFVUne">DOM</ref>
                                     <lb/>
-                                    <def>L’aggettivo, (qui con un esplicito riferimento a un decadimento morale) è parola-rima anche al v. 15 del testo di costellazione.
-                                    <lb/>Nell’antologia a cura di Sanguineti-Scarpati, la lezione corrispondente in C, <seg type="it">chauzida</seg> ("virtuosa"), è giudicata di qualità migliore, poché trasmette un significato ironico che gli altri manoscritti non coglierebbero.</def>
+                                    <p>L’aggettivo, (qui con un esplicito riferimento a un decadimento morale) è parola-rima anche al v. 15 del testo di costellazione.
+                                    <lb/>Nell’antologia a cura di Sanguineti-Scarpati, la lezione corrispondente in C, <seg type="it">chauzida</seg> ("virtuosa"), è giudicata di qualità migliore, poché trasmette un significato ironico che gli altri manoscritti non coglierebbero.</p>
                                 </note>
                                 </term>
                     </l>
@@ -401,15 +403,15 @@
                             <seg xml:id="v48" type="diff" corresp="#v48_cos">claman</seg>
                         </rhyme>
                     </l>
-                    <l n="49">volgra <term type="glossario">termenes<note xml:id="gloss-termenar" type="popup">
+                    <l n="49">volgra <term type="glossario">termenes<note xml:id="gloss-termenar" type="gloss">
                             <label>≡ LEX</label>
                             <term type="lex">termenar</term>
-                            <def>⤷ v. | porre dei limiti, concludere<lb/>
+                            <ab>⤷ v. | porre dei limiti, concludere<lb/>
                             Dal latino [ᴛᴇʀᴍɪɴᴀʀᴇ]
-                            </def>
-                            <ref rend="exit" target="https://dom-en-ligne.de/dom.php?lhid=3kq9B9O8sW8ntGO6hNQuRu">DOM</ref>
+                            </ab>
+                            <ref  target="https://dom-en-ligne.de/dom.php?lhid=3kq9B9O8sW8ntGO6hNQuRu">DOM</ref>
                             <lb/>
-                            <def>Il verbo <seg type="it">termenar</seg> è tradotto da Levy come “poser des bornes, delimiter” e associato al sostantivo <seg type="it">terme</seg>, che si rifa appunto al concetto di “limite, confine”. In più, nella FEW si ritrovano i significati di “concludere, porre fine”, ma anche “perire, uccidere”, ed è quest’ultima la sfumatura adottata nella traduzione Shepard. Gambini, nella sua edizione, giudica comunque più probabile che il <seg type="it">clamans</seg> del v. 49 non sia altri che lo stesso io lirico, soggetto singolare del verbo, notando l’utilizzo di Gausbert di termini legati al <seg type="it">clamar</seg> per descrivere il lamento e l’afflizione causati dalla sua condizione amorosa.<lb/>Nell'edizione qui proposta, si è scelto di riproporre l’interpretazione di Shepard che vede gli amanti della donna oggetto del periodo, non disponendo di certezze grammaticali utili a effettuare confronti sull’uso intransitivo del verbo <seg type="it">termenar</seg> nella produzione trobadorica.</def>
+                            <p>Il verbo <seg type="it">termenar</seg> è tradotto da Levy come “poser des bornes, delimiter” e associato al sostantivo <seg type="it">terme</seg>, che si rifa appunto al concetto di “limite, confine”. In più, nella FEW si ritrovano i significati di “concludere, porre fine”, ma anche “perire, uccidere”, ed è quest’ultima la sfumatura adottata nella traduzione Shepard. Gambini, nella sua edizione, giudica comunque più probabile che il <seg type="it">clamans</seg> del v. 49 non sia altri che lo stesso io lirico, soggetto singolare del verbo, notando l’utilizzo di Gausbert di termini legati al <seg type="it">clamar</seg> per descrivere il lamento e l’afflizione causati dalla sua condizione amorosa.<lb/>Nell'edizione qui proposta, si è scelto di riproporre l’interpretazione di Shepard che vede gli amanti della donna oggetto del periodo, non disponendo di certezze grammaticali utili a effettuare confronti sull’uso intransitivo del verbo <seg type="it">termenar</seg> nella produzione trobadorica.</p>
                                     </note>
                                 </term>, <rhyme label="a">seignor</rhyme>,</l>
                     <l n="50">del <seg xml:id="v50" type="diff" corresp="#v50_cos">gran</seg> mal de sa <rhyme label="a">calor</rhyme>.</l>
@@ -426,39 +428,40 @@
                     <l n="54">quar <seg type="corr">soi fregz
                             </seg> per sa <term type="glossario">
                                     <rhyme label="a">calor</rhyme>
-                                    <note xml:id="gloss-calor" type="popup">
+                                    <note xml:id="gloss-calor" type="gloss">
                                     <label>≋ LIT</label>
                                     <term type="lex">calor/fregz</term>
-                                    <def>Il comportamento della donna amata è condannato da Gausbert in corrispondenza della <seg type="it">tornada</seg> di chiusura della canzone, in cui il poeta lamenta il suo essere raggelato dall’ardore delle sue azioni, con esplicito riferimento ai tradimenti della donna con altri pretendenti.</def>
+                                    <p>Il comportamento della donna amata è condannato da Gausbert in corrispondenza della <seg type="it">tornada</seg> di chiusura della canzone, in cui il poeta lamenta il suo essere raggelato dall’ardore delle sue azioni, con esplicito riferimento ai tradimenti della donna con altri pretendenti.</p>
                                     </note>
                                 </term>.</l>
                 </lg>
                 <lb/>
-            </div>
+            </body>
+            <back>
             <!-- Apparato critico delle varianti sostanziali -->
             <div type="app_crt_sos">
               <listApp>
-                 <app ana="sos">
-                        <num>44</num>
-                                <lem>que</lem>
-                                <rdg>e<witDetail wit="#C"> C</witDetail>
-                                </rdg>
-                 </app> <app ana="sos">
-                        <num>54</num>
-                                <lem>soi fregz</lem>
-                                <rdg>suefre<witDetail wit="#C"> C</witDetail>
-                                </rdg>
+                 <app ana="#sos" n="44">
+                                <lem wit="#ms.E">que</lem>
+                                <rdg wit="#ms.C">e</rdg>
+                 </app>
+                 <app ana="#sos" n="54">
+                                <lem wit="#ms.E">soi fregz</lem>
+                                <rdg wit="#ms.C">suefre</rdg>
                   </app>
               </listApp>
             </div>
             <div type="app_crt_form">
              </div>
-            
-            <div type="txt_costellazione" xml:id="canso8.1">
-
-                <title>Testo di costellazione α</title>
+            </back>
+        </text>
+        <text type="txt_costellazione" xml:id="canso8.1">
+            <front>
+                <head>Testo di costellazione α</head>
                 <p>Ms. base E <lb/>Correzioni da <seg type="corr_c">H</seg>
                 </p>
+            </front>
+            <body>
                 <!-- Cobla I -->
                 <lg type="stanza" n="1.1" rhyme="abbaccddaa" xml:id="cos1" corresp="#crt1">
                 <anchor xml:id="anchor-cos1"/>
@@ -666,221 +669,155 @@
                     </l>
 
                 </lg>
-            </div>
-            </div>
+            </body>
+        <back>
             <!-- Apparato critico delle varianti sostanziali del testo di costellazione -->
-            <div type="app_cos_sos">
-              <listApp>
-                <app ana="sos">
-                    <num>3</num>
-                            <lem>volgra</lem>
-                            <rdg>volgri<witDetail wit="#H"> H</witDetail>
-                            </rdg>
-                </app>
-                <app ana="sos">
-                    <num>4</num>
-                            <lem>creisser</lem>
-                            <rdg>greuiar<witDetail wit="#H"> H</witDetail>
-                            </rdg>
-                        </app>
-                <app ana="sos">
-                    <num>6</num>
-                            <lem>mal mon grat</lem>
-                            <rdg>mal grat meu<witDetail wit="#V"> V</witDetail>
-                            </rdg>
-                        </app>
-                <app ana="sos">
-                    <num>7</num>
-                            <lem>que</lem>
-                            <rdg>e<witDetail wit="#V"> V</witDetail>
-                            </rdg>
-                        </app>
-                <app ana="sos" type="locus">
-                    <num>9</num>
-                            <lem>nuls jois</lem>
-                                <rdg>nuil joi<witDetail wit="#E #V"> EV</witDetail>
-                            </rdg>
-                </app>
-                <app ana="sos">
-                    <num>13</num>
-                            <lem>sol</lem>
-                        <rdg>sols<witDetail wit="#V"> V</witDetail>
-                            </rdg>
-                </app>
-                <app ana="sos" type="locus">
-                    <num>15</num>
-                            <lem>deschauzida</lem>
-                        <rdg>es<gap reason="lost" unit="word" quantity="1"/>
-                                <witDetail wit="#H"> H</witDetail>
-                            </rdg>
-                        <note xml:id="paleo1" type="popup">In H, il verbo è seguito da uno spazio bianco che copre l’estensione di circa una parola.</note>
-                </app>
-                <app ana="sos">
-                    <num>16</num>
-                            <lem>Pos m’a mort, quill</lem>
-                        <rdg>Ma mortz e qill<witDetail wit="#H"> H</witDetail>
-                            </rdg>
-                </app>
-                                        <app ana="sos" type="locus">
-                            <num>18</num>
-                            <lem>sol</lem>
-                            <rdg>sols<witDetail wit="#E #V"> EV</witDetail>
-                            </rdg>
-                        </app>
-                        <app ana="sos">
-                            <num>19</num>
-                            <lem>tol</lem>
-                            <rdg>tot<witDetail wit="#V"> V</witDetail>
-                            </rdg>
-                        </app>        
-                                  <app ana="sos">
-                            <num>25</num>
-                            <lem>fo</lem>
-                            <rdg>fon<witDetail wit="#H #V"> HV</witDetail>
-                            </rdg>
-                        </app>
-                        <app ana="sos">
-                            <num>32</num>
-                            <lem>trop</lem>
-                            <rdg>tan chaussa<witDetail wit="#V"> V</witDetail>
-                            </rdg>
-                        </app>
-                                                <app ana="sos">
-                            <num>36</num>
-                            <lem>delida</lem>
-                            <rdg>perida<witDetail wit="#V"> V</witDetail>
-                            </rdg>
-                        </app>
-                                                <app ana="sos">
-                            <num>39</num>
-                            <lem>qu’ieu</lem>
-                            <rdg>que<witDetail wit="#H #V"> HV</witDetail>
-                            </rdg>
-                        </app>
-                                                <app ana="sos">
-                            <num>41</num>
-                            <lem>Qu’ieu</lem>
-                            <rdg>sieu<witDetail wit="#H"> H</witDetail>
-                            </rdg>
-                        </app>
-                                                <app ana="sos">
-                            <num>43</num>
-                            <lem>ni cor</lem>
-                            <rdg>nil cor<witDetail wit="#H"> H </witDetail>
-                            </rdg>
-                        </app>
 
-                        <app ana="sos">
-                            <lem>frezir</lem>
-                            <rdg>refreidir<witDetail wit="#E"> E</witDetail>
-                            </rdg>
-                        </app>
-                        
-                        <app ana="sos">
-                            <num>47</num>
-                            <lem>fora humelians</lem>
-                            <rdg>fora humilitatz<witDetail wit="#H"> H</witDetail>
-                            </rdg>
-                            <rdg>for humilians<witDetail wit="#V"> V</witDetail>
-                            </rdg>
-                        </app>
-                        <app ana="sos">
-                            <num>48</num>
-                            <rdg wit="#H" type="omission"/>
-                            <note type="text">Verso omesso in H.</note>
-                        </app>
-                
-                
-                        <app ana="sos">
-                            <num>50</num>
-                            <lem>calor</lem>
-                            <rdg>color<witDetail wit="#H"> H</witDetail>
-                            </rdg>
-                        </app>
-                <app ana="sos">
-                   <num>51</num>
-                            <lem>calors</lem>
-                            <rdg>valors<witDetail wit="#H"> H</witDetail>
-                            </rdg>
-                </app>
-                <app ana="sos">
-                    <num>52</num>
-                            <lem>frezis</lem>
-                            <rdg>refreidis <witDetail wit="#E"> E</witDetail>
-                            </rdg>
-                </app>
+<div type="app_cos_sos">
+   
+<listApp>
+    <app ana="#sos" n="3">
+        <lem wit="#ms.E">volgra</lem>
+        <rdg wit="#ms.H">volgri</rdg>
+    </app>
+    <app ana="#sos" n="4">
+        <lem wit="#ms.E">creisser</lem>
+        <rdg wit="#ms.H">greuiar</rdg>
+    </app>
+    <app ana="#sos" n="6">
+        <lem wit="#ms.E">mal mon grat</lem>
+        <rdg wit="#ms.V">mal grat meu</rdg>
+    </app>
+    <app ana="#sos" n="7">
+        <lem wit="#ms.E">que</lem>
+        <rdg wit="#ms.V">e</rdg>
+    </app>
+    <app ana="#sos" n="9" type="locus">
+        <lem wit="#ms.H">nuls jois</lem>
+        <rdg wit="#ms.E #ms.V">nuil joi</rdg>
+    </app>
+    <app ana="#sos" n="13">
+        <lem wit="#ms.E">sol</lem>
+        <rdg wit="#ms.V">sols</rdg>
+    </app>
+    <app ana="#sos" n="15" type="locus">
+        <lem wit="#ms.E">deschauzida</lem>
+        <rdg wit="#ms.H">es<gap reason="lost" unit="word" quantity="1"/></rdg>
+        <note xml:id="paleo1" type="paleo">In H, il verbo è seguito da uno spazio bianco che copre l’estensione di circa una parola.</note>
+    </app>
+    <app ana="#sos" n="16">
+        <lem wit="#ms.E">Pos m’a mort, quill</lem>
+        <rdg wit="#ms.H">Ma mortz e qill</rdg>
+    </app>
+    <app ana="#sos" n="18" type="locus">
+        <lem wit="#ms.H">sol</lem>
+        <rdg wit="#ms.E #ms.V">sols</rdg>
+    </app>
+    <app ana="#sos" n="19">
+        <lem wit="#ms.E">tol</lem>
+        <rdg wit="#ms.V">tot</rdg>
+    </app>
+    <app ana="#sos" n="25">
+        <lem wit="#ms.E">fo</lem>
+        <rdg wit="#ms.H #ms.V">fon</rdg>
+    </app>
+    <app ana="#sos" n="32">
+        <lem wit="#ms.E">trop</lem>
+        <rdg wit="#ms.V">tan chaussa</rdg>
+    </app>
+    <app ana="#sos" n="36">
+        <lem wit="#ms.E">delida</lem>
+        <rdg wit="#ms.V">perida</rdg>
+    </app>
+    <app ana="#sos" n="39">
+        <lem wit="#ms.E">qu’ieu</lem>
+        <rdg wit="#ms.H #ms.V">que</rdg>
+    </app>
+    <app ana="#sos" n="41">
+        <lem wit="#ms.E">Qu’ieu</lem>
+        <rdg wit="#ms.H">sieu</rdg>
+    </app>
+    <app ana="#sos" n="43">
+        <lem wit="#ms.E">ni cor</lem>
+        <rdg wit="#ms.H">nil cor</rdg>
+    </app>
+    <app ana="#sos">
+        <lem wit="#ms.H">frezir</lem>
+        <rdg wit="#ms.E">refreidir</rdg>
+    </app>
+    <app ana="#sos" n="47">
+        <lem wit="#ms.E">fora humelians</lem>
+        <rdg wit="#ms.H">fora humilitatz</rdg>
+        <rdg wit="#ms.V">for humilians</rdg>
+    </app>
+    <app ana="#sos" n="48">
+        <rdg wit="#ms.H" type="omission"/>
+        <note type="text">Verso omesso in H.</note>
+    </app>
+    <app ana="#sos" n="50">
+        <lem wit="#ms.E">calor</lem>
+        <rdg wit="#ms.H">color</rdg>
+    </app>
+    <app ana="#sos" n="51">
+        <lem wit="#ms.E">calors</lem>
+        <rdg wit="#ms.H">valors</rdg>
+    </app>
+    <app ana="#sos" n="52">
+        <lem wit="#ms.H">frezis</lem>
+        <rdg wit="#ms.E">refreidis</rdg>
+    </app>
+    <app ana="#sos" n="53">
+        <lem wit="ms.H">cautz</lem>
+        <rdg wit="#ms.E">quan</rdg>
+    </app>
+</listApp>
+    <!-- Apparato critico delle varianti formali del testo di costellazione -->
+</div>
 
-                <app ana="sos">
-                    <num>53</num>
-                            <lem type="corr_c">cautz</lem>
-                        <rdg>quan<witDetail wit="#E"> E</witDetail>
-                            </rdg>
-                </app>
-              </listApp>
-              <!-- Apparato critico delle varianti formali del testo di costellazione -->
+<div type="app_cos_form">
+    <listApp>
+        <app ana="#form" n="6">
+            <lem wit="ms.E">ma vida</lem>
+            <rdg wit="#ms.V">ma ivda</rdg>
+        </app>
+        <app ana="#form" n="10">
+            <lem wit="ms.E">sueill</lem>
+            <rdg wit="#ms.H">soill</rdg>
+            <rdg wit="#ms.V">sujll</rdg>
+        </app>
+        <app ana="#form" n="18">
+            <lem wit="ms.E">enguans</lem>
+            <rdg wit="#ms.H #ms.V">enians</rdg>
+        </app>
+        <app ana="#form" n="22">
+            <lem wit="ms.E">saup</lem>
+            <rdg wit="#ms.V">sap</rdg>
+        </app>
+        <app ana="#form" n="43">
+            <lem wit="ms.E">lunhar</lem>
+            <rdg wit="#ms.H">lo<del rend="erasure">i</del>ngnar</rdg>
+            <note xml:id="paleo2" type="paleo">In H, la vocale <seg type="it">i</seg> è espunta probabilmente dalla medesima mano.</note>
+        </app>
+        <app ana="#form" n="46">
+            <lem wit="ms.E">c’ab</lem>
+            <rdg wit="#ms.H">qu’ab</rdg>
+            <rdg wit="#ms.V">c’ap</rdg>
+        </app>
+        <app ana="#form" n="49">
+            <lem wit="ms.E">volgra</lem>
+            <rdg wit="#ms.H">volg<add place="above" hand="#ms.H">ra</add></rdg>
+            <note xml:id="paleo3" type="paleo">Il copista di H lascia uno spazio bianco dopo <seg type="it">volg</seg> per poi completare il verbo con <seg type="it">ra</seg> nel margine superiore in interlinea.</note>
+        </app>
+        <app ana="#form" n="54">
+            <lem wit="ms.E">freitz</lem>
+            <rdg wit="#ms.H #ms.V">fregs</rdg>
+        </app>
+    </listApp>
             </div>
-            <div type="app_cos_form">
-              <listApp>
-                <app ana="form">
-                    <num>6</num>
-                            <lem>ma vida</lem>
-                    <rdg>ma ivda<witDetail wit="#V"> V</witDetail>
-                            </rdg>
-                </app>
-                <app ana="form">
-                    <num>10</num>
-                            <lem>sueill</lem>
-                    <rdg>soill<witDetail wit="#H"> H</witDetail>
-                            </rdg>
-                    <rdg>sujll<witDetail wit="#V"> V</witDetail>
-                            </rdg>
-                </app>
-                                        <app ana="form">
-                            <num>18</num>
-                            <lem>enguans</lem>
-                            <rdg>enians<witDetail wit="#H #V"> HV </witDetail>
-                            </rdg>
-                        </app>
-                        <app ana="form">
-                            <num>22</num>
-                            <lem>saup</lem>
-                            <rdg>sap<witDetail wit="#V"> V</witDetail>
-                            </rdg>
-                        </app>
-                                                <app ana="form">
-                            <num>43</num>
-                            <lem>lunhar</lem>
-                            <rdg>lo<del rend="erasure">i</del>ngnar<witDetail wit="#H"> H</witDetail>
-                            </rdg>
-                            <note xml:id="paleo2" type="popup">In H, la vocale <seg type="it">i</seg> è espunta probabilmente dalla medesima mano.</note>
-                        </app>
-                        <app ana="form">
-                            <num>46</num>
-                            <lem>c’ab</lem>
-                            <rdg>qu’ab<witDetail wit="#H"> H</witDetail>
-                            </rdg>
-                            <rdg>c’ap<witDetail wit="#V"> V</witDetail>
-                            </rdg>
-                        </app>
-                        <app ana="form">
-                            <num>49</num>
-                            <lem>volgra</lem>
-                            <rdg>volg
-                                <add place="above" hand="#H">ra</add>
-                                <witDetail wit="#H"> H</witDetail>
-                            </rdg>
-                            <note xml:id="paleo3" type="popup">Il copista di H lascia uno spazio bianco dopo <seg type="it">volg</seg> per poi completare il verbo con <seg type="it">ra</seg> nel margine superiore in interlinea.</note>
-                        </app>
-                <app ana="form">
-                            <num>54</num>
-                            <lem>freitz</lem>
-                    <rdg>fregs<witDetail wit="#H #V"> HV</witDetail>
-                            </rdg>
-                </app>
-                                        
-
-              </listApp>
-            </div>
+            </back>
+        </text>
+    </group>
+    <back>
                         <div type="trad_critico" xml:lang="it">
                 <p n="1">
                         <label>I</label>Allontanato dalla gioia e dall’amore, e consumato dalla tristezza, io vorrei morire, se
@@ -931,35 +868,33 @@
                     invece sono raggelato per il suo calore.
                 </p>
             </div>
-        </body>
-        <back>
             <div type="biblio">
                 <head>Edizioni e studi</head>
                 <div type="section" xml:id="section-edizioni">
-                   <title>Edizioni</title>
-                     <p>Shepard 1924, <witDetail>H</witDetail>, pp. 25, 76;
-                     <lb/>Gambini 2001, <witDetail>C</witDetail>, pp. 240 e seguenti.
+                   <head>Edizioni</head>
+                     <p>Shepard 1924, <witDetail wit="#ms.H">H</witDetail>, pp. 25, 76;
+                     <lb/>Gambini 2001, <witDetail wit="#ms.C">C</witDetail>, pp. 240 e seguenti.
                      </p>
                 </div>
         
                 <div type="section">
-                   <title>Antologie</title>
+                   <head>Antologie</head>
                         <p>Sanguineti-Scarpati 2013, pp. 180-186.</p>
                 </div>
 
                 <div type="section">
-                   <title>Studi</title>
+                   <head>Studi</head>
                         <p>Careri 1990, pp. 98, 103, 177, 207;
                     <lb/>Menichetti 2015, pp. 200, 202.
                         </p> 
                 </div>
                 
                 <div type="section">
-                   <title>Edizioni CAO</title>
+                   <head>Edizioni CAO</head>
                         <p>
-                            <witDetail>C</witDetail>: <ref rend="exit" target="https://www.rialto.unina.it/cao/diplomatiche/d/">dipl</ref>
+                            <witDetail wit="#ms.C">C</witDetail>: <ref  target="https://www.rialto.unina.it/cao/diplomatiche/d/">dipl</ref>
                             <lb/>
-                        <witDetail>E</witDetail>: <ref rend="exit" target="https://www.rialto.unina.it/cao/diplomatiche/d/">dipl</ref>, <ref rend="exit" target="https://www.rialto.unina.it/wp-content/uploads/2023/02/E.pdf">interp</ref>
+                        <witDetail wit="#ms.E">E</witDetail>: <ref  target="https://www.rialto.unina.it/cao/diplomatiche/d/">dipl</ref>, <ref  target="https://www.rialto.unina.it/wp-content/uploads/2023/02/E.pdf">interp</ref>
                     </p>
                 </div>
             </div>

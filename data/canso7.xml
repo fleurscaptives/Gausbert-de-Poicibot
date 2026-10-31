@@ -18,9 +18,11 @@
 
                 <respStmt>
                     <resp>Primo Relatore</resp>
-                    <name>Prof.ssa Speranza Cerullo</name>
+                    <persName>Prof.ssa Speranza Cerullo</persName>
+                </respStmt>
+                <respStmt>
                     <resp>Secondo Relatore</resp>
-                    <name>Prof. Angelo Mario Del Grosso</name>
+                    <persName>Prof. Angelo Mario Del Grosso</persName>
                 </respStmt>
 
             </titleStmt>
@@ -39,7 +41,6 @@
                     2026
                 </date>
 
-                <availability status="restricted"/>
 
             </publicationStmt>
 
@@ -105,11 +106,11 @@
         <encodingDesc>
 
             <metDecl>
-                <metSym xml:id="schema_metrico">
+                <p xml:id="schema_metrico">
                     La canzone di Gausbert è composta da cinque coblas di dodici versi ciascuna e una tornada finale di
                     sette versi. La canzone è composta da settenari e quinari non in alternanza uniforme, ma si nota una
                     prevalenza di versi da sette sillabe.
-                </metSym>
+                </p>
 
             </metDecl>
 
@@ -131,7 +132,7 @@
                 </p>
             </projectDesc>
 
-            <schemaRef ident="gausbert.odd" type="ODD"/>
+            <schemaRef url="resources/odds/gausbert.odd" type="ODD"/>
 
         </encodingDesc>
 
@@ -173,7 +174,6 @@
 
     </teiHeader>
 <facsimile>
-  <div>
     <surfaceGrp xml:id="C">
         <surface n="1">
             <graphic url="images/C7a.png"/>
@@ -212,25 +212,22 @@
             <graphic url="images/S7b.jpg"/>
         </surface>
     </surfaceGrp>
-  </div>
 </facsimile>
     <text>
-      <div type="edition">
-        <body>
             <front>
                 <div type="manoscritti">
                         <list>
                             <item>
-                                <witDetail>C</witDetail> 190v: <seg>Gausbert de Puegc.</seg>;
+                                <witDetail wit="#ms.C">C</witDetail> 190v: <seg>Gausbert de Puegc.</seg>;
                             </item>
                             <item>
-                                <witDetail>E</witDetail> 161: <seg>Monge de Pueisibot</seg>;
+                                <witDetail wit="#ms.E">E</witDetail> 161: <seg>Monge de Pueisibot</seg>;
                             </item>
                             <item>
-                                <witDetail>R</witDetail> 37v: <seg>Gaub</seg>(<seg>er</seg>)<seg>t de Puegsibot</seg>;
+                                <witDetail wit="#ms.R">R</witDetail> 37v: <seg>Gaub</seg>(<seg>er</seg>)<seg>t de Puegsibot</seg>;
                             </item>
                             <item>
-                                <witDetail>S</witDetail> 225: <seg>En Iaubert lo monge de Monsibot</seg>.
+                                <witDetail wit="#ms.S">S</witDetail> 225: <seg>En Iaubert lo monge de Monsibot</seg>.
                             </item>
                         </list>
                 </div>
@@ -239,7 +236,7 @@
                     <p>
                         <list>
                             <item>
-                                 <witDetail>β</witDetail> vv. 1594-1605 (da <seg type="it">So fo el tems qu’om era gais</seg> di Raimon Vidal de Besalù).<note type="popup" xml:id="nota_extra1">Il testo della <seg type="it">cobla</seg> extravagante è tratto da Shepard 1924, p. 58, che cita a sua volta <seg type="it">Boletin de la Real Academia de Las Buenas Letras de Barcelona</seg>, XII (8912).</note>
+                                 <witDetail wit="#beta">β</witDetail> vv. 1594-1605 (da <seg type="it">So fo el tems qu’om era gais</seg> di Raimon Vidal de Besalù).<note type="symbol" xml:id="nota_extra1">Il testo della <seg type="it">cobla</seg> extravagante è tratto da Shepard 1924, p. 58, che cita a sua volta <seg type="it">Boletin de la Real Academia de Las Buenas Letras de Barcelona</seg>, XII (8912).</note>
                                 </item>
                         </list>
                     </p>
@@ -253,14 +250,16 @@
                         <lb/>a: <rhyme type="a">en</rhyme>, b: <rhyme type="b">atz</rhyme>, c: <rhyme type="c">os</rhyme>
                     </p>
                 </div>
-                <div type="testo">
-                   <div type="txt_critico" xml:id="canso7">
-                    <title>Testo critico</title>
+            </front>
+            <group>
+                   <text type="txt_critico" xml:id="canso7">
+                    <front><head>Testo critico</head>
                     <p>Ms. base S
                         <lb/>Correzioni da <seg type="corr">C</seg>
                                 <lb/>
                         <seg type="edit">Interventi editoriali</seg>
-                    </p>
+                    </p></front>
+                    <body>
                     <!-- Cobla I -->
                     <label>I</label>
 <lg type="stanza" n="1" rhyme="aaabbaaabbcc" xml:id="crt1" corresp="#cos1">
@@ -299,14 +298,14 @@
                                         <seg type="diff" xml:id="v18" corresp="#v18_cos">
                                             <rhyme label="a">m’espren</rhyme>
                                         </seg>
-                                        <note xml:id="gloss-esprendre" type="popup">
+                                        <note xml:id="gloss-esprendre" type="gloss">
                                     <label>≡ LEX</label>
                             <term type="lex">esprendre</term>
-                            <def>⤷ v. | accendersi, adirarsi</def>
+                            <ab>⤷ v. | accendersi, adirarsi</ab>
                             <ref rend="exit" target="https://archive.org/details/petitdictionnair00levyuoft/page/172/mode/2up">PD</ref>
                                             <lb/>
-                            <def>Il verbo in S, <seg type="it">m’espren</seg>, appare più adatto a comparire nel passo, considerato il riferimento a un forte attacco d’ira nei versi precedenti della medesima <seg type="it">cobla</seg>. In Lévy, per il verbo è indicata la traduzione ‘allumer, enflammer’. La coppia ER concorda sulla forma <seg type="it">mi pren</seg>, mentre C scrive <seg type="it">mi enpren</seg>, traducibile anche con il significato di ‘ostinarsi, intestardirsi’. Si tratta di varianti non classificabili come errori, ma comunque meno semanticamente appropriate, per i motivi sopra descritti, frutto di probabili banalizzazioni del luogo del testo.‬‬‬‬‬‬‬‬
-                            </def>
+                            <p>Il verbo in S, <seg type="it">m’espren</seg>, appare più adatto a comparire nel passo, considerato il riferimento a un forte attacco d’ira nei versi precedenti della medesima <seg type="it">cobla</seg>. In Lévy, per il verbo è indicata la traduzione ‘allumer, enflammer’. La coppia ER concorda sulla forma <seg type="it">mi pren</seg>, mentre C scrive <seg type="it">mi enpren</seg>, traducibile anche con il significato di ‘ostinarsi, intestardirsi’. Si tratta di varianti non classificabili come errori, ma comunque meno semanticamente appropriate, per i motivi sopra descritti, frutto di probabili banalizzazioni del luogo del testo.‬‬‬‬‬‬‬‬
+                            </p>
     </note>
                                     </term>,</l>
     <l n="19">que vos e mei chan <rhyme label="a">plazen</rhyme>
@@ -320,14 +319,14 @@
                                             <seg type="edit">tan descarrai <rhyme label="c">andos</rhyme>
                                             </seg>
                                         </seg>
-                                        <note xml:id="gloss-descarrai" type="popup">
+                                        <note xml:id="gloss-descarrai" type="gloss">
                                     <label>≡ LEX ≋ LIT</label>
                             <term type="lex">decazer</term>
-                            <def>⤷ v. | decadere, degradare, distruggere
-                            <lb/>Dal latino [ᴅᴇᴄᴀᴅᴇ̆ʀᴇ]</def>
+                            <ab>⤷ v. | decadere, degradare, distruggere
+                            <lb/>Dal latino [ᴅᴇᴄᴀᴅᴇ̆ʀᴇ]</ab>
                             <ref rend="exit" target="https://dom-en-ligne.de/dom.php?lhid=3B2DGpdRbggoz8tHPFVUne">DOM</ref>
                                             <lb/>
-                            <def>Per la coniugazione del verbo <seg type="it">decazer</seg>, la tradizione non offre una lezione pienamente soddisfacente. In S si legge <seg type="it">descarriem andos</seg>, con un futuro alla prima persona plurale poco coerente con il soggetto del passo, ossia Gausbert stesso, che minaccia Amore di svalutare <seg type="it">vos e mas chansos</seg>.<lb/>I testimoni del ramo α tramandano, invece, forme differenti del verbo e il pronome <seg type="it">ambedos</seg>. Shepard accoglie la lezione di CE (<seg type="it">qu’ans dechairi’ambedos</seg>), interpretandola come la migliore disponibile, mentre Gambini propone <seg type="it">qu’ans dechairai ambedos</seg>, ipotizzando la perdita di una forma futura alla prima persona singolare già a livello archetipico.<lb/> Tale intervento trova riscontro nell’<seg type="it">usus scribendi</seg> di Gausbert, che nei periodi ipotetici privilegia regolarmente il presente in protasi e il futuro in apodosi (cfr. 173.1, vv. 19-20; 173.3, vv. 33-35; 173.4, vv. 33-35 e 48-50; nonché i vv. 11-12 di 173.7), mentre non mostra una particolare predilezione per il condizionale. Per questa ragione si propone a testo la forma <seg type="it">tan descarrai andos</seg>, ottenuta correggendo la lezione di S mediante il passaggio dalla prima persona plurale alla prima persona singolare.</def>
+                            <p>Per la coniugazione del verbo <seg type="it">decazer</seg>, la tradizione non offre una lezione pienamente soddisfacente. In S si legge <seg type="it">descarriem andos</seg>, con un futuro alla prima persona plurale poco coerente con il soggetto del passo, ossia Gausbert stesso, che minaccia Amore di svalutare <seg type="it">vos e mas chansos</seg>.<lb/>I testimoni del ramo α tramandano, invece, forme differenti del verbo e il pronome <seg type="it">ambedos</seg>. Shepard accoglie la lezione di CE (<seg type="it">qu’ans dechairi’ambedos</seg>), interpretandola come la migliore disponibile, mentre Gambini propone <seg type="it">qu’ans dechairai ambedos</seg>, ipotizzando la perdita di una forma futura alla prima persona singolare già a livello archetipico.<lb/> Tale intervento trova riscontro nell’<seg type="it">usus scribendi</seg> di Gausbert, che nei periodi ipotetici privilegia regolarmente il presente in protasi e il futuro in apodosi (cfr. 173.1, vv. 19-20; 173.3, vv. 33-35; 173.4, vv. 33-35 e 48-50; nonché i vv. 11-12 di 173.7), mentre non mostra una particolare predilezione per il condizionale. Per questa ragione si propone a testo la forma <seg type="it">tan descarrai andos</seg>, ottenuta correggendo la lezione di S mediante il passaggio dalla prima persona plurale alla prima persona singolare.</p>
     </note>
                                     </term>,</l>
     <l n="24">Amors, vos et <seg type="corr">mas</seg> <rhyme label="c">chanzos</rhyme>.</l>
@@ -396,14 +395,14 @@
                         <l n="51">en vos mon <rhyme label="a">castiamen</rhyme>,</l>
                         <l n="52">Amors, qe·l <term type="glossario">
                                         <rhyme label="b">maltatz</rhyme>
-                                    <note type="popup" xml:id="gloss-maltatz">
+                                    <note type="gloss" xml:id="gloss-maltatz">
                             <label>≡ LEX</label>
                             <term type="lex">maltatz</term>
-                            <def>⤷ s. f. | crudeltà, cattiveria</def>
+                            <ab>⤷ s. f. | crudeltà, cattiveria</ab>
                             <ref rend="exit" target="https://dom-en-ligne.de/dom.php?lhid=5G6Uuuiy5VJmUTeLLeYBje">DOM</ref>
                                             <lb/>
-                            <def>La forma <seg type="it">maltatz</seg> in S sarebbe rara; il sostantivo è citato in una voce del Petit Dictionnaire di Lévy, che rimanda, a sua volta, a uno scritto di Paul Meyer apparso in ‭«Romania» nel 1897. Nel testo, Meyer commenta due occorrenze del termine in trattati di astrologia e geomanzia in antico provenzale, proponendo la definizione di “ce qui est mauvais, l’opposé de bontat”.<lb/>Le risorse lessicografiche non offrono molti altri spunti a riguardo.‬‬‬‬‬‬‬‬‬‬‬‬‬‬‬‬‬‬‬‬‬ Invece, i vocabolari dedicano maggiore spazio al corrispettivo <seg type="it">malvestatz</seg>, la forma condivisa dal ramo α, assente nel corpus di Gausbert ma comunque attestata in numerosi componimenti di altri trovatori. Pertanto, è possibile che la corruzione del verso sia da imputare alla poca familiarità dei copisti con la lezione sopravvissuta solo in S.‬‬‬‬‬‬‬‬‬‬
-                            </def>
+                            <p>La forma <seg type="it">maltatz</seg> in S sarebbe rara; il sostantivo è citato in una voce del Petit Dictionnaire di Lévy, che rimanda, a sua volta, a uno scritto di Paul Meyer apparso in ‭«Romania» nel 1897. Nel testo, Meyer commenta due occorrenze del termine in trattati di astrologia e geomanzia in antico provenzale, proponendo la definizione di “ce qui est mauvais, l’opposé de bontat”.<lb/>Le risorse lessicografiche non offrono molti altri spunti a riguardo.‬‬‬‬‬‬‬‬‬‬‬‬‬‬‬‬‬‬‬‬‬ Invece, i vocabolari dedicano maggiore spazio al corrispettivo <seg type="it">malvestatz</seg>, la forma condivisa dal ramo α, assente nel corpus di Gausbert ma comunque attestata in numerosi componimenti di altri trovatori. Pertanto, è possibile che la corruzione del verso sia da imputare alla poca familiarità dei copisti con la lezione sopravvissuta solo in S.‬‬‬‬‬‬‬‬‬‬
+                            </p>
                                     </note>
                                     </term>
                         </l>
@@ -441,69 +440,65 @@
                         <l n="67">Espaigna grazir et <rhyme label="c">vos</rhyme>.</l>
                     </lg>
                     <lb/>
-                </div>
-            <!-- Apparato critico delle varianti sostanziali -->
-            <div type="app_crt_sos">
-              <listApp>
+                </body>
+                <back>
+           <!-- Apparato critico delle varianti sostanziali -->
+<div type="app_crt_sos">
+    <listApp>
+        <app ana="#sos" n="7">
+            <lem wit="#ms.S">m’en</lem>
+            <rdg wit="#ms.C">me</rdg>
+        </app>
 
-   <app ana="sos">
-      <num>7</num>
-      <lem>m’en</lem>
-      <rdg>me<witDetail wit="#S"> S</witDetail>
-                                    </rdg>
-   </app>
+        <app ana="#sos" n="20">
+            <lem wit="#ms.C">meins</lem>
+            <rdg wit="#ms.S" type="omission">
+            <note type="text">manca S</note>
+            </rdg>
+        </app>
 
-   <app ana="sos">
-      <num>20</num>
-      <lem>meins</lem>
-      <note type="text">manca S</note>
-   </app>
+        <app ana="#sos" n="23">
+            <lem resp="#editor">tan descarrai andos</lem>
+            <rdg wit="#ms.S">tan descarriem andos</rdg>
+        </app>
 
-   <app ana="sos">
-      <num>23</num>
-      <lem>tan descarrai andos</lem>
-      <rdg>tan descarriem andos<witDetail wit="#S"> S</witDetail>
-                                    </rdg>
-   </app>
+        <app ana="#sos" n="24">
+            <lem wit="#ms.C">mas</lem>
+            <rdg wit="#ms.S" type="omission">
+            <note type="text">manca S</note>
+            </rdg>
+        </app>
 
-   <app ana="sos">
-      <num>24</num>
-      <lem>mas</lem>
-      <note type="text">manca S</note>
-   </app>
+        <app ana="#sos" n="44">
+            <lem resp="#editor">forsatz m’en</lem>
+            <rdg wit="#ms.S">forzamen</rdg>
+        </app>
 
-   <app ana="sos">
-      <num>44</num>
-      <lem>forsatz m’en</lem>
-      <rdg>forzamen<witDetail wit="#S"> S</witDetail>
-                                    </rdg>
-   </app>
+        <app ana="#sos" n="47">
+            <lem wit="#ms.C">mals</lem>
+            <rdg wit="#ms.S">mal</rdg>
+        </app>
 
-   <app ana="sos">
-      <num>47</num>
-      <lem>mals</lem>
-      <rdg>mal<witDetail wit="#S"> S</witDetail>
-                                    </rdg>
-   </app>
-                            <app ana="sos">
-                                <num>49</num>
-                                <lem>fols</lem>
-                                <rdg>fol<witDetail wit="#S"> S</witDetail>
-                                    </rdg>
-                            </app>
-                            <app ana="sos">
-                                <num>53</num>
-                                <lem>folors</lem>
-                                <rdg>folor<witDetail wit="#S"> S</witDetail>
-                                    </rdg>
-                            </app>
-              </listApp>
-            </div>
+        <app ana="#sos" n="49">
+            <lem wit="#ms.C">fols</lem>
+            <rdg wit="#ms.S">fol</rdg>
+        </app>
+
+        <app ana="#sos" n="53">
+            <lem wit="#ms.C">folors</lem>
+            <rdg wit="#ms.S">folor</rdg>
+        </app>
+    </listApp>
+</div>
             <div type="app_crt_form"/>
-            <div type="txt_costellazione" xml:id="canso7.1">
-                            <title>Testo di costellazione α</title>
+        </back>
+        </text>
+        <text type="txt_costellazione" xml:id="canso7.1">
+            <front>
+                            <head>Testo di costellazione α</head>
                 <p>Ms. base C <lb/>Correzioni e <seg type="it">tornada</seg> da <seg type="corr_c">E</seg>
-                </p>
+                </p></front>
+                <body>
                 <!-- Cobla I -->
                 <lb/>
 <lg type="stanza" n="1" rhyme="aaabbaaabbcc" xml:id="cos1" corresp="#crt1">
@@ -648,371 +643,276 @@
                                 </l>
     <l n="67">Espanha grazir e <rhyme label="c">vos</rhyme>.</l>
 </lg>
-            </div>
+</body>
+<back>
             <!-- Apparato critico delle varianti sostanziali del testo di costellazione -->
             <div type="app_cos_sos">
-              <listApp>
+    <listApp>
+        <app ana="#sos" n="3">
+            <lem wit="#ms.C">Amors</lem>
+            <rdg wit="#ms.E">Amor</rdg>
+        </app>
 
-    <app ana="sos">
-        <num>3</num>
-        <lem>Amors</lem>
-        <rdg>Amor<witDetail wit="#E"> E</witDetail>
-                                        </rdg>
-    </app>
+        <app ana="#sos" n="5">
+            <lem wit="#ms.C">celan e sufren en</lem>
+            <rdg wit="#ms.R">celan sufren et en</rdg>
+        </app>
 
-    <app ana="sos">
-        <num>5</num>
-        <lem>celan e sufren en</lem>
-        <rdg>celan sufren et en<witDetail wit="#R"> R</witDetail>
-                                        </rdg>
-    </app>
+        <app ana="#sos" n="7">
+            <lem wit="#ms.C">Mas er quan m’en vauc</lem>
+            <rdg wit="#ms.R">mas enquer</rdg>
+        </app>
 
-    <app ana="sos">
-        <num>7</num>
-        <lem>Mas er quan m’en vauc</lem>
-        <rdg>mas enquer<witDetail wit="#R"> R</witDetail>
-                                        </rdg>
-    </app>
+        <app ana="#sos" n="8">
+            <lem wit="#ms.C">ni m’en clam, no·m</lem>
+            <rdg wit="#ms.R">e mos chans no</rdg>
+        </app>
 
-    <app ana="sos">
-        <num>8</num>
-        <lem>ni m’en clam, no·m</lem>
-        <rdg>e mos chans no<witDetail wit="#R"> R</witDetail>
-                                        </rdg>
-    </app>
+        <app ana="#sos" n="9">
+            <lem wit="#ms.C">mas del clam qu’ieu fatz</lem>
+            <rdg wit="#ms.R">que dels chans que fas</rdg>
+        </app>
 
-    <app ana="sos">
-        <num>9</num>
-        <lem>mas del clam qu’ieu fatz</lem>
-        <rdg>que dels chans que fas<witDetail wit="#R"> R</witDetail>
-                                        </rdg>
-    </app>
+        <app ana="#sos" n="11">
+            <lem resp="#editor">d’aitan que si</lem>
+            <rdg wit="#ms.C #ms.E">sivals que si</rdg>
+            <rdg wit="#ms.R">cals mens si tot</rdg>
+        </app>
 
-    <app ana="sos">
-        <num>11</num>
-        <lem>d’aitan que si</lem>
-        <rdg>sivals que si<witDetail wit="#C #E"> CE</witDetail>
-                                        </rdg>
-        <rdg>cals mens si tot<witDetail wit="#R"> R</witDetail>
-                                        </rdg>
-    </app>
+        <app ana="#sos" n="13">
+            <lem wit="#ms.C">degra</lem>
+            <rdg wit="#ms.E">degran</rdg>
+            <rdg wit="#ms.R">degreu</rdg>
+        </app>
 
-    <app ana="sos">
-        <num>13</num>
-        <lem>degra</lem>
-        <rdg>degran<witDetail wit="#E"> E</witDetail>
-                                        </rdg>
-        <rdg>degreu<witDetail wit="#R"> R</witDetail>
-                                        </rdg>
-    </app>
+        <app ana="#sos" n="14">
+            <lem wit="#ms.E">vauc vos</lem>
+            <rdg wit="#ms.C">vauc men</rdg>
+            <rdg wit="#ms.R">vas vos</rdg>
+        </app>
 
-    <app ana="sos">
-        <num>14</num>
-        <lem>vauc vos</lem>
-        <rdg>vauc men<witDetail wit="#C"> C</witDetail>
-                                        </rdg>
-        <rdg>vas vos<witDetail wit="#R"> R</witDetail>
-                                        </rdg>
-    </app>
+        <app ana="#sos" n="15">
+            <lem wit="#ms.C">greumen</lem>
+            <rdg wit="#ms.R">formens</rdg>
+        </app>
 
-    <app ana="sos">
-        <num>15</num>
-        <lem>greumen</lem>
-        <rdg>formens<witDetail wit="#R"> R</witDetail>
-                                        </rdg>
-    </app>
+        <app ana="#sos" n="16">
+            <lem wit="#ms.C">plus quant</lem>
+            <rdg wit="#ms.R">pus car</rdg>
+        </app>
 
-    <app ana="sos">
-        <num>16</num>
-        <lem>plus quant</lem>
-        <rdg>pus car<witDetail wit="#R"> R</witDetail>
-                                        </rdg>
-    </app>
+        <app ana="#sos" n="17">
+            <lem wit="#ms.C">e felhs ni</lem>
+            <rdg wit="#ms.R">es fols e</rdg>
+        </app>
 
-    <app ana="sos">
-        <num>17</num>
-        <lem>e felhs ni</lem>
-        <rdg>es fols e<witDetail wit="#R"> R</witDetail>
-                                        </rdg>
-    </app>
+        <app ana="#sos" n="18" type="locus">
+            <lem wit="#ms.C">mi enpren</lem>
+            <rdg wit="#ms.E #ms.R">mi pren</rdg>
+        </app>
 
-    <app ana="sos" type="locus">
-        <num>18</num>
-        <lem>mi enpren</lem>
-        <rdg>mi pren<witDetail wit="#E #R"> ER</witDetail>
-                                        </rdg>
-    </app>
+        <app ana="#sos" n="20">
+            <lem wit="#ms.C">meins valen</lem>
+            <rdg wit="#ms.R">pus valent</rdg>
+        </app>
 
-    <app ana="sos">
-        <num>20</num>
-        <lem>meins valen</lem>
-        <rdg>pus valent<witDetail wit="#R"> R</witDetail>
-                                        </rdg>
-    </app>
+        <app ana="#sos" n="21-22">
+            <note type="text">i versi sono invertiti in R</note>
+        </app>
 
-    <app ana="sos">
-        <num>21-22</num>
-        <note type="text">i versi sono invertiti in R</note>
-    </app>
-    
-    <app ana="sos">
-        <num>22</num>
-        <lem>no·us</lem>
-        <rdg>vos<witDetail wit="#R"> R</witDetail>
-                                        </rdg>
-    </app>
+        <app ana="#sos" n="22">
+            <lem wit="#ms.C">no·us</lem>
+            <rdg wit="#ms.R">vos</rdg>
+        </app>
 
-    <app ana="sos" type="locus">
-        <num>23</num>
-        <lem>dechairi’ambedos</lem>
-        <rdg>dechayra ambedos<witDetail wit="#R"> R</witDetail>
-                                        </rdg>
-    </app>
+        <app ana="#sos" n="23" type="locus">
+            <lem wit="#ms.C">dechairi’ambedos</lem>
+            <rdg wit="#ms.R">dechayra ambedos</rdg>
+        </app>
 
-    <app ana="sos">
-        <num>24</num>
-        <lem>Amors, vos e mas chansos</lem>
-        <rdg>Amor<witDetail wit="#C #E"> CE</witDetail>
-                                        </rdg>
-        <rdg>Amors, mas chansos e vos<witDetail wit="#R"> R</witDetail>
-                                        </rdg>
-    </app>
+        <app ana="#sos" n="24">
+            <lem resp="#editor">Amors, vos e mas chansos</lem>
+            <rdg wit="#ms.C #ms.E">Amor</rdg>
+            <rdg wit="#ms.R">Amors, mas chansos e vos</rdg>
+        </app>
 
-    <app ana="sos">
-        <num>25</num>
-        <lem>Ben</lem>
-        <rdg>Heu<witDetail wit="#beta"> β</witDetail>
-                                        </rdg>
-    </app>
+        <app ana="#sos" n="25">
+            <lem wit="#ms.C">Ben</lem>
+            <rdg wit="#beta">Heu</rdg>
+        </app>
 
-    <app ana="sos">
-        <num>25</num>
-        <lem>hi aten</lem>
-        <rdg>ia naten<witDetail wit="#R"> R</witDetail>
-                                        </rdg>
-        <rdg>i enten<witDetail wit="#beta"> β</witDetail>
-                                        </rdg>
-    </app>
+        <app ana="#sos" n="25">
+            <lem wit="#ms.C">hi aten</lem>
+            <rdg wit="#ms.R">ia naten</rdg>
+            <rdg wit="#beta">i enten</rdg>
+        </app>
 
-    <app ana="form">
-        <num>26</num>
-        <lem>meluyramen</lem>
-        <rdg>mezuramen<witDetail wit="#E"> E</witDetail>
-                                        </rdg>
-    </app>
+        <app ana="#sos" n="26">
+            <lem wit="#ms.C">meluyramen</lem>
+            <rdg wit="#ms.E">mezuramen</rdg>
+        </app>
 
-    <app ana="sos">
-        <num>27</num>
-        <lem>on plus</lem>
-        <rdg>con pus<witDetail wit="#R"> R</witDetail>
-                                        </rdg>
-    </app>
+        <app ana="#sos" n="27">
+            <lem wit="#ms.C">on plus</lem>
+            <rdg wit="#ms.R">con pus</rdg>
+        </app>
 
-    <app ana="sos">
-        <num>29</num>
-        <note type="text">manca C</note>
-    </app>
+        <app ana="#sos" n="29">
+            <rdg wit="#ms.C" type="omission">
+            <note type="text">manca C</note>
+            </rdg>
+        </app>
 
-    <app ana="sos">
-        <num>31</num>
-        <lem>castiamen</lem>
-        <rdg>reprendemen<witDetail wit="#beta"> β</witDetail>
-                                        </rdg>
-    </app>
+        <app ana="#sos" n="31">
+            <lem wit="#ms.C">castiamen</lem>
+            <rdg wit="#beta">reprendemen</rdg>
+        </app>
 
-    <app ana="sos">
-        <num>33</num>
-        <lem>far foudatz</lem>
-        <rdg>fayre foldatz<witDetail wit="#R"> R</witDetail>
-                                        </rdg>
-    </app>
+        <app ana="#sos" n="33">
+            <lem wit="#ms.C">far foudatz</lem>
+            <rdg wit="#ms.R">fayre foldatz</rdg>
+        </app>
 
-    <app ana="sos">
-        <num>36</num>
-        <lem>non er ja valens ni bos</lem>
-        <rdg>greu sera valens ni pros<witDetail wit="#beta"> β</witDetail>
-                                        </rdg>
-    </app>
- 
-<app ana="sos">
-    <num>37</num>
-    <lem>no m’es</lem>
-    <rdg>no es<witDetail wit="#R"> R</witDetail>
-                                        </rdg>
-</app>
+        <app ana="#sos" n="36">
+            <lem wit="#ms.C">non er ja valens ni bos</lem>
+            <rdg wit="#beta">greu sera valens ni pros</rdg>
+        </app>
 
-<app ana="sos" type="locus">
-    <num>39</num>
-    <lem>mas fatz lo forsadamen</lem>
-    <rdg>mas forsadamen<witDetail wit="#C #E"> CE</witDetail>
-                                        </rdg>
-    <rdg>mas prenc mi f.<witDetail wit="#R"> R</witDetail>
-                                        </rdg>
-</app>
+        <app ana="#sos" n="37">
+            <lem wit="#ms.C">no m’es</lem>
+            <rdg wit="#ms.R">no es</rdg>
+        </app>
 
-<app ana="sos">
-    <num>41</num>
-    <lem>forsenatz</lem>
-    <rdg>fort yratz<witDetail wit="#R"> R</witDetail>
-                                        </rdg>
-</app>
+        <app ana="#sos" n="39" type="locus">
+            <lem resp="#editor">mas fatz lo forsadamen</lem>
+            <rdg wit="#ms.C #ms.E">mas forsadamen</rdg>
+            <rdg wit="#ms.R">mas prenc mi f.</rdg>
+        </app>
 
-<app ana="sos" type="locus">
-    <num>44</num>
-    <lem>pois forsatz m’en</lem>
-    <rdg>mas foudatz<witDetail wit="#C"> C</witDetail>
-                                        </rdg>
-    <rdg>mas forsatz<witDetail wit="#E"> E</witDetail>
-                                        </rdg>
-    <rdg>e chan marridamen<witDetail wit="#R"> R</witDetail>
-                                        </rdg>
-</app>
+        <app ana="#sos" n="41">
+            <lem wit="#ms.C">forsenatz</lem>
+            <rdg wit="#ms.R">fort yratz</rdg>
+        </app>
 
-<app ana="sos" type="locus">
-    <num>45</num>
-    <lem>er tortz e peccatz</lem>
-    <rdg>men er t. e p.<witDetail wit="#C  #E"> CE</witDetail>
-                                        </rdg>
-    <rdg>contra vos forsatz<witDetail wit="#R"> R</witDetail>
-                                        </rdg>
-</app>
+        <app ana="#sos" n="44" type="locus">
+            <lem resp="#editor">pois forsatz m’en</lem>
+            <rdg wit="#ms.C">mas foudatz</rdg>
+            <rdg wit="#ms.E">mas forsatz</rdg>
+            <rdg wit="#ms.R">e chan marridamen</rdg>
+        </app>
 
-<app ana="sos">
-    <num>46</num>
-    <lem>s’ieu en suy</lem>
-    <rdg>ai ia non sia<witDetail wit="#R"> R</witDetail>
-                                        </rdg>
-</app>
+        <app ana="#sos" n="45" type="locus">
+            <lem wit="#ms.C">er tortz e peccatz</lem>
+            <rdg wit="#ms.C #ms.E">men er t. e p.</rdg>
+            <rdg wit="#ms.R">contra vos forsatz</rdg>
+        </app>
 
-<app ana="sos">
-    <num>47</num>
-    <lem>qu’a vos tanh</lem>
-    <rdg>qua lors tanh<witDetail wit="#C"> C</witDetail>
-                                        </rdg>
-    <rdg>ca vos falh<witDetail wit="#R"> R</witDetail>
-                                        </rdg>
-    <lem>mals</lem>
-    <rdg>mal<witDetail wit="#E #R"> ER</witDetail>
-                                        </rdg>
-</app>
+        <app ana="#sos" n="46">
+            <lem wit="#ms.C">s’ieu en suy</lem>
+            <rdg wit="#ms.R">ai ia non sia</rdg>
+        </app>
 
-<app ana="sos" type="locus">
-    <num>48</num>
-    <lem>ve·l</lem>
-    <rdg>vol<witDetail wit="#E"> E</witDetail>
-                                        </rdg>
-    <rdg>nel<witDetail wit="#R"> R</witDetail>
-                                        </rdg>
-</app>
+        <app ana="#sos" n="47">
+            <lem resp="#editor">qu’a vos tanh</lem>
+            <rdg wit="#ms.C">qua lors tanh</rdg>
+            <rdg wit="#ms.R">ca vos falh</rdg>
+        </app>
+        <app ana="#sos">
+            <lem wit="#ms.C">mals</lem>
+            <rdg wit="#ms.E #ms.R">mal</rdg>
+        </app>
 
-<app ana="sos">
-    <num>50</num>
-    <lem>gast</lem>
-    <rdg>gatz<witDetail wit="#R"> R</witDetail>
-                                        </rdg>
-</app>
+        <app ana="#sos" n="48" type="locus">
+            <lem wit="#ms.C">ve·l</lem>
+            <rdg wit="#ms.E">vol</rdg>
+            <rdg wit="#ms.R">nel</rdg>
+        </app>
 
-<app ana="sos">
-    <num>52</num>
-    <lem>Amors</lem>
-    <rdg>Amor<witDetail wit="#E"> E</witDetail>
-                                        </rdg>
-    <note type="text">manca R</note>
-</app>
+        <app ana="#sos" n="50">
+            <lem wit="#ms.C">gast</lem>
+            <rdg wit="#ms.R">gatz</rdg>
+        </app>
 
-<app ana="sos" type="locus">
-    <lem>que·l maltatz</lem>
-    <rdg>quel malvestatz<witDetail wit="#C"> C</witDetail>
-                                        </rdg>
-    <rdg>que ill malvestatz<witDetail wit="#E"> E</witDetail>
-                                        </rdg>
-    <rdg>que la malvestatz<witDetail wit="#R"> R</witDetail>
-                                        </rdg>
-</app>
+        <app ana="#sos" n="52">
+            <lem wit="#ms.C">Amors</lem>
+            <rdg wit="#ms.E">Amor</rdg>
+            <rdg wit="#ms.E" type="omission">
+            <note type="text">manca R</note>
+            </rdg>
+        </app>
 
-<app ana="sos">
-    <num>53</num>
-    <lem>e·l crueltatz</lem>
-    <rdg>e lor vertatz<witDetail wit="#R"> R</witDetail>
-                                        </rdg>
-</app>
+        <app ana="#sos" type="locus">
+            <lem resp="#editor">que·l maltatz</lem>
+            <rdg wit="#ms.C">quel malvestatz</rdg>
+            <rdg wit="#ms.E">que ill malvestatz</rdg>
+            <rdg wit="#ms.R">que la malvestatz</rdg>
+        </app>
 
-<app ana="sos" type="locus">
-    <num>54</num>
-    <lem>qui en vos s’enpren</lem>
-    <rdg>nous laiss aver sen<witDetail wit="#C #E"> CE</witDetail>
-                                        </rdg>
-    <rdg>nous laissan aver sen<witDetail wit="#R"> R</witDetail>
-                                        </rdg>
-</app>
+        <app ana="#sos" n="53">
+            <lem wit="#ms.C">e·l crueltatz</lem>
+            <rdg wit="#ms.R">e lor vertatz</rdg>
+        </app>
 
-<app ana="sos" type="locus">
-    <num>55</num>
-    <lem>no·us laiss’aver chauzimen</lem>
-    <rdg>ni nulh chauzimen<witDetail wit="#C #E #R"> CER</witDetail>
-                                        </rdg>
-</app>
+        <app ana="#sos" n="54" type="locus">
+            <lem resp="#editor">qui en vos s’enpren</lem>
+            <rdg wit="#ms.C #ms.E">nous laiss aver sen</rdg>
+            <rdg wit="#ms.R">nous laissan aver sen</rdg>
+        </app>
 
-<app ana="sos">
-    <num>56</num>
-    <lem>anz vos tol et vos defen</lem>
-    <rdg>ans lus tol e vos destrenh<witDetail wit="#R"> R</witDetail>
-                                        </rdg>
-</app>
+        <app ana="#sos" n="55" type="locus">
+            <lem resp="#editor">no·us laiss’aver chauzimen</lem>
+            <rdg wit="#ms.C #ms.E #ms.R">ni nulh chauzimen</rdg>
+        </app>
 
-<app ana="sos">
-    <num>58</num>
-    <lem>no·m taz</lem>
-    <rdg>mon tatz<witDetail wit="#R"> R</witDetail>
-                                        </rdg>
-</app>
+        <app ana="#sos" n="56">
+            <lem wit="#ms.C">anz vos tol et vos defen</lem>
+            <rdg wit="#ms.R">ans lus tol e vos destrenh</rdg>
+        </app>
 
-<app ana="sos">
-    <num>59</num>
-    <lem>quans</lem>
-    <rdg>ans<witDetail wit="#R"> R</witDetail>
-                                        </rdg>
-</app>
+        <app ana="#sos" n="58">
+            <lem wit="#ms.C">no·m taz</lem>
+            <rdg wit="#ms.R">mon tatz</rdg>
+        </app>
 
-<app ana="sos" type="locus">
-    <num>60</num>
-    <lem>tro venha</lem>
-    <rdg>no veya<witDetail wit="#R"> R</witDetail>
-                                        </rdg>
-</app>
+        <app ana="#sos" n="59">
+            <lem wit="#ms.C">quans</lem>
+            <rdg wit="#ms.R">ans</rdg>
+        </app>
 
-<app ana="sos">
-    <num>61-67</num>
-    <note type="text">manca C</note>
-</app>
-              </listApp>
-            </div>
-            <!-- Apparato critico delle varianti formali del testo di costellazione -->
-            <div type="app_cos_form">
-              <listApp>
-    <app ana="form">
-        <num>10</num>
-        <lem>tenh</lem>
-        <rdg>ten<witDetail wit="#R"> R</witDetail>
-                                    </rdg>
-    </app>
-    <app ana="form">
-        <num>26</num>
-        <lem>melhuramen</lem>
-        <rdg>meilloramen<witDetail wit="#beta"> β</witDetail>
-                                    </rdg>
-    </app>
-    <app ana="form">
-        <num>61</num>
-        <lem>Campanha</lem>
-        <rdg>capagna<witDetail wit="#R"> R</witDetail>
-                                    </rdg>
-    </app>
-              </listApp>
-            </div>
-                            
-                </div>
-                
+        <app ana="#sos" n="60" type="locus">
+            <lem wit="#ms.C">tro venha</lem>
+            <rdg wit="#ms.R">no veya</rdg>
+        </app>
+
+        <app ana="#sos" n="61-67">
+            <rdg wit="#ms.C" type="omission">
+            <note type="text">manca C</note>
+            </rdg>
+        </app>
+    </listApp>
+</div>
+<div type="app_cos_form">
+    <listApp>
+        <app ana="#form" n="10">
+            <lem wit="#ms.C">tenh</lem>
+            <rdg wit="#ms.R">ten</rdg>
+        </app>
+
+        <app ana="#form" n="26">
+            <lem wit="#ms.C">melhuramen</lem>
+            <rdg wit="#beta">meilloramen</rdg>
+        </app>
+
+        <app ana="#form" n="61">
+            <lem wit="#ms.C">Campanha</lem>
+            <rdg wit="#ms.R">capagna</rdg>
+        </app>
+    </listApp>
+</div>
+            </back>
+        </text>
+        </group>
+        <back>
             
                 <div type="trad_critico" xml:lang="it">
                    
@@ -1075,9 +975,9 @@
                 
                 
                 <div type="trad_extra">
-                    <p>
-                            <title>Cobla trasmessa per tradizione indiretta</title>
-                        </p>
+                    <head>
+                    Cobla trasmessa per tradizione indiretta
+                    </head>
                     <lg type="stanza" xml:id="extra7" corresp="#cos3">
                     <anchor xml:id="anchor-extra7"/>
                                 <l n="25">Heu sui folls car i enten</l>
@@ -1095,37 +995,31 @@
                     </lg>
                     <lb/>
                 </div> 
-                
-            </front>
-        </body>
-        <back>
             <div type="biblio">
-                <head>Edizioni e studi</head>
                 <div type="section" xml:id="section-edizioni">
-                <title>Edizioni</title>
-                <p>Shepard 1924, <witDetail>S</witDetail>, pp. 22-25, 58, 75-76;
-                    <lb/>Gambini 2001, <witDetail>C</witDetail>, pp. 211 e seguenti.
+                <head>Edizioni</head>
+                <p>Shepard 1924, <witDetail wit="#ms.S">S</witDetail>, pp. 22-25, 58, 75-76;
+                    <lb/>Gambini 2001, <witDetail wit="#ms.C">C</witDetail>, pp. 211 e seguenti.
                 </p>
                 </div>
 
             <div type="section">
-                <title>Studi</title>
+                <head>Studi</head>
                 <p>Meyer 1897: pp. 255, 274.</p>
             </div>
 
             <div type="section">
-                <title>Edizioni CAO</title>
+                <head>Edizioni CAO</head>
                 <p>
-                            <witDetail>C</witDetail>: <ref rend="exit" target="https://www.rialto.unina.it/cao/diplomatiche/c/">dipl</ref>
+                            <witDetail wit="#ms.C">C</witDetail>: <ref rend="exit" target="https://www.rialto.unina.it/cao/diplomatiche/c/">dipl</ref>
                     <lb/>
-                            <witDetail>E</witDetail>: <ref rend="exit" target="https://www.rialto.unina.it/cao/diplomatiche/e/">dipl</ref>, <ref rend="exit" target="https://www.rialto.unina.it/wp-content/uploads/2023/02/E.pdf">interp</ref>
+                            <witDetail wit="#ms.E">E</witDetail>: <ref rend="exit" target="https://www.rialto.unina.it/cao/diplomatiche/e/">dipl</ref>, <ref rend="exit" target="https://www.rialto.unina.it/wp-content/uploads/2023/02/E.pdf">interp</ref>
                     <lb/>
-                            <witDetail>S</witDetail>: <ref rend="exit" target="https://www.rialto.unina.it/cao/diplomatiche/s/">dipl</ref>, <ref rend="exit" target="https://www.rialto.unina.it/wp-content/uploads/2023/02/Interpretativa-S.pdf">interp
+                            <witDetail wit="#ms.S">S</witDetail>: <ref rend="exit" target="https://www.rialto.unina.it/cao/diplomatiche/s/">dipl</ref>, <ref rend="exit" target="https://www.rialto.unina.it/wp-content/uploads/2023/02/Interpretativa-S.pdf">interp
                     </ref>
                 </p>
             </div>
           </div>
         </back>
-     </div>
     </text>
 </TEI>

@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="14">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -18,9 +18,11 @@
 
                 <respStmt>
                     <resp>Primo Relatore</resp>
-                    <name>Prof.ssa Speranza Cerullo</name>
+                    <persName>Prof.ssa Speranza Cerullo</persName>
+                </respStmt>
+                <respStmt>
                     <resp>Secondo Relatore</resp>
-                    <name>Prof. Angelo Mario Del Grosso</name>
+                    <persName>Prof. Angelo Mario Del Grosso</persName>
                 </respStmt>
 
             </titleStmt>
@@ -39,8 +41,6 @@
                     2026
                 </date>
 
-                <availability status="restricted"/>
-
             </publicationStmt>
 
             <sourceDesc>
@@ -57,7 +57,7 @@
 
                 </bibl>
                 <listWit>
-                    <witness xml:id="ms.A"/>
+                    <witness xml:id="ms.A">
                         <msDesc>
                             <msIdentifier>
                                 <country>Italia</country>
@@ -65,6 +65,7 @@
                                 <idno>Lat. 5232</idno>
                             </msIdentifier>
                         </msDesc>
+                     </witness>
                     <witness xml:id="ms.C">
                         <msDesc>
                             <msIdentifier>
@@ -74,7 +75,7 @@
                             </msIdentifier>
                         </msDesc>
                     </witness>
-                    <witness xml:id="ms.D"/>
+                    <witness xml:id="ms.D">
                         <msDesc>
                             <msIdentifier>
                                 <country>Italia</country>
@@ -82,6 +83,7 @@
                                 <idno>alfa. R.4.4</idno>
                             </msIdentifier>
                         </msDesc>
+                     </witness>
                     <witness xml:id="ms.E">
                         <msDesc>
                             <msIdentifier>
@@ -172,7 +174,7 @@
                             </msIdentifier>
                         </msDesc>
                     </witness>
-                    <witness xml:id="ms.a¹">
+                    <witness xml:id="ms.a1">
                         <msDesc>
                             <msIdentifier>
                                 <country>Italia</country>
@@ -202,9 +204,9 @@
         <encodingDesc>
 
             <metDecl>
-                <metSym xml:id="schema_metrico">
+                <p xml:id="schema_metrico">
                     La canzone di Gausbert è composta da cinque coblas di undici versi dal metro che prevede l’alternarsi non uniforme di quinari e settenari. Tre testimoni trasmettono anche da una a due tornadas conclusive. 
-                </metSym>
+                </p>
             </metDecl>
 
             <classDecl>
@@ -225,7 +227,7 @@
                 </p>
             </projectDesc>
 
-            <schemaRef ident="gausbert.odd" type="ODD"/>
+            <schemaRef url="resources/odds/gausbert.odd" type="ODD"/>
 
         </encodingDesc>
 
@@ -267,7 +269,6 @@
 
     </teiHeader>
     <facsimile>
-     <div>
       <surfaceGrp xml:id="A">
         <surface n="1">
             <graphic url="images/AA14a.png"/>
@@ -369,7 +370,7 @@
             <graphic url="images/U14c.png"/>
         </surface>
      </surfaceGrp>
-     <surfaceGrp xml:id="a¹">
+     <surfaceGrp xml:id="a1">
         <surface n="1">
             <graphic url="images/a14a.png"/>
         </surface>
@@ -382,60 +383,57 @@
             <graphic url="images/w14b.png"/>
         </surface>
      </surfaceGrp>
-    </div>
     </facsimile>
     
     
     <text>
-    <div type="edition">
-    <body>
         <front>
             <div type="manoscritti">
                     <list type="facsimile">
                         <item>
-                            <witDetail>A</witDetail> 116r: <seg>Lo monges de Ponciboc</seg>;
+                            <witDetail wit="#ms.A">A</witDetail> 116r: <seg>Lo monges de Ponciboc</seg>;
                         </item>
                         <item>
-                            <witDetail>C</witDetail> 190r: <seg>.Gausbert de Puegcibot</seg>; 
+                            <witDetail wit="#ms.C">C</witDetail> 190r: <seg>.Gausbert de Puegcibot</seg>; 
                         </item>
                         <item>
-                            <witDetail>D</witDetail> 46v: <seg>Lo monge de Poicibot</seg>; 
+                            <witDetail wit="#ms.D">D</witDetail> 46v: <seg>Lo monge de Poicibot</seg>; 
                         </item>
                         <item>
-                            <witDetail>E</witDetail> 159: <seg>Monge d</seg>(<seg>e</seg>)<seg> Pueisibot</seg>; 
+                            <witDetail wit="#ms.D">E</witDetail> 159: <seg>Monge d</seg>(<seg>e</seg>)<seg> Pueisibot</seg>; 
                         </item>
                         <item>
-                            <witDetail>G</witDetail> 104r: <seg>Moge d</seg>(<seg>e</seg>)<seg> Pocibot</seg>;  
+                            <witDetail wit="#ms.G">G</witDetail> 104r: <seg>Moge d</seg>(<seg>e</seg>)<seg> Pocibot</seg>;  
                         </item>
                         <item>
-                            <witDetail>I</witDetail> 80v: <seg>Lo monge Gaubertz de Poicibot</seg>; 
+                            <witDetail wit="#ms.I">I</witDetail> 80v: <seg>Lo monge Gaubertz de Poicibot</seg>; 
                         </item>
                         <item>
-                            <witDetail>K</witDetail> 64v: <seg>Lo monge Gaubertz de Poicibot</seg>;
+                            <witDetail wit="#ms.K">K</witDetail> 64v: <seg>Lo monge Gaubertz de Poicibot</seg>;
                         </item>
                         <item>
-                            <witDetail>L</witDetail> 37v: <seg>Monge de Ponçibec</seg>;
+                            <witDetail wit="#ms.L">L</witDetail> 37v: <seg>Monge de Ponçibec</seg>;
                         </item>
                         <item>
-                            <witDetail>N</witDetail> 208v: <seg>Lo monge de Pueisibot</seg>;
+                            <witDetail wit="#ms.N">N</witDetail> 208v: <seg>Lo monge de Pueisibot</seg>;
                         </item>
                         <item>
-                            <witDetail>P</witDetail> 11r: <seg>Gaubert</seg>; 
+                            <witDetail wit="#ms.P">P</witDetail> 11r: <seg>Gaubert</seg>; 
                         </item>
                         <item>
-                            <witDetail>R</witDetail> 28r: <seg>.Gaub</seg>(<seg>er</seg>)<seg>t de Puegsiboth</seg>;
+                            <witDetail wit="#ms.R">R</witDetail> 28r: <seg>.Gaub</seg>(<seg>er</seg>)<seg>t de Puegsiboth</seg>;
                         </item>
                         <item>
-                            <witDetail>T</witDetail> 114r: <seg>Gaubert de Pontibot</seg>;
+                            <witDetail wit="#ms.T">T</witDetail> 114r: <seg>Gaubert de Pontibot</seg>;
                         </item>
                         <item>
-                            <witDetail>U</witDetail> 80v: <seg>Gaub</seg>(<seg>er</seg>)<seg>t li monge de Pogibot</seg>;
+                            <witDetail wit="#ms.U">U</witDetail> 80v: <seg>Gaub</seg>(<seg>er</seg>)<seg>t li monge de Pogibot</seg>;
                         </item>
                         <item>
-                            <witDetail>a¹</witDetail> 212: <seg>Gaubertz de Puigcibot</seg>;
+                            <witDetail wit="#ms.a1">a¹</witDetail> 212: <seg>Gaubertz de Puigcibot</seg>;
                         </item>
                         <item>
-                            <witDetail>w</witDetail> 283r: anonimo.
+                            <witDetail wit="#ms.w">w</witDetail> 283r: anonimo.
                         </item>
                     </list>
             </div>
@@ -444,11 +442,11 @@
                     <p>
                         <list>
                             <item>
-                                 <witDetail>α</witDetail> vv. 28050-28063 (dal <seg type="it">Breviari d’Amor</seg> di Matfre Ermengau).<note type="popup" xml:id="nota_extra1">Il testo di riferimento è l’edizione del <seg type="it">Breviari</seg> curata da Peter T. Ricketts e pubblicata nel 2011, in particolare le pp. 48-51.</note>
+                                 <witDetail wit="#alfa">α</witDetail> vv. 28050-28063 (dal <seg type="it">Breviari d’Amor</seg> di Matfre Ermengau).<note type="symbol" xml:id="nota_extra1">Il testo di riferimento è l’edizione del <seg type="it">Breviari</seg> curata da Peter T. Ricketts e pubblicata nel 2011, in particolare le pp. 48-51.</note>
                                 </item>
                         </list>
                     </p>
-                </div>
+            </div>
             <div type="scheda_metrica">
 
                 <head>Scheda metrica</head>
@@ -458,13 +456,15 @@
                     <lb/>a: <rhyme type="a">als</rhyme>, b: <rhyme type="b">e</rhyme>, c: <rhyme type="c">ens</rhyme>, d: <rhyme type="d">ensa</rhyme>, e: <rhyme type="e">ors</rhyme>
                         </p>
             </div>
-            <div type="testo">
-              <div type="txt_critico" xml:id="canso1">
-              <title>Testo critico</title>
+         </front>
+         <group>
+              <text type="txt_critico" xml:id="canso1">
+              <front><head>Testo critico</head>
                 <p>Ms. base A<lb/>Correzioni da <seg type="corr">C</seg>
                                 <lb/>
                                 <seg type="edit">Interventi editoriali</seg>
-                            </p>
+                            </p></front>
+               <body>
                <!-- Cobla I -->
 <label>I</label>
 <lg type="stanza" n="1" rhyme="ababbcdceed" xml:id="crt1" corresp="#cos1">
@@ -478,14 +478,13 @@
     <l n="5">E puois mi d’als non <rhyme>sove</rhyme>,</l>
     <l n="6">semblen fatz d’entre la <rhyme>gens</rhyme>
                                 </l>
-    <l n="7">e·n par <term type="glossario">menre<note type="popup" xml:id="gloss-menre">
+    <l n="7">e·n par <term type="glossario">menre<note type="gloss" xml:id="gloss-menre">
                                     <label>≡ LEX</label>
                             <term type="lex">menor</term>
-                            <def>⤷ agg. | minore, più piccolo, giovane</def>
+                            <ab>⤷ agg. | minore, più piccolo, giovane</ab>
                             <ref rend="exit" target="https://dom-en-ligne.de/dom.php?lhid=5hv7tHesQjjLPZHFoxtSfL">DOM</ref>
                                             <lb/>
-                            <def>R è l’unico testimone a presentare la lezione <seg type="it">monors</seg>, una probabile variante erronea riconducibile a <seg type="it">menor</seg>. <lb/>Si tratta della prima occorrenza in cui in R si legge una lezione singolare che termina in -<seg type="it">ors</seg> e che, in più, appare in contrasto con una lezione di maggiore qualità condivisa dal resto dei testimoni. Ai vv. 22 (v. 44 in R) e 53, si leggono le lezioni <seg type="it">ressors</seg> (laddove il resto dei testimoni trasmettono il sostantivo <seg type="it">recels</seg>) e <seg type="it">calhors</seg> (laddove gli altri manoscritti scrivono <seg type="it">calar</seg>).<lb/> La proliferazione in R di lezioni singolari in -<seg type="it">ors</seg> potrebbe essere interpretata come il prodotto di interventi dei copisti su errate identificazioni di rimanti con questa terminazione. Tuttavia, ciò appare plausibile solo nel caso di <seg type="it">monors</seg>, copiato in posizione di fine rigo. <lb/>A ogni modo, la lezione <seg type="it">monors</seg> è corretta con <seg type="it">menor</seg> nel testo di costellazione. <lb/>Si segnala un simile intervento anche sulla lezione <seg type="it">termens</seg> che, al v. 30 di R, compare in luogo del termine corretto <seg type="it">tormens</seg>, forse generato dal ripresentarsi dell’assimilazione vocalica che ha prodotto la corruzione di <seg type="it">menor</seg>.</def>
-                                        </note>
+                            <p>R è l’unico testimone a presentare la lezione <seg type="it">monors</seg>, una probabile variante erronea riconducibile a <seg type="it">menor</seg>. <lb/>Si tratta della prima occorrenza in cui in R si legge una lezione singolare che termina in -<seg type="it">ors</seg> e che, in più, appare in contrasto con una lezione di maggiore qualità condivisa dal resto dei testimoni. Ai vv. 22 (v. 44 in R) e 53, si leggono le lezioni <seg type="it">ressors</seg> (laddove il resto dei testimoni trasmettono il sostantivo <seg type="it">recels</seg>) e <seg type="it">calhors</seg> (laddove gli altri manoscritti scrivono <seg type="it">calar</seg>).<lb/> La proliferazione in R di lezioni singolari in -<seg type="it">ors</seg> potrebbe essere interpretata come il prodotto di interventi dei copisti su errate identificazioni di rimanti con questa terminazione. Tuttavia, ciò appare plausibile solo nel caso di <seg type="it">monors</seg>, copiato in posizione di fine rigo. <lb/>A ogni modo, la lezione <seg type="it">monors</seg> è corretta con <seg type="it">menor</seg> nel testo di costellazione. <lb/>Si segnala un simile intervento anche sulla lezione <seg type="it">termens</seg> che, al v. 30 di R, compare in luogo del termine corretto <seg type="it">tormens</seg>, forse generato dal ripresentarsi dell’assimilazione vocalica che ha prodotto la corruzione di <seg type="it">menor</seg>.</p></note>
                                     </term> ma <rhyme>sabenssa</rhyme>.</l>
     <l n="8">Doncs Amors qe·m <seg type="corr">forss’e·m</seg> <rhyme>vens</rhyme>
                                 </l>
@@ -517,17 +516,17 @@
     <l n="21">cui sera <seg type="diff" xml:id="v21" corresp="#v21_cos">ma</seg> greus <rhyme>dolors</rhyme>
                                 </l>
     <l n="22">
-                                    <term type="glossario">recels<note type="popup" xml:id="gloss-recels">
+                                    <term type="glossario">recels<note type="gloss" xml:id="gloss-recels">
                                             <label>≡ LEX</label>
                             <term type="lex">recels</term>
-                            <def>⤷ n. | avvertimento, lamentela </def>
+                            <ab>⤷ n. | avvertimento, lamentela </ab>
                             <ref rend="exit" target="https://archive.org/details/provenzalischess07levyuoft/page/90/mode/2up">PSW (<seg type="it">recels</seg>)</ref>, 
                             <ref rend="exit" target="https://archive.org/details/provenzalischess07levyuoft/page/262/mode/2up">PSW (<seg type="it">ressors</seg>)</ref>
                                             <lb/>
-                            <def>È probabile che la lezione <seg type="it">ressors</seg> in R sia stata adoperata in sostituzione di <seg type="it">recels</seg>, sostantivo scarsamente attestato ma più idoneo dal punto di vista semantico.
+                            <p>È probabile che la lezione <seg type="it">ressors</seg> in R sia stata adoperata in sostituzione di <seg type="it">recels</seg>, sostantivo scarsamente attestato ma più idoneo dal punto di vista semantico.
 Nel PSW (“Provenzalisches Supplement-Wörterbuch”), Levy individua <seg type="it">ressors</seg> come equivalente al participio passato di <seg type="it">resorzer</seg> (‘risorgere’), giudicando errata una traduzione di Raynouard che, invece, opta per il significato ‘jurisdiction’ in un passo tratto da un componimento anonimo.<lb/> In ogni caso, trattandosi di una lezione singolare originata da un’innovazione probabilmente posteriore, si corregge con la lezione diffusa nei manoscritti del gruppo su cui si fonda il testo critico. Si nota che anche le lezioni tràdite dalla coppia Ua¹ testimoniano una certa difficoltà nella comprensione del passo, scrivendo rispettivamente <seg type="it">e</seg> e <seg type="it">te</seg> seguiti da <seg type="it">cels</seg>. 
 
-                            </def>
+                            </p>
                                         </note>
                                     </term> e <rhyme>temenssa</rhyme>.</l>
 </lg>
@@ -539,24 +538,22 @@ Nel PSW (“Provenzalisches Supplement-Wörterbuch”), Levy individua <seg type
                         <anchor xml:id="anchor-crt3"/>
     <l n="23">E <seg type="diff" xml:id="v23" corresp="#v23_cos">car no·m val car</seg> sui <rhyme>tals</rhyme>
                                 </l>
-    <l n="24">cum a <term type="glossario">drut<note type="popup" xml:id="gloss-drut">
+    <l n="24">cum a <term type="glossario">drut<note type="gloss" xml:id="gloss-drut">
                                     <label>≋ LIT</label>
                             <term type="lit">drutz</term>
-                            <def>In U si legge la lezione singolare <seg type="it">d’amic</seg>. Il sostantivo è assente nel resto della canzone e ciò suggerisce un intervento volontario sul testo da parte del copista di U o del suo modello. L’intenzione del copista potrebbe essere stata ‘censurare’ un termine proprio della semantica cortese, <seg type="it">drutz</seg>, associato maggiormente a un amore pieno, connotato anche dal punto di vista sessuale, sostituendolo con il più edulcorato <seg type="it">amic</seg>. 
-                            </def>
+                            <p>In U si legge la lezione singolare <seg type="it">d’amic</seg>. Il sostantivo è assente nel resto della canzone e ciò suggerisce un intervento volontario sul testo da parte del copista di U o del suo modello. L’intenzione del copista potrebbe essere stata ‘censurare’ un termine proprio della semantica cortese, <seg type="it">drutz</seg>, associato maggiormente a un amore pieno, connotato anche dal punto di vista sessuale, sostituendolo con il più edulcorato <seg type="it">amic</seg>. 
+                            </p>
                                         </note>
                                     </term> <rhyme>cove</rhyme>,</l>
     <l n="25">si·m <seg type="diff" xml:id="v25" corresp="#v25_cos">fazia</seg> <rhyme>desleials</rhyme>
                                 </l>
     <l n="26">auria·n ia <rhyme>be</rhyme>.</l>
     <l n="27">Ben leu lai <term type="glossario">virera·l <rhyme>fre</rhyme>
-                                        <note type="popup" xml:id="gloss-virar">
+                                        <note type="gloss" xml:id="gloss-virar">
                                             <label>≋ LIT</label>
                             <term type="lit">virera·l fre</term>
-                            <def>La metafora cavalleresca <seg type="it">vira·l fre</seg> non fu introdotta per la prima volta da Gausbert, che potrebbe aver tratto ispirazione dall’uso che ne fa Folchetto di Marsiglia nella prima <seg type="it">cobla</seg> di <seg type="it">A pauc de chantar no·m recre</seg> (BdT 155.2, <ref rend="exit" target="https://www.rialto.unina.it/trovatori/folquet-de-marselha/155-2squillacioti/">Rialto</ref>). Nella canzone, infatti, il trovatore afferma di sentirsi trattenuto al freno da Amore senza che gli sia data possibilità di <seg type="it">virar</seg> altrove, affermando “forsa d’amor… no·m laissa virar alhors … c’aisi·m te Amors pres el fre”.<lb/>
-Si segnala, poi, la <seg type="it">tornada</seg> della canzone-sirventese di Giraut de Borneill <seg type="it">Be for’oimais dregz el temps gen</seg> (BdT 242.19). Al v. 87 del componimento di Giraut si legge <seg type="it">sobre totz eu virera·l fre</seg>; la metafora con verbo al condizionale ricorda l’utilizzo che ne fa Gausbert nella canzone qui analizzata. In questa lirica, tuttavia, è Giraut a minacciare di ‘girare la briglia’ e ritornare nella terra del suo protettore nel caso in cui dovesse perdere il favore divino in amore.</def>
-                                        </note>
-                                    </term>,</l>
+                            <p>La metafora cavalleresca <seg type="it">vira·l fre</seg> non fu introdotta per la prima volta da Gausbert, che potrebbe aver tratto ispirazione dall’uso che ne fa Folchetto di Marsiglia nella prima <seg type="it">cobla</seg> di <seg type="it">A pauc de chantar no·m recre</seg> (BdT 155.2, <ref rend="exit" target="https://www.rialto.unina.it/trovatori/folquet-de-marselha/155-2squillacioti/">Rialto</ref>). Nella canzone, infatti, il trovatore afferma di sentirsi trattenuto al freno da Amore senza che gli sia data possibilità di <seg type="it">virar</seg> altrove, affermando “forsa d’amor… no·m laissa virar alhors … c’aisi·m te Amors pres el fre”.<lb/>
+Si segnala, poi, la <seg type="it">tornada</seg> della canzone-sirventese di Giraut de Borneill <seg type="it">Be for’oimais dregz el temps gen</seg> (BdT 242.19). Al v. 87 del componimento di Giraut si legge <seg type="it">sobre totz eu virera·l fre</seg>; la metafora con verbo al condizionale ricorda l’utilizzo che ne fa Gausbert nella canzone qui analizzata. In questa lirica, tuttavia, è Giraut a minacciare di ‘girare la briglia’ e ritornare nella terra del suo protettore nel caso in cui dovesse perdere il favore divino in amore.</p></note></term>,</l>
     <l n="28">mas non <seg type="diff" xml:id="v28" corresp="#v28_cos">dei</seg> (so·m ditz mos <rhyme>sens</rhyme>)</l>
     <l n="29">far per faillimen <rhyme>faillenssa</rhyme>.</l>
     <l n="30">
@@ -584,7 +581,7 @@ Si segnala, poi, la <seg type="it">tornada</seg> della canzone-sirventese di Gir
                                 </l>
     <l n="39">q’ieu vos sui <rhyme>obediens</rhyme>
                                 </l>
-    <l n="40">d’<seg type="corr">amor</seg> e de <rhyme>benvolenssa</rhyme>,</l>
+    <l n="40">d’amor e de <rhyme>benvolenssa</rhyme>,</l>
     <l n="41">e vos m’etz <seg type="edit">mal’e</seg> <rhyme>cozens</rhyme>,</l>
     <l n="42">ses benfach e ses <rhyme>secors</rhyme>,</l>
     <l n="43">per dreich <seg type="diff" xml:id="v43" corresp="#v21a_cos">
@@ -608,736 +605,473 @@ Si segnala, poi, la <seg type="it">tornada</seg> della canzone-sirventese di Gir
                                 </l>
     <l n="49">mas engans ses tota <rhyme>fe</rhyme>,</l>
     <l n="50">e <seg type="diff" xml:id="v50" corresp="#v50_cos">mals senes</seg> <seg type="corr">
-                                        <rhyme>gauzimens</rhyme>
-                                    </seg>,</l>
+                                        <rhyme>gauzimens</rhyme></seg>,</l>
     <l n="51">e senes <seg type="diff" xml:id="v51" corresp="#v51_cos">benfaich</seg> <rhyme>cosenssa</rhyme>.</l>
     <l n="52">
                                     <seg type="diff" xml:id="v52" corresp="#v52_cos">
                                         <seg type="corr">Trop</seg>
                                     </seg> faitz d’autres <rhyme>faillimens</rhyme>,</l>
-    <l n="53">mas calar <seg type="diff" xml:id="v53" corresp="#v53_cos">m’en fai <rhyme>temors</rhyme>
-                                    </seg>,</l>
-    <l n="54">c’<term type="glossario">orguoills<note type="popup" xml:id="gloss-orguoills">
+    <l n="53">mas calar <seg type="diff" xml:id="v53" corresp="#v53_cos">m’en fai <rhyme>temors</rhyme></seg>,</l>
+    <l n="54">c’<term type="glossario">orguoills<note type="gloss" xml:id="gloss-orguoills">
                                 <label>≡ LEX</label>
                             <term type="lex">orguoills</term>
-                                    <def>⤷ n. | orgoglio, arroganza </def>
+                                    <ab>⤷ n. | orgoglio, arroganza </ab>
                             <ref rend="exit" target="https://dom-en-ligne.de/dom.php?lhid=4Ssiwt77kTlFZEHsTsF3HI">DOM (<seg type="it">orgoils</seg>)</ref>, 
                             <ref rend="exit" target="https://dom-en-ligne.de/dom.php?lhid=6ssdsPHfPOqnc6l9Kktryy">DOM (<seg type="it">envezar</seg>)</ref>
                             <lb/>
-                                            <def>
+                                            <p>
                                 il gruppo GLw presenta ancora una lezione comune e probabilmente non avente origine autonoma; nei tre testimoni, il sostantivo è sostituito da <seg type="it">envez</seg>, riconducibile al verbo <seg type="it">envezar</seg>.<lb/> I derivati del verbo in questione sono scarsamente attestati: la traduzione di <seg type="it">envezar</seg> fornita nelle risorse lessicografiche (come ‘réjouir’ in Raynouard) permettono di proporre per il sostantivo <seg type="it">envez</seg> i significati di ‘gioia’, ‘allegria’.<lb/>
 In una delle poche occorrenze di un altro derivato di <seg type="it">envezar</seg>, Raimbaut de Vaqueiras utilizza in un esordio stagionale il termine <seg type="it">envezadura</seg> per esprimere la gioia provata alla vista della natura che fiorisce (BdT 392.27, v. 8). Dato il significato dell’affermazione di Gausbert, però, un sostantivo che faccia riferimento all’orgoglio e alla superbia appare più adatto al significato della frase, considerate, in più, le occorrenze del termine messo a testo in altre canzoni del trovatore indirizzate ad Amore (si vedano, soprattutto, il v. 17 di 173. 6 e il v. 33 di 173.11). 
 
-                            </def>
+                                            </p>
                                         </note>
                                     </term> es grans e <rhyme>follors</rhyme>
                                 </l>
     <l n="55">qui ab plus fort <rhyme>tenssa</rhyme>.</l>
 </lg>
-            </div>
+</body>
+<back>
             <!-- Apparato critico delle varianti sostanziali -->
-            <div type="app_crt_sos">
-              <listApp>
-              <app ana="sos">
-   <num>1</num>
-   <lem>grans</lem>
-   <rdg>gran
-      <witDetail wit="#P"> P</witDetail>
-   </rdg>
-</app>
+<div type="app_crt_sos">
+    <listApp>
+        <app ana="#sos" n="1">
+            <lem wit="#ms.A">grans</lem>
+            <rdg wit="#ms.P">gran</rdg>
+        </app>
 
-<app ana="sos">
-   <lem>amors</lem>
-   <rdg>amor
-      <witDetail wit="#N"> N</witDetail>
-      <note type="popup" xml:id="paleo1">Il termine <seg type="it">amor</seg> è aggiunto in interlinea da una mano posteriore dopo l’espunzione della lezione <seg type="it">honors</seg>.</note>
-   </rdg>
-</app>
+        <app ana="#sos">
+            <lem wit="#ms.A">amors</lem>
+            <rdg wit="#ms.N">amor
+                <note type="paleo" xml:id="paleo1">Il termine <seg type="it">amor</seg> è aggiunto in interlinea da una mano posteriore dopo l’espunzione della lezione <seg type="it">honors</seg>.</note>
+            </rdg>
+        </app>
 
-<app ana="sos">
-   <num>2</num>
-   <lem>e·m te</lem>
-   <rdg>e me te
-      <witDetail wit="#T"> T</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="2">
+            <lem wit="#ms.A">e·m te</lem>
+            <rdg wit="#ms.T">e me te</rdg>
+        </app>
 
-<app ana="sos">
-   <num>3</num>
-   <lem>Non pens de ren</lem>
-   <rdg>no pens en re
-      <witDetail wit="#C"> C</witDetail>
-   </rdg>
-   <rdg>de
-      <witDetail wit="#E #I #K #P"> EIKP</witDetail>
-   </rdg>
-   <rdg>non puesc far ren
-      <witDetail wit="#N"> N</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="3">
+            <lem wit="#ms.A">Non pens de ren</lem>
+            <rdg wit="#ms.C">no pens en re</rdg>
+            <rdg wit="#ms.E #ms.I #ms.K #ms.P">de</rdg>
+            <rdg wit="#ms.N">non puesc far ren</rdg>
+        </app>
 
-<app ana="sos">
-   <num>5</num>
-   <lem>mi</lem>
-   <rdg>
-      <witDetail wit="#C"> C</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="5">
+            <lem wit="#ms.A">mi</lem>
+            <rdg wit="#ms.C"/>
+        </app>
 
-<app ana="sos">
-   <lem>d’als</lem>
-   <rdg>dal
-      <witDetail wit="#T"> T</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos">
+            <lem wit="#ms.A">d’als</lem>
+            <rdg wit="#ms.T">dal</rdg>
+        </app>
 
-<app ana="sos">
-   <lem>non</lem>
-   <rdg>nom
-      <witDetail wit="#C #D #I #K #N"> CDIKN</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos">
+            <lem wit="#ms.A">non</lem>
+            <rdg wit="#ms.C #ms.D #ms.I #ms.K #ms.N">nom</rdg>
+        </app>
 
-<app ana="sos">
-   <num>6</num>
-   <lem>semblen fatz</lem>
-   <rdg>semblan
-      <witDetail wit="#N"> N</witDetail>
-      <note type="popup" xml:id="paleo2">La lezione che compare sul rigo di N è <seg type="it">semblen</seg>, ma si legge un <seg type="it">a</seg> nell’interlinea superiore alla seconda <seg type="it">e</seg>.</note>
-   </rdg>
-   <rdg>semble
-      <witDetail wit="#P"> P</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="6">
+            <lem wit="#ms.A">semblen fatz</lem>
+            <rdg wit="#ms.N">semblan
+                <note type="paleo" xml:id="paleo2">La lezione che compare sul rigo di N è 
+                  <seg type="it">semblen</seg>, ma si legge un <seg type="it">a</seg> nell’interlinea superiore alla seconda <seg type="it">e</seg>.</note>
+            </rdg>
+            <rdg wit="#ms.P">semble</rdg>
+        </app>
 
-<app ana="sos">
-   <lem>fatz</lem>
-   <rdg>fauc
-      <witDetail wit="#E"> E</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos">
+            <lem wit="#ms.A">fatz</lem>
+            <rdg wit="#ms.E">fauc</rdg>
+        </app>
 
-<app ana="sos">
-   <lem>d’entre</lem>
-   <rdg>entrels
-      <witDetail wit="#N"> N</witDetail>
-   </rdg>
-   <rdg>etra
-      <witDetail wit="#T"> T</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos">
+            <lem wit="#ms.A">d’entre</lem>
+            <rdg wit="#ms.N">entrels</rdg>
+            <rdg wit="#ms.T">etra</rdg>
+        </app>
 
-<app ana="sos" type="locus">
-   <num>7</num>
-   <lem>ma</lem>
-   <rdg>mas
-      <witDetail wit="#I #K #N"> IKN</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" type="locus" n="7">
+            <lem wit="#ms.A">ma</lem>
+            <rdg wit="#ms.I #ms.K #ms.N">mas</rdg>
+        </app>
 
-<app ana="sos">
-   <num>8</num>
-   <lem>Amors</lem>
-   <rdg>amor
-      <witDetail wit="#E"> E</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="8">
+            <lem wit="#ms.A">Amors</lem>
+            <rdg wit="#ms.E">amor</rdg>
+        </app>
 
-<app ana="sos">
-   <lem>q’e·m</lem>
-   <rdg>quen
-      <witDetail wit="#I"> I</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos">
+            <lem wit="#ms.A">q’e·m</lem>
+            <rdg wit="#ms.I">quen</rdg>
+        </app>
 
-<app ana="sos">
-   <lem>forss’e·m</lem>
-   <rdg>forsa em
-      <witDetail wit="#A #D #T"> ADT</witDetail>
-   </rdg>
-   <rdg>forse
-      <witDetail wit="#I #K"> IK</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos">
+            <lem wit="#ms.C">forss’e·m</lem>
+            <rdg wit="#ms.A #ms.D #ms.T">forsa em</rdg>
+            <rdg wit="#ms.I #ms.K">forse</rdg>
+        </app>
 
-<app ana="sos">
-   <lem>vens</lem>
-   <rdg>venser
-      <witDetail wit="#D"> D</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos">
+            <lem wit="#ms.A">vens</lem>
+            <rdg wit="#ms.D">venser</rdg>
+        </app>
 
-<app ana="sos">
-   <num>9</num>
-   <lem>mas</lem>
-   <rdg>ma
-      <witDetail wit="#D"> D</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="9">
+            <lem wit="#ms.A">mas</lem>
+            <rdg wit="#ms.D">ma</rdg>
+        </app>
 
-<app ana="sos">
-   <lem>c’a</lem>
-   <rdg>cals
-      <witDetail wit="#C #E #I #K #N"> CEIKN</witDetail>
-   </rdg>
-   <rdg>que
-      <witDetail wit="#P"> P</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos">
+            <lem wit="#ms.A">c’a</lem>
+            <rdg wit="#ms.C #ms.E #ms.I #ms.K #ms.N">cals</rdg>
+            <rdg wit="#ms.P">que</rdg>
+        </app>
 
-<app ana="sos" type="locus">
-   <num>10</num>
-   <lem>vencedor</lem>
-   <rdg>vencedors
-      <witDetail wit="#C #D #E #I #K #N"> CDEIKN</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" type="locus" n="10">
+            <lem wit="#ms.A">vencedor</lem>
+            <rdg wit="#ms.C #ms.D #ms.E #ms.I #ms.K #ms.N">vencedors</rdg>
+        </app>
 
-<app ana="sos" type="locus">
-   <num>11</num>
-   <lem>lo</lem>
-   <rdg>los
-      <witDetail wit="#C #E #I #K #N"> CEIKN</witDetail>
-   </rdg>
-   <rdg>so
-      <witDetail wit="#P"> P</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" type="locus" n="11">
+            <lem wit="#ms.A">lo</lem>
+            <rdg wit="#ms.C #ms.E #ms.I #ms.K #ms.N">los</rdg>
+            <rdg wit="#ms.P">so</rdg>
+        </app>
 
-<app ana="sos">
-   <lem>Merces</lem>
-   <rdg>merce
-      <witDetail wit="#C"> C</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos">
+            <lem wit="#ms.A">Merces</lem>
+            <rdg wit="#ms.C">merce</rdg>
+        </app>
 
-<app ana="sos">
-   <num>14</num>
-   <lem>d’aitan, Amors, sivals</lem>
-   <rdg>d’aitan sivals amors
-      <witDetail wit="#K"> K</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="14">
+            <lem wit="#ms.A">d’aitan, Amors, sivals</lem>
+            <rdg wit="#ms.K">d’aitan sivals amors</rdg>
+        </app>
 
-<app ana="sos">
-   <lem>Amors</lem>
-   <rdg>amor
-      <witDetail wit="#E #P"> EP</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos">
+            <lem wit="#ms.A">Amors</lem>
+            <rdg wit="#ms.E #ms.P">amor</rdg>
+        </app>
 
-<app ana="sos">
-   <num>15</num>
-   <lem>m’en</lem>
-   <rdg>me
-      <witDetail wit="#E"> E</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="15">
+            <lem wit="#ms.A">m’en</lem>
+            <rdg wit="#ms.E">me</rdg>
+        </app>
 
-<app ana="sos">
-   <num>16</num>
-   <lem>c’a</lem>
-   <rdg>quar
-      <witDetail wit="#E"> E</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="16">
+            <lem wit="#ms.A">c’a</lem>
+            <rdg wit="#ms.E">quar</rdg>
+        </app>
 
-<app ana="sos">
-   <lem>sabon</lem>
-   <rdg>sa ben
-      <witDetail wit="#D"> D</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos">
+            <lem wit="#ms.A">sabon</lem>
+            <rdg wit="#ms.D">sa ben</rdg>
+        </app>
 
-<app ana="sos" type="locus">
-   <num>22</num>
-   <lem>cui sera ma greus dolors</lem>
-   <rdg>cui sera ma grans dolors
-      <witDetail wit="#C #D #E #P"> CDEP</witDetail>
-   </rdg>
-   <rdg>cui sera ma gran dolors
-      <witDetail wit="#T"> T</witDetail>
-   </rdg>
-   <rdg>don sera ma greus dolors
-      <witDetail wit="#I #K"> IK</witDetail>
-   </rdg>
-   <rdg>don sera ma dolors
-      <witDetail wit="#N"> N</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" type="locus" n="22">
+            <lem wit="#ms.A">cui sera ma greus dolors</lem>
+            <rdg wit="#ms.C #ms.D #ms.E #ms.P">cui sera ma grans dolors</rdg>
+            <rdg wit="#ms.T">cui sera ma gran dolors</rdg>
+            <rdg wit="#ms.I #ms.K">don sera ma greus dolors</rdg>
+            <rdg wit="#ms.N">don sera ma dolors</rdg>
+        </app>
 
-<app ana="sos">
-   <num>23</num>
-   <lem>no·m</lem>
-   <rdg>non
-      <witDetail wit="#I #K #N"> IKN</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="23">
+            <lem wit="#ms.A">no·m</lem>
+            <rdg wit="#ms.I #ms.K #ms.N">non</rdg>
+        </app>
 
-<app ana="sos">
-   <lem>val car</lem>
-   <rdg>car
-      <note type="text">manca </note>
-                                        <witDetail wit="#K"> K</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos">
+            <lem wit="#ms.A">val car</lem>
+            <rdg wit="#ms.K">car
+                <note type="text">manca</note>
+            </rdg>
+        </app>
 
-<app ana="sos">
-   <num>24</num>
-   <lem>drut</lem>
-   <rdg>drutz
-      <witDetail wit="#C"> C</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="24">
+            <lem wit="#ms.A">drut</lem>
+            <rdg wit="#ms.C">drutz</rdg>
+        </app>
 
-<app ana="sos" type="locus">
-   <num>26</num>
-   <lem>auria·n</lem>
-   <rdg>fariam
-      <witDetail wit="#I #K"> IK</witDetail>
-   </rdg>
-   <rdg>auria·m
-      <witDetail wit="#N"> N</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" type="locus" n="26">
+            <lem wit="#ms.A">auria·n</lem>
+            <rdg wit="#ms.I #ms.K">fariam</rdg>
+            <rdg wit="#ms.N">auria·m</rdg>
+        </app>
 
-<app ana="sos">
-   <lem>ia</lem>
-   <rdg>ga
-      <witDetail wit="#N"> N</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos">
+            <lem wit="#ms.A">ia</lem>
+            <rdg wit="#ms.N">ga</rdg>
+        </app>
 
-<app ana="sos">
-   <num>27</num>
-   <lem>lai</lem>
-   <rdg>iai
-      <witDetail wit="#D"> D</witDetail>
-   </rdg>
-   <rdg>ja
-      <witDetail wit="#I #K #N"> IKN</witDetail>
-   </rdg>
-   <rdg>gial
-      <witDetail wit="#T"> T</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="27">
+            <lem wit="#ms.A">lai</lem>
+            <rdg wit="#ms.D">iai</rdg>
+            <rdg wit="#ms.I #ms.K #ms.N">ja</rdg>
+            <rdg wit="#ms.T">gial</rdg>
+        </app>
 
-<app ana="sos">
-   <lem>virera·l</lem>
-   <rdg>nire tal
-      <witDetail wit="#D"> D</witDetail>
-   </rdg>
-   <rdg>vireal
-      <witDetail wit="#I #K #P"> IKP</witDetail>
-   </rdg>
-</app>
-<app ana="sos">
-   <num>28</num>
-   <lem>mos</lem>
-   <rdg>mon
-      <witDetail wit="#D"> D</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos">
+            <lem wit="#ms.A">virera·l</lem>
+            <rdg wit="#ms.D">nire tal</rdg>
+            <rdg wit="#ms.I #ms.K #ms.P">vireal</rdg>
+        </app>
 
-<app ana="sos">
-   <num>30</num>
-   <lem>vuoill</lem>
-   <rdg>nom
-      <witDetail wit="#D"> D</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="28">
+            <lem wit="#ms.A">mos</lem>
+            <rdg wit="#ms.D">mon</rdg>
+        </app>
 
-<app ana="sos">
-   <lem>sufrir</lem>
-   <rdg>surir
-      <witDetail wit="#E"> E</witDetail>
-   </rdg>
-   <rdg>fofrir
-      <witDetail wit="#N"> N</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="30">
+            <lem wit="#ms.A">vuoill</lem>
+            <rdg wit="#ms.D">nom</rdg>
+        </app>
 
-<app ana="sos">
-   <lem>loncs turmens</lem>
-   <rdg>los turmens
-      <witDetail wit="#C #E #P"> CEP</witDetail>
-   </rdg>
-   <rdg>greus tormens
-      <witDetail wit="#I #K"> IK</witDetail>
-   </rdg>
-   <rdg>greus tormen
-      <witDetail wit="#N"> N</witDetail>
-   </rdg>
-   <rdg>lonc turmentç
-      <witDetail wit="#T"> T</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos">
+            <lem wit="#ms.A">sufrir</lem>
+            <rdg wit="#ms.E">surir</rdg>
+            <rdg wit="#ms.N">fofrir</rdg>
+        </app>
 
-<app ana="sos">
-   <num>31</num>
-   <lem>leials</lem>
-   <rdg>loials
-      <witDetail wit="#D"> D</witDetail>
-      <note type="popup" xml:id="paleo3">La lezione originale in D è <seg type="it">leials</seg>, ma un intervento non collocabile con certezza nel tempo corregge in <seg type="it">loials</seg>.</note>
-   </rdg>
-</app>
+        <app ana="#sos">
+            <lem wit="#ms.A">loncs turmens</lem>
+            <rdg wit="#ms.C #ms.E #ms.P">los turmens</rdg>
+            <rdg wit="#ms.I #ms.K">greus tormens</rdg>
+            <rdg wit="#ms.N">greus tormen</rdg>
+            <rdg wit="#ms.T">lonc turmentç</rdg>
+        </app>
 
-<app ana="sos">
-   <num>37</num>
-   <lem>am</lem>
-   <rdg>
-      <note type="text">manca </note>
-      <witDetail wit="#D"> D</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="31">
+            <lem wit="#ms.A">leials</lem>
+            <rdg wit="#ms.D">loials
+                <note type="paleo" xml:id="paleo3">La lezione originale in D è <seg type="it">leials</seg>, ma un intervento non collocabile con certezza nel tempo corregge in <seg type="it">loials</seg>.</note>
+            </rdg>
+        </app>
 
-<app ana="sos">
-   <num>40</num>
-   <lem>benvolensa</lem>
-   <rdg>benevolensa
-      <witDetail wit="#C"> C</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="37">
+            <lem wit="#ms.A">am</lem>
+            <rdg wit="#ms.D">
+                <note type="text">manca</note>
+            </rdg>
+        </app>
 
-<app ana="sos">
-   <num>41</num>
-   <lem>m’etz mal’e</lem>
-   <rdg>metz mala e
-      <witDetail wit="#A"> A</witDetail>
-   </rdg>
-   <rdg>mi mal e
-      <witDetail wit="#N"> N</witDetail>
-   </rdg>
-   <rdg>mes mals e
-      <witDetail wit="#T"> T</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="40">
+            <lem wit="#ms.A">benvolensa</lem>
+            <rdg wit="#ms.C">benevolensa</rdg>
+        </app>
 
-<app ana="sos">
-   <num>42</num>
-   <lem>benfach</lem>
-   <rdg>benfaichs
-      <witDetail wit="#T"> T</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="41">
+            <lem resp="#editor">m’etz mal’e</lem>
+            <rdg wit="#ms.A">metz mala e</rdg>
+            <rdg wit="#ms.N">mi mal e</rdg>
+            <rdg wit="#ms.T">mes mals e</rdg>
+        </app>
 
-<app ana="sos">
-   <num>43</num>
-   <lem>dreig</lem>
-   <rdg>dreie
-      <witDetail wit="#D"> D</witDetail>
-   </rdg>
-   <rdg>dre e
-      <witDetail wit="#T"> T</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="42">
+            <lem wit="#ms.A">benfach</lem>
+            <rdg wit="#ms.T">benfaichs</rdg>
+        </app>
 
-<app ana="sos">
-   <lem>ser’ieu</lem>
-   <rdg>seria ieu
-      <witDetail wit="#A #C #E #T"> ACET</witDetail>
-   </rdg>
-   <rdg>seria en
-      <witDetail wit="#D"> D</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="43">
+            <lem wit="#ms.A">dreig</lem>
+            <rdg wit="#ms.D">dreie</rdg>
+            <rdg wit="#ms.T">dre e</rdg>
+        </app>
 
-<app ana="sos" type="locus">
-   <lem>Amors</lem>
-   <rdg>amoros
-      <witDetail wit="#I #K #T"> IKT</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos">
+            <lem resp="#editor">ser’ieu</lem>
+            <rdg wit="#ms.A #ms.C #ms.E #ms.T">seria ieu</rdg>
+            <rdg wit="#ms.D">seria en</rdg>
+        </app>
 
-<app ana="sos">
-   <num>45</num>
-   <lem>Vostr’usatges</lem>
-   <rdg>Vostusages
-      <witDetail wit="#D"> D</witDetail>
-   </rdg>
-   <rdg>Vostre usagie
-      <witDetail wit="#T"> T</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" type="locus">
+            <lem wit="#ms.A">Amors</lem>
+            <rdg wit="#ms.I #ms.K #ms.T">amoros</rdg>
+        </app>
 
-<app ana="sos">
-   <num>46</num>
-   <lem>c’a</lem>
-   <rdg>car
-      <witDetail wit="#C #E #I #K #N #P"> CEIKNP</witDetail>
-   </rdg>
-   <rdg>que
-      <witDetail wit="#alpha"> α</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="45">
+            <lem wit="#ms.A">Vostr’usatges</lem>
+            <rdg wit="#ms.D">Vostusages</rdg>
+            <rdg wit="#ms.T">Vostre usagie</rdg>
+        </app>
 
-<app ana="sos">
-   <lem>que·us</lem>
-   <rdg>que
-      <witDetail wit="#I"> I</witDetail>
-   </rdg>
-   <rdg>queu
-      <witDetail wit="#K"> K</witDetail>
-   </rdg>
-   <rdg>quius
-      <witDetail wit="#N"> N</witDetail>
-   </rdg>
-   <rdg>que vos
-      <witDetail wit="#P"> P</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="46">
+            <lem wit="#ms.A">c’a</lem>
+            <rdg wit="#ms.C #ms.E #ms.I #ms.K #ms.N #ms.P">car</rdg>
+            <rdg wit="#alpha">que</rdg>
+        </app>
 
-<app ana="sos">
-   <num>46-47</num>
-   <rdg>
-      <note type="text">manca</note>
-      <witDetail wit="#D #T"> DT</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos">
+            <lem wit="#ms.A">que·us</lem>
+            <rdg wit="#ms.I">que</rdg>
+            <rdg wit="#ms.K">queu</rdg>
+            <rdg wit="#ms.N">quius</rdg>
+            <rdg wit="#ms.P">que vos</rdg>
+        </app>
 
-<app ana="sos" type="locus">
-   <num>48</num>
-   <lem>non</lem>
-   <rdg>nol
-      <witDetail wit="#I #K #N"> IKN</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="46-47">
+            <rdg type="omission">
+                <note type="text">manca</note><witDetail wit="#ms.D #ms.T"> DT</witDetail>
+            </rdg>
+        </app>
 
-<app ana="sos">
-   <num>49</num>
-   <lem>engans</lem>
-   <rdg>enian
-      <witDetail wit="#N #P #alpha"> NPα</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" type="locus" n="48">
+            <lem wit="#ms.A">non</lem>
+            <rdg wit="#ms.I #ms.K #ms.N">nol</rdg>
+        </app>
 
-<app ana="sos" type="locus">
-   <num>50</num>
-   <lem>e mals senes</lem>
-   <rdg>en senes
-      <witDetail wit="#D"> D</witDetail>
-   </rdg>
-   <rdg>e mal s.
-      <witDetail wit="#C #P"> CP</witDetail>
-   </rdg>
-   <rdg>e ioi s.
-      <witDetail wit="#I #K #N"> IKN</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="49">
+            <lem wit="#ms.A">engans</lem>
+            <rdg wit="#ms.N #ms.P #alpha">enian</rdg>
+        </app>
 
-<app ana="sos">
-   <lem>iauzimen</lem>
-   <rdg>jusimenz
-      <witDetail wit="#I"> I</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" type="locus" n="50">
+            <lem wit="#ms.A">e mals senes</lem>
+            <rdg wit="#ms.D">en senes</rdg>
+            <rdg wit="#ms.C #ms.P">e mal s.</rdg>
+            <rdg wit="#ms.I #ms.K #ms.N">e ioi s.</rdg>
+        </app>
 
-<app ana="sos">
-   <num>52</num>
-   <lem>trop</lem>
-   <rdg>trops
-      <witDetail wit="#A"> A</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos">
+            <lem wit="#ms.C">gauzimens</lem>
+            <rdg wit="#ms.A">iauzimen</rdg>
+            <rdg wit="#ms.I">jusimenz</rdg>
+        </app>
 
-<app ana="sos">
-   <num>53</num>
-   <lem>calar</lem>
-   <rdg>callars
-      <witDetail wit="#D"> D</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="52">
+            <lem wit="#ms.C">trop</lem>
+            <rdg wit="#ms.A">trops</rdg>
+        </app>
 
-<app ana="sos">
-   <lem>m’en</lem>
-   <rdg>me
-      <witDetail wit="#C #P #alpha"> CPα</witDetail>
-   </rdg>
-   <rdg>mi
-      <witDetail wit="#N"> N</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="53">
+            <lem wit="#ms.A">calar</lem>
+            <rdg wit="#ms.D">callars</rdg>
+        </app>
 
-<app ana="sos">
-   <lem>temors</lem>
-   <rdg>temos
-      <witDetail wit="#E"> E</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos">
+            <lem wit="#ms.A">m’en</lem>
+            <rdg wit="#ms.C #ms.P #alpha">me</rdg>
+            <rdg wit="#ms.N">mi</rdg>
+        </app>
 
-<app ana="sos">
-   <num>54</num>
-   <lem>es grans e folors</lem>
-   <rdg>effolors
-      <witDetail wit="#D"> D</witDetail>
-   </rdg>
-   <rdg>es grans es folors
-      <witDetail wit="#N"> N</witDetail>
-   </rdg>
-   <rdg>e e follors
-      <witDetail wit="#P"> P</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos">
+            <lem wit="#ms.A">temors</lem>
+            <rdg wit="#ms.E">temos</rdg>
+        </app>
 
-<app ana="sos">
-   <num>55</num>
-   <lem>ab</lem>
-   <rdg>
-      <note type="text">manca</note>
-      <witDetail wit="#D"> D</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="54">
+            <lem wit="#ms.A">es grans e folors</lem>
+            <rdg wit="#ms.D">effolors</rdg>
+            <rdg wit="#ms.N">es grans es folors</rdg>
+            <rdg wit="#ms.P">e e follors</rdg>
+        </app>
 
-<app ana="sos">
-   <lem>plus</lem>
-   <rdg>pus
-      <witDetail wit="#C"> C</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="55">
+            <lem wit="#ms.A">ab</lem>
+            <rdg type="omission">
+                <note type="text">manca</note> <witDetail wit="#ms.D">D</witDetail>
+            </rdg>
+        </app>
 
-<app ana="sos">
-   <lem>fort</lem>
-   <rdg>
-      <witDetail wit="#D"> D</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos">
+            <lem wit="#ms.A">plus</lem>
+            <rdg wit="#ms.C">pus</rdg>
+        </app>
 
-<app ana="sos">
-   <lem>tensa</lem>
-   <rdg>de se tensa
-      <witDetail wit="#C #alpha"> Cα</witDetail>
-   </rdg>
-   <rdg>de sentensa
-      <witDetail wit="#P"> P</witDetail>
-   </rdg>
-</app>
-              </listApp>
-            </div>
+        <app ana="#sos">
+            <lem wit="#ms.A">fort</lem>
+            <rdg wit="#ms.D"/>
+        </app>
+
+        <app ana="#sos">
+            <lem wit="#ms.A">tensa</lem>
+            <rdg wit="#ms.C #alpha">de se tensa</rdg>
+            <rdg wit="#ms.P">de sentensa</rdg>
+        </app>
+    </listApp>
+</div>
             <div type="app_crt_form">
               <listApp>
-              <app ana="form">
-    <num>1</num>
-    <lem>grans</lem>
-    <rdg>
-        grantz<witDetail wit="#T"> T</witDetail>
-    </rdg>
-</app>
+    <app ana="#form" n="1">
+        <lem wit="#ms.A">grans</lem>
+        <rdg wit="#ms.T">grantz</rdg>
+    </app>
 
-<app ana="form">
-    <num>7</num>
-    <lem>sabensa</lem>
-    <rdg>
-        sabessa<witDetail wit="#T"> T</witDetail>
-    </rdg>
-</app>
+    <app ana="#form" n="7">
+        <lem wit="#ms.A">sabensa</lem>
+        <rdg wit="#ms.T">sabessa</rdg>
+    </app>
 
-<app ana="form">
-    <num>7</num>
-    <lem>menres</lem>
-    <rdg>
-        menre<witDetail wit="#C #E"> CE</witDetail>
-    </rdg>
-</app>
+    <app ana="#form" n="7">
+        <lem wit="#ms.A">menres</lem>
+        <rdg wit="#ms.C #ms.E">menre</rdg>
+    </app>
 
-<app ana="form">
-    <num>19</num>
-    <lem>seretz</lem>
-    <rdg>
-        serez<witDetail wit="#D"> D</witDetail>
-    </rdg>
-    <rdg>
-        ceres<witDetail wit="#E"> E</witDetail>
-    </rdg>
-    <rdg>
-        seres<witDetail wit="#P"> P</witDetail>
-    </rdg>
-    <rdg>
-        sares<witDetail wit="#T"> T</witDetail>
-    </rdg>
-</app>
+    <app ana="#form" n="19">
+        <lem wit="#ms.A">seretz</lem>
+        <rdg wit="#ms.D">serez</rdg>
+        <rdg wit="#ms.E">ceres</rdg>
+        <rdg wit="#ms.P">seres</rdg>
+        <rdg wit="#ms.T">sares</rdg>
+    </app>
 
-<app ana="form">
-    <num>22</num>
-    <lem>recels</lem>
-    <rdg>
-        resels<witDetail wit="#E #P"> EP</witDetail>
-    </rdg>
-</app>
+    <app ana="#form" n="22">
+        <lem wit="#ms.A">recels</lem>
+        <rdg wit="#ms.E #ms.P">resels</rdg>
+    </app>
 
-<app ana="form">
-    <num>24</num>
-    <lem>cove</lem>
-    <rdg>
-        conven<witDetail wit="#T">  T</witDetail>
-    </rdg>
-</app>
+    <app ana="#form" n="24">
+        <lem wit="#ms.A">cove</lem>
+        <rdg wit="#ms.T">conven</rdg>
+    </app>
 
-<app ana="form">
-    <num>42</num>
-    <lem>benfach</lem>
-    <rdg>
-        benfait<witDetail wit="#C #N"> CN</witDetail>
-    </rdg>
-    <rdg>
-        benfaic<witDetail wit="#D"> D</witDetail>
-    </rdg>
-    <rdg>
-        benfag<witDetail wit="#E"> E</witDetail>
-    </rdg>
-    <rdg>
-        bon fait<witDetail wit="#I #K"> IK</witDetail>
-    </rdg>
-    <rdg>
-        benfaig<witDetail wit="#P"> P</witDetail>
-    </rdg>
-</app>
+    <app ana="#form" n="42">
+        <lem wit="#ms.A">benfach</lem>
+        <rdg wit="#ms.C #ms.N">benfait</rdg>
+        <rdg wit="#ms.D">benfaic</rdg>
+        <rdg wit="#ms.E">benfag</rdg>
+        <rdg wit="#ms.I #ms.K">bon fait</rdg>
+        <rdg wit="#ms.P">benfaig</rdg>
+    </app>
 
-<app ana="form">
-    <num>49</num>
-    <lem>engans</lem>
-    <rdg>
-        ingientç<witDetail wit="#T"> T</witDetail>
-    </rdg>
-</app>
+    <app ana="#form" n="49">
+        <lem wit="#ms.A">engans</lem>
+        <rdg wit="#ms.T">ingientç</rdg>
+    </app>
 
-<app ana="form">
-    <num>53</num>
-    <lem>calar</lem>
-    <rdg>
-        celar<witDetail wit="#C #P #alpha">  CPα</witDetail>
-    </rdg>
-    <rdg>
-        selar<witDetail wit="#P"> P</witDetail>
-    </rdg>
-    <rdg>
-        callar<witDetail wit="#I #K #N"> IKN</witDetail>
-    </rdg>
-</app>
+    <app ana="#form" n="53">
+        <lem wit="#ms.A">calar</lem>
+        <rdg wit="#ms.C #ms.P #alpha">celar</rdg>
+        <rdg wit="#ms.P">selar</rdg>
+        <rdg wit="#ms.I #ms.K #ms.N">callar</rdg>
+    </app>
 
-<app ana="form">
-    <num>55</num>
-    <lem>ab plus</lem>
-    <rdg>
-        applus<witDetail wit="#E"> E</witDetail>
-    </rdg>
-</app>
-              </listApp>
+    <app ana="#form" n="55">
+        <lem wit="#ms.A">ab plus</lem>
+        <rdg wit="#ms.E">applus</rdg>
+    </app>
+</listApp>
             </div>
-            <div type="txt_costellazione" xml:id="canso1.1">
+         </back>
+      </text>
+      <text type="txt_costellazione" xml:id="canso1.1">
 
-                <title>Testo di costellazione</title>
+                <front><head>Testo di costellazione</head>
                 <p>Ms. base R<lb/>Correzioni e <seg type="it">tornada</seg> VI da <seg type="corr_c">Ua¹</seg>
                                 <lb/>
                     <seg type="edit">Interventi editoriali</seg>
-                </p>
+                </p></front>
+                <body>
  <!-- Cobla I -->
 <lg type="stanza" n="1.1" rhyme="ababbcdceed" xml:id="cos1" corresp="#crt1">
                 <anchor xml:id="anchor-cos1"/>
     <l n="1">Una grans amors <rhyme>corals</rhyme>
                                 </l>
     <l n="2">me destrenh e·m <seg type="corr_c">
-                                        <rhyme>te</rhyme>
-                                    </seg>,</l>
+                                        <rhyme>te</rhyme></seg>,</l>
     <l n="3">si qu’ieu <seg type="diff_c" xml:id="v3_cos" corresp="#v3">no say dir</seg> ren <rhyme>als</rhyme>
                                 </l>
     <l n="4">mas clamar <rhyme>Merce</rhyme>.</l>
@@ -1348,8 +1082,7 @@ In una delle poche occorrenze di un altro derivato di <seg type="it">envezar</se
     <l n="8">Doncs Amors que·m fors’e·m <rhyme>vens</rhyme>
                                 </l>
     <l n="9">degra venser mas <seg type="corr_c">
-                                        <rhyme>clamors</rhyme>
-                                    </seg>,</l>
+                                        <rhyme>clamors</rhyme></seg>,</l>
     <l n="10">c’a vensedor es <rhyme>honors</rhyme>
                                 </l>
     <l n="11">que Merces lo <rhyme>vensa</rhyme>.</l>
@@ -1439,18 +1172,14 @@ In una delle poche occorrenze di un altro derivato di <seg type="it">envezar</se
     <l n="48">pus de vos no·l <rhyme>ve</rhyme>
                                 </l>
     <l n="49">
-                                    <seg type="corr_c">mas enian ses tota <rhyme>fe</rhyme>
-                                    </seg>,</l>
+                                    <seg type="corr_c">mas enian ses tota <rhyme>fe</rhyme></seg>,</l>
     <l n="50">e <seg type="diff_c" xml:id="v50_cos" corresp="#v50">dan ses tot</seg> <seg type="corr_c">
-                                        <rhyme>iauzimens</rhyme>
-                                    </seg>,</l>
+                                        <rhyme>iauzimens</rhyme></seg>,</l>
     <l n="51">e ses <seg type="diff_c" xml:id="v51_cos" corresp="#v51">plazer</seg> <seg type="corr_c">
-                                        <rhyme>cozenza</rhyme>
-                                    </seg>.</l>
+                                        <rhyme>cozenza</rhyme></seg>.</l>
     <l n="52">
                                     <seg type="diff_c" xml:id="v52_cos" corresp="#v52">Pro</seg> faytz d’autres <rhyme>falhimens</rhyme>,</l>
-    <l n="53">mays <seg type="corr_c">callar</seg> <seg type="diff_c" xml:id="v53_cos" corresp="#v53">mi fays <rhyme>paors</rhyme>
-                                    </seg>,</l>
+    <l n="53">mays <seg type="corr_c">callar</seg> <seg type="diff_c" xml:id="v53_cos" corresp="#v53">mi fays <rhyme>paors</rhyme></seg>,</l>
     <l n="54">qu’<seg type="edit">orgoilhs</seg> es grans e <rhyme>folors</rhyme>
                                 </l>
     <l n="55">que ab pus fort <rhyme>tensa</rhyme>.</l>
@@ -1480,758 +1209,452 @@ In una delle poche occorrenze di un altro derivato di <seg type="it">envezar</se
     <l n="66">s’es tals com ieu dic Amors</l>
     <l n="67">e sa <rhyme>captenensa</rhyme>.</l>
 </lg>
-            </div>
-            <!-- Apparato critico delle varianti sostanziali del testo di costellazione -->
-            <div type="app_cos_sos">
-              <listApp>
-              <app ana="sos">
-   <num>1</num>
-   <lem>una</lem>
-   <rdg>unas
-      <witDetail wit="#U"> U</witDetail>
-   </rdg>
-</app>
+</body>
+<back>
+          <!-- Apparato critico delle varianti sostanziali del testo di costellazione -->
+<div type="app_cos_sos">
+    <listApp>
+        <app ana="#sos" n="1">
+            <lem wit="#ms.R">una</lem>
+            <rdg wit="#ms.U">unas</rdg>
+        </app>
 
-<app ana="sos">
-   <num>1</num>
-   <lem>grans</lem>
-   <rdg>gran
-      <witDetail wit="#U #a1"> Ua¹</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos">
+            <lem wit="#ms.R">grans</lem>
+            <rdg wit="#ms.U #ms.a1">gran</rdg>
+        </app>
 
-<app ana="sos">
-   <num>2</num>
-   <lem>te</lem>
-   <rdg>ve
-      <witDetail wit="#R"> R</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="2">
+            <lem wit="#ms.U #ms.a1">te</lem>
+            <rdg wit="#ms.R">ve</rdg>
+        </app>
 
-<app ana="sos">
-   <num>3</num>
-   <lem>non sai dir ren als</lem>
-   <rdg>non sai ren dir als
-      <witDetail wit="#U #a1"> Ua¹</witDetail>
-   </rdg>
-   <rdg>non posc dire ren als
-      <witDetail wit="#G"> G</witDetail>
-   </rdg>
-   <rdg>non aus dir re als
-      <witDetail wit="#L"> L</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="3">
+            <lem wit="#ms.R">non sai dir ren als</lem>
+            <rdg wit="#ms.U #ms.a1">non sai ren dir als</rdg>
+            <rdg wit="#ms.G">non posc dire ren als</rdg>
+            <rdg wit="#ms.L">non aus dir re als</rdg>
+        </app>
 
-<app ana="sos">
-   <num>5</num>
-   <lem>car</lem>
-   <rdg>e pos
-      <witDetail wit="#G #L"> GL</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="5">
+            <lem wit="#ms.R">car</lem>
+            <rdg wit="#ms.G #ms.L">e pos</rdg>
+        </app>
 
-<app ana="sos">
-   <lem>non</lem>
-   <rdg>nom
-      <witDetail wit="#G"> G</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos">
+            <lem wit="#ms.R">non</lem>
+            <rdg wit="#ms.G">nom</rdg>
+        </app>
 
-<app ana="sos">
-   <num>6</num>
-   <lem>semblin fatz</lem>
-   <rdg>semblan fatz
-      <witDetail wit="#G #L"> GL</witDetail>
-   </rdg>
-   <rdg>sembli malfat
-      <witDetail wit="#a1"> a¹</witDetail>
-   </rdg>
-   <rdg>sembre in fatz
-      <witDetail wit="#U"> U</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="6">
+            <lem wit="#ms.R">semblin fatz</lem>
+            <rdg wit="#ms.G #ms.L">semblan fatz</rdg>
+            <rdg wit="#ms.a1">sembli malfat</rdg>
+            <rdg wit="#ms.U">sembre in fatz</rdg>
+        </app>
 
-<app ana="sos">
-   <num>7</num>
-   <lem>e par monor</lem>
-   <rdg>en par mendre
-      <witDetail wit="#G #L #a1"> GLa¹</witDetail>
-   </rdg>
-   <rdg>ne mendre
-      <witDetail wit="#U"> U</witDetail>
-   </rdg>
-   <rdg>monors
-      <witDetail wit="#R"> R</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="7">
+            <lem resp="#editor">e par monor</lem>
+            <rdg wit="#ms.G #ms.L #ms.a1">en par mendre</rdg>
+            <rdg wit="#ms.U">ne mendre</rdg>
+            <rdg wit="#ms.R">monors</rdg>
+        </app>
 
-<app ana="sos">
-   <lem>sabensa</lem>
-   <rdg>semblanza
-      <witDetail wit="#U"> U</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos">
+            <lem wit="#ms.R">sabensa</lem>
+            <rdg wit="#ms.U">semblanza</rdg>
+        </app>
 
-<app ana="sos">
-   <num>8</num>
-   <lem>Amor</lem>
-   <rdg>amors
-      <witDetail wit="#R"> R</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="8">
+            <lem wit="#ms.R">Amor</lem>
+            <rdg wit="#ms.R">amors</rdg>
+        </app>
 
-<app ana="sos">
-   <lem>fors’e·m vens</lem>
-   <rdg>forcham venz
-      <witDetail wit="#G"> G</witDetail>
-   </rdg>
-   <rdg>forcha em vens
-      <witDetail wit="#L"> L</witDetail>
-   </rdg>
-   <rdg>forsa e vens
-      <witDetail wit="#U"> U</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos">
+            <lem wit="#ms.R">fors’e·m vens</lem>
+            <rdg wit="#ms.G">forcham venz</rdg>
+            <rdg wit="#ms.L">forcha em vens</rdg>
+            <rdg wit="#ms.U">forsa e vens</rdg>
+        </app>
 
-<app ana="sos">
-   <num>9</num>
-   <lem>mas</lem>
-   <rdg>ma
-      <witDetail wit="#U #a1"> Ua¹</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="9">
+            <lem wit="#ms.R">mas</lem>
+            <rdg wit="#ms.U #ms.a1">ma</rdg>
+        </app>
 
-<app ana="sos">
-   <lem>clamors</lem>
-   <rdg>clamor
-      <witDetail wit="#R"> R</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos">
+            <lem wit="#ms.U #ms.a1">clamors</lem>
+            <rdg wit="#ms.R">clamor</rdg>
+        </app>
 
-<app ana="sos">
-   <num>10</num>
-   <lem>c’a</lem>
-   <rdg>car
-      <witDetail wit="#G"> G</witDetail>
-   </rdg>
-   <rdg>qals
-      <witDetail wit="#U"> U</witDetail>
-   </rdg>
-   <rdg>cal
-      <witDetail wit="#a1"> a¹</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="10">
+            <lem wit="#ms.R">c’a</lem>
+            <rdg wit="#ms.G">car</rdg>
+            <rdg wit="#ms.U">qals</rdg>
+            <rdg wit="#ms.a1">cal</rdg>
+        </app>
 
-<app ana="sos">
-   <num>11</num>
-   <lem>lo</lem>
-   <rdg>los
-      <witDetail wit="#U"> U</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="11">
+            <lem wit="#ms.R">lo</lem>
+            <rdg wit="#ms.U">los</rdg>
+        </app>
 
-<app ana="sos">
-   <num>15</num>
-   <lem>e vos am</lem>
-   <rdg>e do amat
-      <witDetail wit="#U"> U</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="13">
+             <lem resp="#editor">noms</lem>
+             <rdg wit="#ms.R">nom</rdg>
+        </app>
 
-<app ana="sos">
-   <num>16</num>
-   <lem>aissi</lem>
-   <rdg>caissi
-      <witDetail wit="#U"> U</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="15">
+            <lem wit="#ms.R">e vos am</lem>
+            <rdg wit="#ms.U">e do amat</rdg>
+        </app>
 
-<app ana="sos">
-   <num>19</num>
-   <lem>m’es mal’e</lem>
-   <rdg>a mi mals
-      <witDetail wit="#L #U"> LU</witDetail>
-   </rdg>
-   <rdg>mi mal e
-      <witDetail wit="#G #R"> GR</witDetail>
-   </rdg>
-   <rdg>mes mala
-      <witDetail wit="#a1"> a¹</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="16">
+            <lem wit="#ms.R">aissi</lem>
+            <rdg wit="#ms.U">caissi</rdg>
+        </app>
 
-<app ana="sos">
-   <num>20</num>
-   <lem>benfait</lem>
-   <rdg>benfaiz
-      <witDetail wit="#G #U"> GU</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="19">
+            <lem resp="editor">m’es mal’e</lem>
+            <rdg wit="#ms.L #ms.U">a mi mals</rdg>
+            <rdg wit="#ms.G #ms.R">mi mal e</rdg>
+            <rdg wit="#ms.a1">mes mala</rdg>
+        </app>
 
-<app ana="sos">
-   <num>21</num>
-   <lem>per d.</lem>
-   <rdg>e donc
-      <witDetail wit="#U"> U</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="20">
+            <lem wit="#ms.R">benfait</lem>
+            <rdg wit="#ms.G #ms.U">benfaiz</rdg>
+        </app>
 
-<app ana="sos">
-   <lem>per d. soi ieu</lem>
-   <rdg>per d. vos soi ieu
-      <witDetail wit="#R"> R</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="21">
+            <lem wit="#ms.R">per d.</lem>
+            <rdg wit="#ms.U">e donc</rdg>
+        </app>
 
-<app ana="sos">
-   <num>22</num>
-   <lem>e vos malvolensa</lem>
-   <rdg>e vos a mi m.
-      <witDetail wit="#R"> R</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="22">
+            <lem wit="#ms.U #ms.a1">e vos malvolensa</lem>
+            <rdg wit="#ms.R">e vos a mi m.</rdg>
+        </app>
 
-<app ana="sos">
-   <num>23</num>
-   <lem>E pos no·m val q’eu son tals</lem>
-   <rdg>e si tot eu siu aitals
-      <witDetail wit="#G #w"> Gw</witDetail>
-   </rdg>
-   <rdg>e si tot eu soi aitals
-      <witDetail wit="#L"> L</witDetail>
-   </rdg>
-   <rdg>donc pos non val car soi tals
-      <witDetail wit="#a1"> a¹</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="23">
+            <lem wit="#ms.R">E pos no·m val q’eu son tals</lem>
+            <rdg wit="#ms.G #ms.w">e si tot eu siu aitals</rdg>
+            <rdg wit="#ms.L">e si tot eu soi aitals</rdg>
+            <rdg wit="#ms.a1">donc pos non val car soi tals</rdg>
+        </app>
 
-<app ana="sos">
-   <num>24</num>
-   <lem>a drut cove</lem>
-   <rdg>a drutz cove
-      <witDetail wit="#L"> L</witDetail>
-   </rdg>
-   <rdg>damic cove
-      <witDetail wit="#U"> U</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="24">
+            <lem wit="#ms.R">a drut cove</lem>
+            <rdg wit="#ms.L">a drutz cove</rdg>
+            <rdg wit="#ms.U">damic cove</rdg>
+        </app>
 
-<app ana="sos">
-   <num>25</num>
-   <lem>si·m tornava</lem>
-   <rdg>sim faszia
-      <witDetail wit="#L #w"> Lw</witDetail>
-   </rdg>
-   <rdg>si tort na na
-      <witDetail wit="#R"> R</witDetail>
-   </rdg>
-   <rdg>sim trovava
-      <witDetail wit="#a1"> a¹</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="25">
+            <lem wit="#ms.U">si·m tornava</lem>
+            <rdg wit="#ms.L #ms.w">sim faszia</rdg>
+            <rdg wit="#ms.R">si tort na na</rdg>
+            <rdg wit="#ms.a1">sim trovava</rdg>
+        </app>
 
-<app ana="sos" type="locus">
-   <num>27</num>
-   <lem>lai</lem>
-   <rdg>
-      <note type="text">manca</note>
-      <witDetail wit="#R #U #a1"> RUa¹</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="27" type="locus">
+            <lem resp="#editor">lai</lem>
+            <rdg type="omission">
+                <note type="text">manca<witDetail wit="#ms.R #ms.U #ms.a1"> RUa</witDetail></note>
+            </rdg>
+        </app>
 
-<app ana="sos">
-   <lem>viraira·l</lem>
-   <rdg>i torneral
-      <witDetail wit="#a1"> a¹</witDetail>
-   </rdg>
-   <rdg>virerel
-      <witDetail wit="#U"> U</witDetail>
-   </rdg>
-   <rdg>... al
-      <witDetail wit="#w"> w</witDetail>
-      <note type="popup" xml:id="paleo4">
-      <surface>
-        <graphic url="images/paleo14.png"/>
-      </surface>In w, l'incertezza del copista nella comprensione del verbo è reso evidente dallo spazio bianco che si individua al suo posto, occupato da punti di sospensione e seguito da <seg type="it">al fre</seg>.
-      </note>
-   </rdg>
-</app>
+        <app ana="#sos">
+            <lem resp="#editor">virera·l</lem>
+            <rdg wit="#ms.R">viraira·l</rdg>
+            <rdg wit="#ms.U">virerel</rdg>
+            <rdg wit="#ms.a1">i torneral</rdg>
+            <rdg wit="#ms.w">... al
+                <note type="paleo" xml:id="paleo4">
+                    <graphic url="images/paleo14.png"/>
+                    In w, l'incertezza del copista nella comprensione del verbo è reso evidente dallo spazio bianco che si individua al suo posto, occupato da punti di sospensione e seguito da <seg type="it">al fre</seg>.
+                </note>
+            </rdg>
+        </app>
 
-<app ana="sos">
-   <num>28</num>
-   <lem>so·m</lem>
-   <rdg>so
-      <witDetail wit="#G #U #a1"> GUa¹</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="28">
+            <lem wit="#ms.R">so·m</lem>
+            <rdg wit="#ms.G #ms.U #ms.a1">so</rdg>
+        </app>
 
-<app ana="sos">
-   <lem>mos</lem>
-   <rdg>e mon
-      <witDetail wit="#G"> G</witDetail>
-   </rdg>
-   <rdg>mon
-      <witDetail wit="#U"> U</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos">
+            <lem wit="#ms.R">mos</lem>
+            <rdg wit="#ms.G">e mon</rdg>
+            <rdg wit="#ms.U">mon</rdg>
+        </app>
 
-<app ana="sos">
-   <num>30</num>
-   <lem>no vuelh que totz los tormens</lem>
-   <rdg>mas am sofrir los tormenz
-      <witDetail wit="#G #L"> GL</witDetail>
-   </rdg>
-   <rdg>mas am sofrir lo tormenz
-      <witDetail wit="#w"> w</witDetail>
-   </rdg>
-   <rdg>ennanz vuoilh mais a tormenz
-      <witDetail wit="#U"> U</witDetail>
-   </rdg>
-   <rdg>los termens
-      <witDetail wit="#R"> R</witDetail>
-   </rdg>
-   <rdg>per qieu voil mas ab tormenz
-      <witDetail wit="#a1"> a¹</witDetail>
-   </rdg>
-</app>
-<app ana="sos" type="locus">
-   <num>31</num>
-   <lem>esser dels fins amadors</lem>
-   <rdg>ab los leials amadors
-      <witDetail wit="#G #L #w"> GLw</witDetail>
-   </rdg>
-   <rdg>esser dels fins amador
-      <witDetail wit="#U"> U</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="30">
+            <lem resp="#editor">no vuelh que totz los tormens</lem>
+            <rdg wit="#ms.G #ms.L">mas am sofrir los tormenz</rdg>
+            <rdg wit="#ms.w">mas am sofrir lo tormenz</rdg>
+            <rdg wit="#ms.U">ennanz vuoilh mais a tormenz</rdg>
+            <rdg wit="#ms.R">los termens</rdg>
+            <rdg wit="#ms.a1">per qieu voil mas ab tormenz</rdg>
+        </app>
 
-<app ana="sos">
-   <num>32</num>
-   <lem>galiadors</lem>
-   <rdg>galiador
-      <witDetail wit="#U"> U</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="31" type="locus">
+            <lem wit="#ms.R">esser dels fins amadors</lem>
+            <rdg wit="#ms.G #ms.L #ms.w">ab los leials amadors</rdg>
+            <rdg wit="#ms.U">esser dels fins amador</rdg>
+        </app>
 
-<app ana="sos" type="locus">
-   <num>33</num>
-   <lem>d’amor</lem>
-   <rdg>de joi
-      <witDetail wit="#G #L #w"> GLw</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="32">
+            <lem wit="#ms.R">galiadors</lem>
+            <rdg wit="#ms.U">galiador</rdg>
+        </app>
 
-<app ana="sos">
-   <num>34</num>
-   <lem>Amors</lem>
-   <rdg>amor
-      <witDetail wit="#U"> U</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="33" type="locus">
+            <lem wit="#ms.R">d’amor</lem>
+            <rdg wit="#ms.G #ms.L #ms.w">de joi</rdg>
+        </app>
 
-<app ana="sos">
-   <num>37</num>
-   <lem>mi</lem>
-   <rdg>men
-      <witDetail wit="#G #L #U"> GLU</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="34">
+            <lem wit="#ms.R">Amors</lem>
+            <rdg wit="#ms.U">amor</rdg>
+        </app>
 
-<app ana="sos">
-   <lem>be</lem>
-   <rdg>se
-      <witDetail wit="#a1"> a¹</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="37">
+            <lem wit="#ms.R">mi</lem>
+            <rdg wit="#ms.G #ms.L #ms.U">men</rdg>
+        </app>
 
-<app ana="sos">
-   <num>38</num>
-   <lem>que no sabon</lem>
-   <rdg>qi sabon
-      <witDetail wit="#a1"> a¹</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos">
+            <lem wit="#ms.R">be</lem>
+            <rdg wit="#ms.a1">se</rdg>
+        </app>
 
-<app ana="sos">
-   <num>41</num>
-   <lem>seretz</lem>
-   <rdg>partetz
-      <witDetail wit="#G"> G</witDetail>
-   </rdg>
-   <rdg>paretz
-      <witDetail wit="#L #a1"> La¹</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="38">
+            <lem wit="#ms.R">que no sabon</lem>
+            <rdg wit="#ms.a1">qi sabon</rdg>
+        </app>
 
-<app ana="sos">
-   <num>43</num>
-   <lem>cuy seran las greus</lem>
-   <rdg>cui sera ma greus
-      <witDetail wit="#G #L"> GL</witDetail>
-   </rdg>
-   <rdg>mas a mi sara
-      <witDetail wit="#U"> U</witDetail>
-   </rdg>
-   <rdg>qi sabra mas grans
-      <witDetail wit="#a1"> a¹</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="41">
+            <lem wit="#ms.R">seretz</lem>
+            <rdg wit="#ms.G">partetz</rdg>
+            <rdg wit="#ms.L #ms.a1">paretz</rdg>
+        </app>
 
-<app ana="sos">
-   <num>44</num>
-   <lem>recels</lem>
-   <rdg>ressors
-      <witDetail wit="#R"> R</witDetail>
-   </rdg>
-   <rdg>e cels
-      <witDetail wit="#U"> U</witDetail>
-   </rdg>
-   <rdg>te cels
-      <witDetail wit="#a1"> a¹</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="43">
+            <lem wit="#ms.R">cuy seran las greus</lem>
+            <rdg wit="#ms.G #ms.L">cui sera ma greus</rdg>
+            <rdg wit="#ms.U">mas a mi sara</rdg>
+            <rdg wit="#ms.a1">qi sabra mas grans</rdg>
+        </app>
 
-<app ana="sos">
-   <num>45</num>
-   <lem>Vostr’usatges</lem>
-   <rdg>postrusatges
-      <witDetail wit="#R"> R</witDetail>
-   </rdg>
-   <rdg>vostrusatge
-      <witDetail wit="#U"> U</witDetail>
-   </rdg>
-   <rdg>Vost <note type="text">(illegibile)</note> sages
-      <witDetail wit="#w"> w</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="44">
+            <lem resp="#editor">recels</lem>
+            <rdg wit="#ms.R">ressors</rdg>
+            <rdg wit="#ms.U">e cels</rdg>
+            <rdg wit="#ms.a1">te cels</rdg>
+        </app>
 
-<app ana="sos">
-   <num>46</num>
-   <lem>c’aicel</lem>
-   <rdg>car cel
-      <witDetail wit="#L"> L</witDetail>
-   </rdg>
-   <rdg>car celui
-      <witDetail wit="#U"> U</witDetail>
-   </rdg>
-   <rdg>ca celui
-      <witDetail wit="#a1"> a¹</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="45">
+            <lem resp="#editor">Vostr’usatges</lem>
+            <rdg wit="#ms.R">postrusatges</rdg>
+            <rdg wit="#ms.U">vostrusatge</rdg>
+            <rdg wit="#ms.w">Vost <note type="text">(illegibile)</note> sages</rdg>
+        </app>
 
-<app ana="sos">
-   <lem>que vos</lem>
-   <rdg>qui vos
-      <witDetail wit="#G #U"> GU</witDetail>
-   </rdg>
-   <rdg>queus
-      <witDetail wit="#a1"> a¹</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="46">
+            <lem wit="#ms.R">c’aicel</lem>
+            <rdg wit="#ms.L">car cel</rdg>
+            <rdg wit="#ms.U">car celui</rdg>
+            <rdg wit="#ms.a1">ca celui</rdg>
+        </app>
 
-<app ana="sos">
-   <num>47</num>
-   <lem>sos</lem>
-   <rdg>son
-      <witDetail wit="#U"> U</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos">
+            <lem wit="#ms.R">que vos</lem>
+            <rdg wit="#ms.G #ms.U">qui vos</rdg>
+            <rdg wit="#ms.a1">queus</rdg>
+        </app>
 
-<app ana="sos">
-   <num>48</num>
-   <lem>pus de vos no·l ve</lem>
-   <rdg>car de vos noil ve
-      <witDetail wit="#G #L"> GL</witDetail>
-   </rdg>
-   <rdg>car de vos non ve
-      <witDetail wit="#a1"> a¹</witDetail>
-   </rdg>
-   <rdg>car de vos vol ve
-      <witDetail wit="#w"> w</witDetail>
-   </rdg>
-   <rdg>e de vos non ve
-      <witDetail wit="#U"> U</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="47">
+            <lem wit="#ms.R">sos</lem>
+            <rdg wit="#ms.U">son</rdg>
+        </app>
 
-<app ana="sos">
-   <num>49</num>
-   <lem>mas enian ses tota fe</lem>
-   <rdg>en aisi que ses toie
-      <witDetail wit="#R"> R</witDetail>
-   </rdg>
-   <rdg>mas enian sas
-      <witDetail wit="#a1"> a¹</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="48">
+            <lem wit="#ms.R">pus de vos no·l ve</lem>
+            <rdg wit="#ms.G #ms.L">car de vos noil ve</rdg>
+            <rdg wit="#ms.a1">car de vos non ve</rdg>
+            <rdg wit="#ms.w">car de vos vol ve</rdg>
+            <rdg wit="#ms.U">e de vos non ve</rdg>
+        </app>
 
-<app ana="sos" type="locus">
-   <num>50</num>
-   <lem>dan ses tot</lem>
-   <rdg>dans senes
-      <witDetail wit="#G #L #w"> GLw</witDetail>
-   </rdg>
-   <rdg>dans ses tot
-      <witDetail wit="#U"> U</witDetail>
-   </rdg>
-   <rdg>dans ses totz
-      <witDetail wit="#a1"> a¹</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="49">
+            <lem wit="#ms.U #ms.a1">mas enian ses tota fe</lem>
+            <rdg wit="#ms.R">en aisi que ses toie</rdg>
+        </app>
 
-<app ana="sos">
-   <lem>iauzimens</lem>
-   <rdg>iauzimen
-      <witDetail wit="#R"> R</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="50" type="locus">
+            <lem wit="#ms.R">dan ses tot</lem>
+            <rdg wit="#ms.G #ms.L #ms.w">dans senes</rdg>
+            <rdg wit="#ms.U">dans ses tot</rdg>
+            <rdg wit="#ms.a1">dans ses totz</rdg>
+        </app>
 
-<app ana="sos">
-   <num>51</num>
-   <lem>senes plazer cozenza</lem>
-   <rdg>e senes benfach cozenza
-      <witDetail wit="#L #w"> Lw</witDetail>
-   </rdg>
-   <rdg>e senes benfaiz cozenza
-      <witDetail wit="#G"> G</witDetail>
-   </rdg>
-   <rdg>senes plazer mal sabensa
-      <witDetail wit="#R"> R</witDetail>
-   </rdg>
-   <rdg>senes tot plo fiec caenza
-      <witDetail wit="#U"> U</witDetail>
-   </rdg>
-   <rdg>senes tot plazer cozenza
-      <witDetail wit="#a1"> a¹</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos">
+            <lem wit="#ms.U #ms.a1">iauzimens</lem>
+            <rdg wit="#ms.R">iauzimen</rdg>
+        </app>
 
-<app ana="sos">
-   <num>52</num>
-   <lem>pro faitz</lem>
-   <rdg>e pro ia dals
-      <witDetail wit="#U"> U</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="51">
+            <lem resp="#editor">ses plazer cozenza</lem>
+            <rdg wit="#ms.L #ms.w">e senes benfach cozenza</rdg>
+            <rdg wit="#ms.G">e senes benfaiz cozenza</rdg>
+            <rdg wit="#ms.R">senes plazer mal sabensa</rdg>
+            <rdg wit="#ms.U">senes tot plo fiec caenza</rdg>
+            <rdg wit="#ms.a1">senes tot plazer cozenza</rdg>
+        </app>
 
-<app ana="sos">
-   <num>53</num>
-   <lem>callar</lem>
-   <rdg>calhors
-      <witDetail wit="#R"> R</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="52">
+            <lem wit="#ms.R">pro faitz</lem>
+            <rdg wit="#ms.U">e pro ia dals</rdg>
+        </app>
 
-<app ana="sos" type="locus">
-   <lem>mi fays paors</lem>
-   <rdg>men fai temors
-      <witDetail wit="#G #L"> GL</witDetail>
-   </rdg>
-   <rdg>me fai temors
-      <witDetail wit="#w"> w</witDetail>
-   </rdg>
-   <rdg>mi fai paors
-      <witDetail wit="#U #a1"> Ua¹</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="53">
+            <lem wit="#ms.U #ms.a1">callar</lem>
+            <rdg wit="#ms.R">calhors</rdg>
+        </app>
 
-<app ana="sos">
-   <num>54</num>
-   <lem>orgoilhs</lem>
-   <rdg>envez
-      <witDetail wit="#G #L #w"> GLw</witDetail>
-   </rdg>
-   <rdg>orgoilh
-      <witDetail wit="#R"> R</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" type="locus">
+            <lem wit="#ms.R">mi fays paors</lem>
+            <rdg wit="#ms.G #ms.L">men fai temors</rdg>
+            <rdg wit="#ms.w">me fai temors</rdg>
+            <rdg wit="#ms.U #ms.a1">mi fai paors</rdg>
+        </app>
 
-<app ana="sos">
-   <lem>es grans e folors</lem>
-   <rdg>e
-      <note type="text">manca</note>
-                                        <witDetail wit="#G #L #a1"> GLa¹</witDetail>
-   </rdg>
-   <rdg>quen los es e granis folors
-      <witDetail wit="#w"> w</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="54">
+            <lem resp="#editor">orgoilhs</lem>
+            <rdg wit="#ms.G #ms.L #ms.w">envez</rdg>
+            <rdg wit="#ms.R">orgoilh</rdg>
+        </app>
 
-<app ana="sos">
-   <num>55</num>
-   <lem>tensa</lem>
-   <rdg>de se teza
-      <witDetail wit="#U"> U</witDetail>
-   </rdg>
-   <rdg>si tencha
-      <witDetail wit="#L"> L</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos">
+            <lem wit="#ms.R">es grans e folors</lem>
+            <rdg type="omission">e
+                <note type="text">manca <witDetail wit="#ms.G #ms.L #ms.a1"> GLa1</witDetail></note>
+            </rdg>
+            <rdg wit="#ms.w">quen los es e granis folors</rdg>
+        </app>
 
-<app ana="sos">
-   <num>56</num>
-   <lem>plazens</lem>
-   <rdg>valens
-      <witDetail wit="#U"> U</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="55">
+            <lem wit="#ms.R">tensa</lem>
+            <rdg wit="#ms.U">de se teza</rdg>
+            <rdg wit="#ms.L">si tencha</rdg>
+        </app>
 
-<app ana="sos">
-   <num>57</num>
-   <lem>tant</lem>
-   <rdg>pres
-      <witDetail wit="#U"> U</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="56">
+            <lem wit="#ms.a1">plazens</lem>
+            <rdg wit="#ms.U">valens</rdg>
+        </app>
 
-<app ana="sos">
-   <num>58-60-61</num>
-   <rdg>
-      <note type="text">manca</note>
-                                        <witDetail wit="#U"> U</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="57">
+            <lem wit="#ms.a1">tant</lem>
+            <rdg wit="#ms.U">pres</rdg>
+        </app>
 
-<app ana="sos">
-   <num>59</num>
-   <lem>lauzors</lem>
-   <rdg>lauçor
-      <witDetail wit="#U"> U</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="58-60-61">
+            <rdg type="omission">
+                <note type="text">manca <witDetail wit="#ms.U">U</witDetail></note>
+            </rdg>
+        </app>
 
-<app ana="sos">
-   <num>62</num>
-   <lem>part los valens</lem>
-   <rdg>vostra valensa
-      <witDetail wit="#U"> U</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="59">
+            <lem wit="#ms.a1">lauzors</lem>
+            <rdg wit="#ms.U">lauçor</rdg>
+        </app>
 
-<app ana="sos">
-   <num>63-64</num>
-   <lem>[testo presente nell'edizione]</lem>
-   <rdg>
-      <witDetail wit="#U"> U</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="62">
+            <lem wit="#ms.R">part los valens</lem>
+            <rdg wit="#ms.U">vostra valensa</rdg>
+        </app>
 
-<app ana="sos">
-   <num>65</num>
-   <lem>d’Amors sias m’en actors</lem>
-   <rdg>en sia mos autors
-      <witDetail wit="#U"> U</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="63-64">
+            <rdg type="omission">
+               <note type="text">manca <witDetail wit="#ms.U">U</witDetail></note>
+            </rdg>
+        </app>
 
-<app ana="sos">
-   <num>66</num>
-   <lem>s’es tals cum ieu dic Amors</lem>
-   <rdg>tals come obs a damors
-      <witDetail wit="#U"> U</witDetail>
-   </rdg>
-</app>
+        <app ana="#sos" n="65">
+            <lem resp="#editor">d’Amors sias m’en actors</lem>
+            <rdg wit="#ms.R">Amor</rdg>
+            <rdg wit="#ms.U">en sia mos autors</rdg>
+        </app>
 
-<app ana="sos">
-   <num>67</num>
-   <lem>ni sa captenensa</lem>
-   <rdg>senes tuit failh glen ça
-      <witDetail wit="#U"> U</witDetail>
-   </rdg>
-</app>
-              </listApp>
-            </div>
+        <app ana="#sos" n="66">
+            <lem wit="#ms.R">s’es tals cum ieu dic Amors</lem>
+            <rdg wit="#ms.U">tals come obs a damors</rdg>
+        </app>
+
+        <app ana="#sos" n="67">
+            <lem wit="#ms.R">ni sa captenensa</lem>
+            <rdg wit="#ms.U">senes tuit failh glen ça</rdg>
+        </app>
+    </listApp>
+</div>
             <!-- Apparato critico delle varianti formali del testo di costellazione -->
-            </div>
-            <div type="app_cos_form">
-              <listApp>
-              <app ana="form">
-    <num>8</num>
-    <lem>doncs</lem>
-    <rdg>
-        dont<witDetail wit="#a1"> a¹</witDetail>
-    </rdg>
-</app>
+           <div type="app_cos_form">
+    <listApp>
+        <app ana="#form" n="8">
+            <lem wit="#ms.R">doncs</lem>
+            <rdg wit="#ms.a1">dont</rdg>
+        </app>
 
-<app ana="form">
-    <lem>quem</lem>
-    <rdg>
-        qim<witDetail wit="#U"> U</witDetail>
-    </rdg>
-</app>
+        <app ana="#form">
+            <lem wit="#ms.R">quem</lem>
+            <rdg wit="#ms.U">qim</rdg>
+        </app>
 
-<app ana="form">
-    <num>16</num>
-    <lem>s’endeve</lem>
-    <rdg>
-        sesdeve<witDetail wit="#G #L #U #a1"> GLUa¹</witDetail>
-    </rdg>
-</app>
+        <app ana="#form" n="16">
+            <lem wit="#ms.R">s’endeve</lem>
+            <rdg wit="#ms.G #ms.L #ms.U #ms.a1">sesdeve</rdg>
+        </app>
 
-<app ana="form">
-    <num>18</num>
-    <lem>bevolensa</lem>
-    <rdg>
-        benvoliensa<witDetail wit="#U"> U</witDetail>
-    </rdg>
-    <rdg>
-        bovolensa<witDetail wit="#a1"> a¹</witDetail>
-    </rdg>
-    <rdg>
-        benvolensa<witDetail wit="#G #L"> GL</witDetail>
-    </rdg>
-</app>
+        <app ana="#form" n="18">
+            <lem wit="#ms.R">bevolensa</lem>
+            <rdg wit="#ms.U">benvoliensa</rdg>
+            <rdg wit="#ms.a1">bovolensa</rdg>
+            <rdg wit="#ms.G #ms.L">benvolensa</rdg>
+        </app>
 
-<app ana="form">
-    <num>28</num>
-    <lem>so·m</lem>
-    <rdg>
-        chom<witDetail wit="#L"> L</witDetail>
-    </rdg>
-    <rdg>
-        com<witDetail wit="#w"> w</witDetail>
-    </rdg>
-</app>
+        <app ana="#form" n="28">
+            <lem wit="#ms.R">so·m</lem>
+            <rdg wit="#ms.L">chom</rdg>
+            <rdg wit="#ms.w">com</rdg>
+        </app>
 
-<app ana="form">
-    <num>38</num>
-    <lem>q’assels que no sabon</lem>
-    <rdg>
-        qaicels qi no sabo<witDetail wit="#G #L"> GL</witDetail>
-    </rdg>
-    <rdg>
-        quar cel qui non sabon<witDetail wit="#U"> U</witDetail>
-    </rdg>
-</app>
+        <app ana="#form" n="38">
+            <lem wit="#ms.R">q’assels que no sabon</lem>
+            <rdg wit="#ms.G #ms.L">qaicels qi no sabo</rdg>
+            <rdg wit="#ms.U">quar cel qui non sabon</rdg>
+        </app>
 
-<app ana="form">
-    <num>41</num>
-    <lem>seretz</lem>
-    <rdg>
-        saretz<witDetail wit="#U"> U</witDetail>
-    </rdg>
-</app>
+        <app ana="#form" n="41">
+            <lem wit="#ms.R">seretz</lem>
+            <rdg wit="#ms.U">saretz</rdg>
+        </app>
 
-<app ana="form">
-    <num>46</num>
-    <lem>c’aicel</lem>
-    <rdg>
-        cacel<witDetail wit="#G #w"> Gw</witDetail>
-    </rdg>
-</app>
+        <app ana="#form" n="46">
+            <lem wit="#ms.R">c’aicel</lem>
+            <rdg wit="#ms.G #ms.w">cacel</rdg>
+        </app>
 
-<app ana="form">
-    <num>47</num>
-    <lem>merma</lem>
-    <rdg>
-        merman<witDetail wit="#U"> U</witDetail>
-    </rdg>
-    <rdg>
-        merme<witDetail wit="#a1"> a¹</witDetail>
-    </rdg>
-</app>
-              </listApp>
-            </div>
+        <app ana="#form" n="47">
+            <lem wit="#ms.R">merma</lem>
+            <rdg wit="#ms.U">merman</rdg>
+            <rdg wit="#ms.a1">merme</rdg>
+        </app>
+    </listApp>
+</div>
+</back>
+</text>
+</group>
+<back>
             <div type="trad_critico" xml:lang="it">
                 <p n="1">
                             <label>I</label>
@@ -2260,9 +1683,7 @@ In una delle poche occorrenze di un altro derivato di <seg type="it">envezar</se
                 </p>
             </div>
                 <div type="trad_extra">
-                    <p>
-                            <title>Cobla trasmessa per tradizione indiretta</title>
-                        </p>
+                            <head>Cobla trasmessa per tradizione indiretta</head>
                     <lg type="stanza" xml:id="extra14" corresp="#cos5">
                     <anchor xml:id="anchor-extra14"/>
                                 <l n="45">Vostr’uzatges es aitals</l>
@@ -2279,47 +1700,39 @@ In una delle poche occorrenze di un altro derivato di <seg type="it">envezar</se
                     </lg>
                     <lb/>
                 </div> 
-            
-            
-        </front>
-    </body>
-    <back>
         <div type="biblio">
-
-            <head>Edizioni e studi</head>
             <div type="section">
-                <title>Edizioni</title>
-                    <p>Shepard 1924, <witDetail>A</witDetail>, pp. 44-48, 83-85;<lb/>Gambini 2001, <witDetail>C</witDetail>, pp. 165 e seguenti.
+                <head>Edizioni</head>
+                    <p>Shepard 1924, <witDetail wit="#ms.A">A</witDetail>, pp. 44-48, 83-85;<lb/>Gambini 2001, <witDetail wit="#ms.C">C</witDetail>, pp. 165 e seguenti.
                     </p>
             </div>
             <div type="section">
-                <title>Studi</title>
+                <head>Studi</head>
                 <p>Mantovani 2014: p. 374;<lb/>Ricketts 2011: pp. 48-51;<lb/>Sharman 1989: pp. 241-245;<lb/>Squillacioti 1999: pp. 123, 172, 202, 285, 384;<lb/>Strónski 1910: p. 85.</p>
             </div>
             <div type="section">
-                <title>Edizioni CAO</title>
+                <head>Edizioni CAO</head>
             <p> 
-               <witDetail>A</witDetail>: <ref rend="exit" target="https://www.rialto.unina.it/cao/diplomatiche/a/">dipl</ref>
+               <witDetail wit="#ms.A">A</witDetail>: <ref rend="exit" target="https://www.rialto.unina.it/cao/diplomatiche/a/">dipl</ref>
                             <lb/>
-               <witDetail>C</witDetail>: <ref rend="exit" target="https://www.rialto.unina.it/cao/diplomatiche/c/">dipl</ref>
+               <witDetail wit="#ms.C">C</witDetail>: <ref rend="exit" target="https://www.rialto.unina.it/cao/diplomatiche/c/">dipl</ref>
                             <lb/>
-               <witDetail>D</witDetail>: <ref rend="exit" target="https://www.rialto.unina.it/cao/diplomatiche/d/">dipl</ref>
+               <witDetail wit="#ms.D">D</witDetail>: <ref rend="exit" target="https://www.rialto.unina.it/cao/diplomatiche/d/">dipl</ref>
                             <lb/>
-               <witDetail>E</witDetail>: <ref rend="exit" target="https://www.rialto.unina.it/cao/diplomatiche/e/">dipl</ref>, <ref rend="exit" target="https://www.rialto.unina.it/wp-content/uploads/2023/02/E.pdf">interp</ref>
+               <witDetail wit="#ms.E">E</witDetail>: <ref rend="exit" target="https://www.rialto.unina.it/cao/diplomatiche/e/">dipl</ref>, <ref rend="exit" target="https://www.rialto.unina.it/wp-content/uploads/2023/02/E.pdf">interp</ref>
                             <lb/>
-               <witDetail>G</witDetail>: <ref rend="exit" target="https://www.rialto.unina.it/cao/diplomatiche/g/">dipl</ref>, <ref rend="exit" target="https://www.rialto.unina.it/wp-content/uploads/2023/02/G.pdf">interp</ref>
+               <witDetail wit="#ms.G">G</witDetail>: <ref rend="exit" target="https://www.rialto.unina.it/cao/diplomatiche/g/">dipl</ref>, <ref rend="exit" target="https://www.rialto.unina.it/wp-content/uploads/2023/02/G.pdf">interp</ref>
                             <lb/>
-               <witDetail>N</witDetail>: <ref rend="exit" target="https://www.rialto.unina.it/cao/diplomatiche/n/">dipl</ref>
+               <witDetail wit="#ms.N">N</witDetail>: <ref rend="exit" target="https://www.rialto.unina.it/cao/diplomatiche/n/">dipl</ref>
                             <lb/>
-               <witDetail>P</witDetail>: <ref rend="exit" target="https://www.rialto.unina.it/cao/diplomatiche/p/">dipl</ref>
+               <witDetail wit="#ms.P">P</witDetail>: <ref rend="exit" target="https://www.rialto.unina.it/cao/diplomatiche/p/">dipl</ref>
                             <lb/>
-               <witDetail>T</witDetail>: <ref rend="exit" target="https://www.rialto.unina.it/cao/diplomatiche/t1/">dipl</ref>
+               <witDetail wit="#ms.T">T</witDetail>: <ref rend="exit" target="https://www.rialto.unina.it/cao/diplomatiche/t1/">dipl</ref>
                             <lb/>
-               <witDetail>U</witDetail>: <ref rend="exit" target="https://www.rialto.unina.it/cao/diplomatiche/u/">dipl</ref>
+               <witDetail wit="#ms.U">U</witDetail>: <ref rend="exit" target="https://www.rialto.unina.it/cao/diplomatiche/u/">dipl</ref>
             </p>
           </div>
         </div>
       </back>
-     </div>
     </text>
 </TEI>

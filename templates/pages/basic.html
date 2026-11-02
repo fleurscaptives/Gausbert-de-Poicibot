@@ -79,10 +79,12 @@
 
                 <div class="colonne">
                     <div>
-                       <pb-view id="txt_critico" src="document1" load-css="resources/css/gausbert.css" xpath="//tei:div[@type='txt_critico']"/>
+                       <pb-view src="document1" load-css="resources/css/gausbert.css" xpath="//tei:text[@type='txt_critico']/tei:front"/>
+                       <pb-view id="txt_critico" src="document1" load-css="resources/css/gausbert.css" xpath="//tei:text[@type='txt_critico']/tei:body"/>
                     </div>
                     <div>
-                        <pb-view id="txt_cst" src="document1" load-css="resources/css/txt_cst.css" xpath="//tei:div[@type='txt_costellazione']"/>
+                        <pb-view src="document1" load-css="resources/css/gausbert.css" xpath="//tei:text[@type='txt_costellazione']/tei:front"/>
+                        <pb-view id="txt_cst" src="document1" load-css="resources/css/txt_cst.css" xpath="//tei:text[@type='txt_costellazione']/tei:body"/>
                     </div>
                     
                   <div id="extra_container">
@@ -144,10 +146,8 @@
     <button id="apri_mss">Facsimili</button>
     
     <div id="mss-panel">
-<pb-view src="document1" id="view-facsimili" load-css="resources/css/gausbert.css" xpath="//tei:facsimile" subscribe="facsimile"/>
-
-        <pb-facsimile type="image" base-uri="http://localhost:8080/exist/apps/GausbPcb/" facsimiles="[&#34;images/no_facs.png&#34;]" default-zoom-level="0" show-navigation-control="true" show-sequence-control="true" subscribe="facsimile" show-full-page-control="true"/>
-        
+       <pb-view src="document1" id="view-facsimili" load-css="resources/css/gausbert.css" xpath="//tei:facsimile" subscribe="facsimile" view="single"/>
+       <pb-facsimile type="image" base-uri="http://localhost:8080/exist/apps/GsbPcb/" facsimiles="[&#34;images/no_facs.png&#34;]" default-zoom-level="0" show-navigation-control="true" show-sequence-control="true" subscribe="facsimile" show-full-page-control="true"/>
     </div>
  </div>
 [% endtemplate %]

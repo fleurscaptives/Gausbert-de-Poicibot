@@ -1,3 +1,6 @@
+<?xml-model href="https://vault.tei-c.org/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng"
+  schematypens="http://relaxng.org/ns/structure/1.0"
+  type="application/xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -318,13 +321,13 @@
                             <witDetail wit="#ms.D">D</witDetail> 47r: <seg>Lo mo(n)ge de Poicibot</seg>; 
                         </item>
                         <item>
-                            <witDetail  wit="#ms.D">E</witDetail> 159: <seg>Monge de Pueisibot</seg>;  
+                            <witDetail wit="#ms.D">E</witDetail> 159: <seg>Monge de Pueisibot</seg>;  
                         </item>
                         <item>
-                            <witDetail  wit="#ms.H">H</witDetail> 18r: <seg>Lo monges de Ponsibot</seg>;
+                            <witDetail wit="#ms.H">H</witDetail> 18r: <seg>Lo monges de Ponsibot</seg>;
                         </item>
                         <item>
-                            <witDetail  wit="#ms.I">I</witDetail> 80v: (<seg>preceduta dalla vida</seg>); 
+                            <witDetail wit="#ms.I">I</witDetail> 80v: (<seg>preceduta dalla vida</seg>); 
                         </item>
                         <item>
                             <witDetail wit="#ms.K">K</witDetail> 64v: <seg>Lo monge Gaubertz de Pocibot</seg>;
@@ -347,7 +350,7 @@
                     <lb/>Unicum
                     <lb/>a ₆ b ₆ b ₆ a ₆ a ₆ c ₆ c ₆ a ₆ a ₆
                     <lb/>a: <rhyme type="a">es</rhyme>, b: <rhyme type="b">os ~ en</rhyme>, c: <rhyme type="c">en ~ os</rhyme>
-                    <lb/>Stesso schema rimico di BdT 335.18.<note type="symbol" xml:id="nota_metrica1">La canzone di Gausbert condivide con il sirventese <seg type="it">De sirventes soill servir</seg> di Peire Cardenal la sequenza rimica (<ref rend="exit" target="https://www.rialto.unina.it/trovatori/peire-cardenal/335-18vatteroni/">Rialto</ref>, Vatteroni 2013).</note>
+                    <lb/>Stesso schema rimico di BdT 335.18.<note type="symbol" xml:id="nota_metrica1">La canzone di Gausbert condivide con il sirventese <seg type="it">De sirventes soill servir</seg> di Peire Cardenal la sequenza rimica (<ref target="https://www.rialto.unina.it/trovatori/peire-cardenal/335-18vatteroni/">Rialto</ref>, Vatteroni 2013).</note>
                 </p>
             </div>
          </front>
@@ -358,7 +361,8 @@
                 <p>Ms. base A<lb/>Correzioni da <seg type="corr">H</seg>
                                 <lb/>
                                 <seg type="edit">Interventi editoriali</seg>
-                            </p></front>
+                            </p>
+                </front>
             <body>
                 <!-- Cobla I -->
                     <label>I</label>
@@ -462,7 +466,8 @@
                                         <note type="gloss" xml:id="gloss-aclinar">
                             <label>≋ LIT</label>
                             <term type="lit">aclinar en ios</term>
-                            <p>L’attestazione in questa lirica sembra l’unica in cui <seg type="it">aclinar</seg> è seguito dalla preposizione <seg type="it">en</seg>.<lb/> Diverso è invece il caso del medesimo verbo seguito dalle preposizioni <seg type="it">vas/ves</seg> e <seg type="it">vers</seg>, per cui si registrano almeno quattro occorrenze, fra cui si ricordano una lirica di Beatriz de Dia (<seg type="it">vas vos non si aclina</seg>, BdT 46.2, v. 25), un <seg type="it">salutz</seg> anonimo copiato nel canzoniere N (<seg type="it">ves lei t’aclina</seg>, BdT 146.7, v. 106), e ancora una canzone di Guilhem de Cabestaing (<seg type="it">aclin vers autre seingnoratge</seg>, BdT 213.7, v. 28), in cui il verbo non ha valore riflessivo, come nella lirica qui analizzata.</p></note>
+                            <p>L’attestazione in questa lirica sembra l’unica in cui <seg type="it">aclinar</seg> è seguito dalla preposizione <seg type="it">en</seg>.<lb/> Diverso è invece il caso del medesimo verbo seguito dalle preposizioni <seg type="it">vas/ves</seg> e <seg type="it">vers</seg>, per cui si registrano almeno quattro occorrenze, fra cui si ricordano una lirica di Beatriz de Dia (<seg type="it">vas vos non si aclina</seg>, BdT 46.2, v. 25), un <seg type="it">salutz</seg> anonimo copiato nel canzoniere N (<seg type="it">ves lei t’aclina</seg>, BdT 146.7, v. 106), e ancora una canzone di Guilhem de Cabestaing (<seg type="it">aclin vers autre seingnoratge</seg>, BdT 213.7, v. 28), in cui il verbo non ha valore riflessivo, come nella lirica qui analizzata.</p>
+                                </note>
                                     </term>,</l>
                     <l n="35">c’a orguoill <seg type="corr">no·s</seg> <rhyme label="a">tengues</rhyme>,</l>
                     <l n="36">si vas mi <rhyme label="a">s’afraises</rhyme>.</l>
@@ -501,11 +506,15 @@
                                 </l>
                     <l n="49">
                                     <seg xml:id="t4" type="diff" corresp="#t4_cos">tot dreich en <rhyme label="a">
-                                            <seg type="corr">Creones</seg>
+                                            <placeName>
+                                        <seg type="corr">Creones</seg>
+                                    </placeName>
                                         </rhyme>,</seg>
                                 </l>
                     <l n="50">
-                                    <seg xml:id="t5" type="diff" corresp="#t5_cos">al seignor del <rhyme label="a">paes</rhyme>.</seg>
+                                    <seg xml:id="t5" type="diff" corresp="#t5_cos">al <persName>
+                                    <roleName type="nobility">seignor</roleName>
+                                </persName> del <rhyme label="a">paes</rhyme>.</seg>
                                 </l>
                 </lg>
                 <lb/>
@@ -513,7 +522,7 @@
                     <label>VII</label>
                     <lg type="envoy" n="tornada2" rhyme="abbaa" xml:id="crt7" corresp="#cos7">
                         <anchor xml:id="anchor-crt7"/>
-                    <l n="51">Na Maria, tant <rhyme label="a">es</rhyme>
+                    <l n="51">Na <persName>Maria</persName>, tant <rhyme label="a">es</rhyme>
                                 </l>
                     <l n="52">vostre pretz cars e <rhyme label="b">bos</rhyme>,</l>
                     <l n="53">qu’en comtan ni ab <rhyme label="b">sos</rhyme>
@@ -541,6 +550,9 @@
         <app ana="#sos">
             <lem wit="#ms.A">fos des razos</lem>
             <rdg wit="#ms.D">fos de.</rdg>
+            <rdg wit="#ms.H">
+               <add place="marginLeft">ben semblera</add>
+            </rdg>
             <note type="cont" xml:id="cont1">
                     <graphic url="images/glossaH_1.jpg"/>
                 Il copista di H aggiunge nel margine sinistro la variante di costellazione che produce la configurazione del sottoramo β², <seg type="it">ben semblera</seg>.
@@ -696,12 +708,15 @@
         </app>
 
         <app ana="#sos" n="47">
+            <rdg wit="#ms.H">
+               <add place="marginRight">~ alias. E·l beutatz ab ioven</add>
+            </rdg>
             <note type="cont" xml:id="cont2">
                     <graphic url="images/glossaH_2.png"/>
                 All’inizio della prima <seg type="it">tornada</seg>, dedicata ad Amalric I, duca di Craon, si nota a margine l’aggiunta di una glossa, in Careri 1990 giudicata contemporanea alla trascrizione, che segnala invece una versione alternativa del verso: <seg type="it">~ alias. E·l beutatz ab ioven</seg>.
                 <lb/>H è l’unico testimone a trasmettere questa versione del verso, pienamente accettabile dal punto di vista metrico.
                 <lb/>Non è chiaro se l’attestazione isolata possa essere considerata una spia che segnala la perdita di un’ulteriore tradizione del testo che non ha lasciato tracce nel resto dei testimoni; ciò appare probabile, visto l’utilizzo dell’<seg type="it">alias</seg> che introduce la glossa.
-                <lb/>La glossa richiama un’espressione similare presente in una canzone del trovatore Rigaut de Berbezilh, vissuto circa un secolo prima di Gausbert. In <seg type="it">Ben volria saber d’Amor</seg> (BdT 421.5, v. 35, <ref rend="exit" target="https://www.rialto.unina.it/trovatori/rigaut-de-berbezilh/421-5braccini/">Rialto</ref>), si legge infatti <seg type="it">e miels de beutat ab ioven</seg>; dal testo si evince che, in questo caso, la destinataria delle lodi del trovatore è la donna amata.
+                <lb/>La glossa richiama un’espressione similare presente in una canzone del trovatore Rigaut de Berbezilh, vissuto circa un secolo prima di Gausbert. In <seg type="it">Ben volria saber d’Amor</seg> (BdT 421.5, v. 35, <ref target="https://www.rialto.unina.it/trovatori/rigaut-de-berbezilh/421-5braccini/">Rialto</ref>), si legge infatti <seg type="it">e miels de beutat ab ioven</seg>; dal testo si evince che, in questo caso, la destinataria delle lodi del trovatore è la donna amata.
             </note>
         </app>
 
@@ -771,7 +786,7 @@
         <app ana="#form" n="30">
             <rdg wit="#ms.H">
             <note type="text">Commento del copista a margine dell’incipit della cobla</note>
-            <witDetail wit="#ms.H"> H</witDetail></rdg>
+                                </rdg>
             <note type="paleo" xml:id="paleo7">
                     <graphic url="images/glossaH.png"/>
                 In H, un segno di rimando copiato nel testo sopra il verbo <seg type="it">q’ausses</seg> riporta a una glossa marginale dove si legge
@@ -807,7 +822,8 @@
                 <head>Testo di costellazione β</head>
                 <p>Ms. base C<lb/>Correzioni da <seg type="corr_c">E</seg>; <seg type="it">cobla</seg> VI da CE.
                                 <seg type="edit">Interventi editoriali</seg>
-                            </p></front>
+                            </p>
+                </front>
                <body>
                 <!-- Cobla I -->
                     <lg type="stanza" n="1.1" rhyme="abbaaccaa" xml:id="cos1" corresp="#crt1">
@@ -931,7 +947,7 @@
                     <lb/>
                             <lg type="envoy" n="tornada2.1" rhyme="abbaa" xml:id="cos7" corresp="#crt7">
                 <anchor xml:id="anchor-cos7"/>
-                    <l n="51">Na Maria, tant <rhyme label="a">es</rhyme>
+                    <l n="51">Na <persName>Maria</persName>, tant <rhyme label="a">es</rhyme>
                                 </l>
                     <l n="52">vostre pretz cars e <rhyme label="b">bos</rhyme>,</l>
                     <l n="53">qu’en comdan ni ab <rhyme label="b">sos</rhyme>
@@ -960,7 +976,9 @@
         <app ana="#sos" n="4">
             <lem wit="#ms.C">uns sols</lem>
             <rdg wit="#ms.I">uns sol
-            <note type="paleo" xml:id="paleo2">Un simbolo che ricorda una <seg type="it">s</seg> sembra essere stato aggiunto nello spazio bianco che segue <seg type="it">sol</seg> in un momento successivo.</note></rdg>
+        <add place="right">s</add>
+            <note type="paleo" xml:id="paleo2">Un simbolo che ricorda una <seg type="it">s</seg> sembra essere stato aggiunto nello spazio bianco che segue <seg type="it">sol</seg> in un momento successivo.</note>
+                                </rdg>
             <rdg wit="#ms.K">un sols</rdg>
             <rdg wit="#ms.N">un sol</rdg>
         </app>
@@ -973,8 +991,9 @@
             <lem wit="#ms.C">qu’alcuc</lem>
             <rdg wit="#ms.E #ms.I #ms.K #ms.P">salcus</rdg>
             <rdg wit="#ms.N">cal
+        <del>tal</del>
                 <note type="paleo" xml:id="paleo3">Il copista di N cancella il <seg type="it">tal</seg> dalla lezione originale <seg type="it">cal tal</seg>.</note>
-            </rdg>
+                                </rdg>
         </app>
         <app ana="#sos">
             <lem wit="#ms.C">jois</lem>
@@ -1003,9 +1022,13 @@
         </app>
         <app ana="#sos" n="14">
             <lem wit="#ms.C">fezes</lem>
-            <rdg wit="#ms.N">degues
+            <rdg wit="#ms.N">
+                <subst>
+        <del>degues</del>
+        <add place="above">fezes</add>
+    </subst>
                 <note type="paleo" xml:id="paleo4">Nel testimone N si nota la correzione nel margine superiore con il verbo <seg type="it">fezes</seg>.</note>
-            </rdg>
+                                </rdg>
             <rdg wit="#ms.P">fages</rdg>
         </app>
         <app ana="#sos" n="15">
@@ -1051,7 +1074,7 @@
         <app ana="#sos" n="25">
             <lem wit="#ms.E">m’a</lem>
             <rdg wit="#ms.C">
-            <note type="text">manca C</note>
+            <note type="text">manca</note>
             </rdg>
         </app>
         <app ana="#sos" n="27">
@@ -1130,12 +1153,13 @@
         </app>
         <app ana="#sos" n="43">
             <lem wit="#ms.C">que joi tant avinen</lem>
-            <rdg wit="#ms.N">si jois tant avinen
+            <rdg wit="#ms.N">si jois tant <add place="above">a</add>vinen</rdg>
                 <note type="paleo" xml:id="paleo5">La lezione <seg type="it">vinen</seg> è corretta in interlinea con l’aggiunta della <seg type="it">a</seg> da una seconda mano.</note>
-            </rdg>
         </app>
-        <app ana="#sos" n="44-5">
-            <note type="text">versi invertiti in N</note>
+        <app ana="#sos" n="44-45">
+            <rdg wit="#ms.N">
+            <note type="text">i versi sono invertiti</note>
+            </rdg>
         </app>
         <app ana="#sos" n="46">
             <lem wit="#ms.C">dona</lem>
@@ -1233,9 +1257,13 @@
         <app ana="#form" n="53">
             <lem wit="#ms.C">comdan</lem>
             <rdg wit="#ms.I #ms.K">condan</rdg>
-            <rdg wit="#ms.N">comdan
+            <rdg wit="#ms.N">com
+                <subst>
+        <del>dan</del>
+        <add place="above">tan</add>
+    </subst>
                 <note xml:id="paleo1" type="paleo">Il copista di N ha aggiunto <seg type="it">tan</seg> in interlinea in un momento successivo.</note>
-            </rdg>
+                                </rdg>
         </app>
         <app ana="#form">
             <lem wit="#ms.C">qu’en</lem>
@@ -1289,8 +1317,6 @@
                 </p>
             </div>
         <div type="biblio">
-
-            <head>Edizioni e studi</head>
             <div type="section">
                 <head>Edizioni</head>
                     <p>Shepard 1924, <witDetail wit="#ms.A">A</witDetail>, pp. 1-3, 62-63
@@ -1304,19 +1330,19 @@
             <div type="section">
                 <head>Edizioni CAO</head>
             <p>
-                            <witDetail wit="#ms.A">A</witDetail>: <ref rend="exit" target="https://www.rialto.unina.it/cao/diplomatiche/a/">dipl</ref>
+                            <witDetail wit="#ms.A">A</witDetail>: <ref target="https://www.rialto.unina.it/cao/diplomatiche/a/">dipl</ref>
                             <lb/>
-               <witDetail wit="#ms.C">C</witDetail>: <ref rend="exit" target="https://www.rialto.unina.it/cao/diplomatiche/c/">dipl</ref>
+               <witDetail wit="#ms.C">C</witDetail>: <ref target="https://www.rialto.unina.it/cao/diplomatiche/c/">dipl</ref>
                             <lb/>
-               <witDetail wit="#ms.D">D</witDetail>: <ref rend="exit" target="https://www.rialto.unina.it/cao/diplomatiche/d/">dipl</ref>
+               <witDetail wit="#ms.D">D</witDetail>: <ref target="https://www.rialto.unina.it/cao/diplomatiche/d/">dipl</ref>
                             <lb/>
-               <witDetail wit="#ms.E">E</witDetail>: <ref rend="exit" target="https://www.rialto.unina.it/cao/diplomatiche/e/">dipl</ref>, <ref rend="exit" target="https://www.rialto.unina.it/wp-content/uploads/2023/02/E.pdf">interp</ref>
+               <witDetail wit="#ms.E">E</witDetail>: <ref target="https://www.rialto.unina.it/cao/diplomatiche/e/">dipl</ref>, <ref target="https://www.rialto.unina.it/wp-content/uploads/2023/02/E.pdf">interp</ref>
                             <lb/>
-               <witDetail wit="#ms.N">N</witDetail>: <ref rend="exit" target="https://www.rialto.unina.it/cao/diplomatiche/n/">dipl</ref>
+               <witDetail wit="#ms.N">N</witDetail>: <ref target="https://www.rialto.unina.it/cao/diplomatiche/n/">dipl</ref>
                             <lb/>
-               <witDetail wit="#ms.P">P</witDetail>: <ref rend="exit" target="https://www.rialto.unina.it/cao/diplomatiche/p/">dipl</ref>
+               <witDetail wit="#ms.P">P</witDetail>: <ref target="https://www.rialto.unina.it/cao/diplomatiche/p/">dipl</ref>
                             <lb/>
-               <witDetail wit="#ms.T">T</witDetail>: <ref rend="exit" target="https://www.rialto.unina.it/cao/diplomatiche/t1/">dipl</ref>
+               <witDetail wit="#ms.T">T</witDetail>: <ref target="https://www.rialto.unina.it/cao/diplomatiche/t1/">dipl</ref>
             </p>
           </div>
         </div>

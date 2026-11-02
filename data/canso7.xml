@@ -1,3 +1,6 @@
+<?xml-model href="https://vault.tei-c.org/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng"
+  schematypens="http://relaxng.org/ns/structure/1.0"
+  type="application/xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -236,7 +239,7 @@
                     <p>
                         <list>
                             <item>
-                                 <witDetail wit="#beta">β</witDetail> vv. 1594-1605 (da <seg type="it">So fo el tems qu’om era gais</seg> di Raimon Vidal de Besalù).<note type="symbol" xml:id="nota_extra1">Il testo della <seg type="it">cobla</seg> extravagante è tratto da Shepard 1924, p. 58, che cita a sua volta <seg type="it">Boletin de la Real Academia de Las Buenas Letras de Barcelona</seg>, XII (8912).</note>
+                                 <witDetail wit="#ms.β">β</witDetail> vv. 1594-1605 (da <seg type="it">So fo el tems qu’om era gais</seg> di Raimon Vidal de Besalù).<note type="symbol" xml:id="nota_extra1">Il testo della <seg type="it">cobla</seg> extravagante è tratto da Shepard 1924, p. 58, che cita a sua volta <seg type="it">Boletin de la Real Academia de Las Buenas Letras de Barcelona</seg>, XII (8912).</note>
                                 </item>
                         </list>
                     </p>
@@ -253,12 +256,14 @@
             </front>
             <group>
                    <text type="txt_critico" xml:id="canso7">
-                    <front><head>Testo critico</head>
+                    <front>
+                    <head>Testo critico</head>
                     <p>Ms. base S
                         <lb/>Correzioni da <seg type="corr">C</seg>
                                 <lb/>
                         <seg type="edit">Interventi editoriali</seg>
-                    </p></front>
+                    </p>
+                </front>
                     <body>
                     <!-- Cobla I -->
                     <label>I</label>
@@ -426,7 +431,8 @@
                     <label>VI</label>
                     <lg type="envoy" n="tornada" rhyme="aaabbbc" xml:id="crt6" corresp="#cos6">
                         <anchor xml:id="anchor-crt6"/>
-                        <l n="61">Canpagna, be·us <rhyme label="a">pren</rhyme>
+                        <l n="61">
+                            <placeName>Canpagna</placeName>, be·us <rhyme label="a">pren</rhyme>
                         </l>
                         <l n="62">quar donpn’avez ses <rhyme label="a">contenpn</rhyme>
                         </l>
@@ -437,7 +443,8 @@
                         </l>
                         <l n="66">a son ric prez <rhyme label="c">cabalos</rhyme>
                         </l>
-                        <l n="67">Espaigna grazir et <rhyme label="c">vos</rhyme>.</l>
+                        <l n="67">
+                            <placeName>Espaigna</placeName> grazir et <rhyme label="c">vos</rhyme>.</l>
                     </lg>
                     <lb/>
                 </body>
@@ -446,14 +453,14 @@
 <div type="app_crt_sos">
     <listApp>
         <app ana="#sos" n="7">
-            <lem wit="#ms.S">m’en</lem>
-            <rdg wit="#ms.C">me</rdg>
+            <lem wit="#ms.C">m’en</lem>
+            <rdg wit="#ms.S">me</rdg>
         </app>
 
         <app ana="#sos" n="20">
             <lem wit="#ms.C">meins</lem>
             <rdg wit="#ms.S" type="omission">
-            <note type="text">manca S</note>
+            <note type="text">manca</note>
             </rdg>
         </app>
 
@@ -465,7 +472,7 @@
         <app ana="#sos" n="24">
             <lem wit="#ms.C">mas</lem>
             <rdg wit="#ms.S" type="omission">
-            <note type="text">manca S</note>
+            <note type="text">manca</note>
             </rdg>
         </app>
 
@@ -497,7 +504,8 @@
             <front>
                             <head>Testo di costellazione α</head>
                 <p>Ms. base C <lb/>Correzioni e <seg type="it">tornada</seg> da <seg type="corr_c">E</seg>
-                </p></front>
+                </p>
+                </front>
                 <body>
                 <!-- Cobla I -->
                 <lb/>
@@ -631,7 +639,8 @@
 <lb/>
 <lg type="envoy" n="tornada" xml:id="cos6" corresp="#crt6">
                 <anchor xml:id="anchor-cos6"/>
-    <l n="61">Campanha, be·us <rhyme label="a">pren</rhyme>
+    <l n="61">
+                            <placeName>Campanha</placeName>, be·us <rhyme label="a">pren</rhyme>
                                 </l>
     <l n="62">que don’avetz ses <rhyme label="a">conten</rhyme>
                                 </l>
@@ -641,7 +650,8 @@
                                 </l>
     <l n="66">ab son ric pretz <rhyme label="c">cabalos</rhyme>
                                 </l>
-    <l n="67">Espanha grazir e <rhyme label="c">vos</rhyme>.</l>
+    <l n="67">
+                            <placeName>Espanha</placeName> grazir e <rhyme label="c">vos</rhyme>.</l>
 </lg>
 </body>
 <back>
@@ -717,7 +727,9 @@
         </app>
 
         <app ana="#sos" n="21-22">
-            <note type="text">i versi sono invertiti in R</note>
+            <rdg wit="#ms.R">
+            <note type="text">i versi sono invertiti</note>
+                                </rdg>
         </app>
 
         <app ana="#sos" n="22">
@@ -738,13 +750,13 @@
 
         <app ana="#sos" n="25">
             <lem wit="#ms.C">Ben</lem>
-            <rdg wit="#beta">Heu</rdg>
+            <rdg wit="#ms.β">Heu</rdg>
         </app>
 
         <app ana="#sos" n="25">
             <lem wit="#ms.C">hi aten</lem>
             <rdg wit="#ms.R">ia naten</rdg>
-            <rdg wit="#beta">i enten</rdg>
+            <rdg wit="#ms.β">i enten</rdg>
         </app>
 
         <app ana="#sos" n="26">
@@ -759,13 +771,13 @@
 
         <app ana="#sos" n="29">
             <rdg wit="#ms.C" type="omission">
-            <note type="text">manca C</note>
+            <note type="text">manca</note>
             </rdg>
         </app>
 
         <app ana="#sos" n="31">
             <lem wit="#ms.C">castiamen</lem>
-            <rdg wit="#beta">reprendemen</rdg>
+            <rdg wit="#ms.β">reprendemen</rdg>
         </app>
 
         <app ana="#sos" n="33">
@@ -775,7 +787,7 @@
 
         <app ana="#sos" n="36">
             <lem wit="#ms.C">non er ja valens ni bos</lem>
-            <rdg wit="#beta">greu sera valens ni pros</rdg>
+            <rdg wit="#ms.β">greu sera valens ni pros</rdg>
         </app>
 
         <app ana="#sos" n="37">
@@ -836,8 +848,8 @@
         <app ana="#sos" n="52">
             <lem wit="#ms.C">Amors</lem>
             <rdg wit="#ms.E">Amor</rdg>
-            <rdg wit="#ms.E" type="omission">
-            <note type="text">manca R</note>
+            <rdg wit="#ms.R" type="omission">
+            <note type="text">manca</note>
             </rdg>
         </app>
 
@@ -886,7 +898,7 @@
 
         <app ana="#sos" n="61-67">
             <rdg wit="#ms.C" type="omission">
-            <note type="text">manca C</note>
+            <note type="text">manca</note>
             </rdg>
         </app>
     </listApp>
@@ -900,7 +912,7 @@
 
         <app ana="#form" n="26">
             <lem wit="#ms.C">melhuramen</lem>
-            <rdg wit="#beta">meilloramen</rdg>
+            <rdg wit="#ms.β">meilloramen</rdg>
         </app>
 
         <app ana="#form" n="61">

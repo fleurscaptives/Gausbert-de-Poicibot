@@ -1,3 +1,6 @@
+<?xml-model href="https://vault.tei-c.org/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng"
+  schematypens="http://relaxng.org/ns/structure/1.0"
+  type="application/xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -18,13 +21,10 @@
 
                 <respStmt>
                     <resp>Primo Relatore</resp>
-                    <persName>Prof.ssa Speranza Cerullo</persName>
+                    <name>Prof.ssa Speranza Cerullo</name>
+                    <name>Secondo Relatore</name>
+                    <name>Prof. Angelo Mario Del Grosso</name>
                 </respStmt>
-                <respStmt>
-                    <resp>Secondo Relatore</resp>
-                    <persName>Prof. Angelo Mario Del Grosso</persName>
-                </respStmt>
-
 
             </titleStmt>
 
@@ -240,7 +240,8 @@
        </front>
        <group>
         <text type="txt_critico" xml:id="canso8">
-            <front><head>Testo critico</head>
+            <front>
+                    <head>Testo critico</head>
                 <p>Ms. base C <lb/>Correzioni da <seg type="corr">EHV</seg>
                 </p>
            </front>
@@ -277,7 +278,7 @@
                             <label>≡ LEX</label>
                             <term type="lex">tener en error</term>
                             <ab>⤷ v. | tormentare</ab>
-                            <ref target="https://archive.org/details/petitdictionnair00levyuoft/page/158/mode/2up">PD</ref>
+                            <ref rend="exit" target="https://archive.org/details/petitdictionnair00levyuoft/page/158/mode/2up">PD</ref>
                     </note>
                                     </rhyme>
                         </term>
@@ -328,7 +329,7 @@
                             <label>≡ LEX ≋ LIT</label>
                             <term type="lex">aizir</term>
                             <ab>⤷ v. | mettere, accogliere, favorire</ab>
-                            <ref  target="https://dom-en-ligne.de/dom.php?lhid=7k163jfag9kynok7mxYjoH">DOM</ref>
+                            <ref style="exit" target="https://dom-en-ligne.de/dom.php?lhid=7k163jfag9kynok7mxYjoH">DOM</ref>
                                             <lb/>
                             <p>Le due versioni del verso appaiono a prima vista equivalenti, poiché entrambe corrette dal punto di vista metrico e semantico, ma per l’edizione si condivide l’ipotesi di Gambini sulla qualità superiore di C data dalla presenza del poliptoto fra <seg type="it">aizic</seg> e il participio passato <seg type="it">aizida</seg>, in rima al v. 25, entrambe forme del verbo <seg type="it">aizir</seg>.
                                 <lb/>Notare l’assenza del verbo nella costellazione EHV, in cui si legge <seg type="it">sofri maint</seg>, struttura che indica la presenza di più amanti della donna amata.
@@ -388,7 +389,7 @@
                                     <term type="lex">deschauzida</term>
                                     <ab>⤷ agg. f. | decaduta, disonorata <lb/>
                                     Dal latino [ᴅᴇᴄᴀᴅᴇ̆ʀᴇ]</ab>
-                                    <ref  target="https://dom-en-ligne.de/dom.php?lhid=3B2DGpdRbggoz8tHPFVUne">DOM</ref>
+                                    <ref style="exit" target="https://dom-en-ligne.de/dom.php?lhid=3B2DGpdRbggoz8tHPFVUne">DOM</ref>
                                     <lb/>
                                     <p>L’aggettivo, (qui con un esplicito riferimento a un decadimento morale) è parola-rima anche al v. 15 del testo di costellazione.
                                     <lb/>Nell’antologia a cura di Sanguineti-Scarpati, la lezione corrispondente in C, <seg type="it">chauzida</seg> ("virtuosa"), è giudicata di qualità migliore, poché trasmette un significato ironico che gli altri manoscritti non coglierebbero.</p>
@@ -409,7 +410,7 @@
                             <ab>⤷ v. | porre dei limiti, concludere<lb/>
                             Dal latino [ᴛᴇʀᴍɪɴᴀʀᴇ]
                             </ab>
-                            <ref  target="https://dom-en-ligne.de/dom.php?lhid=3kq9B9O8sW8ntGO6hNQuRu">DOM</ref>
+                            <ref style="exit" target="https://dom-en-ligne.de/dom.php?lhid=3kq9B9O8sW8ntGO6hNQuRu">DOM</ref>
                             <lb/>
                             <p>Il verbo <seg type="it">termenar</seg> è tradotto da Levy come “poser des bornes, delimiter” e associato al sostantivo <seg type="it">terme</seg>, che si rifa appunto al concetto di “limite, confine”. In più, nella FEW si ritrovano i significati di “concludere, porre fine”, ma anche “perire, uccidere”, ed è quest’ultima la sfumatura adottata nella traduzione Shepard. Gambini, nella sua edizione, giudica comunque più probabile che il <seg type="it">clamans</seg> del v. 49 non sia altri che lo stesso io lirico, soggetto singolare del verbo, notando l’utilizzo di Gausbert di termini legati al <seg type="it">clamar</seg> per descrivere il lamento e l’afflizione causati dalla sua condizione amorosa.<lb/>Nell'edizione qui proposta, si è scelto di riproporre l’interpretazione di Shepard che vede gli amanti della donna oggetto del periodo, non disponendo di certezze grammaticali utili a effettuare confronti sull’uso intransitivo del verbo <seg type="it">termenar</seg> nella produzione trobadorica.</p>
                                     </note>
@@ -702,7 +703,8 @@
     </app>
     <app ana="#sos" n="15" type="locus">
         <lem wit="#ms.E">deschauzida</lem>
-        <rdg wit="#ms.H">es<gap reason="lost" unit="word" quantity="1"/></rdg>
+        <rdg wit="#ms.H">es<gap reason="lost" unit="word" quantity="1"/>
+                                </rdg>
         <note xml:id="paleo1" type="paleo">In H, il verbo è seguito da uno spazio bianco che copre l’estensione di circa una parola.</note>
     </app>
     <app ana="#sos" n="16">
@@ -805,8 +807,9 @@
         </app>
         <app ana="#form" n="49">
             <lem wit="ms.E">volgra</lem>
-            <rdg wit="#ms.H">volg<add place="above" hand="#ms.H">ra</add></rdg>
-            <note xml:id="paleo3" type="paleo">Il copista di H lascia uno spazio bianco dopo <seg type="it">volg</seg> per poi completare il verbo con <seg type="it">ra</seg> nel margine superiore in interlinea.</note>
+            <rdg wit="#ms.H">volg<add place="above" hand="#ms.H">ra</add>
+                                </rdg>
+            <note xml:id="paleo3" type="gloss">Il copista di H lascia uno spazio bianco dopo <seg type="it">volg</seg> per poi completare il verbo con <seg type="it">ra</seg> nel margine superiore in interlinea.</note>
         </app>
         <app ana="#form" n="54">
             <lem wit="ms.E">freitz</lem>
@@ -869,7 +872,6 @@
                 </p>
             </div>
             <div type="biblio">
-                <head>Edizioni e studi</head>
                 <div type="section" xml:id="section-edizioni">
                    <head>Edizioni</head>
                      <p>Shepard 1924, <witDetail wit="#ms.H">H</witDetail>, pp. 25, 76;
@@ -892,9 +894,9 @@
                 <div type="section">
                    <head>Edizioni CAO</head>
                         <p>
-                            <witDetail wit="#ms.C">C</witDetail>: <ref  target="https://www.rialto.unina.it/cao/diplomatiche/d/">dipl</ref>
+                            <witDetail wit="#ms.C">C</witDetail>: <ref style="exit" target="https://www.rialto.unina.it/cao/diplomatiche/d/">dipl</ref>
                             <lb/>
-                        <witDetail wit="#ms.E">E</witDetail>: <ref  target="https://www.rialto.unina.it/cao/diplomatiche/d/">dipl</ref>, <ref  target="https://www.rialto.unina.it/wp-content/uploads/2023/02/E.pdf">interp</ref>
+                        <witDetail wit="#ms.E">E</witDetail>: <ref style="exit" target="https://www.rialto.unina.it/cao/diplomatiche/d/">dipl</ref>, <ref style="exit" target="https://www.rialto.unina.it/wp-content/uploads/2023/02/E.pdf">interp</ref>
                     </p>
                 </div>
             </div>

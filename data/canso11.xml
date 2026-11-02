@@ -1,3 +1,6 @@
+<?xml-model href="https://vault.tei-c.org/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng"
+  schematypens="http://relaxng.org/ns/structure/1.0"
+  type="application/xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -447,7 +450,8 @@
                         <lb/>Correzioni da <seg type="corr">H</seg>
                                 <lb/>
                         <seg type="edit">Interventi editoriali</seg>
-                    </p></front>
+                    </p>
+                </front>
                 <body>
                 <!-- Cobla I -->
                     <label>I</label>
@@ -463,7 +467,9 @@
     <l n="5">humiliar dos <rhyme label="a">tans</rhyme>
                                 </l>
     <l n="6">e laissar mas <rhyme label="b">clamors</rhyme>,</l>
-    <l n="7">pois ma dompna <rhyme label="b">Lionors</rhyme>,</l>
+    <l n="7">pois ma dompna <rhyme label="b">
+                                <persName>Lionors</persName>
+                            </rhyme>,</l>
     <l n="8">la pros <term type="glossario">
                                         <seg type="edit">reina</seg>
         <note type="gloss" xml:id="gloss-reina">
@@ -511,7 +517,7 @@
                                 </l>
     <l n="24">m’auretz amic fin e <term type="glossario">
                                         <rhyme label="d">leial</rhyme>
-    <note type="glossario" xml:id="gloss-leial">
+    <note type="gloss" xml:id="gloss-leial">
         <label>≋ LIT</label>
         <term type="lit">leial</term>
         <p>Nella citazione della <seg type="it">cobla</seg> tratta dal Breviari, si legge l’aggettivo <seg type="it">coral</seg>, assente dal testo della canzone 173.11, ma presente nell’incipit della lirica 173.14, <seg type="it">Una grans amors corals</seg>. Quest’ultimo componimento è citato nel trattato di Matfre Ermengau solamente poche righe prima della ripresa della seconda <seg type="it">cobla</seg> della canzone 173.11, sebbene il verso che include l’aggettivo <seg type="it">corals</seg> non appaia nella <seg type="it">cobla</seg> di 173.14 trasmessa.<lb/>
@@ -569,7 +575,8 @@
     <ab>⤷ pron. | tutto</ab>
     <ref rend="exit" target="https://dom-en-ligne.de/dom.php?lhid=6CjVOsbA7lQb3hrxao6m2G">DOM</ref>
     <lb/>
-    <p>Nello stemma fornito per l'edizione, la costellazione GIKSU forma un gruppo unitario. Lo studio della <seg type="it">varia lectio</seg> della canzone permette di individuare una comune riformulazione del v. 45 come  circostanza che funge da prova del legame fra i cinque codici. Nel passo, in GIKSU, si nota l’omissione di <seg type="it">tuich</seg> parallela all’introduzione dell’aggettivo <seg type="it">grand</seg> in SU e <seg type="it">grans</seg> in GIK. La lezione <seg type="it">grand</seg> appare anche in R, sebbene il testimone non sia incluso nella costellazione perché nel canzoniere occitano l’aggettivo precede il sostantivo <seg type="it">plazer</seg> e, soprattutto, il verso non presenta l’omissione di <seg type="it">tuich</seg>.<lb/>L’uso dell’aggettivo <seg type="it">grand</seg>/<seg type="it">s</seg> nel gruppo GIKSU potrebbe provenire da un tentativo di sanare l’ipometria generata da una corruzione (l’assenza di <seg type="it">tuich</seg>) tramandata da una possibile fonte comune.</p></note>
+    <p>Nello stemma fornito per l'edizione, la costellazione GIKSU forma un gruppo unitario. Lo studio della <seg type="it">varia lectio</seg> della canzone permette di individuare una comune riformulazione del v. 45 come  circostanza che funge da prova del legame fra i cinque codici. Nel passo, in GIKSU, si nota l’omissione di <seg type="it">tuich</seg> parallela all’introduzione dell’aggettivo <seg type="it">grand</seg> in SU e <seg type="it">grans</seg> in GIK. La lezione <seg type="it">grand</seg> appare anche in R, sebbene il testimone non sia incluso nella costellazione perché nel canzoniere occitano l’aggettivo precede il sostantivo <seg type="it">plazer</seg> e, soprattutto, il verso non presenta l’omissione di <seg type="it">tuich</seg>.<lb/>L’uso dell’aggettivo <seg type="it">grand</seg>/<seg type="it">s</seg> nel gruppo GIKSU potrebbe provenire da un tentativo di sanare l’ipometria generata da una corruzione (l’assenza di <seg type="it">tuich</seg>) tramandata da una possibile fonte comune.</p>
+                                </note>
     </term> miei enoi <rhyme label="c">plazer</rhyme>;</l>
     <l n="46">e despendrai mo sen e mon <rhyme label="c">saber</rhyme>
                                 </l>
@@ -581,7 +588,9 @@
                     <label>V</label>
                     <lg type="stanza" n="5" rhyme="abbaabbaccdd" xml:id="crt5" corresp="#cos5">
                         <anchor xml:id="anchor-crt5"/>
-                        <l n="49">Al rei dels <rhyme label="a">Alamans</rhyme>,</l>
+                        <l n="49">Al <persName>
+                                <roleName type="nobility">rei</roleName>
+                            </persName> dels <rhyme label="a">Alamans</rhyme>,</l>
     <l n="50">cap dels <rhyme label="b">emperadors</rhyme>,</l>
     <l n="51">vai, chanssos, <seg type="diff" xml:id="v51" corresp="#v51_cos">cui</seg> <rhyme label="b">valors</rhyme>
                                 </l>
@@ -613,7 +622,9 @@
                     <label>VI</label>
                     <lg type="enovy" n="tornada" rhyme="ccdd" xml:id="crt6" corresp="#cos6">
                         <anchor xml:id="anchor-crt6"/>
-                        <l n="61">Del rei d’Aragon <rhyme label="c">esper</rhyme>
+                        <l n="61">Del <persName>
+                                <roleName type="nobility">rei</roleName>
+                            </persName> d’<placeName>Aragon</placeName> <rhyme label="c">esper</rhyme>
                                 </l>
     <l n="62">c’ades meillur e sapcha mais <rhyme label="c">valer</rhyme>,</l>
     <l n="63">quand el aura sen <rhyme label="d">natural</rhyme>,</l>
@@ -636,7 +647,8 @@
         <app ana="#sos" n="1">
             <lem wit="#ms.A">jorn</lem>
             <rdg type="omission">
-                <note type="text">manca <witDetail wit="#ms.G">G</witDetail></note>
+                <note type="text">manca <witDetail wit="#ms.G">G</witDetail>
+                                    </note>
             </rdg>
         </app>
 
@@ -706,14 +718,14 @@
 
         <app ana="#sos" n="10">
             <lem wit="#ms.A">eu de vos grat</lem>
-            <rdg type="omission">
-                de<note type="text">manca <witDetail wit="#ms.D">D</witDetail></note>
-            </rdg>
+            <rdg type="omission" wit="#ms.D">
+                de <note type="text">manca</note>
+                                </rdg>
             <rdg wit="#ms.G #ms.T">eu grat de vos</rdg>
             <rdg wit="#ms.K">en te vos g.</rdg>
             <rdg wit="#ms.N">eu de v. gart</rdg>
-            <rdg>
-                eu<note type="text">manca <witDetail wit="#ms.P">P</witDetail></note>
+            <rdg type="omission" wit="#ms.P">
+                eu <note type="text">manca</note>
             </rdg>
         </app>
 
@@ -743,8 +755,8 @@
         <app ana="#sos" n="12">
             <lem wit="#ms.A">puois ill</lem>
             <rdg wit="#ms.D">po lil</rdg>
-            <rdg type="omission">
-                ill <note type="text">manca <witDetail wit="#ms.T">T</witDetail></note>
+            <rdg type="omission" wit="#ms.T">
+                ill <note type="text">manca</note>
             </rdg>
         </app>
 
@@ -763,8 +775,8 @@
 
         <app ana="#sos" n="13">
             <lem wit="#ms.A">e</lem>
-            <rdg type="omission">
-                <note type="text">manca <witDetail wit="#ms.A #ms.D">AD</witDetail></note>
+            <rdg type="omission" wit="#ms.A #ms.D">
+                <note type="text">manca</note>
             </rdg>
         </app>
 
@@ -807,7 +819,8 @@
             <lem wit="#ms.A">et</lem>
             <rdg wit="#ms.G #ms.P">es</rdg>
             <rdg type="omission">
-                <note type="text">manca <witDetail wit="#ms.T">T</witDetail></note>
+                <note type="text">manca <witDetail wit="#ms.T">T</witDetail>
+                                    </note>
             </rdg>
             <rdg wit="#ms.U">mas</rdg>
         </app>
@@ -869,8 +882,8 @@
 
         <app ana="#sos">
             <lem wit="#ms.A">mortal</lem>
-            <rdg type="omission">
-                <note type="text">manca <witDetail wit="#ms.N">N</witDetail></note>
+            <rdg type="omission" wit="#ms.N">
+                <note type="text">manca</note>
             </rdg>
         </app>
 
@@ -902,13 +915,14 @@
         </app>
 
         <app ana="#sos" n="27">
-            <rdg type="omission">
-                <note type="text">manca <witDetail wit="#ms.C #ms.P">CP</witDetail></note>
+            <rdg type="omission" wit="#ms.C #ms.P">
+                <note type="text">manca
+                                    </note>
+                                </rdg>
                 <note type="paleo" xml:id="paleo1">
                     <graphic url="images/paleo11a.png"/>
                     La lacuna è indicata in P mediante uno spazio bianco lasciato in corrispondenza del verso, mentre in C non vi è alcun segnale a indicare una mancanza. A livello semantico, si è già detto in Introduzione che l’assenza del verso non provoca stravolgimenti del significato della <seg type="it">cobla</seg>.<lb/> La possibilità che la lacuna sia stata ereditata in CP da una medesima fonte non è da escludere, sebbene la tradizione della canzone non includa altri passi significativi che provino un’affinità di fonti per la coppia CP.
                 </note>
-            </rdg>
         </app>
 
         <app ana="#sos">
@@ -953,10 +967,14 @@
         </app>
 
         <app ana="#sos" n="34">
-            <lem wit="#ms.A">ni dire</lem>
-            <rdg wit="#ms.D">ai dire</rdg>
-            <rdg wit="#ms.G">e dire</rdg>
-            <rdg wit="#ms.H #ms.I #ms.K #ms.N #ms.U">ne (<note type="text">espunto ne<seg type="edit">l</seg> <witDetail wit="#ms.H">H</witDetail></note>) dire</rdg>
+            <lem wit="#ms.A">ni</lem>
+            <rdg wit="#ms.D">ai</rdg>
+            <rdg wit="#ms.G">e</rdg>
+            <rdg wit="#ms.I #ms.K #ms.N #ms.U">ne</rdg>
+            <rdg wit="#ms.H">
+                                    <note type="text">espunto ne<del rend="overwritten">l</del>
+                                    </note>
+                                </rdg>
             <rdg wit="#ms.S">nim fez dir</rdg>
         </app>
 
@@ -1039,8 +1057,9 @@
         <app ana="#sos" n="39">
             <lem wit="#ms.A">ma greus</lem>
             <rdg wit="#ms.C #ms.N #ms.P #ms.U">mas g.</rdg>
-            <rdg type="omission">
-                greus <note type="text">manca <witDetail wit="#ms.C">C</witDetail></note>
+            <rdg type="omission" wit="#ms.C">
+                greus <note type="text">manca
+                                    </note>
             </rdg>
         </app>
 
@@ -1102,14 +1121,16 @@
 
         <app ana="#sos" type="locus" n="45">
             <lem wit="#ms.A">tuich</lem>
-            <rdg type="omission">
-                <note type="text">manca <witDetail wit="#ms.G #ms.I #ms.K #ms.S #ms.U">GIKSU</witDetail></note>
+            <rdg type="omission" wit="#ms.G #ms.I #ms.K #ms.S #ms.U">
+                <note type="text">manca
+                                    </note>
             </rdg>
         </app>
 
         <app ana="#sos" type="locus">
             <lem wit="#ms.A">miei enoi plazer</lem>
-            <rdg wit="#ms.G #ms.I #ms.K">e mei grans (grand <witDetail wit="#ms.S #ms.U">SU</witDetail>) enueiz p.</rdg>
+            <rdg wit="#ms.G #ms.I #ms.K">e mei grans enueiz p.</rdg>
+            <rdg wit="#ms.S #ms.U">e mei grand enueiz p.</rdg>
         </app>
 
         <app ana="#sos" type="locus" n="46">
@@ -1119,8 +1140,9 @@
 
         <app ana="#sos" type="locus" n="47">
             <lem wit="#ms.A">gen</lem>
-            <rdg type="omission">
-                <note type="text">manca <witDetail wit="#ms.G #ms.I #ms.K">GIK</witDetail></note>
+            <rdg type="omission" wit="#ms.G #ms.I #ms.K">
+                <note type="text">manca
+                                    </note>
             </rdg>
             <rdg wit="#ms.S">ges</rdg>
         </app>
@@ -1137,10 +1159,12 @@
         <app ana="#sos">
             <lem wit="#ms.A">serv</lem>
             <rdg wit="#ms.G">sers</rdg>
-            <rdg type="omission">
-                <note type="text">manca <witDetail wit="#ms.H">H</witDetail></note>
+            <rdg type="omission" wit="#ms.H">
+                <note type="text">manca
+                                    </note>
             </rdg>
-            <rdg wit="#ms.S">serf <note type="text">seguito da espunzione</note> hom</rdg>
+            <rdg wit="#ms.S">serf <del rend="overwritten">hom</del>
+                                </rdg>
         </app>
 
         <app ana="#sos" n="49">
@@ -1200,8 +1224,8 @@
 
         <app ana="#sos">
             <lem resp="#editor">rics</lem>
-            <rdg type="omission">
-                <note type="text">manca <witDetail wit="#ms.A">A</witDetail></note>
+            <rdg type="omission" wit="#ms.A">
+                <note type="text">manca</note>
             </rdg>
             <rdg wit="#ms.C">rics faitz</rdg>
         </app>
@@ -1212,12 +1236,12 @@
         </app>
 
         <app ana="#sos" type="locus" n="56">
-            <rdg wit="#ms.S">tan gran non ac lo rei ancz
+            <rdg wit="#ms.S">tan gran non ac lo rei ancz<add place="marginRight">†</add>
+                                </rdg>
                 <note type="paleo" xml:id="paleo2">
                     <graphic url="images/paleo11b.png"/>
                     Nel canzoniere S si legge la macrovariante <seg type="it">tan gran non ac lo rei ancz</seg> che, occorrendo unicamente in questo testimone, risulta isolata rispetto all’affermazione di Gausbert riguardo il nome di Federico che, da solo, sarebbe garante del grande valore dell’imperatore. In S, in più, il verso sembra essere stato aggiunto in un momento posteriore da una seconda mano, ed è inoltre succeduto da una <seg type="it">crux</seg> nel margine destro del foglio.
                 </note>
-            </rdg>
             <rdg wit="#ms.U">e so ben estans</rdg>
         </app>
 
@@ -1250,20 +1274,19 @@
         </app>
 
         <app ana="#sos">
-            <lem wit="#ms.A">el rey d’Ar</lem>
-            <rdg>
-                <note type="text">esp. a fine rigo <witDetail wit="#ms.K">K</witDetail></note>
+            <rdg wit="#ms.K">
+                <del rend="strikethrough">el rey d’Ar</del>
             </rdg>
         </app>
 
         <app ana="#sos" n="62">
             <lem wit="#ms.A">sapcha</lem>
-            <rdg wit="#ms.H">sa pogz (<note type="text">marg.</note> pogz a)
+            <rdg wit="#ms.H">sa pogz<add place="margRight">pogz a</add>
+                                </rdg>
                 <note type="paleo" xml:id="paleo3">
                     <graphic url="images/paleo11c.png"/>
                     Nel margine della seconda riga della <seg type="it">tornada</seg>, il codice Vaticano H include la glossa <seg type="it">pogz a</seg>, opera della medesima mano. Da un punto di vista grafico, la preposizione <seg type="it">a</seg> nelle righe di testo appare in corpo minore e dalle sembianze differenti rispetto a come appare la lettera nelle righe contigue. È possibile che la <seg type="it">a</seg> che precede <seg type="it">mais</seg> nel testo della <seg type="it">tornada</seg> sia stata aggiunta in un secondo momento, e che la glossa a margine non fosse altro che un ‘promemoria’ per indicare la correzione da eseguire oppure una nota per far risaltare la presenza di una preposizione copiata in un momento successivo.
                 </note>
-            </rdg>
         </app>
 
         <app ana="#sos" n="63">
@@ -1279,8 +1302,9 @@
 
         <app ana="#sos" n="64">
             <lem wit="#ms.A">tant val</lem>
-            <rdg type="omission">
-                tant <note type="text">manca <witDetail wit="#ms.H #ms.I #ms.K #ms.S">HIKS</witDetail></note>
+            <rdg type="omission" wit="#ms.H #ms.I #ms.K #ms.S">
+                tant <note type="text">manca
+                                    </note>
             </rdg>
         </app>
     </listApp>
@@ -1377,7 +1401,8 @@
                         <lb/>Correzioni della <seg type="it">cobla</seg> V da <seg type="corr_c">H</seg>
                                 <lb/>
                         <seg type="edit">Interventi editoriali</seg>
-                    </p></front>
+                    </p>
+                </front>
             <body>
                 <!-- Cobla I -->
 <lg type="stanza" n="1" rhyme="aaabbaaabbccdd" xml:id="cos1" corresp="#crt1">
@@ -1392,7 +1417,9 @@
     <l n="5">humiliar dos <rhyme label="a">tans</rhyme>
                                 </l>
     <l n="6">e laisar mas <rhyme label="b">clamors</rhyme>,</l>
-    <l n="7">pus ma dona <rhyme label="b">Helihonors</rhyme>,</l>
+    <l n="7">pus ma dona <rhyme label="b">
+                                <persName>Helihonors</persName>
+                            </rhyme>,</l>
     <l n="8">
                                     <seg type="edit">la pros reina <rhyme label="a">prezans</rhyme>
                                     </seg>,</l>
@@ -1495,7 +1522,9 @@
 <!-- Cobla V -->
 <lg type="stanza" n="5" rhyme="aaabbaaabbccdd" xml:id="cos5" corresp="#crt5">
                 <anchor xml:id="anchor-cos5"/>
-    <l n="49">Al rey dels <rhyme label="a">Alamans</rhyme>,</l>
+    <l n="49">Al <persName>
+                                <roleName type="nobility">rey</roleName>
+                            </persName> dels <rhyme label="a">Alamans</rhyme>,</l>
     <l n="50">caps dels <rhyme label="b">emperadors</rhyme>,</l>
     <l n="51">vay, chanson, <seg type="diff_c" xml:id="v51_cos" corresp="#v51">car</seg> <rhyme label="b">valors</rhyme>
                                 </l>
@@ -1527,8 +1556,12 @@
 <!-- Tornada VI -->
 <lg type="envoy" n="tornada" rhyme="ccdd" xml:id="cos6" corresp="#crt6">
                 <anchor xml:id="anchor-cos6"/>
-    <l n="61">Del <seg type="edit">rey</seg> d’Aragon <rhyme label="c">esper</rhyme>
-                                </l>
+    <l n="61">Del <seg type="edit">
+                                <persName>
+                                    <roleName type="nobility">rey</roleName>
+                                </persName>
+                            </seg> d’<placeName>Aragon</placeName> <rhyme label="c">esper</rhyme>
+                        </l>
     <l n="62">c’ades melhur e sapcha mais <rhyme label="c">valer</rhyme>,</l>
     <l n="63">can el aura sen <rhyme label="d">natural</rhyme>,</l>
     <l n="64">pus <seg type="diff_c" xml:id="v64_cos" corresp="#v64">tan tosetz es</seg> e tan <rhyme label="d">val</rhyme>.</l>
@@ -1554,7 +1587,7 @@
         </app>
 
         <app ana="#sos" n="19">
-            <lem wit="#ms.C" resp="#editor">ieu vos dirai lauzors</lem>
+            <lem resp="#editor">ieu vos dirai lauzors</lem>
             <rdg wit="#ms.R">von dirai mai de l.</rdg>
         </app>
 
@@ -1644,10 +1677,9 @@
         </app>
 
         <app ana="#sos" n="47">
-            <lem wit="#ms.H">a jornal</lem>
             <rdg wit="#ms.R">
-                <del rend="strikethrough"/>
-                <note type="text">espunto a fine verso</note>
+                <del rend="strikethrough">
+                a jornal</del>
             </rdg>
         </app>
 
@@ -1673,8 +1705,9 @@
 
         <app ana="#sos" n="56">
             <lem wit="#ms.R">bel tanh</lem>
-            <rdg type="omission">
-                <note type="text">manca <witDetail wit="#ms.H #ms.N">HN</witDetail></note>
+            <rdg type="omission" wit="#ms.H #ms.N">
+                <note type="text">manca
+                                    </note>
             </rdg>
         </app>
 

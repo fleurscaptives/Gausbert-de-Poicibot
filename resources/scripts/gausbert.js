@@ -1,6 +1,6 @@
 
 function gestorePanel() {
-  const view = document.querySelector("#view-facsimili");
+  var view = document.querySelector("#view-facsimili");
   if (!view) return;
 
   view.addEventListener("click", function (e) {
@@ -15,8 +15,8 @@ function gestorePanel() {
     var root = view.shadowRoot;
     if (!root) return;
 
-    var manuscript = mssBtn.closest(".mss");
-    var pages = manuscript.querySelectorAll(".mss-pages");
+    var manus = mssBtn.closest(".mss");
+    var pages = manus.querySelectorAll(".mss-pages");
 
     root.querySelectorAll(
       ".mss_btn, pb-facs-link.pgg_btn, .mss-pages"
@@ -45,7 +45,7 @@ function showPanel() {
     openBttn.classList.toggle("active", hiddn);
 
     if (!hiddn) {
-      const root = view.shadowRoot;
+      var root = view.shadowRoot;
 
       root.querySelectorAll(
         ".mss_btn, pb-facs-link.pgg_btn, .mss-pages"
@@ -209,6 +209,120 @@ function initGlos() {
 document.addEventListener("DOMContentLoaded", initGlos);
 
 
+
+function allineaCoblas() {
+
+    var crt = document.getElementById("txt_critico");
+    var cst = document.getElementById("txt_cst");
+
+    var bodyCrt = crt?.shadowRoot?.querySelector(".tei-body");
+    var bodyCst = cst?.shadowRoot?.querySelector(".tei-body");
+
+    if (!bodyCrt || !bodyCst) return;
+
+    var anchorsCrt = [...bodyCrt.querySelectorAll(
+        ".tei-anchor[id^='anchor-crt']"
+    )];
+
+    var anchorsCst = [...bodyCst.querySelectorAll(
+        ".tei-anchor[id^='anchor-cos']"
+    )];
+
+    if (!anchorsCrt.length || anchorsCrt.length !== anchorsCst.length) return;
+
+    // recupera div.tei-l e span.num-versi
+    // utile nel caso in cui coblas abbiano numeri di versi non fisso o ineguale
+    function recuperaElementi(anchor, nextAnchor) {
+
+        var versi = [];
+        var numeri = [];
+
+        let nodo = anchor.nextElementSibling;
+
+        while (nodo && nodo !== nextAnchor) {
+
+            if (nodo.matches(".tei-l.num_versi")) {
+                numeri.push(nodo);
+            } else if (nodo.matches(".tei-l")) {
+                versi.push(nodo);
+            }
+
+            nodo = nodo.nextElementSibling;
+        }
+
+        return { versi, numeri };
+    }
+
+
+    // recupera primo elemento (verso) visibile nelle coblas
+    function primoElem(elementi) {
+        return elementi.find(el => el.getClientRects().length > 0);
+    }
+
+    var intervalliCrt = anchorsCrt.map((anchor, i) =>
+        recuperaElementi(anchor, anchorsCrt[i + 1])
+    );
+
+    var intervalliCst = anchorsCst.map((anchor, i) =>
+        recuperaElementi(anchor, anchorsCst[i + 1])
+    );
+
+
+    // allineamento tramite metodo getBoundingRect()
+    intervalliCst.forEach((elementi, i) => {
+
+        var primoCrt = primoElem(intervalliCrt[i].versi);
+        var primoCst = primoElem(elementi.versi);
+
+        if (!primoCrt || !primoCst) return;
+
+        var diff =
+            primoCrt.getBoundingClientRect().top -
+            primoCst.getBoundingClientRect().top;
+        
+        // creo array unico per versi e numeri
+        [...elementi.versi, ...elementi.numeri].forEach(el => {
+            el.style.position = "relative";
+            el.style.top = diff + "px";
+        });
+    });
+
+
+    // gestione tornadas senza corrispettivo nel testo critico della canzone 14
+    cst.shadowRoot.querySelectorAll(".trnd14").forEach((tornada, i) => {
+        tornada.style.marginTop = i === 0 ? "23rem" : "1.5rem";
+    });
+
+    cst.style.marginBottom = "50px";
+}
+
+
+function aspettaRendering(callback) {
+
+    function controlla() {
+
+        var crt = document.getElementById("txt_critico");
+        var cst = document.getElementById("txt_cst");
+
+        var ok =
+            crt?.shadowRoot?.querySelector("#anchor-crt1") &&
+            cst?.shadowRoot?.querySelector("#anchor-cos1");
+        if (ok) {
+            requestAnimationFrame(() => {
+                requestAnimationFrame(callback);
+            });
+        } else {
+            requestAnimationFrame(controlla);
+        }
+    }
+
+    controlla();
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+    aspettaRendering(allineaCoblas);
+});
+
 function toggleExtra() {
 
     var check = document.getElementById("xtra");
@@ -238,81 +352,6 @@ function toggleExtra() {
 document.addEventListener("DOMContentLoaded", toggleExtra);
 
 
-function allineaCoblas() {
-    var crt = document.getElementById("txt_critico");
-    var cst = document.getElementById("txt_cst");
-
-    if (!crt.shadowRoot || !cst.shadowRoot) return;
-
-    var coblas = [];
-
-    crt.shadowRoot.querySelectorAll(".lg-corresp").forEach(anchor => {
-        var cstId = anchor.dataset.corresp;
-        var coblaCrt = anchor.closest(".tei-lg");
-        var coblaCst = cst.shadowRoot.getElementById(cstId);
-
-        if (!coblaCrt || !coblaCst) return;
-        if (coblaCst.classList.contains("trnd14")) return;
-
-        coblaCst.style.position = "relative";
-        coblaCst.style.top =
-            coblaCrt.getBoundingClientRect().top -
-            coblaCst.getBoundingClientRect().top + "px";
-
-        coblas.push(coblaCst);
-    });
-
-    var tornadas = cst.shadowRoot.querySelectorAll(".tei-lg.trnd14");
-
-    if (coblas.length > 0 && tornadas.length > 0) {
-       var ultimaCobla = coblas[coblas.length - 1];
-
-        var bordo = ultimaCobla.getBoundingClientRect().bottom;
-
-        tornadas.forEach(tornada => {
-            tornada.style.position = "relative";
-            tornada.style.top = "0px";
-
-            var diff =
-                bordo - tornada.getBoundingClientRect().top + 30;
-
-            tornada.style.top = diff + "px";
-
-            bordo = tornada.getBoundingClientRect().bottom;
-        });
-
-        var ultimaTornada = tornadas[tornadas.length - 1];
-        var bordoTornada = ultimaTornada.getBoundingClientRect().bottom;
-        var bordoCst = cst.getBoundingClientRect().bottom;
-
-        var spazio = bordoTornada - bordoCst;
-
-        cst.style.marginBottom =
-            Math.max(0, spazio + 30) + "px";
-    }
-}
-
-
-function aspettaRendering(callback) {
-    var crt = document.getElementById("txt_critico");
-    var cst = document.getElementById("txt_cst");
-
-    if (
-        crt.shadowRoot.querySelector(".lg-corresp") &&
-        cst.shadowRoot.querySelector(".tei-lg")
-    ) {
-        requestAnimationFrame(() => {
-            callback();
-        });
-    } else {
-        requestAnimationFrame(() => aspettaRendering(callback));
-    }
-}
-
-document.addEventListener("DOMContentLoaded", () => {
-    aspettaRendering(allineaCoblas);
-});
-
 function allineaExtra() {
 
     var extra = document.getElementById("extra_container");
@@ -322,13 +361,17 @@ function allineaExtra() {
 
     var extraView = extra.querySelector("pb-view");
 
+    if (!extraView || !extraView.shadowRoot || !view.shadowRoot) return;
+
     var anchor = extraView.shadowRoot.querySelector(".lg-corresp");
+
+    if (!anchor) return;
 
     var cstId = anchor.dataset.corresp;
 
-    var cobla = view.shadowRoot.querySelector(
-        "#" + cstId
-    );
+    var cobla = view.shadowRoot.getElementById("anchor-" + cstId);
+
+    if (!cobla) return;
 
     var parent = extra.parentElement;
 
@@ -336,10 +379,10 @@ function allineaExtra() {
 
     var coblaRect = cobla.getBoundingClientRect();
     var parentRect = parent.getBoundingClientRect();
+    var viewRect = view.getBoundingClientRect();
 
     var y = coblaRect.top - parentRect.top;
-    var x = coblaRect.right - parentRect.left + 40;
-
-    extra.style.top = y + "px";
+    var x = viewRect.right - parentRect.left - 20;
+    extra.style.top = y  + 200 + "px";
     extra.style.left = x + "px";
 }

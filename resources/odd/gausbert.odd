@@ -69,7 +69,6 @@
         <param name="n" value="@n"/>
         <param name="mss" value="ancestor::tei:surfaceGrp/@xml:id"/>
         <param name="facs" value="tei:graphic/@url"/>
-
         <pb:template xmlns="" xml:space="preserve">
             <div class="mss-pages" data-mss="[[mss]]">
                  <div class="facs-link-container">
@@ -82,21 +81,12 @@
 
         
                 <elementSpec ident="lg" mode="change">
-                 <model predicate="parent::div[@type='txt_costellazione'] and @type='envoy14'" cssClass="trnd14" behaviour="block"/>
-                   <model predicate="parent::div[@type='txt_critico']" behaviour="block">
-    <outputRendition xml:space="preserve">
-        margin: 1em;
-        padding: 1em;
-        border-radius: 10px;
-        text-align: left;
-    </outputRendition>
-</model>
-                    <model predicate="parent::div[@type='txt_costellazione']" behaviour="block">
-                        <outputRendition xml:space="preserve">
-                            border-radius: 10px;
-                            text-align: left;
-                        </outputRendition>
-                    </model>
+                 <model predicate="ancestor::text[@type='txt_costellazione'] and @type='envoy14'" behaviour="block">
+                    <param name="content" value="."/>
+                    <pb:template xmlns="" xml:space="preserve">
+                        <div class="trnd14">[[content]]</div>
+                    </pb:template>
+                </model>
                 </elementSpec>
                 
                 <elementSpec ident="anchor" mode="change">
@@ -121,32 +111,26 @@
 </elementSpec>
                 
 <elementSpec ident="ref" mode="change">
-    <model behaviour="link">
+    <model behaviour="link" cssClass="exit">
         <param name="uri" value="@target"/>
         <param name="target" value="'_blank'"/>
-        <param name="class" value="@rend"/>
+    </model>
+</elementSpec>
+
+<elementSpec ident="p" mode="change">
+    <model predicate="ancestor::tei:note[@type='gloss']" behaviour="inline" pb:mode="change">
+        <outputRendition xml:space="preserve">
+            color: white;
+        </outputRendition>
     </model>
 </elementSpec>
                 
 <elementSpec ident="listApp" mode="change">
     <model behaviour="block"/>
 </elementSpec>
-<elementSpec ident="app" mode="change">
-    <model predicate="@type='locus'" cssClass="loci" behaviour="inline"/>
-    <model behaviour="inline"/>
-</elementSpec>
 <elementSpec ident="witDetail" mode="change">
     <model behaviour="inline">
         <param name="content" value="."/>
-    </model>
-</elementSpec>
-<elementSpec ident="num" mode="change">
-    <model behaviour="inline">
-        <param name="content" value="concat(. , '. ')"/>
-        <outputRendition>
-                font-weight: bold;
-                margin-left: 0.3em;
-        </outputRendition>
     </model>
 </elementSpec>
 <elementSpec ident="term" mode="change">
@@ -216,15 +200,15 @@
   </modelSequence>
 </elementSpec>
 <elementSpec mode="change" ident="note">
-<model predicate="@type='popup'" behaviour="inline">
-    <param name="id" value="@xml:id"/>
-    <param name="content" value="."/>
-    <pb:template xmlns="" xml:space="preserve">
-        <span class="trigger" id="[[id]]"> ⁕</span>
-        <pb-popover for="[[id]]" theme="material">[[content]]</pb-popover>
-    </pb:template>
-</model>
-<model predicate="@type='popup_cont'" behaviour="inline">
+    <model predicate="@type='gloss' or @type='symbol' or @type='paleo'" behaviour="inline">
+        <param name="id" value="concat('trigger-', @xml:id)"/>
+        <param name="content" value="."/>
+        <pb:template xmlns="" xml:space="preserve">
+            <span class="trigger" id="[[id]]"> ⁕</span>
+            <pb-popover for="[[id]]" theme="material">[[content]]</pb-popover>
+        </pb:template>
+    </model>
+<model predicate="@type='cont'" behaviour="inline">
     <param name="id" value="@xml:id"/>
     <param name="content" value="."/>
     <pb:template xmlns="" xml:space="preserve">
@@ -237,12 +221,43 @@
 </model>
 </elementSpec>
 
+<elementSpec ident="app" mode="change">
+    <model predicate="@type='locus'" cssClass="loci" behaviour="inline"/>
+    <model behaviour="inline">
+        <param name="n" value="@n"/>
+        <param name="content" value="."/>
+        <pb:template xmlns="" xml:space="preserve">
+            <span class="app-num">[[n]]. </span><span>[[content]]</span>
+        </pb:template>
+    </model>
+    <model predicate="not(@n)" behaviour="inline">
+        <param name="content" value="."/>
+        <pb:template xmlns="" xml:space="preserve">
+            <span class="app-num">  ·  </span><span>[[content]]</span>
+        </pb:template>
+    </model>
+</elementSpec>
 
-                <elementSpec ident="lem" mode="change">
-                    <model behaviour="inline">
-                      <param name="content" value="concat(. , '] ')"/>
-                    </model>
-                </elementSpec>
+<elementSpec ident="lem" mode="change">
+    <model behaviour="inline">
+        <param name="content" value="."/>
+        <pb:template xmlns="" xml:space="preserve">
+            <span>[[content]]] </span>
+        </pb:template>
+    </model>
+</elementSpec>
+
+<elementSpec ident="rdg" mode="change">
+    <model behaviour="inline">
+        <param name="content" value="."/>
+        <param name="wit" value="replace(@wit, '#ms\.|\s+', '')"/>
+        <pb:template xmlns="" xml:space="preserve">
+            <span>[[content]] </span><span class="wit">[[wit]] </span>
+        </pb:template>
+    </model>
+</elementSpec>
+                
+                
             <elementSpec ident="div" mode="change">
                     <model predicate="@type='app_cos_form' or @type='app_crt_form'" behaviour="inline">
             <outputRendition xml:space="preserve">

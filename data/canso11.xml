@@ -1,7 +1,6 @@
 <?xml-model href="https://vault.tei-c.org/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng"
   schematypens="http://relaxng.org/ns/structure/1.0"
-  type="application/xml"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  type="application/xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -522,9 +521,8 @@
         <term type="lit">leial</term>
         <p>Nella citazione della <seg type="it">cobla</seg> tratta dal Breviari, si legge l’aggettivo <seg type="it">coral</seg>, assente dal testo della canzone 173.11, ma presente nell’incipit della lirica 173.14, <seg type="it">Una grans amors corals</seg>. Quest’ultimo componimento è citato nel trattato di Matfre Ermengau solamente poche righe prima della ripresa della seconda <seg type="it">cobla</seg> della canzone 173.11, sebbene il verso che include l’aggettivo <seg type="it">corals</seg> non appaia nella <seg type="it">cobla</seg> di 173.14 trasmessa.<lb/>
         Non è da escludere che la fonte di Matfre presentasse una lacuna in corrispondenza della fine del v. 24 della canzone ora discussa, e che, dalla ricerca di una rima adatta, la canzone 173.14 avrebbe fornito come possibile sostituto l’aggettivo <seg type="it">coral</seg>. Si ricorda, a proposito, che nelle disposizioni seriali individuate nei canzonieri oggi sopravvissuti le due liriche citate in questo commento (11 e 14) erano spesso contigue all’interno delle sezioni dedicate a Gausbert. <lb/>Ad ogni modo, l’aggettivo <seg type="it">lial</seg> è ovviamente più adeguato a far parte della dittologia <seg type="it">fin e lial</seg>, oltre ad essere in opposizione con il termine che, nella medesima posizione, chiude la <seg type="it">cobla</seg> successiva, <seg type="it">desleial</seg>.</p>
-    </note>
-        
-    </term>.</l>
+                                </note>
+                            </term>.</l>
                             </lg>
                     
                      <lb/>
@@ -565,8 +563,8 @@
     <l n="41">e soiorns mos <rhyme label="a">affans</rhyme>,</l>
     <l n="42">e gabs e ris mos <rhyme label="b">plors</rhyme>,</l>
     <l n="43">e mos loncs trebaills <seg type="diff" xml:id="v43" corresp="#v43_cos">
-                                        <rhyme label="b">legors</rhyme>
-                                    </seg>,</l>
+                                <rhyme label="b">legors</rhyme>
+                            </seg>,</l>
     <l n="44">e totz mos destrics <rhyme label="a">enans</rhyme>
                                 </l>
     <l n="45">e <term type="glossario">tuich<note type="gloss" xml:id="gloss-tuich">
@@ -1421,8 +1419,8 @@
                                 <persName>Helihonors</persName>
                             </rhyme>,</l>
     <l n="8">
-                                    <seg type="edit">la pros reina <rhyme label="a">prezans</rhyme>
-                                    </seg>,</l>
+                            <seg type="edit">la pros reina <rhyme label="a">prezans</rhyme>
+                            </seg>,</l>
     <l n="9">
                                     <seg type="diff_c" xml:id="v9_cos" corresp="#v9">o denha en</seg> aysi <rhyme label="c">voler</rhyme>.</l>
     <l n="10">E si tot yeu de vos grat non <rhyme label="c">esper</rhyme>,</l>
@@ -1447,23 +1445,23 @@
                                     </seg>
                                 </l>
     <l n="18">
-                                    <seg type="diff_c" xml:id="v18_cos" corresp="#v18">mays a vostra <rhyme label="b">valors</rhyme>
-                                    </seg>.</l>
+                            <seg type="diff_c" xml:id="v18_cos" corresp="#v18">mays a vostra <rhyme label="b">valors</rhyme>
+                            </seg>.</l>
     <l n="19">E <seg type="edit">ieu vos</seg> dirai <rhyme label="b">lauzors</rhyme>.</l>
     <l n="20">E <seg type="edit">de plazers</seg> cent <rhyme label="a">aytans</rhyme>
                                 </l>
     <l n="21">
-                                    <seg type="diff_c" xml:id="v21_cos" corresp="#v21">c’anc no·us dissi</seg> <seg type="edit">
-                                        <rhyme label="c">desplazer</rhyme>
-                                    </seg>,</l>
+                            <seg type="diff_c" xml:id="v21_cos" corresp="#v21">c’anc no·us dissi</seg> <seg type="edit">
+                                <rhyme label="c">desplazer</rhyme>
+                            </seg>,</l>
     <l n="22">c’<seg type="edit">orguelhs</seg> sai ben que no mi pot <rhyme label="c">valer</rhyme>.</l>
     <l n="23">Per <seg type="edit">c’oimais</seg> d’enemic <seg type="edit">
                                         <rhyme label="d">mortal</rhyme>
                                     </seg>
                                 </l>
     <l n="24">m’auretz fin amic e <seg type="edit">
-                                        <rhyme label="d">lial</rhyme>
-                                    </seg>.</l>
+                                <rhyme label="d">lial</rhyme>
+                            </seg>.</l>
 </lg>
 
 <lb/>
@@ -1506,8 +1504,8 @@
     <l n="41">e <seg type="edit">soiorns</seg> mos <rhyme label="a">afans</rhyme>,</l>
     <l n="42">e <seg type="edit">gaugs</seg> e ris mos <rhyme label="b">plors</rhyme>,</l>
     <l n="43">e mos loncx trebals <seg type="diff_c" xml:id="v43_cos" corresp="#v43">
-                                        <rhyme label="b">dollors</rhyme>
-                                    </seg>,</l>
+                                <rhyme label="b">dollors</rhyme>
+                            </seg>,</l>
     <l n="44">e tug mos destricx <rhyme label="a">enans</rhyme>
                                 </l>
     <l n="45">e tug miey enueg <rhyme label="c">plazer</rhyme>;</l>
@@ -1540,15 +1538,15 @@
     <l n="56">
                                     <seg type="diff_c" xml:id="v56_cos" corresp="#v56">bel tanh sos noms</seg> <rhyme label="a">benestans</rhyme>,</l>
     <l n="57">q’e·l <seg type="diff_c" xml:id="v57_cos" corresp="#v57">es</seg> fredericx per <seg type="corr_c">
-                                        <rhyme label="c">ver</rhyme>
-                                    </seg>,</l>
+                                <rhyme label="c">ver</rhyme>
+                            </seg>,</l>
     <l n="58">per refrenar vils fatz e <rhyme label="c">retener</rhyme>,</l>
     <l n="59">
                                     <seg type="diff_c" xml:id="v59_cos" corresp="#v59">car no·s pren</seg> a sos pretz <rhyme label="d">cabal</rhyme>,</l>
     <l n="60">
-                                    <seg type="diff_c" xml:id="v60_cos" corresp="#v60">
-                                        <seg type="edit">fre de riqeza</seg> port’<rhyme label="d">aital</rhyme>
-                                    </seg>.</l>
+                            <seg type="diff_c" xml:id="v60_cos" corresp="#v60">
+                                <seg type="edit">fre de riqeza</seg> port’<rhyme label="d">aital</rhyme>
+                            </seg>.</l>
 </lg>
 
 <lb/>

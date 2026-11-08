@@ -1,7 +1,6 @@
 <?xml-model href="https://vault.tei-c.org/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng"
   schematypens="http://relaxng.org/ns/structure/1.0"
-  type="application/xml"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  type="application/xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -372,7 +371,7 @@
                                 </l>
                     <l n="2">
                                     <seg type="diff" xml:id="v2" corresp="#v2_cos">e non fos <rhyme label="b">desrazos</rhyme>
-                                    </seg>,</l>
+                            </seg>,</l>
                     <l n="3">c’apres cen mals m’en <rhyme label="b">fos</rhyme>
                                 </l>
                     <l n="4">escaritz uns sols <rhyme label="a">bes</rhyme>,</l>
@@ -394,8 +393,8 @@
                     <l n="12">et en aut luoc <rhyme label="b">
                                         <seg type="diff" xml:id="v12" corresp="#v12_cos">
                                             <seg type="corr">m’enten</seg>
-                                        </seg>
-                                    </rhyme>,</l>
+                                </seg>
+                            </rhyme>,</l>
                     <l n="13">et autz luocs m’a <rhyme label="a">conques</rhyme>,</l>
                     <l n="14">covengra qu’eu <rhyme label="a">fezes</rhyme>
                                 </l>
@@ -406,14 +405,14 @@
                                     <seg type="diff" xml:id="v17" corresp="#v17_cos">c’a mon chant</seg> <rhyme label="a">paregues</rhyme>
                                 </l>
                     <l n="18">que <term type="glossario">de valen luoc <rhyme label="a">es</rhyme>
-                                        <note type="gloss" xml:id="gloss-luoc">
+                                <note type="gloss" xml:id="gloss-luoc">
                             <label>≋ LIT</label>
                             <term type="lit">(mos chans) de valen luoc es</term>
                             <p>Gausbert segue, secondo una disposizione quasi chiastica, il suo canto dal luogo di origine sino al luogo che questo aspira a raggiungere, riferendosi al punto iniziale e finale del percorso effettuato dalla canzone.<lb/>
                                 La struttura della figura proposta dal trovatore ha generato la diffrazione <seg type="it">m’enten</seg>/<seg type="it">s’enten</seg> al v.12; il soggetto della prima variante sarebbe l’io lirico e non più il canto stesso del trovatore.<lb/>Per il testo critico, si mette a testo la lezione <seg type="it">m’enten</seg>, vista anche la vicinanza con <seg type="it">m’a conques</seg> al v. 13, da riferirsi sempre al vissuto interiore dell’io lirico.
                                     <lb/>Ad ogni modo, la natura stessa della variante la rende suscettibile di innovazioni indipendenti.</p>
                                         </note>
-                                    </term>.</l>
+                            </term>.</l>
                     </lg>
                     <lb/>
                 <!-- Cobla III -->
@@ -438,7 +437,7 @@
                                 </l>
                     <l n="24">chantar, mi <term type="glossario">
                                         <rhyme label="c">desapren</rhyme>
-                                    </term>,</l>
+                            </term>,</l>
                     <l n="25">que m’a lo cor e·l <rhyme label="c">sen</rhyme>
                                 </l>
                     <l n="26">per <seg type="diff" xml:id="v26" corresp="#v26_cos">
@@ -463,12 +462,12 @@
                     <l n="33">lo sieu cor <rhyme label="c">orgoillos</rhyme>
                                 </l>
                     <l n="34">tant <term type="glossario">aclinar en <rhyme label="c">ios</rhyme>
-                                        <note type="gloss" xml:id="gloss-aclinar">
+                                <note type="gloss" xml:id="gloss-aclinar">
                             <label>≋ LIT</label>
                             <term type="lit">aclinar en ios</term>
                             <p>L’attestazione in questa lirica sembra l’unica in cui <seg type="it">aclinar</seg> è seguito dalla preposizione <seg type="it">en</seg>.<lb/> Diverso è invece il caso del medesimo verbo seguito dalle preposizioni <seg type="it">vas/ves</seg> e <seg type="it">vers</seg>, per cui si registrano almeno quattro occorrenze, fra cui si ricordano una lirica di Beatriz de Dia (<seg type="it">vas vos non si aclina</seg>, BdT 46.2, v. 25), un <seg type="it">salutz</seg> anonimo copiato nel canzoniere N (<seg type="it">ves lei t’aclina</seg>, BdT 146.7, v. 106), e ancora una canzone di Guilhem de Cabestaing (<seg type="it">aclin vers autre seingnoratge</seg>, BdT 213.7, v. 28), in cui il verbo non ha valore riflessivo, come nella lirica qui analizzata.</p>
                                 </note>
-                                    </term>,</l>
+                            </term>,</l>
                     <l n="35">c’a orguoill <seg type="corr">no·s</seg> <rhyme label="a">tengues</rhyme>,</l>
                     <l n="36">si vas mi <rhyme label="a">s’afraises</rhyme>.</l>
                 </lg>
@@ -509,8 +508,8 @@
                                             <placeName>
                                         <seg type="corr">Creones</seg>
                                     </placeName>
-                                        </rhyme>,</seg>
-                                </l>
+                                </rhyme>,</seg>
+                        </l>
                     <l n="50">
                                     <seg xml:id="t5" type="diff" corresp="#t5_cos">al <persName>
                                     <roleName type="nobility">seignor</roleName>
@@ -728,7 +727,7 @@
         <app ana="#sos">
             <lem wit="#ms.H">Creones</lem>
             <rdg wit="#ms.A">leones</rdg>
-        </app>
+        </app>fr
 
         <app ana="#sos" n="49">
             <lem wit="#ms.A">al</lem>
@@ -833,7 +832,7 @@
                     <l n="2">
                                     <seg type="diff_c" xml:id="v2_cos" corresp="#v2">
                                         <seg type="edit">ben</seg> semblera <rhyme label="b">razos</rhyme>
-                                    </seg>,</l>
+                            </seg>,</l>
                     <l n="3">qu’apres cent mals m’en <rhyme label="b">fos</rhyme>
                                 </l>
                     <l n="4">escazuitz uns sols <rhyme label="a">bes</rhyme>
@@ -855,7 +854,7 @@
                     <l n="11">mos chans <rhyme label="b">comensamen</rhyme>,</l>
                     <l n="12">et en aut luec <seg type="diff_c" xml:id="v12_cos" corresp="#v12">
                                         <rhyme label="b">s’enten</rhyme>
-                                    </seg>,</l>
+                            </seg>,</l>
                     <l n="13">et autz luecs m’a <rhyme label="a">conques</rhyme>,</l>
                     <l n="14">covengra qu’ieu <rhyme label="a">fezes</rhyme>
                                 </l>
@@ -977,8 +976,8 @@
             <lem wit="#ms.C">uns sols</lem>
             <rdg wit="#ms.I">uns sol
         <add place="right">s</add>
-            <note type="paleo" xml:id="paleo2">Un simbolo che ricorda una <seg type="it">s</seg> sembra essere stato aggiunto nello spazio bianco che segue <seg type="it">sol</seg> in un momento successivo.</note>
                                 </rdg>
+            <note type="paleo" xml:id="paleo2">Un simbolo che ricorda una <seg type="it">s</seg> sembra essere stato aggiunto nello spazio bianco che segue <seg type="it">sol</seg> in un momento successivo.</note>
             <rdg wit="#ms.K">un sols</rdg>
             <rdg wit="#ms.N">un sol</rdg>
         </app>
@@ -992,8 +991,8 @@
             <rdg wit="#ms.E #ms.I #ms.K #ms.P">salcus</rdg>
             <rdg wit="#ms.N">cal
         <del>tal</del>
-                <note type="paleo" xml:id="paleo3">Il copista di N cancella il <seg type="it">tal</seg> dalla lezione originale <seg type="it">cal tal</seg>.</note>
                                 </rdg>
+                <note type="paleo" xml:id="paleo3">Il copista di N cancella il <seg type="it">tal</seg> dalla lezione originale <seg type="it">cal tal</seg>.</note>
         </app>
         <app ana="#sos">
             <lem wit="#ms.C">jois</lem>
@@ -1027,8 +1026,8 @@
         <del>degues</del>
         <add place="above">fezes</add>
     </subst>
-                <note type="paleo" xml:id="paleo4">Nel testimone N si nota la correzione nel margine superiore con il verbo <seg type="it">fezes</seg>.</note>
                                 </rdg>
+                <note type="paleo" xml:id="paleo4">Nel testimone N si nota la correzione nel margine superiore con il verbo <seg type="it">fezes</seg>.</note>
             <rdg wit="#ms.P">fages</rdg>
         </app>
         <app ana="#sos" n="15">
@@ -1262,8 +1261,8 @@
         <del>dan</del>
         <add place="above">tan</add>
     </subst>
-                <note xml:id="paleo1" type="paleo">Il copista di N ha aggiunto <seg type="it">tan</seg> in interlinea in un momento successivo.</note>
                                 </rdg>
+                <note xml:id="paleo1" type="paleo">Il copista di N ha aggiunto <seg type="it">tan</seg> in interlinea in un momento successivo.</note>
         </app>
         <app ana="#form">
             <lem wit="#ms.C">qu’en</lem>
@@ -1328,6 +1327,7 @@
                 <p>Careri 1990, pp. 158, 274, 283;<lb/>Vatteroni 2013, p. 322.</p>
             </div>
             <div type="section">
+            <lb/>
                 <head>Edizioni CAO</head>
             <p>
                             <witDetail wit="#ms.A">A</witDetail>: <ref target="https://www.rialto.unina.it/cao/diplomatiche/a/">dipl</ref>

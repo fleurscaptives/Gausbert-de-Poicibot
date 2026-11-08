@@ -1,7 +1,6 @@
 <?xml-model href="https://vault.tei-c.org/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng"
   schematypens="http://relaxng.org/ns/structure/1.0"
-  type="application/xml"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  type="application/xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -301,39 +300,28 @@
     <l n="17">es fels et <rhyme label="b">desmesuraz</rhyme>.</l>
     <l n="18">Doncs tem, s’eu <term type="glossario">
                                         <seg type="diff" xml:id="v18" corresp="#v18_cos">
-                                            <rhyme label="a">m’espren</rhyme>
-                                        </seg>
-                                        <note xml:id="gloss-esprendre" type="gloss">
+                                            <rhyme label="a">m’espren</rhyme></seg><note xml:id="gloss-esprendre" type="gloss">
                                     <label>≡ LEX</label>
                             <term type="lex">esprendre</term>
                             <ab>⤷ v. | accendersi, adirarsi</ab>
                             <ref rend="exit" target="https://archive.org/details/petitdictionnair00levyuoft/page/172/mode/2up">PD</ref>
                                             <lb/>
-                            <p>Il verbo in S, <seg type="it">m’espren</seg>, appare più adatto a comparire nel passo, considerato il riferimento a un forte attacco d’ira nei versi precedenti della medesima <seg type="it">cobla</seg>. In Lévy, per il verbo è indicata la traduzione ‘allumer, enflammer’. La coppia ER concorda sulla forma <seg type="it">mi pren</seg>, mentre C scrive <seg type="it">mi enpren</seg>, traducibile anche con il significato di ‘ostinarsi, intestardirsi’. Si tratta di varianti non classificabili come errori, ma comunque meno semanticamente appropriate, per i motivi sopra descritti, frutto di probabili banalizzazioni del luogo del testo.‬‬‬‬‬‬‬‬
-                            </p>
-    </note>
-                                    </term>,</l>
+                            <p>Il verbo in S, <seg type="it">m’espren</seg>, appare più adatto a comparire nel passo, considerato il riferimento a un forte attacco d’ira nei versi precedenti della medesima <seg type="it">cobla</seg>. In Lévy, per il verbo è indicata la traduzione ‘allumer, enflammer’. La coppia ER concorda sulla forma <seg type="it">mi pren</seg>, mentre C scrive <seg type="it">mi enpren</seg>, traducibile anche con il significato di ‘ostinarsi, intestardirsi’. Si tratta di varianti non classificabili come errori, ma comunque meno semanticamente appropriate, per i motivi sopra descritti, frutto di probabili banalizzazioni del luogo del testo.‬‬‬‬‬‬‬‬</p></note></term>,</l>
     <l n="19">que vos e mei chan <rhyme label="a">plazen</rhyme>
                                 </l>
     <l n="20">en serez trop <seg type="corr">meins</seg> <rhyme label="a">valen</rhyme>.</l>
     <l n="21">Per <seg type="diff" xml:id="v21" corresp="#v21_cos">que</seg> vol <rhyme label="b">sapchaz</rhyme>,</l>
     <l n="22">se no·us <rhyme label="b">melloraz</rhyme>,</l>
-    <l n="23">
-                                    <term type="glossario">
+    <l n="23"><term type="glossario">
                                         <seg type="diff" xml:id="v23" corresp="#v23_cos">
-                                            <seg type="edit">tan descarrai <rhyme label="c">andos</rhyme>
-                                            </seg>
-                                        </seg>
-                                        <note xml:id="gloss-descarrai" type="gloss">
+                                            <seg type="edit">tan descarrai <rhyme label="c">andos</rhyme></seg></seg><note xml:id="gloss-descarrai" type="gloss">
                                     <label>≡ LEX ≋ LIT</label>
                             <term type="lex">decazer</term>
                             <ab>⤷ v. | decadere, degradare, distruggere
                             <lb/>Dal latino [ᴅᴇᴄᴀᴅᴇ̆ʀᴇ]</ab>
                             <ref rend="exit" target="https://dom-en-ligne.de/dom.php?lhid=3B2DGpdRbggoz8tHPFVUne">DOM</ref>
                                             <lb/>
-                            <p>Per la coniugazione del verbo <seg type="it">decazer</seg>, la tradizione non offre una lezione pienamente soddisfacente. In S si legge <seg type="it">descarriem andos</seg>, con un futuro alla prima persona plurale poco coerente con il soggetto del passo, ossia Gausbert stesso, che minaccia Amore di svalutare <seg type="it">vos e mas chansos</seg>.<lb/>I testimoni del ramo α tramandano, invece, forme differenti del verbo e il pronome <seg type="it">ambedos</seg>. Shepard accoglie la lezione di CE (<seg type="it">qu’ans dechairi’ambedos</seg>), interpretandola come la migliore disponibile, mentre Gambini propone <seg type="it">qu’ans dechairai ambedos</seg>, ipotizzando la perdita di una forma futura alla prima persona singolare già a livello archetipico.<lb/> Tale intervento trova riscontro nell’<seg type="it">usus scribendi</seg> di Gausbert, che nei periodi ipotetici privilegia regolarmente il presente in protasi e il futuro in apodosi (cfr. 173.1, vv. 19-20; 173.3, vv. 33-35; 173.4, vv. 33-35 e 48-50; nonché i vv. 11-12 di 173.7), mentre non mostra una particolare predilezione per il condizionale. Per questa ragione si propone a testo la forma <seg type="it">tan descarrai andos</seg>, ottenuta correggendo la lezione di S mediante il passaggio dalla prima persona plurale alla prima persona singolare.</p>
-    </note>
-                                    </term>,</l>
+                            <p>Per la coniugazione del verbo <seg type="it">decazer</seg>, la tradizione non offre una lezione pienamente soddisfacente. In S si legge <seg type="it">descarriem andos</seg>, con un futuro alla prima persona plurale poco coerente con il soggetto del passo, ossia Gausbert stesso, che minaccia Amore di svalutare <seg type="it">vos e mas chansos</seg>.<lb/>I testimoni del ramo α tramandano, invece, forme differenti del verbo e il pronome <seg type="it">ambedos</seg>. Shepard accoglie la lezione di CE (<seg type="it">qu’ans dechairi’ambedos</seg>), interpretandola come la migliore disponibile, mentre Gambini propone <seg type="it">qu’ans dechairai ambedos</seg>, ipotizzando la perdita di una forma futura alla prima persona singolare già a livello archetipico.<lb/> Tale intervento trova riscontro nell’<seg type="it">usus scribendi</seg> di Gausbert, che nei periodi ipotetici privilegia regolarmente il presente in protasi e il futuro in apodosi (cfr. 173.1, vv. 19-20; 173.3, vv. 33-35; 173.4, vv. 33-35 e 48-50; nonché i vv. 11-12 di 173.7), mentre non mostra una particolare predilezione per il condizionale. Per questa ragione si propone a testo la forma <seg type="it">tan descarrai andos</seg>, ottenuta correggendo la lezione di S mediante il passaggio dalla prima persona plurale alla prima persona singolare.</p></note></term>,</l>
     <l n="24">Amors, vos et <seg type="corr">mas</seg> <rhyme label="c">chanzos</rhyme>.</l>
 </lg>
 
@@ -378,8 +366,7 @@
     <l n="42">q’eu no posc dir <rhyme label="a">sen</rhyme>.</l>
     <l n="43">Et s’eu dic <rhyme label="a">deschauzimen</rhyme>
                                 </l>
-    <l n="44">contra vos, pois <seg type="edit">forsatz <rhyme label="a">m’en</rhyme>
-                                    </seg>,</l>
+    <l n="44">contra vos, pois <seg type="edit">forsatz <rhyme label="a">m’en</rhyme></seg>,</l>
     <l n="45">er tort et <rhyme label="b">pechaz</rhyme>
                                 </l>
     <l n="46">s’eu en soi <rhyme label="b">blasmaz</rhyme>.</l>
@@ -540,16 +527,14 @@
     <l n="15">quar sel que s’irays <rhyme label="a">greumen</rhyme>,</l>
     <l n="16">plus quant es <rhyme label="b">iratz</rhyme>,</l>
     <l n="17">e felhs ni <rhyme label="b">demezuratz</rhyme>.</l>
-    <l n="18">Don tem, s’ieu <seg type="diff_c" xml:id="v18_cos" corresp="#v18">mi <rhyme label="a">enpren</rhyme>
-                                    </seg>,</l>
+    <l n="18">Don tem, s’ieu <seg type="diff_c" xml:id="v18_cos" corresp="#v18">mi <rhyme label="a">enpren</rhyme></seg>,</l>
     <l n="19">que vos e mei chan <rhyme label="a">plazen</rhyme>
                                 </l>
     <l n="20">en seretz trop meins <rhyme label="a">valen</rhyme>.</l>
     <l n="21">Per <seg type="diff_c" xml:id="v21_cos" corresp="#v21">qu’ieu</seg> vuelh <rhyme label="b">sapchatz</rhyme>,</l>
     <l n="22">si no·us <rhyme label="b">meluyratz</rhyme>,</l>
     <l n="23">
-                                    <seg type="diff_c" xml:id="v23_cos" corresp="#v23">qu’ans dechairi’<rhyme label="c">ambedos</rhyme>
-                                    </seg>,</l>
+                                    <seg type="diff_c" xml:id="v23_cos" corresp="#v23">qu’ans dechairi’<rhyme label="c">ambedos</rhyme></seg>,</l>
     <l n="24">
                                     <seg type="edit">Amors</seg>, vos e mas <rhyme label="c">chansos</rhyme>.</l>
 </lg>
@@ -593,8 +578,7 @@
     <l n="42">que no puesc dir <rhyme label="a">sen</rhyme>.</l>
     <l n="43">E s’ieu dic <rhyme label="a">deschauzimen</rhyme>
                                 </l>
-    <l n="44">contra vos, pois <seg type="edit">forsatz <rhyme label="a">m’en</rhyme>
-                                    </seg>,</l>
+    <l n="44">contra vos, pois <seg type="edit">forsatz <rhyme label="a">m’en</rhyme></seg>,</l>
     <l n="45">er tortz e <rhyme label="b">peccatz</rhyme>
                                 </l>
     <l n="46">s’ieu en suy <rhyme label="b">blasmatz</rhyme>.</l>
@@ -623,8 +607,7 @@
                                     </seg>
                                 </l>
     <l n="55">
-                                    <seg type="edit">no·us <seg type="diff_c" xml:id="v55_cos" corresp="#v55">laiss’aver</seg> <rhyme label="a">chauzimen</rhyme>
-                                    </seg>,</l>
+                                    <seg type="edit">no·us <seg type="diff_c" xml:id="v55_cos" corresp="#v55">laiss’aver</seg> <rhyme label="a">chauzimen</rhyme></seg>,</l>
     <l n="56">anz vos tolh e vos <rhyme label="a">defen</rhyme>
                                 </l>
     <l n="57">que re non <rhyme label="b">crezatz</rhyme>.</l>

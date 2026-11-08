@@ -1,7 +1,6 @@
 <?xml-model href="https://vault.tei-c.org/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng"
   schematypens="http://relaxng.org/ns/structure/1.0"
-  type="application/xml"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  type="application/xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -288,17 +287,13 @@
                     <l n="13">
                         <seg xml:id="v13" corresp="#v13_cos" type="diff">que no vol mi sol</seg> <rhyme label="b">delir</rhyme>,</l>
                     <l n="14">ans ponh’en sa <rhyme label="a">dezonor</rhyme>;</l>
-                    <l n="15">e plai li, tant <seg xml:id="v15" corresp="#v15_cos" type="diff">es <rhyme label="c">chauzida</rhyme>
-                                </seg>!
-                            </l>
+                    <l n="15">e plai li, tant <seg xml:id="v15" corresp="#v15_cos" type="diff">es <rhyme label="c">chauzida</rhyme></seg>!</l>
                     <l n="16">Pus mi a mort, quil sia <rhyme label="c">aunida</rhyme>.</l>
                     <l n="17">Qu’anta·l fora <seg xml:id="v17" corresp="#v17_cos" type="diff">
                             <rhyme label="d">gran</rhyme>
                         </seg>
                     </l>
-                    <l n="18">de mi sol l’<seg xml:id="v18" corresp="#v18_cos" type="diff">
-                                    <rhyme label="d">enjan</rhyme>,</seg>
-                            </l>
+                    <l n="18">de mi sol l’<seg xml:id="v18" corresp="#v18_cos" type="diff"><rhyme label="d">enjan</rhyme>,</seg></l>
                     <l n="19">per que·s tol <seg xml:id="v19" corresp="#v19_cos" type="diff">pros</seg> et <rhyme label="a">honor</rhyme>,</l>
                     <l n="20">que blasme no·l fai <rhyme label="a">paor</rhyme>.</l>
                 </lg>
@@ -320,9 +315,7 @@
                             <rhyme label="d">talan</rhyme>
                         </seg>
                     </l>
-                    <l n="28">quans que passes l’<seg xml:id="v28" corresp="#v28_cos" type="diff">
-                                    <rhyme label="d">an</rhyme>
-                                </seg>,</l>
+                    <l n="28">quans que passes l’<seg xml:id="v28" corresp="#v28_cos" type="diff"><rhyme label="d">an</rhyme></seg>,</l>
                     <l n="29">
                         <seg xml:id="v29" corresp="#v29_cos" type="diff">
                                     <term type="glossario">aizic<note xml:id="gloss-aizic" type="gloss">
@@ -404,17 +397,14 @@
                             <seg xml:id="v48" type="diff" corresp="#v48_cos">claman</seg>
                         </rhyme>
                     </l>
-                    <l n="49">volgra <term type="glossario">termenes<note xml:id="gloss-termenar" type="gloss">
-                            <label>≡ LEX</label>
+                    <l n="49">volgra <term type="glossario">termenes<note xml:id="gloss-termenar" type="gloss"><label>≡ LEX</label>
                             <term type="lex">termenar</term>
                             <ab>⤷ v. | porre dei limiti, concludere<lb/>
                             Dal latino [ᴛᴇʀᴍɪɴᴀʀᴇ]
                             </ab>
                             <ref style="exit" target="https://dom-en-ligne.de/dom.php?lhid=3kq9B9O8sW8ntGO6hNQuRu">DOM</ref>
                             <lb/>
-                            <p>Il verbo <seg type="it">termenar</seg> è tradotto da Levy come “poser des bornes, delimiter” e associato al sostantivo <seg type="it">terme</seg>, che si rifa appunto al concetto di “limite, confine”. In più, nella FEW si ritrovano i significati di “concludere, porre fine”, ma anche “perire, uccidere”, ed è quest’ultima la sfumatura adottata nella traduzione Shepard. Gambini, nella sua edizione, giudica comunque più probabile che il <seg type="it">clamans</seg> del v. 49 non sia altri che lo stesso io lirico, soggetto singolare del verbo, notando l’utilizzo di Gausbert di termini legati al <seg type="it">clamar</seg> per descrivere il lamento e l’afflizione causati dalla sua condizione amorosa.<lb/>Nell'edizione qui proposta, si è scelto di riproporre l’interpretazione di Shepard che vede gli amanti della donna oggetto del periodo, non disponendo di certezze grammaticali utili a effettuare confronti sull’uso intransitivo del verbo <seg type="it">termenar</seg> nella produzione trobadorica.</p>
-                                    </note>
-                                </term>, <rhyme label="a">seignor</rhyme>,</l>
+                            <p>Il verbo <seg type="it">termenar</seg> è tradotto da Levy come “poser des bornes, delimiter” e associato al sostantivo <seg type="it">terme</seg>, che si rifa appunto al concetto di “limite, confine”. In più, nella FEW si ritrovano i significati di “concludere, porre fine”, ma anche “perire, uccidere”, ed è quest’ultima la sfumatura adottata nella traduzione Shepard. Gambini, nella sua edizione, giudica comunque più probabile che il <seg type="it">clamans</seg> del v. 49 non sia altri che lo stesso io lirico, soggetto singolare del verbo, notando l’utilizzo di Gausbert di termini legati al <seg type="it">clamar</seg> per descrivere il lamento e l’afflizione causati dalla sua condizione amorosa.<lb/>Nell'edizione qui proposta, si è scelto di riproporre l’interpretazione di Shepard che vede gli amanti della donna oggetto del periodo, non disponendo di certezze grammaticali utili a effettuare confronti sull’uso intransitivo del verbo <seg type="it">termenar</seg> nella produzione trobadorica.</p></note></term>, <rhyme label="a">seignor</rhyme>,</l>
                     <l n="50">del <seg xml:id="v50" type="diff" corresp="#v50_cos">gran</seg> mal de sa <rhyme label="a">calor</rhyme>.</l>
                 </lg>
                 <lb/>
@@ -426,16 +416,11 @@
                     </l>
                     <l n="52">frezis fin <rhyme label="d">aman</rhyme>,</l>
                     <l n="53">fora cautz per sa <rhyme label="a">freidor</rhyme>,</l>
-                    <l n="54">quar <seg type="corr">soi fregz
-                            </seg> per sa <term type="glossario">
-                                    <rhyme label="a">calor</rhyme>
-                                    <note xml:id="gloss-calor" type="gloss">
+                    <l n="54">quar <seg type="corr">soi fregz</seg> per sa <term type="glossario">
+                    <rhyme label="a">calor</rhyme><note xml:id="gloss-calor" type="gloss">
                                     <label>≋ LIT</label>
                                     <term type="lex">calor/fregz</term>
-                                    <p>Il comportamento della donna amata è condannato da Gausbert in corrispondenza della <seg type="it">tornada</seg> di chiusura della canzone, in cui il poeta lamenta il suo essere raggelato dall’ardore delle sue azioni, con esplicito riferimento ai tradimenti della donna con altri pretendenti.</p>
-                                    </note>
-                                </term>.</l>
-                </lg>
+                                    <p>Il comportamento della donna amata è condannato da Gausbert in corrispondenza della <seg type="it">tornada</seg> di chiusura della canzone, in cui il poeta lamenta il suo essere raggelato dall’ardore delle sue azioni, con esplicito riferimento ai tradimenti della donna con altri pretendenti.</p></note></term>.</l></lg>
                 <lb/>
             </body>
             <back>
@@ -535,10 +520,7 @@
                     </l>
 
                     <l n="18">
-                        de mi <seg type="corr_c">sol</seg> l’<seg type="diff_c" xml:id="v18_cos" corresp="#v18">
-                                    <rhyme label="d">enguans</rhyme>,
-                                </seg>
-                            </l>
+                        de mi <seg type="corr_c">sol</seg> l’<seg type="diff_c" xml:id="v18_cos" corresp="#v18"><rhyme label="d">enguans</rhyme>,</seg></l>
 
                     <l n="19">
                         per que·s tol <seg type="diff_c" xml:id="v19_cos" corresp="#v19">pretz</seg> et <rhyme label="a">honor</rhyme>,                        
@@ -569,9 +551,7 @@
                             <rhyme label="d">talans</rhyme>
                         </seg>
                     </l>
-                    <l n="28">quans que passes l’<seg type="diff_c" xml:id="v28_cos" corresp="#v28">
-                                    <rhyme label="d">ans</rhyme>,</seg>
-                    </l>
+                    <l n="28">quans que passes l’<seg type="diff_c" xml:id="v28_cos" corresp="#v28"><rhyme label="d">ans</rhyme>,</seg></l>
                     <l n="29">
                         <seg type="diff_c" xml:id="v29_cos" corresp="#v29">sofri maint fol</seg> <rhyme label="a">preiador</rhyme>
                     </l>

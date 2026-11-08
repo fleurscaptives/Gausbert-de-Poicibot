@@ -6,7 +6,7 @@ Questo repository contiene il codice sorgente e i dati relativi all'edizione cri
 
 L'edizione è pubblicata tramite la piattaforma TEI Publisher. 
 
-*Ultimo aggiornamento: 2 novembre 2026.* 
+*Ultimo aggiornamento: 8 novembre 2026.* 
 
 ## Contenuti del repository
 

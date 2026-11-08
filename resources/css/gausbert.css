@@ -11,6 +11,10 @@
     color: #a6a49a; 
 }
 
+.tei-ab {
+    color: white;
+}
+
 
 .fixed-layout > .after, .fixed-layout > .after-top {
     width: 490px;
@@ -20,6 +24,10 @@
     padding: 0;
 }
 
+.app-num {
+    font-weight: bold;
+}
+
 .num_versi {
     display: inline;
     position: absolute;
@@ -27,8 +35,12 @@
     margin-left: 0;
 }
 
-.italic {
+.italic, .wit {
     font-style: italic;
+}
+
+.wit {
+    margin-left: 0.3rem;
 }
 
 .lg-corresp {
@@ -109,7 +121,7 @@ h4 {
 }
 
 .tei-add {
-    color:#ab5252;
+    color: #03656e;
     font-weight: bold;
     text-shadow:
     -1px -1px white,
@@ -267,7 +279,7 @@ pb-popover span {
     background-color: #AC9048;
     padding: 2px;
     color: white;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    box-shadow: 2px rgba(0,0,0,0.08);
     border-radius: 4px;
 }
 
@@ -320,6 +332,14 @@ pb-popover span {
 .glossario-attivo span.trigger {
     display: inline;
 }
+
+.glossario-attivo .trigger {
+    display: inline !important;
+    cursor: pointer;
+    position: relative;
+    z-index: 10;
+}
+
 
 .lex_lit, .sym {
     display: block;
@@ -551,11 +571,18 @@ h2, .mss_btn, #apri_mss, h3, .collapse {
 }
 
 .extra_container span.tei-l {
-    font-size: 13px;
+    font-size: 15px;
     padding: -1em;
 }
 
 .extra_container > .tei-p {
     text-align: center;
     letter-spacing: 10%;
+}
+
+.extra_container h3 {
+    font-family:"Garamond", serif;
+    font-size: 20px;
+    text-align: center;
+    white-space: normal;
 }

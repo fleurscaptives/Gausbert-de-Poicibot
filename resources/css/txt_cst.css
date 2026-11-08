@@ -3,16 +3,20 @@
     opacity: 90;
     background: transparent;
     width: 115%;
-    padding: 1rem;
-}
-
-.tei-l + .tei-l {
-    margin: 4 4 0 4;    
+    
 }
 
 .tei-l, .tei-title, .tei-p{
-    font-size: 18px;
-    margin-left: 10%;
+    font-size: 20px;
+}
+
+.tei-body .tei-l2 {
+    display: inline;
+} 
+
+.tei-body .tei-l2::after {
+    content: "";
+    display: block;
 }
 
 span.tei-l {
@@ -31,13 +35,6 @@ span.tei-l {
     font-size: 22px;
 }
 
-.num_versi {
-    display: inline;
-    position: absolute;
-    margin-left: 0;
-}
-
-
 .italic {
     font-style: italic;
 }
@@ -46,6 +43,16 @@ span.tei-l {
     display: none;
 }
 
+.trnd14 {
+    position: relative;
+    top: auto;
+    display: block;
+    text-align: left;
+}
 
-
-
+.num_versi {
+    display: inline;
+    position: absolute;
+    font-size: 16px;
+    margin-left: -3%;
+}

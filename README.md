@@ -69,3 +69,11 @@ resources/odd          Personalizzazioni ODD
 resources/scripts      Script JS
 
 templates/pages        Template HTML della pagina standard di ogni canzone
+```
+
+### Immagini
+<img width="750" height="auto" alt="Screenshot 2026-11-21 110456" src="https://github.com/user-attachments/assets/2f83b81f-0f6c-4edc-af59-587ee85f63ec" />
+<img width="750" height="auto" alt="Screenshot 2026-11-21 110807" src="https://github.com/user-attachments/assets/4c5a291a-cf1f-4e03-a4e2-4fa38de2e328" />
+<br/>
+<img width="300" height="auto" alt="Screenshot 2026-11-21 110939" src="https://github.com/user-attachments/assets/ec4365ba-56db-4a36-9339-c9faabb2ecd8" />
+

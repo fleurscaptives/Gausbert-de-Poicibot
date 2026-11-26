@@ -1,4 +1,4 @@
-# Edizione critica digitale di un corpus di canzoni di Gausbert de Poicibot
+# Edizione critica digitale di un canone di canzoni di Gausbert de Poicibot
 
 ## Descrizione
 

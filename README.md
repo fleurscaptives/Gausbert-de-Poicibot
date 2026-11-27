@@ -74,4 +74,9 @@ templates/pages        Template HTML della pagina standard di ogni canzone
 ### Immagini
 | Funzionamento pulsanti | Approfondimenti in apparato | Facsimili |
 | :---: | :---: | :---: |
-| <img width="750" height="auto" alt="Screenshot 2026-11-21 110456" src="https://github.com/user-attachments/assets/2f83b81f-0f6c-4edc-af59-587ee85f63ec" />| <img width="750" height="auto" alt="Screenshot 2026-11-21 110807" src="https://github.com/user-attachments/assets/4c5a291a-cf1f-4e03-a4e2-4fa38de2e328" /> | <img width="300" height="auto" alt="Screenshot 2026-11-21 110939" src="https://github.com/user-attachments/assets/ec4365ba-56db-4a36-9339-c9faabb2ecd8" /> |
+| <img width="750" height="auto" alt="Screenshot-bttn" src="https://github.com/user-attachments/assets/2f83b81f-0f6c-4edc-af59-587ee85f63ec" />| <img width="750" height="auto" alt="Screenshot-pop-up-cont" src="https://github.com/user-attachments/assets/4c5a291a-cf1f-4e03-a4e2-4fa38de2e328" /> | <img width="300" height="auto" alt="Screenshot-facs" src="https://github.com/user-attachments/assets/ec4365ba-56db-4a36-9339-c9faabb2ecd8" /> |
+
+| Divergenze fra i testi | Tradizione indiretta | Sidebar stemma | 
+| :---: | :---: | :---: |
+| <img width="750" height="auto" alt="Screenshot-div" src="https://github.com/user-attachments/assets/a3b5972c-375d-4302-8bc6-175ca7d6941b" /> | <img width="750" height="auto" alt="Screenshot-extra" src="https://github.com/user-attachments/assets/ccb5182e-63e0-4708-926b-b8c6c71f6947" /> | <img width="500" height="auto" alt="Screenshot-sidebar-l"  src="https://github.com/user-attachments/assets/783a7f1c-1292-465f-8f38-6ae891ca80bd" /> |
+
